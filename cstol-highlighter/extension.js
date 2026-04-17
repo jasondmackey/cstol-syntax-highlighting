@@ -32,51 +32,61 @@ function createDecorations() {
     });
 }
 
-// ── Patterns (case-insensitive, word-boundary) ───────────────────────────────
+// ── Patterns (case-insensitive, word-boundary, applied per code segment) ────
 
 const WAIT_RE    = /\bwait\b/gi;
 const GOTO_RE    = /\bgoto\b/gi;
 const COMMAND_RE = /\b(check|let|set|cmd|write|proc|endproc|begin|ask|declare)\b/gi;
-// Labels: optional leading whitespace, then WORD followed by colon
-const LABEL_RE   = /^[ \t]*([A-Za-z_][A-Za-z0-9_]*[ \t]*:)/gm;
+const LABEL_RE   = /^[ \t]*([A-Za-z_][A-Za-z0-9_]*[ \t]*:)/;
 
-// ── Core decoration logic ────────────────────────────────────────────────────
+// ── Comment detection: first ';' not inside a double-quoted string ───────────
+
+function commentStart(text) {
+    let inStr = false;
+    for (let i = 0; i < text.length; i++) {
+        if (text[i] === '"') { inStr = !inStr; }
+        else if (text[i] === ';' && !inStr) { return i; }
+    }
+    return text.length; // no comment
+}
+
+// ── Core decoration logic (line-by-line, comment-aware) ─────────────────────
 
 function applyDecorations(editor) {
     if (!editor || editor.document.languageId !== 'cstol') return;
 
-    const text = editor.document.getText();
-
+    const doc  = editor.document;
     const waitRanges    = [];
     const gotoRanges    = [];
     const commandRanges = [];
     const labelRanges   = [];
 
-    let m;
+    for (let li = 0; li < doc.lineCount; li++) {
+        const line = doc.lineAt(li);
+        const raw  = line.text;
+        const cEnd = commentStart(raw);   // code ends here
+        const code = raw.substring(0, cEnd);
 
-    // wait
-    WAIT_RE.lastIndex = 0;
-    while ((m = WAIT_RE.exec(text)) !== null) {
-        waitRanges.push(rangeOf(editor, m.index, m[0].length));
-    }
+        // Labels — must start at beginning of the code portion
+        const lm = LABEL_RE.exec(code);
+        if (lm) {
+            const col = lm[0].length - lm[1].length; // skip leading whitespace
+            labelRanges.push(lineRange(line, col, lm[1].length));
+        }
 
-    // goto / GOTO
-    GOTO_RE.lastIndex = 0;
-    while ((m = GOTO_RE.exec(text)) !== null) {
-        gotoRanges.push(rangeOf(editor, m.index, m[0].length));
-    }
+        let m;
 
-    // commands
-    COMMAND_RE.lastIndex = 0;
-    while ((m = COMMAND_RE.exec(text)) !== null) {
-        commandRanges.push(rangeOf(editor, m.index, m[0].length));
-    }
+        WAIT_RE.lastIndex = 0;
+        while ((m = WAIT_RE.exec(code)) !== null)
+            waitRanges.push(lineRange(line, m.index, m[0].length));
 
-    // labels — match[0] is "  LABEL:" but we only highlight from the word start
-    LABEL_RE.lastIndex = 0;
-    while ((m = LABEL_RE.exec(text)) !== null) {
-        const labelStart = m.index + (m[0].length - m[1].length);
-        labelRanges.push(rangeOf(editor, labelStart, m[1].length));
+        GOTO_RE.lastIndex = 0;
+        while ((m = GOTO_RE.exec(code)) !== null)
+            gotoRanges.push(lineRange(line, m.index, m[0].length));
+
+        COMMAND_RE.lastIndex = 0;
+        while ((m = COMMAND_RE.exec(code)) !== null)
+            commandRanges.push(lineRange(line, m.index, m[0].length));
     }
 
     editor.setDecorations(waitDeco,    waitRanges);
@@ -85,10 +95,10 @@ function applyDecorations(editor) {
     editor.setDecorations(labelDeco,   labelRanges);
 }
 
-function rangeOf(editor, offset, length) {
+function lineRange(line, charOffset, length) {
     return new vscode.Range(
-        editor.document.positionAt(offset),
-        editor.document.positionAt(offset + length)
+        line.range.start.translate(0, charOffset),
+        line.range.start.translate(0, charOffset + length)
     );
 }
 
