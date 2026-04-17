@@ -1,0 +1,184 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "CSTOL",
+  "scopeName": "source.cstol",
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#numbers"
+    },
+    {
+      "include": "#booleans"
+    },
+    {
+      "include": "#variables"
+    },
+    {
+      "include": "#labels"
+    },
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#commands"
+    },
+    {
+      "include": "#conditionals"
+    },
+    {
+      "include": "#operators"
+    },
+    {
+      "include": "#special-variables"
+    },
+    {
+      "include": "#identifiers"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.semicolon.cstol",
+          "match": ";.*$"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double.cstol",
+          "begin": "\"",
+          "end": "\"",
+          "patterns": [
+            {
+              "name": "constant.character.escape.cstol",
+              "match": "\\\\."
+            }
+          ]
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.float.cstol",
+          "match": "\\b\\d*\\.\\d+([eE][+-]?\\d+)?\\b"
+        },
+        {
+          "name": "constant.numeric.integer.cstol",
+          "match": "\\b\\d+([eE][+-]?\\d+)?\\b"
+        },
+        {
+          "name": "constant.numeric.hex.cstol",
+          "match": "\\b0[xX][0-9a-fA-F]+\\b"
+        }
+      ]
+    },
+    "booleans": {
+      "patterns": [
+        {
+          "name": "constant.language.boolean.cstol",
+          "match": "\\b(true|false)\\b"
+        }
+      ]
+    },
+    "variables": {
+      "patterns": [
+        {
+          "name": "variable.other.cstol",
+          "match": "\\$[a-zA-Z_][a-zA-Z0-9_]*"
+        }
+      ]
+    },
+    "special-variables": {
+      "patterns": [
+        {
+          "name": "variable.language.error.cstol",
+          "match": "\\$\\$ERROR\\b"
+        },
+        {
+          "name": "variable.language.special.cstol",
+          "match": "\\$\\$[a-zA-Z_][a-zA-Z0-9_]*"
+        }
+      ]
+    },
+    "labels": {
+      "patterns": [
+        {
+          "name": "entity.name.label.cstol",
+          "match": "^\\s*[a-zA-Z_][a-zA-Z0-9_]*\\s*:"
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.flow.cstol",
+          "match": "\\b(goto|return)\\b"
+        },
+        {
+          "name": "keyword.other.unit.cstol",
+          "match": "\\b(dn)\\b"
+        }
+      ]
+    },
+    "commands": {
+      "patterns": [
+        {
+          "name": "keyword.control.command.cstol",
+          "match": "\\b(check|let|set|wait|cmd|write|proc|endproc|begin|ask|declare|end\\s+proc)\\b"
+        }
+      ]
+    },
+    "conditionals": {
+      "patterns": [
+        {
+          "name": "keyword.control.conditional.cstol",
+          "match": "\\b(if|else|endif|end\\s+if)\\b"
+        }
+      ]
+    },
+    "operators": {
+      "patterns": [
+        {
+          "name": "keyword.operator.comparison.cstol",
+          "match": "\\b(vs|with|and|or|not)\\b"
+        },
+        {
+          "name": "keyword.operator.logical.cstol",
+          "match": "(&|\\||!)"
+        },
+        {
+          "name": "keyword.operator.comparison.cstol",
+          "match": "(=|/=|<|>|<=|>=)"
+        },
+        {
+          "name": "keyword.operator.arithmetic.cstol",
+          "match": "(\\+|-|\\*|/|%)"
+        }
+      ]
+    },
+    "identifiers": {
+      "patterns": [
+        {
+          "name": "variable.other.constant.cstol",
+          "match": "\\b[A-Z][A-Z0-9_]*\\b"
+        },
+        {
+          "name": "entity.name.type.cstol",
+          "match": "\\b(TIME_OUT|EVENT_ID|PHAPID|PUS_STYPE|PUS_SSUBTYPE|SW_VERNUM|OPCODE|PUS_SECHDRFLAG|PUS_VERSION|PUS_ACK|MEM_ID|STRT_ADDR|LENGTH|PREVM_ID|CURRM_ID|TRANRSN_ID|SHCOARSE)\\b"
+        },
+        {
+          "name": "constant.other.enum.cstol",
+          "match": "\\b(bswBootSuccess|aswBootSuccess|modeTransition|Standby|Config|Telecommand|icvEpromLoaded|EEPROM|MRAM|MRAMSLOT2)\\b"
+        }
+      ]
+    }
+  }
+}
