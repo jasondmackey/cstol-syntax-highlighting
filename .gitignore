@@ -2,3 +2,7 @@
 ct2vsix_temp/
 extensions.json
 undefined_publisher.*/
+dist/
+cstol-syntax-highlighting-dist.zip
+antigravity_verified.png
+*.@2x.png
