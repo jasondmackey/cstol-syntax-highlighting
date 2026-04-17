@@ -1,0 +1,1322 @@
+{
+  "kepler: st_star_check": {
+    "prefix": "st_star_check",
+    "body": "st_star_check",
+    "description": "[KEPLER] st_star_check"
+  },
+  "kepler: switch_sctlm_sec": {
+    "prefix": "switch_sctlm_sec",
+    "body": "switch_sctlm_sec ${1:\\$how}",
+    "description": "[KEPLER] switch_sctlm_sec"
+  },
+  "kepler: cnt020_car_only": {
+    "prefix": "cnt020_car_only",
+    "body": "cnt020_car_only",
+    "description": "[KEPLER] cnt020_car_only"
+  },
+  "kepler: e_sci_dir_dwnld": {
+    "prefix": "e_sci_dir_dwnld",
+    "body": "e_sci_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] e_sci_dir_dwnld"
+  },
+  "kepler: evr_alarm": {
+    "prefix": "evr_alarm",
+    "body": "evr_alarm",
+    "description": "[KEPLER] evr_alarm"
+  },
+  "kepler: load_moc_event": {
+    "prefix": "load_moc_event",
+    "body": "load_moc_event ${1:\\$event}, ${2:\\$duration}, ${3:\\$alarm}",
+    "description": "[KEPLER] load_moc_event"
+  },
+  "kepler: update_limits": {
+    "prefix": "update_limits",
+    "body": "update_limits",
+    "description": "[KEPLER] update_limits"
+  },
+  "kepler: lasp_kp_db": {
+    "prefix": "lasp_kp_db",
+    "body": "lasp_kp_db",
+    "description": "[KEPLER] lasp_kp_db"
+  },
+  "kepler: dir_search_ext": {
+    "prefix": "dir_search_ext",
+    "body": "dir_search_ext ${1:\\$season}",
+    "description": "[KEPLER] dir_search_ext"
+  },
+  "kepler: e_cmd_dir_dwnld": {
+    "prefix": "e_cmd_dir_dwnld",
+    "body": "e_cmd_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] e_cmd_dir_dwnld"
+  },
+  "kepler: cmd_sync": {
+    "prefix": "cmd_sync",
+    "body": "cmd_sync",
+    "description": "[KEPLER] cmd_sync"
+  },
+  "kepler: ssr_sct_dwnld": {
+    "prefix": "ssr_sct_dwnld",
+    "body": "ssr_sct_dwnld ${1:\\$vtc_start}, ${2:\\$priority}",
+    "description": "[KEPLER] ssr_sct_dwnld"
+  },
+  "kepler: x_dwnlnk_coher": {
+    "prefix": "x_dwnlnk_coher",
+    "body": "x_dwnlnk_coher ${1:\\$state}",
+    "description": "[KEPLER] x_dwnlnk_coher"
+  },
+  "kepler: term_sec_ois": {
+    "prefix": "term_sec_ois",
+    "body": "term_sec_ois",
+    "description": "[KEPLER] term_sec_ois"
+  },
+  "kepler: lasp_kp_macros": {
+    "prefix": "lasp_kp_macros",
+    "body": "lasp_kp_macros",
+    "description": "[KEPLER] lasp_kp_macros"
+  },
+  "kepler: k2_checkout": {
+    "prefix": "k2_checkout",
+    "body": "k2_checkout",
+    "description": "[KEPLER] k2_checkout"
+  },
+  "kepler: master_monitor": {
+    "prefix": "master_monitor",
+    "body": "master_monitor",
+    "description": "[KEPLER] master_monitor"
+  },
+  "kepler: station_tlmsetup": {
+    "prefix": "station_tlmsetup",
+    "body": "station_tlmsetup ${1:\\$station_name}",
+    "description": "[KEPLER] station_tlmsetup"
+  },
+  "kepler: cnt020_no_signal": {
+    "prefix": "cnt020_no_signal",
+    "body": "cnt020_no_signal",
+    "description": "[KEPLER] cnt020_no_signal"
+  },
+  "kepler: sle_cmd_bind": {
+    "prefix": "sle_cmd_bind",
+    "body": "sle_cmd_bind ${1:\\$station_name}",
+    "description": "[KEPLER] sle_cmd_bind"
+  },
+  "kepler: u019_load_revclk": {
+    "prefix": "u019_load_revclk",
+    "body": "u019_load_revclk",
+    "description": "[KEPLER] u019_load_revclk"
+  },
+  "kepler: u005_file_dl_cfg": {
+    "prefix": "u005_file_dl_cfg",
+    "body": "u005_file_dl_cfg",
+    "description": "[KEPLER] u005_file_dl_cfg"
+  },
+  "kepler: kpf_command": {
+    "prefix": "kpf_command",
+    "body": "kpf_command ${1:\\$override}",
+    "description": "[KEPLER] kpf_command"
+  },
+  "kepler: switch_logs": {
+    "prefix": "switch_logs",
+    "body": "switch_logs ${1:\\$mode}",
+    "description": "[KEPLER] switch_logs"
+  },
+  "kepler: d_prm_dir_dwnld": {
+    "prefix": "d_prm_dir_dwnld",
+    "body": "d_prm_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] d_prm_dir_dwnld"
+  },
+  "kepler: st1only": {
+    "prefix": "st1only",
+    "body": "st1only",
+    "description": "[KEPLER] st1only"
+  },
+  "kepler: u006_sddlmnvr": {
+    "prefix": "u006_sddlmnvr",
+    "body": "u006_sddlmnvr",
+    "description": "[KEPLER] u006_sddlmnvr"
+  },
+  "kepler: u007_sciattmnvr": {
+    "prefix": "u007_sciattmnvr",
+    "body": "u007_sciattmnvr",
+    "description": "[KEPLER] u007_sciattmnvr"
+  },
+  "kepler: kp_display_spec": {
+    "prefix": "kp_display_spec",
+    "body": "kp_display_spec ${1:\\$override}",
+    "description": "[KEPLER] kp_display_spec"
+  },
+  "kepler: u010_load_comp": {
+    "prefix": "u010_load_comp",
+    "body": "u010_load_comp",
+    "description": "[KEPLER] u010_load_comp"
+  },
+  "kepler: phsci_cfg_chk": {
+    "prefix": "phsci_cfg_chk",
+    "body": "phsci_cfg_chk",
+    "description": "[KEPLER] phsci_cfg_chk"
+  },
+  "kepler: tgtid5_load": {
+    "prefix": "tgtid5_load",
+    "body": "tgtid5_load ${1:\\$Q1}, ${2:\\$Q2}, ${3:\\$Q3}, ${4:\\$Q4}",
+    "description": "[KEPLER] tgtid5_load"
+  },
+  "kepler: send_rcfs": {
+    "prefix": "send_rcfs",
+    "body": "send_rcfs ${1:\\$start_or_stop}",
+    "description": "[KEPLER] send_rcfs"
+  },
+  "kepler: cnt020_sm_or_em": {
+    "prefix": "cnt020_sm_or_em",
+    "body": "cnt020_sm_or_em",
+    "description": "[KEPLER] cnt020_sm_or_em"
+  },
+  "kepler: eeprom_check": {
+    "prefix": "eeprom_check",
+    "body": "eeprom_check",
+    "description": "[KEPLER] eeprom_check"
+  },
+  "kepler: st1st2_symm": {
+    "prefix": "st1st2_symm",
+    "body": "st1st2_symm",
+    "description": "[KEPLER] st1st2_symm"
+  },
+  "kepler: tgtid5_reset": {
+    "prefix": "tgtid5_reset",
+    "body": "tgtid5_reset ${1:\\$Q1}, ${2:\\$Q2}, ${3:\\$Q3}, ${4:\\$Q4}",
+    "description": "[KEPLER] tgtid5_reset"
+  },
+  "kepler: kpf_subcomms": {
+    "prefix": "kpf_subcomms",
+    "body": "kpf_subcomms ${1:\\$override}",
+    "description": "[KEPLER] kpf_subcomms"
+  },
+  "kepler: cltu_setup": {
+    "prefix": "cltu_setup",
+    "body": "cltu_setup",
+    "description": "[KEPLER] cltu_setup"
+  },
+  "kepler: u009_tlm7": {
+    "prefix": "u009_tlm7",
+    "body": "u009_tlm7 ${1:\\$downlinkrate}, ${2:\\$basemode}",
+    "description": "[KEPLER] u009_tlm7"
+  },
+  "kepler: nvm_eng_dwnld2": {
+    "prefix": "nvm_eng_dwnld2",
+    "body": "nvm_eng_dwnld2 ${1:\\$vtc_start}, ${2:\\$vtc_stop}, ${3:\\$priority}",
+    "description": "[KEPLER] nvm_eng_dwnld2"
+  },
+  "kepler: cnt001_dsbl_swp": {
+    "prefix": "cnt001_dsbl_swp",
+    "body": "cnt001_dsbl_swp",
+    "description": "[KEPLER] cnt001_dsbl_swp"
+  },
+  "kepler: e_ops_dir_dwnld": {
+    "prefix": "e_ops_dir_dwnld",
+    "body": "e_ops_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] e_ops_dir_dwnld"
+  },
+  "kepler: update_db_rem": {
+    "prefix": "update_db_rem",
+    "body": "update_db_rem",
+    "description": "[KEPLER] update_db_rem"
+  },
+  "kepler: tdsp_set_time": {
+    "prefix": "tdsp_set_time",
+    "body": "tdsp_set_time",
+    "description": "[KEPLER] tdsp_set_time"
+  },
+  "kepler: cnt002_enbl_swp": {
+    "prefix": "cnt002_enbl_swp",
+    "body": "cnt002_enbl_swp",
+    "description": "[KEPLER] cnt002_enbl_swp"
+  },
+  "kepler: u017_tlmmode7": {
+    "prefix": "u017_tlmmode7",
+    "body": "u017_tlmmode7",
+    "description": "[KEPLER] u017_tlmmode7"
+  },
+  "kepler: u017_tlmmode0": {
+    "prefix": "u017_tlmmode0",
+    "body": "u017_tlmmode0",
+    "description": "[KEPLER] u017_tlmmode0"
+  },
+  "kepler: prs_monthly": {
+    "prefix": "prs_monthly",
+    "body": "prs_monthly",
+    "description": "[KEPLER] prs_monthly"
+  },
+  "kepler: master_stb": {
+    "prefix": "master_stb",
+    "body": "master_stb",
+    "description": "[KEPLER] master_stb"
+  },
+  "kepler: xfer_files": {
+    "prefix": "xfer_files",
+    "body": "xfer_files",
+    "description": "[KEPLER] xfer_files"
+  },
+  "kepler: nvm_eng_dwnld": {
+    "prefix": "nvm_eng_dwnld",
+    "body": "nvm_eng_dwnld ${1:\\$vtc_start}, ${2:\\$priority}",
+    "description": "[KEPLER] nvm_eng_dwnld"
+  },
+  "kepler: nn_seu_edac_clr": {
+    "prefix": "nn_seu_edac_clr",
+    "body": "nn_seu_edac_clr",
+    "description": "[KEPLER] nn_seu_edac_clr"
+  },
+  "kepler: kp_systemvars": {
+    "prefix": "kp_systemvars",
+    "body": "kp_systemvars ${1:\\$override}",
+    "description": "[KEPLER] kp_systemvars"
+  },
+  "kepler: ka_dwnlnk_config": {
+    "prefix": "ka_dwnlnk_config",
+    "body": "ka_dwnlnk_config ${1:\\$rate}",
+    "description": "[KEPLER] ka_dwnlnk_config"
+  },
+  "kepler: cnt040_saferec": {
+    "prefix": "cnt040_saferec",
+    "body": "cnt040_saferec",
+    "description": "[KEPLER] cnt040_saferec"
+  },
+  "kepler: u021_hga_pt_qb2c": {
+    "prefix": "u021_hga_pt_qb2c",
+    "body": "u021_hga_pt_qb2c",
+    "description": "[KEPLER] u021_hga_pt_qb2c"
+  },
+  "kepler: u020_revclk_stop": {
+    "prefix": "u020_revclk_stop",
+    "body": "u020_revclk_stop ${1:\\$num_rc}, ${2:\\$fpl}",
+    "description": "[KEPLER] u020_revclk_stop"
+  },
+  "kepler: subscription_mod": {
+    "prefix": "subscription_mod",
+    "body": "subscription_mod ${1:\\$apid}, ${2:\\$pkid}, ${3:\\$rate}",
+    "description": "[KEPLER] subscription_mod"
+  },
+  "kepler: vv_tlm_check": {
+    "prefix": "vv_tlm_check",
+    "body": "vv_tlm_check",
+    "description": "[KEPLER] vv_tlm_check"
+  },
+  "kepler: cnt060_swpcmdtlm": {
+    "prefix": "cnt060_swpcmdtlm",
+    "body": "cnt060_swpcmdtlm ${1:\\$cmd_kcb}, ${2:\\$tlm_kcb}",
+    "description": "[KEPLER] cnt060_swpcmdtlm"
+  },
+  "kepler: delete_moc_event": {
+    "prefix": "delete_moc_event",
+    "body": "delete_moc_event ${1:\\$event}",
+    "description": "[KEPLER] delete_moc_event"
+  },
+  "kepler: limit_off": {
+    "prefix": "limit_off",
+    "body": "limit_off ${1:\\$ext_elmnt}, ${2:\\$item_name}",
+    "description": "[KEPLER] limit_off"
+  },
+  "kepler: evrflt_snd_setup": {
+    "prefix": "evrflt_snd_setup",
+    "body": "evrflt_snd_setup",
+    "description": "[KEPLER] evrflt_snd_setup"
+  },
+  "kepler: att_err_bridge": {
+    "prefix": "att_err_bridge",
+    "body": "att_err_bridge",
+    "description": "[KEPLER] att_err_bridge"
+  },
+  "kepler: cnt041_swapsibs": {
+    "prefix": "cnt041_swapsibs",
+    "body": "cnt041_swapsibs",
+    "description": "[KEPLER] cnt041_swapsibs"
+  },
+  "kepler: c_seqs_dir_dwnld": {
+    "prefix": "c_seqs_dir_dwnld",
+    "body": "c_seqs_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] c_seqs_dir_dwnld"
+  },
+  "kepler: prs_safe_rec": {
+    "prefix": "prs_safe_rec",
+    "body": "prs_safe_rec",
+    "description": "[KEPLER] prs_safe_rec"
+  },
+  "kepler: evr_setup": {
+    "prefix": "evr_setup",
+    "body": "evr_setup",
+    "description": "[KEPLER] evr_setup"
+  },
+  "kepler: cm_setup": {
+    "prefix": "cm_setup",
+    "body": "cm_setup",
+    "description": "[KEPLER] cm_setup"
+  },
+  "kepler: flow_tlm": {
+    "prefix": "flow_tlm",
+    "body": "flow_tlm ${1:\\$source}, ${2:\\$file}",
+    "description": "[KEPLER] flow_tlm"
+  },
+  "kepler: e_tds_dir_dwnld": {
+    "prefix": "e_tds_dir_dwnld",
+    "body": "e_tds_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] e_tds_dir_dwnld"
+  },
+  "kepler: cllt_reset": {
+    "prefix": "cllt_reset",
+    "body": "cllt_reset ${1:\\$secs}",
+    "description": "[KEPLER] cllt_reset"
+  },
+  "kepler: u016_ph_sci_cfg": {
+    "prefix": "u016_ph_sci_cfg",
+    "body": "u016_ph_sci_cfg",
+    "description": "[KEPLER] u016_ph_sci_cfg"
+  },
+  "kepler: u008_rst_xt_2lng": {
+    "prefix": "u008_rst_xt_2lng",
+    "body": "u008_rst_xt_2lng",
+    "description": "[KEPLER] u008_rst_xt_2lng"
+  },
+  "kepler: u024_mode_phtmnt": {
+    "prefix": "u024_mode_phtmnt",
+    "body": "u024_mode_phtmnt",
+    "description": "[KEPLER] u024_mode_phtmnt"
+  },
+  "kepler: kp_test_db": {
+    "prefix": "kp_test_db",
+    "body": "kp_test_db ${1:\\$override}",
+    "description": "[KEPLER] kp_test_db"
+  },
+  "kepler: revclklc_stop": {
+    "prefix": "revclklc_stop",
+    "body": "revclklc_stop",
+    "description": "[KEPLER] revclklc_stop"
+  },
+  "kepler: cmd_check": {
+    "prefix": "cmd_check",
+    "body": "cmd_check",
+    "description": "[KEPLER] cmd_check"
+  },
+  "kepler: sci_att1_desat": {
+    "prefix": "sci_att1_desat",
+    "body": "sci_att1_desat",
+    "description": "[KEPLER] sci_att1_desat"
+  },
+  "kepler: lzeroraw_disp": {
+    "prefix": "lzeroraw_disp",
+    "body": "lzeroraw_disp",
+    "description": "[KEPLER] lzeroraw_disp"
+  },
+  "kepler: patchfgs_fal": {
+    "prefix": "patchfgs_fal",
+    "body": "patchfgs_fal",
+    "description": "[KEPLER] patchfgs_fal"
+  },
+  "kepler: sle_setup": {
+    "prefix": "sle_setup",
+    "body": "sle_setup",
+    "description": "[KEPLER] sle_setup"
+  },
+  "kepler: cnt040_loadtbls": {
+    "prefix": "cnt040_loadtbls",
+    "body": "cnt040_loadtbls",
+    "description": "[KEPLER] cnt040_loadtbls"
+  },
+  "kepler: limit_on": {
+    "prefix": "limit_on",
+    "body": "limit_on ${1:\\$ext_elmnt}, ${2:\\$item_name}",
+    "description": "[KEPLER] limit_on"
+  },
+  "kepler: x_car_lock": {
+    "prefix": "x_car_lock",
+    "body": "x_car_lock ${1:\\$station}",
+    "description": "[KEPLER] x_car_lock"
+  },
+  "kepler: cfdp_resume": {
+    "prefix": "cfdp_resume",
+    "body": "cfdp_resume",
+    "description": "[KEPLER] cfdp_resume"
+  },
+  "kepler: kp_display": {
+    "prefix": "kp_display",
+    "body": "kp_display ${1:\\$override}",
+    "description": "[KEPLER] kp_display"
+  },
+  "kepler: cmdverif": {
+    "prefix": "cmdverif",
+    "body": "cmdverif ${1:\\$state}",
+    "description": "[KEPLER] cmdverif"
+  },
+  "kepler: stdlogs_dwnld": {
+    "prefix": "stdlogs_dwnld",
+    "body": "stdlogs_dwnld",
+    "description": "[KEPLER] stdlogs_dwnld"
+  },
+  "kepler: fault_alarm": {
+    "prefix": "fault_alarm",
+    "body": "fault_alarm",
+    "description": "[KEPLER] fault_alarm"
+  },
+  "kepler: kp_equations": {
+    "prefix": "kp_equations",
+    "body": "kp_equations",
+    "description": "[KEPLER] kp_equations"
+  },
+  "kepler: u003_kaconfigon": {
+    "prefix": "u003_kaconfigon",
+    "body": "u003_kaconfigon ${1:\\$rate}",
+    "description": "[KEPLER] u003_kaconfigon"
+  },
+  "kepler: cfdp_pause": {
+    "prefix": "cfdp_pause",
+    "body": "cfdp_pause",
+    "description": "[KEPLER] cfdp_pause"
+  },
+  "kepler: sciffi_noop_rstr": {
+    "prefix": "sciffi_noop_rstr",
+    "body": "sciffi_noop_rstr",
+    "description": "[KEPLER] sciffi_noop_rstr"
+  },
+  "kepler: auto_watchdog": {
+    "prefix": "auto_watchdog",
+    "body": "auto_watchdog",
+    "description": "[KEPLER] auto_watchdog"
+  },
+  "kepler: cltus_to_zero": {
+    "prefix": "cltus_to_zero",
+    "body": "cltus_to_zero",
+    "description": "[KEPLER] cltus_to_zero"
+  },
+  "kepler: coarse_desat": {
+    "prefix": "coarse_desat",
+    "body": "coarse_desat",
+    "description": "[KEPLER] coarse_desat"
+  },
+  "kepler: cnt040_picrec": {
+    "prefix": "cnt040_picrec",
+    "body": "cnt040_picrec",
+    "description": "[KEPLER] cnt040_picrec"
+  },
+  "kepler: u001_sccfgid": {
+    "prefix": "u001_sccfgid",
+    "body": "u001_sccfgid",
+    "description": "[KEPLER] u001_sccfgid"
+  },
+  "kepler: ssr_elog_dwnld": {
+    "prefix": "ssr_elog_dwnld",
+    "body": "ssr_elog_dwnld",
+    "description": "[KEPLER] ssr_elog_dwnld"
+  },
+  "kepler: util_block_start": {
+    "prefix": "util_block_start",
+    "body": "util_block_start ${1:\\$block}",
+    "description": "[KEPLER] util_block_start"
+  },
+  "kepler: kacr1776_cmd_upd": {
+    "prefix": "kacr1776_cmd_upd",
+    "body": "kacr1776_cmd_upd",
+    "description": "[KEPLER] kacr1776_cmd_upd"
+  },
+  "kepler: gmbl_counters": {
+    "prefix": "gmbl_counters",
+    "body": "gmbl_counters",
+    "description": "[KEPLER] gmbl_counters"
+  },
+  "kepler: rev_clk_tbl_chk": {
+    "prefix": "rev_clk_tbl_chk",
+    "body": "rev_clk_tbl_chk",
+    "description": "[KEPLER] rev_clk_tbl_chk"
+  },
+  "kepler: update_db_stb": {
+    "prefix": "update_db_stb",
+    "body": "update_db_stb",
+    "description": "[KEPLER] update_db_stb"
+  },
+  "kepler: c_prm_dir_dwnld": {
+    "prefix": "c_prm_dir_dwnld",
+    "body": "c_prm_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] c_prm_dir_dwnld"
+  },
+  "kepler: ctb_eds_dwnld": {
+    "prefix": "ctb_eds_dwnld",
+    "body": "ctb_eds_dwnld",
+    "description": "[KEPLER] ctb_eds_dwnld"
+  },
+  "kepler: eorsync_setup": {
+    "prefix": "eorsync_setup",
+    "body": "eorsync_setup",
+    "description": "[KEPLER] eorsync_setup"
+  },
+  "kepler: eorinfo_setup": {
+    "prefix": "eorinfo_setup",
+    "body": "eorinfo_setup",
+    "description": "[KEPLER] eorinfo_setup"
+  },
+  "kepler: sle_cmd_unbind": {
+    "prefix": "sle_cmd_unbind",
+    "body": "sle_cmd_unbind",
+    "description": "[KEPLER] sle_cmd_unbind"
+  },
+  "kepler: d_seqs_dir_dwnld": {
+    "prefix": "d_seqs_dir_dwnld",
+    "body": "d_seqs_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] d_seqs_dir_dwnld"
+  },
+  "kepler: ka_off": {
+    "prefix": "ka_off",
+    "body": "ka_off",
+    "description": "[KEPLER] ka_off"
+  },
+  "kepler: cnt020_no_data": {
+    "prefix": "cnt020_no_data",
+    "body": "cnt020_no_data",
+    "description": "[KEPLER] cnt020_no_data"
+  },
+  "kepler: tlmmd7_nossr": {
+    "prefix": "tlmmd7_nossr",
+    "body": "tlmmd7_nossr",
+    "description": "[KEPLER] tlmmd7_nossr"
+  },
+  "kepler: patchfgs_wtr": {
+    "prefix": "patchfgs_wtr",
+    "body": "patchfgs_wtr",
+    "description": "[KEPLER] patchfgs_wtr"
+  },
+  "kepler: master_rem": {
+    "prefix": "master_rem",
+    "body": "master_rem",
+    "description": "[KEPLER] master_rem"
+  },
+  "kepler: u017_tlmmode1": {
+    "prefix": "u017_tlmmode1",
+    "body": "u017_tlmmode1",
+    "description": "[KEPLER] u017_tlmmode1"
+  },
+  "kepler: u013_load_cdpp": {
+    "prefix": "u013_load_cdpp",
+    "body": "u013_load_cdpp",
+    "description": "[KEPLER] u013_load_cdpp"
+  },
+  "kepler: cnt060_reset_fp": {
+    "prefix": "cnt060_reset_fp",
+    "body": "cnt060_reset_fp",
+    "description": "[KEPLER] cnt060_reset_fp"
+  },
+  "kepler: file_dwnld": {
+    "prefix": "file_dwnld",
+    "body": "file_dwnld ${1:\\$filename}, ${2:\\$priority}",
+    "description": "[KEPLER] file_dwnld"
+  },
+  "kepler: lasp_kp_tlm": {
+    "prefix": "lasp_kp_tlm",
+    "body": "lasp_kp_tlm",
+    "description": "[KEPLER] lasp_kp_tlm"
+  },
+  "kepler: stdlogs_clear": {
+    "prefix": "stdlogs_clear",
+    "body": "stdlogs_clear",
+    "description": "[KEPLER] stdlogs_clear"
+  },
+  "kepler: crc_dir_ver": {
+    "prefix": "crc_dir_ver",
+    "body": "crc_dir_ver ${1:\\$dir}, ${2:\\$e_crc}, ${3:\\$listing}",
+    "description": "[KEPLER] crc_dir_ver"
+  },
+  "kepler: k2_saferec": {
+    "prefix": "k2_saferec",
+    "body": "k2_saferec",
+    "description": "[KEPLER] k2_saferec"
+  },
+  "kepler: u017_tlmmode6": {
+    "prefix": "u017_tlmmode6",
+    "body": "u017_tlmmode6",
+    "description": "[KEPLER] u017_tlmmode6"
+  },
+  "kepler: comm_terminate": {
+    "prefix": "comm_terminate",
+    "body": "comm_terminate ${1:\\$mode}",
+    "description": "[KEPLER] comm_terminate"
+  },
+  "kepler: gumballs_update": {
+    "prefix": "gumballs_update",
+    "body": "gumballs_update",
+    "description": "[KEPLER] gumballs_update"
+  },
+  "kepler: maxfile_cfdp_pau": {
+    "prefix": "maxfile_cfdp_pau",
+    "body": "maxfile_cfdp_pau",
+    "description": "[KEPLER] maxfile_cfdp_pau"
+  },
+  "kepler: u017_fgsffi10tlm": {
+    "prefix": "u017_fgsffi10tlm",
+    "body": "u017_fgsffi10tlm",
+    "description": "[KEPLER] u017_fgsffi10tlm"
+  },
+  "kepler: comm_tlm_setup": {
+    "prefix": "comm_tlm_setup",
+    "body": "comm_tlm_setup ${1:\\$station}",
+    "description": "[KEPLER] comm_tlm_setup"
+  },
+  "kepler: maxfile_cfdp_res": {
+    "prefix": "maxfile_cfdp_res",
+    "body": "maxfile_cfdp_res",
+    "description": "[KEPLER] maxfile_cfdp_res"
+  },
+  "kepler: logs_delete": {
+    "prefix": "logs_delete",
+    "body": "logs_delete",
+    "description": "[KEPLER] logs_delete"
+  },
+  "kepler: u022_sciattid5": {
+    "prefix": "u022_sciattid5",
+    "body": "u022_sciattid5",
+    "description": "[KEPLER] u022_sciattid5"
+  },
+  "kepler: update_cmd": {
+    "prefix": "update_cmd",
+    "body": "update_cmd",
+    "description": "[KEPLER] update_cmd"
+  },
+  "kepler: ph_health": {
+    "prefix": "ph_health",
+    "body": "ph_health",
+    "description": "[KEPLER] ph_health"
+  },
+  "kepler: pass_proc": {
+    "prefix": "pass_proc",
+    "body": "pass_proc ${1:\\$BOA}, ${2:\\$BOT}, ${3:\\$EOT}, ${4:\\$passEnd}, ${5:\\$station}, ${6:\\$SOE}",
+    "description": "[KEPLER] pass_proc"
+  },
+  "kepler: ball_setup": {
+    "prefix": "ball_setup",
+    "body": "ball_setup ${1:\\$bench}, ${2:\\$kcb}",
+    "description": "[KEPLER] ball_setup"
+  },
+  "kepler: update_db": {
+    "prefix": "update_db",
+    "body": "update_db",
+    "description": "[KEPLER] update_db"
+  },
+  "kepler: update_lmt_1524": {
+    "prefix": "update_lmt_1524",
+    "body": "update_lmt_1524",
+    "description": "[KEPLER] update_lmt_1524"
+  },
+  "kepler: master_mor": {
+    "prefix": "master_mor",
+    "body": "master_mor",
+    "description": "[KEPLER] master_mor"
+  },
+  "kepler: k2_photo_rec": {
+    "prefix": "k2_photo_rec",
+    "body": "k2_photo_rec",
+    "description": "[KEPLER] k2_photo_rec"
+  },
+  "kepler: flush_dl_buffers": {
+    "prefix": "flush_dl_buffers",
+    "body": "flush_dl_buffers",
+    "description": "[KEPLER] flush_dl_buffers"
+  },
+  "kepler: ref_pix_dwnld_lr": {
+    "prefix": "ref_pix_dwnld_lr",
+    "body": "ref_pix_dwnld_lr ${1:\\$vtc_start}, ${2:\\$priority}, ${3:\\$planned_rate}",
+    "description": "[KEPLER] ref_pix_dwnld_lr"
+  },
+  "kepler: master_planning": {
+    "prefix": "master_planning",
+    "body": "master_planning",
+    "description": "[KEPLER] master_planning"
+  },
+  "kepler: init_kpops": {
+    "prefix": "init_kpops",
+    "body": "init_kpops",
+    "description": "[KEPLER] init_kpops"
+  },
+  "kepler: lasp_kp_display": {
+    "prefix": "lasp_kp_display",
+    "body": "lasp_kp_display",
+    "description": "[KEPLER] lasp_kp_display"
+  },
+  "kepler: clp_stat_display": {
+    "prefix": "clp_stat_display",
+    "body": "clp_stat_display",
+    "description": "[KEPLER] clp_stat_display"
+  },
+  "kepler: u023_mode_sddl": {
+    "prefix": "u023_mode_sddl",
+    "body": "u023_mode_sddl",
+    "description": "[KEPLER] u023_mode_sddl"
+  },
+  "kepler: u017_tlmmode5": {
+    "prefix": "u017_tlmmode5",
+    "body": "u017_tlmmode5",
+    "description": "[KEPLER] u017_tlmmode5"
+  },
+  "kepler: u017_tlmmode2": {
+    "prefix": "u017_tlmmode2",
+    "body": "u017_tlmmode2",
+    "description": "[KEPLER] u017_tlmmode2"
+  },
+  "kepler: fgtg_full": {
+    "prefix": "fgtg_full",
+    "body": "fgtg_full",
+    "description": "[KEPLER] fgtg_full"
+  },
+  "kepler: xfer_files_setup": {
+    "prefix": "xfer_files_setup",
+    "body": "xfer_files_setup",
+    "description": "[KEPLER] xfer_files_setup"
+  },
+  "kepler: update_db_plan": {
+    "prefix": "update_db_plan",
+    "body": "update_db_plan",
+    "description": "[KEPLER] update_db_plan"
+  },
+  "kepler: cnt060_emcrec": {
+    "prefix": "cnt060_emcrec",
+    "body": "cnt060_emcrec",
+    "description": "[KEPLER] cnt060_emcrec"
+  },
+  "kepler: u002_ssrdlvc15": {
+    "prefix": "u002_ssrdlvc15",
+    "body": "u002_ssrdlvc15 ${1:\\$sci_offset}, ${2:\\$sci_length}",
+    "description": "[KEPLER] u002_ssrdlvc15"
+  },
+  "kepler: u017_updstaletlm": {
+    "prefix": "u017_updstaletlm",
+    "body": "u017_updstaletlm ${1:\\$packet}, ${2:\\$rate}",
+    "description": "[KEPLER] u017_updstaletlm"
+  },
+  "kepler: ref_pix_enable": {
+    "prefix": "ref_pix_enable",
+    "body": "ref_pix_enable",
+    "description": "[KEPLER] ref_pix_enable"
+  },
+  "kepler: show_alarms": {
+    "prefix": "show_alarms",
+    "body": "show_alarms",
+    "description": "[KEPLER] show_alarms"
+  },
+  "kepler: master": {
+    "prefix": "master",
+    "body": "master",
+    "description": "[KEPLER] master"
+  },
+  "kepler: slave_stn": {
+    "prefix": "slave_stn",
+    "body": "slave_stn ${1:\\$slave_cmd}",
+    "description": "[KEPLER] slave_stn"
+  },
+  "kepler: lzeroraw_tlm": {
+    "prefix": "lzeroraw_tlm",
+    "body": "lzeroraw_tlm",
+    "description": "[KEPLER] lzeroraw_tlm"
+  },
+  "kepler: cmd_precheck": {
+    "prefix": "cmd_precheck",
+    "body": "cmd_precheck",
+    "description": "[KEPLER] cmd_precheck"
+  },
+  "kepler: tlm_check": {
+    "prefix": "tlm_check",
+    "body": "tlm_check ${1:\\$phase}",
+    "description": "[KEPLER] tlm_check"
+  },
+  "kepler: mon_setup": {
+    "prefix": "mon_setup",
+    "body": "mon_setup",
+    "description": "[KEPLER] mon_setup"
+  },
+  "kepler: monitor_tlm_prcs": {
+    "prefix": "monitor_tlm_prcs",
+    "body": "monitor_tlm_prcs",
+    "description": "[KEPLER] monitor_tlm_prcs"
+  },
+  "kepler: proc_list": {
+    "prefix": "proc_list",
+    "body": "proc_list",
+    "description": "[KEPLER] proc_list"
+  },
+  "kepler: cmdverif_setup": {
+    "prefix": "cmdverif_setup",
+    "body": "cmdverif_setup",
+    "description": "[KEPLER] cmdverif_setup"
+  },
+  "kepler: fgs_ffi_delete": {
+    "prefix": "fgs_ffi_delete",
+    "body": "fgs_ffi_delete",
+    "description": "[KEPLER] fgs_ffi_delete"
+  },
+  "kepler: record_cmd": {
+    "prefix": "record_cmd",
+    "body": "record_cmd",
+    "description": "[KEPLER] record_cmd"
+  },
+  "kepler: gmbl_l1_counters": {
+    "prefix": "gmbl_l1_counters",
+    "body": "gmbl_l1_counters",
+    "description": "[KEPLER] gmbl_l1_counters"
+  },
+  "kepler: tc_pkts_dwnld": {
+    "prefix": "tc_pkts_dwnld",
+    "body": "tc_pkts_dwnld",
+    "description": "[KEPLER] tc_pkts_dwnld"
+  },
+  "kepler: dir_list_dwnld": {
+    "prefix": "dir_list_dwnld",
+    "body": "dir_list_dwnld ${1:\\$directory}, ${2:\\$filename}, ${3:\\$priority}",
+    "description": "[KEPLER] dir_list_dwnld"
+  },
+  "kepler: cnt040_safedata": {
+    "prefix": "cnt040_safedata",
+    "body": "cnt040_safedata",
+    "description": "[KEPLER] cnt040_safedata"
+  },
+  "kepler: stn_vc0s": {
+    "prefix": "stn_vc0s",
+    "body": "stn_vc0s ${1:\\$station}",
+    "description": "[KEPLER] stn_vc0s"
+  },
+  "kepler: ssr_stop_pbks": {
+    "prefix": "ssr_stop_pbks",
+    "body": "ssr_stop_pbks",
+    "description": "[KEPLER] ssr_stop_pbks"
+  },
+  "kepler: ph_alive": {
+    "prefix": "ph_alive",
+    "body": "ph_alive",
+    "description": "[KEPLER] ph_alive"
+  },
+  "kepler: i_dcc_substream": {
+    "prefix": "i_dcc_substream",
+    "body": "i_dcc_substream ${1:\\$dss}, ${2:\\$substream_name}, ${3:\\$dss_id_in_hex}",
+    "description": "[KEPLER] i_dcc_substream"
+  },
+  "kepler: ois_setup": {
+    "prefix": "ois_setup",
+    "body": "ois_setup",
+    "description": "[KEPLER] ois_setup"
+  },
+  "kepler: k2_prs_sddl": {
+    "prefix": "k2_prs_sddl",
+    "body": "k2_prs_sddl",
+    "description": "[KEPLER] k2_prs_sddl"
+  },
+  "kepler: u011_load_5diam": {
+    "prefix": "u011_load_5diam",
+    "body": "u011_load_5diam",
+    "description": "[KEPLER] u011_load_5diam"
+  },
+  "kepler: max_to_mode2": {
+    "prefix": "max_to_mode2",
+    "body": "max_to_mode2",
+    "description": "[KEPLER] max_to_mode2"
+  },
+  "kepler: logs_down": {
+    "prefix": "logs_down",
+    "body": "logs_down",
+    "description": "[KEPLER] logs_down"
+  },
+  "kepler: kp_tlm_spec": {
+    "prefix": "kp_tlm_spec",
+    "body": "kp_tlm_spec ${1:\\$override}",
+    "description": "[KEPLER] kp_tlm_spec"
+  },
+  "kepler: comm_setup": {
+    "prefix": "comm_setup",
+    "body": "comm_setup ${1:\\$station}",
+    "description": "[KEPLER] comm_setup"
+  },
+  "kepler: kp_command_spec": {
+    "prefix": "kp_command_spec",
+    "body": "kp_command_spec ${1:\\$override}",
+    "description": "[KEPLER] kp_command_spec"
+  },
+  "kepler: st2only": {
+    "prefix": "st2only",
+    "body": "st2only",
+    "description": "[KEPLER] st2only"
+  },
+  "kepler: x_tlm_lock": {
+    "prefix": "x_tlm_lock",
+    "body": "x_tlm_lock ${1:\\$station}",
+    "description": "[KEPLER] x_tlm_lock"
+  },
+  "kepler: countdown_alarm": {
+    "prefix": "countdown_alarm",
+    "body": "countdown_alarm",
+    "description": "[KEPLER] countdown_alarm"
+  },
+  "kepler: u017_fgsaligntlm": {
+    "prefix": "u017_fgsaligntlm",
+    "body": "u017_fgsaligntlm",
+    "description": "[KEPLER] u017_fgsaligntlm"
+  },
+  "kepler: u012_load_ee": {
+    "prefix": "u012_load_ee",
+    "body": "u012_load_ee",
+    "description": "[KEPLER] u012_load_ee"
+  },
+  "kepler: u004_kaconfigoff": {
+    "prefix": "u004_kaconfigoff",
+    "body": "u004_kaconfigoff",
+    "description": "[KEPLER] u004_kaconfigoff"
+  },
+  "kepler: u015_season_chg": {
+    "prefix": "u015_season_chg",
+    "body": "u015_season_chg ${1:\\$season}",
+    "description": "[KEPLER] u015_season_chg"
+  },
+  "kepler: fgsalign_upload": {
+    "prefix": "fgsalign_upload",
+    "body": "fgsalign_upload",
+    "description": "[KEPLER] fgsalign_upload"
+  },
+  "kepler: set_rcf_scid": {
+    "prefix": "set_rcf_scid",
+    "body": "set_rcf_scid ${1:\\$scid}",
+    "description": "[KEPLER] set_rcf_scid"
+  },
+  "kepler: eng_part_swap": {
+    "prefix": "eng_part_swap",
+    "body": "eng_part_swap",
+    "description": "[KEPLER] eng_part_swap"
+  },
+  "kepler: k2_abort_sci": {
+    "prefix": "k2_abort_sci",
+    "body": "k2_abort_sci",
+    "description": "[KEPLER] k2_abort_sci"
+  },
+  "kepler: cmd_tlmcheck": {
+    "prefix": "cmd_tlmcheck",
+    "body": "cmd_tlmcheck",
+    "description": "[KEPLER] cmd_tlmcheck"
+  },
+  "kepler: ctb1_health_chk": {
+    "prefix": "ctb1_health_chk",
+    "body": "ctb1_health_chk",
+    "description": "[KEPLER] ctb1_health_chk"
+  },
+  "kepler: quick_to_mode2": {
+    "prefix": "quick_to_mode2",
+    "body": "quick_to_mode2",
+    "description": "[KEPLER] quick_to_mode2"
+  },
+  "kepler: ref_pix_calc_dl": {
+    "prefix": "ref_pix_calc_dl",
+    "body": "ref_pix_calc_dl",
+    "description": "[KEPLER] ref_pix_calc_dl"
+  },
+  "kepler: u017_tlmmode3": {
+    "prefix": "u017_tlmmode3",
+    "body": "u017_tlmmode3",
+    "description": "[KEPLER] u017_tlmmode3"
+  },
+  "kepler: vv_contact": {
+    "prefix": "vv_contact",
+    "body": "vv_contact",
+    "description": "[KEPLER] vv_contact"
+  },
+  "kepler: cnt020_garbled": {
+    "prefix": "cnt020_garbled",
+    "body": "cnt020_garbled",
+    "description": "[KEPLER] cnt020_garbled"
+  },
+  "kepler: ref_pix_dwnld": {
+    "prefix": "ref_pix_dwnld",
+    "body": "ref_pix_dwnld ${1:\\$vtc_start}, ${2:\\$priority}",
+    "description": "[KEPLER] ref_pix_dwnld"
+  },
+  "kepler: whlspeeds_setup": {
+    "prefix": "whlspeeds_setup",
+    "body": "whlspeeds_setup",
+    "description": "[KEPLER] whlspeeds_setup"
+  },
+  "kepler: x_car_pwr": {
+    "prefix": "x_car_pwr",
+    "body": "x_car_pwr ${1:\\$station}",
+    "description": "[KEPLER] x_car_pwr"
+  },
+  "kepler: unatt_comm_term": {
+    "prefix": "unatt_comm_term",
+    "body": "unatt_comm_term",
+    "description": "[KEPLER] unatt_comm_term"
+  },
+  "kepler: fgsfullfld_dwnld": {
+    "prefix": "fgsfullfld_dwnld",
+    "body": "fgsfullfld_dwnld ${1:\\$vtc_start}, ${2:\\$vtc_stop}, ${3:\\$priority}",
+    "description": "[KEPLER] fgsfullfld_dwnld"
+  },
+  "kepler: thruster_bridge": {
+    "prefix": "thruster_bridge",
+    "body": "thruster_bridge",
+    "description": "[KEPLER] thruster_bridge"
+  },
+  "kepler: e_fgs_dir_dwnld": {
+    "prefix": "e_fgs_dir_dwnld",
+    "body": "e_fgs_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] e_fgs_dir_dwnld"
+  },
+  "kepler: u008_rst_kt_2lng": {
+    "prefix": "u008_rst_kt_2lng",
+    "body": "u008_rst_kt_2lng",
+    "description": "[KEPLER] u008_rst_kt_2lng"
+  },
+  "kepler: u017_tlmmode4": {
+    "prefix": "u017_tlmmode4",
+    "body": "u017_tlmmode4",
+    "description": "[KEPLER] u017_tlmmode4"
+  },
+  "kepler: update_db_mor": {
+    "prefix": "update_db_mor",
+    "body": "update_db_mor",
+    "description": "[KEPLER] update_db_mor"
+  },
+  "kepler: auto_switch_logs": {
+    "prefix": "auto_switch_logs",
+    "body": "auto_switch_logs",
+    "description": "[KEPLER] auto_switch_logs"
+  },
+  "kepler: revclklc_start": {
+    "prefix": "revclklc_start",
+    "body": "revclklc_start",
+    "description": "[KEPLER] revclklc_start"
+  },
+  "kepler: cmd_postcheck": {
+    "prefix": "cmd_postcheck",
+    "body": "cmd_postcheck",
+    "description": "[KEPLER] cmd_postcheck"
+  },
+  "kepler: wheel_bridge": {
+    "prefix": "wheel_bridge",
+    "body": "wheel_bridge",
+    "description": "[KEPLER] wheel_bridge"
+  },
+  "kepler: pass_proc_array": {
+    "prefix": "pass_proc_array",
+    "body": "pass_proc_array ${1:\\$BOA}, ${2:\\$BOT}, ${3:\\$EOT}, ${4:\\$passEnd}, ${5:\\$station}",
+    "description": "[KEPLER] pass_proc_array"
+  },
+  "kepler: fp_wtrmrk_dwnld": {
+    "prefix": "fp_wtrmrk_dwnld",
+    "body": "fp_wtrmrk_dwnld",
+    "description": "[KEPLER] fp_wtrmrk_dwnld"
+  },
+  "kepler: update_db_mon": {
+    "prefix": "update_db_mon",
+    "body": "update_db_mon",
+    "description": "[KEPLER] update_db_mon"
+  },
+  "kepler: u017_tlmmode8kbp": {
+    "prefix": "u017_tlmmode8kbp",
+    "body": "u017_tlmmode8kbp",
+    "description": "[KEPLER] u017_tlmmode8kbp"
+  },
+  "kepler: fphp_setup": {
+    "prefix": "fphp_setup",
+    "body": "fphp_setup",
+    "description": "[KEPLER] fphp_setup"
+  },
+  "kepler: lasp_kp_utility": {
+    "prefix": "lasp_kp_utility",
+    "body": "lasp_kp_utility",
+    "description": "[KEPLER] lasp_kp_utility"
+  },
+  "kepler: secondary_ois": {
+    "prefix": "secondary_ois",
+    "body": "secondary_ois",
+    "description": "[KEPLER] secondary_ois"
+  },
+  "kepler: lasp_kp_proc": {
+    "prefix": "lasp_kp_proc",
+    "body": "lasp_kp_proc",
+    "description": "[KEPLER] lasp_kp_proc"
+  },
+  "kepler: ball_db": {
+    "prefix": "ball_db",
+    "body": "ball_db",
+    "description": "[KEPLER] ball_db"
+  },
+  "kepler: u020_revclk_strt": {
+    "prefix": "u020_revclk_strt",
+    "body": "u020_revclk_strt",
+    "description": "[KEPLER] u020_revclk_strt"
+  },
+  "kepler: kp_ioconfig": {
+    "prefix": "kp_ioconfig",
+    "body": "kp_ioconfig",
+    "description": "[KEPLER] kp_ioconfig"
+  },
+  "kepler: x_dwnlnk_config": {
+    "prefix": "x_dwnlnk_config",
+    "body": "x_dwnlnk_config ${1:\\$rate}",
+    "description": "[KEPLER] x_dwnlnk_config"
+  },
+  "kepler: save_filenames": {
+    "prefix": "save_filenames",
+    "body": "save_filenames",
+    "description": "[KEPLER] save_filenames"
+  },
+  "kepler: e_ref_dir_dwnld": {
+    "prefix": "e_ref_dir_dwnld",
+    "body": "e_ref_dir_dwnld ${1:\\$priority}",
+    "description": "[KEPLER] e_ref_dir_dwnld"
+  },
+  "kepler: lasp_kp_moc": {
+    "prefix": "lasp_kp_moc",
+    "body": "lasp_kp_moc",
+    "description": "[KEPLER] lasp_kp_moc"
+  },
+  "kepler: sle_tlm_setup": {
+    "prefix": "sle_tlm_setup",
+    "body": "sle_tlm_setup ${1:\\$station_name}, ${2:\\$vcid}",
+    "description": "[KEPLER] sle_tlm_setup"
+  },
+  "kepler: station_setup": {
+    "prefix": "station_setup",
+    "body": "station_setup ${1:\\$station_name}",
+    "description": "[KEPLER] station_setup"
+  },
+  "kepler: page_kepl_fc": {
+    "prefix": "page_kepl_fc",
+    "body": "page_kepl_fc ${1:\\$station}, ${2:\\$page_string}",
+    "description": "[KEPLER] page_kepl_fc"
+  },
+  "kepler: kp_fsplots": {
+    "prefix": "kp_fsplots",
+    "body": "kp_fsplots",
+    "description": "[KEPLER] kp_fsplots"
+  },
+  "kepler: nvmdriveinfo": {
+    "prefix": "nvmdriveinfo",
+    "body": "nvmdriveinfo ${1:\\$upload}, ${2:\\$blockshow}, ${3:\\$shell}, ${4:\\$edir}",
+    "description": "[KEPLER] nvmdriveinfo"
+  },
+  "kepler: cmd_verif_switch": {
+    "prefix": "cmd_verif_switch",
+    "body": "cmd_verif_switch",
+    "description": "[KEPLER] cmd_verif_switch"
+  },
+  "kepler: kp_0158dispdefs": {
+    "prefix": "kp_0158dispdefs",
+    "body": "kp_0158dispdefs",
+    "description": "[KEPLER] kp_0158dispdefs"
+  },
+  "kepler: sle_terminate": {
+    "prefix": "sle_terminate",
+    "body": "sle_terminate",
+    "description": "[KEPLER] sle_terminate"
+  },
+  "kepler: kp_dbs_stc": {
+    "prefix": "kp_dbs_stc",
+    "body": "kp_dbs_stc",
+    "description": "[KEPLER] kp_dbs_stc"
+  },
+  "kepler: cnt041_sib2pwron": {
+    "prefix": "cnt041_sib2pwron",
+    "body": "cnt041_sib2pwron",
+    "description": "[KEPLER] cnt041_sib2pwron"
+  },
+  "kepler: patchfgs_spr": {
+    "prefix": "patchfgs_spr",
+    "body": "patchfgs_spr",
+    "description": "[KEPLER] patchfgs_spr"
+  },
+  "kepler: u002_ssrdlsci": {
+    "prefix": "u002_ssrdlsci",
+    "body": "u002_ssrdlsci ${1:\\$sci_offset}, ${2:\\$sci_length}",
+    "description": "[KEPLER] u002_ssrdlsci"
+  },
+  "kepler: u002_ssrdleng": {
+    "prefix": "u002_ssrdleng",
+    "body": "u002_ssrdleng ${1:\\$eng_buffer}",
+    "description": "[KEPLER] u002_ssrdleng"
+  },
+  "kepler: fsw_task_timing": {
+    "prefix": "fsw_task_timing",
+    "body": "fsw_task_timing",
+    "description": "[KEPLER] fsw_task_timing"
+  },
+  "kepler: kpf_telemetry": {
+    "prefix": "kpf_telemetry",
+    "body": "kpf_telemetry ${1:\\$override}",
+    "description": "[KEPLER] kpf_telemetry"
+  },
+  "kepler: station_sim": {
+    "prefix": "station_sim",
+    "body": "station_sim ${1:\\$data_file}, ${2:\\$station}",
+    "description": "[KEPLER] station_sim"
+  },
+  "kepler: countdown_setup": {
+    "prefix": "countdown_setup",
+    "body": "countdown_setup",
+    "description": "[KEPLER] countdown_setup"
+  },
+  "kepler: tlm_mode_restore": {
+    "prefix": "tlm_mode_restore",
+    "body": "tlm_mode_restore ${1:\\$mode}, ${2:\\$option}",
+    "description": "[KEPLER] tlm_mode_restore"
+  },
+  "kepler: explogs_dwnld": {
+    "prefix": "explogs_dwnld",
+    "body": "explogs_dwnld",
+    "description": "[KEPLER] explogs_dwnld"
+  },
+  "kepler: x_uplink_config": {
+    "prefix": "x_uplink_config",
+    "body": "x_uplink_config ${1:\\$rate}",
+    "description": "[KEPLER] x_uplink_config"
+  },
+  "kepler: st_faults_clear": {
+    "prefix": "st_faults_clear",
+    "body": "st_faults_clear ${1:\\$st}, ${2:\\$fault}",
+    "description": "[KEPLER] st_faults_clear"
+  },
+  "kepler: stbreaktrack": {
+    "prefix": "stbreaktrack",
+    "body": "stbreaktrack ${1:\\$star_tracker}",
+    "description": "[KEPLER] stbreaktrack"
+  },
+  "kepler: rates_setup": {
+    "prefix": "rates_setup",
+    "body": "rates_setup",
+    "description": "[KEPLER] rates_setup"
+  },
+  "kepler: kar_508_update": {
+    "prefix": "kar_508_update",
+    "body": "kar_508_update",
+    "description": "[KEPLER] kar_508_update"
+  },
+  "kepler: setup_0158": {
+    "prefix": "setup_0158",
+    "body": "setup_0158 ${1:\\$side}, ${2:\\$station}",
+    "description": "[KEPLER] setup_0158"
+  },
+  "kepler: vv_push_packets": {
+    "prefix": "vv_push_packets",
+    "body": "vv_push_packets ${1:\\$group}",
+    "description": "[KEPLER] vv_push_packets"
+  },
+  "kepler: quit": {
+    "prefix": "quit",
+    "body": "quit",
+    "description": "[KEPLER] quit"
+  },
+  "kepler: patchfgs_smr": {
+    "prefix": "patchfgs_smr",
+    "body": "patchfgs_smr",
+    "description": "[KEPLER] patchfgs_smr"
+  },
+  "kepler: ref_pix_delete": {
+    "prefix": "ref_pix_delete",
+    "body": "ref_pix_delete",
+    "description": "[KEPLER] ref_pix_delete"
+  },
+  "kepler: x_ssnr": {
+    "prefix": "x_ssnr",
+    "body": "x_ssnr ${1:\\$station}",
+    "description": "[KEPLER] x_ssnr"
+  },
+  "kepler: fgs_centroid": {
+    "prefix": "fgs_centroid",
+    "body": "fgs_centroid ${1:\\$planned_rate}",
+    "description": "[KEPLER] fgs_centroid"
+  }
+}

@@ -1,0 +1,1732 @@
+{
+  "qscat: ofl_tabledump": {
+    "prefix": "ofl_tabledump",
+    "body": "ofl_tabledump ${1:\\$table}, ${2:\\$format}, ${3:\\$file}",
+    "description": "[QSCAT] ofl_tabledump"
+  },
+  "qscat: ssr_start_record": {
+    "prefix": "ssr_start_record",
+    "body": "ssr_start_record ${1:\\$scc}, ${2:\\$cds}, ${3:\\$partition}, ${4:\\$pointer}",
+    "description": "[QSCAT] ssr_start_record"
+  },
+  "qscat: mmc_setup": {
+    "prefix": "mmc_setup",
+    "body": "mmc_setup",
+    "description": "[QSCAT] mmc_setup"
+  },
+  "qscat: emc_dsbl": {
+    "prefix": "emc_dsbl",
+    "body": "emc_dsbl",
+    "description": "[QSCAT] emc_dsbl"
+  },
+  "qscat: adcs_detumble": {
+    "prefix": "adcs_detumble",
+    "body": "adcs_detumble",
+    "description": "[QSCAT] adcs_detumble"
+  },
+  "qscat: rw_turn_on": {
+    "prefix": "rw_turn_on",
+    "body": "rw_turn_on ${1:\\$RW}",
+    "description": "[QSCAT] rw_turn_on"
+  },
+  "qscat: hk1rpl_setup": {
+    "prefix": "hk1rpl_setup",
+    "body": "hk1rpl_setup ${1:\\$frame}, ${2:\\$type}, ${3:\\$file}, ${4:\\$rate}",
+    "description": "[QSCAT] hk1rpl_setup"
+  },
+  "qscat: ses_reset_enbl": {
+    "prefix": "ses_reset_enbl",
+    "body": "ses_reset_enbl",
+    "description": "[QSCAT] ses_reset_enbl"
+  },
+  "qscat: htr_mx_rs_dsbl": {
+    "prefix": "htr_mx_rs_dsbl",
+    "body": "htr_mx_rs_dsbl",
+    "description": "[QSCAT] htr_mx_rs_dsbl"
+  },
+  "qscat: config_check": {
+    "prefix": "config_check",
+    "body": "config_check",
+    "description": "[QSCAT] config_check"
+  },
+  "qscat: sa_deploy": {
+    "prefix": "sa_deploy",
+    "body": "sa_deploy",
+    "description": "[QSCAT] sa_deploy"
+  },
+  "qscat: sc_stale_page": {
+    "prefix": "sc_stale_page",
+    "body": "sc_stale_page",
+    "description": "[QSCAT] sc_stale_page"
+  },
+  "qscat: sas_turn_on": {
+    "prefix": "sas_turn_on",
+    "body": "sas_turn_on ${1:\\$SAS}, ${2:\\$RPM}, ${3:\\$VER}",
+    "description": "[QSCAT] sas_turn_on"
+  },
+  "qscat: main_12": {
+    "prefix": "main_12",
+    "body": "main_12",
+    "description": "[QSCAT] main_12"
+  },
+  "qscat: ssr_redump": {
+    "prefix": "ssr_redump",
+    "body": "ssr_redump ${1:\\$START_SEG}, ${2:\\$STOP_SEG}",
+    "description": "[QSCAT] ssr_redump"
+  },
+  "qscat: flow_tlm": {
+    "prefix": "flow_tlm",
+    "body": "flow_tlm ${1:\\$file}, ${2:\\$frame}",
+    "description": "[QSCAT] flow_tlm"
+  },
+  "qscat: qs_dcr_89": {
+    "prefix": "qs_dcr_89",
+    "body": "qs_dcr_89",
+    "description": "[QSCAT] qs_dcr_89"
+  },
+  "qscat: st_reset": {
+    "prefix": "st_reset",
+    "body": "st_reset",
+    "description": "[QSCAT] st_reset"
+  },
+  "qscat: htr_st2_rd_enbl": {
+    "prefix": "htr_st2_rd_enbl",
+    "body": "htr_st2_rd_enbl",
+    "description": "[QSCAT] htr_st2_rd_enbl"
+  },
+  "qscat: ses_tmon_enbl": {
+    "prefix": "ses_tmon_enbl",
+    "body": "ses_tmon_enbl",
+    "description": "[QSCAT] ses_tmon_enbl"
+  },
+  "qscat: update_dlt_limit": {
+    "prefix": "update_dlt_limit",
+    "body": "update_dlt_limit",
+    "description": "[QSCAT] update_dlt_limit"
+  },
+  "qscat: pass_proc": {
+    "prefix": "pass_proc",
+    "body": "pass_proc ${1:\\$AOS}, ${2:\\$LOS}, ${3:\\$MASKRISE}, ${4:\\$MASKSET}, ${5:\\$STATION}",
+    "description": "[QSCAT] pass_proc"
+  },
+  "qscat: update_db": {
+    "prefix": "update_db",
+    "body": "update_db",
+    "description": "[QSCAT] update_db"
+  },
+  "qscat: main_15": {
+    "prefix": "main_15",
+    "body": "main_15",
+    "description": "[QSCAT] main_15"
+  },
+  "qscat: eeprom_burn": {
+    "prefix": "eeprom_burn",
+    "body": "eeprom_burn ${1:\\$tid}, ${2:\\$dump}",
+    "description": "[QSCAT] eeprom_burn"
+  },
+  "qscat: htr_mx_ps_dsbl": {
+    "prefix": "htr_mx_ps_dsbl",
+    "body": "htr_mx_ps_dsbl",
+    "description": "[QSCAT] htr_mx_ps_dsbl"
+  },
+  "qscat: qs_high_config": {
+    "prefix": "qs_high_config",
+    "body": "qs_high_config ${1:\\$mode}",
+    "description": "[QSCAT] qs_high_config"
+  },
+  "qscat: main_6": {
+    "prefix": "main_6",
+    "body": "main_6",
+    "description": "[QSCAT] main_6"
+  },
+  "qscat: main_20": {
+    "prefix": "main_20",
+    "body": "main_20",
+    "description": "[QSCAT] main_20"
+  },
+  "qscat: cmdverif": {
+    "prefix": "cmdverif",
+    "body": "cmdverif ${1:\\$state}",
+    "description": "[QSCAT] cmdverif"
+  },
+  "qscat: main_1": {
+    "prefix": "main_1",
+    "body": "main_1",
+    "description": "[QSCAT] main_1"
+  },
+  "qscat: main_27": {
+    "prefix": "main_27",
+    "body": "main_27",
+    "description": "[QSCAT] main_27"
+  },
+  "qscat: onduty": {
+    "prefix": "onduty",
+    "body": "onduty ${1:\\$name}",
+    "description": "[QSCAT] onduty"
+  },
+  "qscat: hsc_only": {
+    "prefix": "hsc_only",
+    "body": "hsc_only ${1:\\$tx}",
+    "description": "[QSCAT] hsc_only"
+  },
+  "qscat: dsu_playback_off": {
+    "prefix": "dsu_playback_off",
+    "body": "dsu_playback_off ${1:\\$dsu}",
+    "description": "[QSCAT] dsu_playback_off"
+  },
+  "qscat: sa_deploy_minusy": {
+    "prefix": "sa_deploy_minusy",
+    "body": "sa_deploy_minusy",
+    "description": "[QSCAT] sa_deploy_minusy"
+  },
+  "qscat: ses_reset": {
+    "prefix": "ses_reset",
+    "body": "ses_reset",
+    "description": "[QSCAT] ses_reset"
+  },
+  "qscat: wbtx_turn_off": {
+    "prefix": "wbtx_turn_off",
+    "body": "wbtx_turn_off",
+    "description": "[QSCAT] wbtx_turn_off"
+  },
+  "qscat: main_29": {
+    "prefix": "main_29",
+    "body": "main_29",
+    "description": "[QSCAT] main_29"
+  },
+  "qscat: dsu_playback_on": {
+    "prefix": "dsu_playback_on",
+    "body": "dsu_playback_on ${1:\\$dsu}, ${2:\\$address}",
+    "description": "[QSCAT] dsu_playback_on"
+  },
+  "qscat: hsc": {
+    "prefix": "hsc",
+    "body": "hsc",
+    "description": "[QSCAT] hsc"
+  },
+  "qscat: iru_turn_off": {
+    "prefix": "iru_turn_off",
+    "body": "iru_turn_off ${1:\\$iru}",
+    "description": "[QSCAT] iru_turn_off"
+  },
+  "qscat: main_8": {
+    "prefix": "main_8",
+    "body": "main_8",
+    "description": "[QSCAT] main_8"
+  },
+  "qscat: qs_dcr_104": {
+    "prefix": "qs_dcr_104",
+    "body": "qs_dcr_104",
+    "description": "[QSCAT] qs_dcr_104"
+  },
+  "qscat: twta_off_limits": {
+    "prefix": "twta_off_limits",
+    "body": "twta_off_limits",
+    "description": "[QSCAT] twta_off_limits"
+  },
+  "qscat: cbm_clear": {
+    "prefix": "cbm_clear",
+    "body": "cbm_clear",
+    "description": "[QSCAT] cbm_clear"
+  },
+  "qscat: neb_turn_off": {
+    "prefix": "neb_turn_off",
+    "body": "neb_turn_off",
+    "description": "[QSCAT] neb_turn_off"
+  },
+  "qscat: iru_turn_on": {
+    "prefix": "iru_turn_on",
+    "body": "iru_turn_on ${1:\\$iru}",
+    "description": "[QSCAT] iru_turn_on"
+  },
+  "qscat: dtu_format": {
+    "prefix": "dtu_format",
+    "body": "dtu_format ${1:\\$new_fmt}",
+    "description": "[QSCAT] dtu_format"
+  },
+  "qscat: csm_dump": {
+    "prefix": "csm_dump",
+    "body": "csm_dump",
+    "description": "[QSCAT] csm_dump"
+  },
+  "qscat: dcr_76": {
+    "prefix": "dcr_76",
+    "body": "dcr_76",
+    "description": "[QSCAT] dcr_76"
+  },
+  "qscat: quikscatops_145": {
+    "prefix": "quikscatops_145",
+    "body": "quikscatops_145",
+    "description": "[QSCAT] quikscatops_145"
+  },
+  "qscat: table11_one_old": {
+    "prefix": "table11_one_old",
+    "body": "table11_one_old",
+    "description": "[QSCAT] table11_one_old"
+  },
+  "qscat: main_36": {
+    "prefix": "main_36",
+    "body": "main_36",
+    "description": "[QSCAT] main_36"
+  },
+  "qscat: htr_b1_pr_dsbl": {
+    "prefix": "htr_b1_pr_dsbl",
+    "body": "htr_b1_pr_dsbl",
+    "description": "[QSCAT] htr_b1_pr_dsbl"
+  },
+  "qscat: qs_isro_config": {
+    "prefix": "qs_isro_config",
+    "body": "qs_isro_config ${1:\\$mode}",
+    "description": "[QSCAT] qs_isro_config"
+  },
+  "qscat: table11_one": {
+    "prefix": "table11_one",
+    "body": "table11_one",
+    "description": "[QSCAT] table11_one"
+  },
+  "qscat: pcu_faults_clear": {
+    "prefix": "pcu_faults_clear",
+    "body": "pcu_faults_clear ${1:\\$PCU}",
+    "description": "[QSCAT] pcu_faults_clear"
+  },
+  "qscat: htr_pps_rs_dsbl": {
+    "prefix": "htr_pps_rs_dsbl",
+    "body": "htr_pps_rs_dsbl",
+    "description": "[QSCAT] htr_pps_rs_dsbl"
+  },
+  "qscat: proc_list": {
+    "prefix": "proc_list",
+    "body": "proc_list",
+    "description": "[QSCAT] proc_list"
+  },
+  "qscat: htr_py_ps_enbl": {
+    "prefix": "htr_py_ps_enbl",
+    "body": "htr_py_ps_enbl",
+    "description": "[QSCAT] htr_py_ps_enbl"
+  },
+  "qscat: dcr_78": {
+    "prefix": "dcr_78",
+    "body": "dcr_78",
+    "description": "[QSCAT] dcr_78"
+  },
+  "qscat: csm_clear": {
+    "prefix": "csm_clear",
+    "body": "csm_clear ${1:\\$partition}",
+    "description": "[QSCAT] csm_clear"
+  },
+  "qscat: rw_turn_off": {
+    "prefix": "rw_turn_off",
+    "body": "rw_turn_off ${1:\\$RW}",
+    "description": "[QSCAT] rw_turn_off"
+  },
+  "qscat: array_currents": {
+    "prefix": "array_currents",
+    "body": "array_currents",
+    "description": "[QSCAT] array_currents"
+  },
+  "qscat: scc_csm_latch": {
+    "prefix": "scc_csm_latch",
+    "body": "scc_csm_latch",
+    "description": "[QSCAT] scc_csm_latch"
+  },
+  "qscat: update_db_plan": {
+    "prefix": "update_db_plan",
+    "body": "update_db_plan",
+    "description": "[QSCAT] update_db_plan"
+  },
+  "qscat: main_31": {
+    "prefix": "main_31",
+    "body": "main_31",
+    "description": "[QSCAT] main_31"
+  },
+  "qscat: dsu_full": {
+    "prefix": "dsu_full",
+    "body": "dsu_full ${1:\\$dsu}",
+    "description": "[QSCAT] dsu_full"
+  },
+  "qscat: htr_b1_sr_dsbl": {
+    "prefix": "htr_b1_sr_dsbl",
+    "body": "htr_b1_sr_dsbl",
+    "description": "[QSCAT] htr_b1_sr_dsbl"
+  },
+  "qscat: htr_st2_pr_enbl": {
+    "prefix": "htr_st2_pr_enbl",
+    "body": "htr_st2_pr_enbl",
+    "description": "[QSCAT] htr_st2_pr_enbl"
+  },
+  "qscat: ssr_mem_test": {
+    "prefix": "ssr_mem_test",
+    "body": "ssr_mem_test",
+    "description": "[QSCAT] ssr_mem_test"
+  },
+  "qscat: htr_py_rs_enbl": {
+    "prefix": "htr_py_rs_enbl",
+    "body": "htr_py_rs_enbl",
+    "description": "[QSCAT] htr_py_rs_enbl"
+  },
+  "qscat: exp_orb_elem": {
+    "prefix": "exp_orb_elem",
+    "body": "exp_orb_elem ${1:\\$a}, ${2:\\$e}, ${3:\\$i}, ${4:\\$lan}, ${5:\\$w}, ${6:\\$m}, ${7:\\$tp}, ${8:\\$dv}",
+    "description": "[QSCAT] exp_orb_elem"
+  },
+  "qscat: htr_pps_ps_dsbl": {
+    "prefix": "htr_pps_ps_dsbl",
+    "body": "htr_pps_ps_dsbl",
+    "description": "[QSCAT] htr_pps_ps_dsbl"
+  },
+  "qscat: table11_03": {
+    "prefix": "table11_03",
+    "body": "table11_03",
+    "description": "[QSCAT] table11_03"
+  },
+  "qscat: scpv_cond_chg": {
+    "prefix": "scpv_cond_chg",
+    "body": "scpv_cond_chg",
+    "description": "[QSCAT] scpv_cond_chg"
+  },
+  "qscat: table11_04": {
+    "prefix": "table11_04",
+    "body": "table11_04",
+    "description": "[QSCAT] table11_04"
+  },
+  "qscat: qs_dcr_91": {
+    "prefix": "qs_dcr_91",
+    "body": "qs_dcr_91",
+    "description": "[QSCAT] qs_dcr_91"
+  },
+  "qscat: sa_deploy_plusy": {
+    "prefix": "sa_deploy_plusy",
+    "body": "sa_deploy_plusy",
+    "description": "[QSCAT] sa_deploy_plusy"
+  },
+  "qscat: tdsp_set_time": {
+    "prefix": "tdsp_set_time",
+    "body": "tdsp_set_time",
+    "description": "[QSCAT] tdsp_set_time"
+  },
+  "qscat: ses_turn_on": {
+    "prefix": "ses_turn_on",
+    "body": "ses_turn_on ${1:\\$SES}",
+    "description": "[QSCAT] ses_turn_on"
+  },
+  "qscat: wheel_limits_off": {
+    "prefix": "wheel_limits_off",
+    "body": "wheel_limits_off",
+    "description": "[QSCAT] wheel_limits_off"
+  },
+  "qscat: dcr_61": {
+    "prefix": "dcr_61",
+    "body": "dcr_61",
+    "description": "[QSCAT] dcr_61"
+  },
+  "qscat: mmc_alarm": {
+    "prefix": "mmc_alarm",
+    "body": "mmc_alarm",
+    "description": "[QSCAT] mmc_alarm"
+  },
+  "qscat: main_9": {
+    "prefix": "main_9",
+    "body": "main_9",
+    "description": "[QSCAT] main_9"
+  },
+  "qscat: qscat_fswload": {
+    "prefix": "qscat_fswload",
+    "body": "qscat_fswload ${1:\\$image}, ${2:\\$seg}",
+    "description": "[QSCAT] qscat_fswload"
+  },
+  "qscat: htr_py_ps_dsbl": {
+    "prefix": "htr_py_ps_dsbl",
+    "body": "htr_py_ps_dsbl",
+    "description": "[QSCAT] htr_py_ps_dsbl"
+  },
+  "qscat: bad_adsol_page": {
+    "prefix": "bad_adsol_page",
+    "body": "bad_adsol_page",
+    "description": "[QSCAT] bad_adsol_page"
+  },
+  "qscat: htr_pps_rs_enbl": {
+    "prefix": "htr_pps_rs_enbl",
+    "body": "htr_pps_rs_enbl",
+    "description": "[QSCAT] htr_pps_rs_enbl"
+  },
+  "qscat: ssr_exp_frames": {
+    "prefix": "ssr_exp_frames",
+    "body": "ssr_exp_frames ${1:\\$input_seg}",
+    "description": "[QSCAT] ssr_exp_frames"
+  },
+  "qscat: master_eor": {
+    "prefix": "master_eor",
+    "body": "master_eor",
+    "description": "[QSCAT] master_eor"
+  },
+  "qscat: main_28": {
+    "prefix": "main_28",
+    "body": "main_28",
+    "description": "[QSCAT] main_28"
+  },
+  "qscat: htr_b1_pr_enbl": {
+    "prefix": "htr_b1_pr_enbl",
+    "body": "htr_b1_pr_enbl",
+    "description": "[QSCAT] htr_b1_pr_enbl"
+  },
+  "qscat: ses_turn_off": {
+    "prefix": "ses_turn_off",
+    "body": "ses_turn_off",
+    "description": "[QSCAT] ses_turn_off"
+  },
+  "qscat: main_0": {
+    "prefix": "main_0",
+    "body": "main_0",
+    "description": "[QSCAT] main_0"
+  },
+  "qscat: htr_catbed_on": {
+    "prefix": "htr_catbed_on",
+    "body": "htr_catbed_on ${1:\\$cb}",
+    "description": "[QSCAT] htr_catbed_on"
+  },
+  "qscat: main_26": {
+    "prefix": "main_26",
+    "body": "main_26",
+    "description": "[QSCAT] main_26"
+  },
+  "qscat: smb_loads_off": {
+    "prefix": "smb_loads_off",
+    "body": "smb_loads_off",
+    "description": "[QSCAT] smb_loads_off"
+  },
+  "qscat: check_connection": {
+    "prefix": "check_connection",
+    "body": "check_connection ${1:\\$ALERT}, ${2:\\$LOS}",
+    "description": "[QSCAT] check_connection"
+  },
+  "qscat: qs_genops_752": {
+    "prefix": "qs_genops_752",
+    "body": "qs_genops_752",
+    "description": "[QSCAT] qs_genops_752"
+  },
+  "qscat: telem_fmt": {
+    "prefix": "telem_fmt",
+    "body": "telem_fmt ${1:\\$new_fmt}",
+    "description": "[QSCAT] telem_fmt"
+  },
+  "qscat: quikscatops_95": {
+    "prefix": "quikscatops_95",
+    "body": "quikscatops_95",
+    "description": "[QSCAT] quikscatops_95"
+  },
+  "qscat: main_7": {
+    "prefix": "main_7",
+    "body": "main_7",
+    "description": "[QSCAT] main_7"
+  },
+  "qscat: main_21": {
+    "prefix": "main_21",
+    "body": "main_21",
+    "description": "[QSCAT] main_21"
+  },
+  "qscat: vband_release": {
+    "prefix": "vband_release",
+    "body": "vband_release",
+    "description": "[QSCAT] vband_release"
+  },
+  "qscat: quikscatops_115": {
+    "prefix": "quikscatops_115",
+    "body": "quikscatops_115",
+    "description": "[QSCAT] quikscatops_115"
+  },
+  "qscat: hsc_dsu_ssr": {
+    "prefix": "hsc_dsu_ssr",
+    "body": "hsc_dsu_ssr",
+    "description": "[QSCAT] hsc_dsu_ssr"
+  },
+  "qscat: smb_turn_on": {
+    "prefix": "smb_turn_on",
+    "body": "smb_turn_on ${1:\\$PCU}",
+    "description": "[QSCAT] smb_turn_on"
+  },
+  "qscat: main_14": {
+    "prefix": "main_14",
+    "body": "main_14",
+    "description": "[QSCAT] main_14"
+  },
+  "qscat: hsc_dsu_dump": {
+    "prefix": "hsc_dsu_dump",
+    "body": "hsc_dsu_dump ${1:\\$tx}",
+    "description": "[QSCAT] hsc_dsu_dump"
+  },
+  "qscat: main_13": {
+    "prefix": "main_13",
+    "body": "main_13",
+    "description": "[QSCAT] main_13"
+  },
+  "qscat: htr_pps_ps_enbl": {
+    "prefix": "htr_pps_ps_enbl",
+    "body": "htr_pps_ps_enbl",
+    "description": "[QSCAT] htr_pps_ps_enbl"
+  },
+  "qscat: htr_py_rs_dsbl": {
+    "prefix": "htr_py_rs_dsbl",
+    "body": "htr_py_rs_dsbl",
+    "description": "[QSCAT] htr_py_rs_dsbl"
+  },
+  "qscat: save_filenames": {
+    "prefix": "save_filenames",
+    "body": "save_filenames",
+    "description": "[QSCAT] save_filenames"
+  },
+  "qscat: qs_dcr_86": {
+    "prefix": "qs_dcr_86",
+    "body": "qs_dcr_86",
+    "description": "[QSCAT] qs_dcr_86"
+  },
+  "qscat: set_limits": {
+    "prefix": "set_limits",
+    "body": "set_limits ${1:\\$check_state}",
+    "description": "[QSCAT] set_limits"
+  },
+  "qscat: pps_turn_off": {
+    "prefix": "pps_turn_off",
+    "body": "pps_turn_off ${1:\\$PPS}",
+    "description": "[QSCAT] pps_turn_off"
+  },
+  "qscat: pps_turn_on": {
+    "prefix": "pps_turn_on",
+    "body": "pps_turn_on ${1:\\$PPS}",
+    "description": "[QSCAT] pps_turn_on"
+  },
+  "qscat: qs_dcr_126": {
+    "prefix": "qs_dcr_126",
+    "body": "qs_dcr_126",
+    "description": "[QSCAT] qs_dcr_126"
+  },
+  "qscat: htr_st2_pr_dsbl": {
+    "prefix": "htr_st2_pr_dsbl",
+    "body": "htr_st2_pr_dsbl",
+    "description": "[QSCAT] htr_st2_pr_dsbl"
+  },
+  "qscat: hzb_turn_off": {
+    "prefix": "hzb_turn_off",
+    "body": "hzb_turn_off",
+    "description": "[QSCAT] hzb_turn_off"
+  },
+  "qscat: check_health": {
+    "prefix": "check_health",
+    "body": "check_health",
+    "description": "[QSCAT] check_health"
+  },
+  "qscat: ssr_fill": {
+    "prefix": "ssr_fill",
+    "body": "ssr_fill",
+    "description": "[QSCAT] ssr_fill"
+  },
+  "qscat: update_db_eor": {
+    "prefix": "update_db_eor",
+    "body": "update_db_eor",
+    "description": "[QSCAT] update_db_eor"
+  },
+  "qscat: htr_b1_sr_enbl": {
+    "prefix": "htr_b1_sr_enbl",
+    "body": "htr_b1_sr_enbl",
+    "description": "[QSCAT] htr_b1_sr_enbl"
+  },
+  "qscat: qs_1553_msg_cnt": {
+    "prefix": "qs_1553_msg_cnt",
+    "body": "qs_1553_msg_cnt",
+    "description": "[QSCAT] qs_1553_msg_cnt"
+  },
+  "qscat: qs_dcr_130": {
+    "prefix": "qs_dcr_130",
+    "body": "qs_dcr_130",
+    "description": "[QSCAT] qs_dcr_130"
+  },
+  "qscat: table11_05": {
+    "prefix": "table11_05",
+    "body": "table11_05",
+    "description": "[QSCAT] table11_05"
+  },
+  "qscat: qs_dcr_90": {
+    "prefix": "qs_dcr_90",
+    "body": "qs_dcr_90",
+    "description": "[QSCAT] qs_dcr_90"
+  },
+  "qscat: nbtx1_select_ant": {
+    "prefix": "nbtx1_select_ant",
+    "body": "nbtx1_select_ant ${1:\\$antenna}",
+    "description": "[QSCAT] nbtx1_select_ant"
+  },
+  "qscat: qs_dcr_97": {
+    "prefix": "qs_dcr_97",
+    "body": "qs_dcr_97",
+    "description": "[QSCAT] qs_dcr_97"
+  },
+  "qscat: htr_st2_rd_dsbl": {
+    "prefix": "htr_st2_rd_dsbl",
+    "body": "htr_st2_rd_dsbl",
+    "description": "[QSCAT] htr_st2_rd_dsbl"
+  },
+  "qscat: pcu_vt_level": {
+    "prefix": "pcu_vt_level",
+    "body": "pcu_vt_level ${1:\\$pcu}, ${2:\\$level}",
+    "description": "[QSCAT] pcu_vt_level"
+  },
+  "qscat: xfer_files": {
+    "prefix": "xfer_files",
+    "body": "xfer_files",
+    "description": "[QSCAT] xfer_files"
+  },
+  "qscat: table11_02": {
+    "prefix": "table11_02",
+    "body": "table11_02",
+    "description": "[QSCAT] table11_02"
+  },
+  "qscat: tx_quik_off": {
+    "prefix": "tx_quik_off",
+    "body": "tx_quik_off",
+    "description": "[QSCAT] tx_quik_off"
+  },
+  "qscat: ssr_turn_off": {
+    "prefix": "ssr_turn_off",
+    "body": "ssr_turn_off",
+    "description": "[QSCAT] ssr_turn_off"
+  },
+  "qscat: scat_recovery": {
+    "prefix": "scat_recovery",
+    "body": "scat_recovery",
+    "description": "[QSCAT] scat_recovery"
+  },
+  "qscat: qs_dcr_99": {
+    "prefix": "qs_dcr_99",
+    "body": "qs_dcr_99",
+    "description": "[QSCAT] qs_dcr_99"
+  },
+  "qscat: gps_turn_off": {
+    "prefix": "gps_turn_off",
+    "body": "gps_turn_off",
+    "description": "[QSCAT] gps_turn_off"
+  },
+  "qscat: t32_1d7_no_enbl": {
+    "prefix": "t32_1d7_no_enbl",
+    "body": "t32_1d7_no_enbl",
+    "description": "[QSCAT] t32_1d7_no_enbl"
+  },
+  "qscat: ssr_act_frames": {
+    "prefix": "ssr_act_frames",
+    "body": "ssr_act_frames",
+    "description": "[QSCAT] ssr_act_frames"
+  },
+  "qscat: twta_turn_on": {
+    "prefix": "twta_turn_on",
+    "body": "twta_turn_on ${1:\\$TWT}",
+    "description": "[QSCAT] twta_turn_on"
+  },
+  "qscat: dtu_dsu_turn_on": {
+    "prefix": "dtu_dsu_turn_on",
+    "body": "dtu_dsu_turn_on ${1:\\$dtudsu}",
+    "description": "[QSCAT] dtu_dsu_turn_on"
+  },
+  "qscat: htr_mx_rs_enbl": {
+    "prefix": "htr_mx_rs_enbl",
+    "body": "htr_mx_rs_enbl",
+    "description": "[QSCAT] htr_mx_rs_enbl"
+  },
+  "qscat: ses_reset_dsbl": {
+    "prefix": "ses_reset_dsbl",
+    "body": "ses_reset_dsbl",
+    "description": "[QSCAT] ses_reset_dsbl"
+  },
+  "qscat: dsu_dump": {
+    "prefix": "dsu_dump",
+    "body": "dsu_dump ${1:\\$dsu}",
+    "description": "[QSCAT] dsu_dump"
+  },
+  "qscat: scpv_cond_dchg": {
+    "prefix": "scpv_cond_dchg",
+    "body": "scpv_cond_dchg",
+    "description": "[QSCAT] scpv_cond_dchg"
+  },
+  "qscat: emc_enbl": {
+    "prefix": "emc_enbl",
+    "body": "emc_enbl",
+    "description": "[QSCAT] emc_enbl"
+  },
+  "qscat: main_30": {
+    "prefix": "main_30",
+    "body": "main_30",
+    "description": "[QSCAT] main_30"
+  },
+  "qscat: main_37": {
+    "prefix": "main_37",
+    "body": "main_37",
+    "description": "[QSCAT] main_37"
+  },
+  "qscat: auto_watchdog": {
+    "prefix": "auto_watchdog",
+    "body": "auto_watchdog",
+    "description": "[QSCAT] auto_watchdog"
+  },
+  "qscat: qs_dcr_102": {
+    "prefix": "qs_dcr_102",
+    "body": "qs_dcr_102",
+    "description": "[QSCAT] qs_dcr_102"
+  },
+  "qscat: dcr_77": {
+    "prefix": "dcr_77",
+    "body": "dcr_77",
+    "description": "[QSCAT] dcr_77"
+  },
+  "qscat: scat_hsk_switch": {
+    "prefix": "scat_hsk_switch",
+    "body": "scat_hsk_switch",
+    "description": "[QSCAT] scat_hsk_switch"
+  },
+  "qscat: rw_matrix_select": {
+    "prefix": "rw_matrix_select",
+    "body": "rw_matrix_select",
+    "description": "[QSCAT] rw_matrix_select"
+  },
+  "qscat: sync_oasis": {
+    "prefix": "sync_oasis",
+    "body": "sync_oasis",
+    "description": "[QSCAT] sync_oasis"
+  },
+  "qscat: ssr_on_red_side": {
+    "prefix": "ssr_on_red_side",
+    "body": "ssr_on_red_side ${1:\\$ssr}",
+    "description": "[QSCAT] ssr_on_red_side"
+  },
+  "qscat: pcu_ki_select": {
+    "prefix": "pcu_ki_select",
+    "body": "pcu_ki_select ${1:\\$pcu}",
+    "description": "[QSCAT] pcu_ki_select"
+  },
+  "qscat: eor_setup": {
+    "prefix": "eor_setup",
+    "body": "eor_setup",
+    "description": "[QSCAT] eor_setup"
+  },
+  "qscat: htr_mx_ps_enbl": {
+    "prefix": "htr_mx_ps_enbl",
+    "body": "htr_mx_ps_enbl",
+    "description": "[QSCAT] htr_mx_ps_enbl"
+  },
+  "qscat: plb_turn_off": {
+    "prefix": "plb_turn_off",
+    "body": "plb_turn_off ${1:\\$PCU}",
+    "description": "[QSCAT] plb_turn_off"
+  },
+  "qscat: qs_dcr_94": {
+    "prefix": "qs_dcr_94",
+    "body": "qs_dcr_94",
+    "description": "[QSCAT] qs_dcr_94"
+  },
+  "qscat: qs_ps_1268": {
+    "prefix": "qs_ps_1268",
+    "body": "qs_ps_1268",
+    "description": "[QSCAT] qs_ps_1268"
+  },
+  "qscat: ssr_playback_on": {
+    "prefix": "ssr_playback_on",
+    "body": "ssr_playback_on ${1:\\$ssr}, ${2:\\$partition}, ${3:\\$segment}",
+    "description": "[QSCAT] ssr_playback_on"
+  },
+  "qscat: table11_01": {
+    "prefix": "table11_01",
+    "body": "table11_01",
+    "description": "[QSCAT] table11_01"
+  },
+  "qscat: st2_patch1_1553": {
+    "prefix": "st2_patch1_1553",
+    "body": "st2_patch1_1553 ${1:\\$burn}",
+    "description": "[QSCAT] st2_patch1_1553"
+  },
+  "qscat: htr_dt_rd_enbl": {
+    "prefix": "htr_dt_rd_enbl",
+    "body": "htr_dt_rd_enbl",
+    "description": "[QSCAT] htr_dt_rd_enbl"
+  },
+  "qscat: table11_06": {
+    "prefix": "table11_06",
+    "body": "table11_06",
+    "description": "[QSCAT] table11_06"
+  },
+  "qscat: qs_dcr_93": {
+    "prefix": "qs_dcr_93",
+    "body": "qs_dcr_93",
+    "description": "[QSCAT] qs_dcr_93"
+  },
+  "qscat: cds_turn_on": {
+    "prefix": "cds_turn_on",
+    "body": "cds_turn_on ${1:\\$CDS}",
+    "description": "[QSCAT] cds_turn_on"
+  },
+  "qscat: scat_quik_on": {
+    "prefix": "scat_quik_on",
+    "body": "scat_quik_on ${1:\\$string}",
+    "description": "[QSCAT] scat_quik_on"
+  },
+  "qscat: cds_tmon_enbl": {
+    "prefix": "cds_tmon_enbl",
+    "body": "cds_tmon_enbl",
+    "description": "[QSCAT] cds_tmon_enbl"
+  },
+  "qscat: table11_08": {
+    "prefix": "table11_08",
+    "body": "table11_08",
+    "description": "[QSCAT] table11_08"
+  },
+  "qscat: rad_par_update": {
+    "prefix": "rad_par_update",
+    "body": "rad_par_update ${1:\\$PAR}",
+    "description": "[QSCAT] rad_par_update"
+  },
+  "qscat: gps_turn_on": {
+    "prefix": "gps_turn_on",
+    "body": "gps_turn_on ${1:\\$gps}, ${2:\\$gpsfa}",
+    "description": "[QSCAT] gps_turn_on"
+  },
+  "qscat: scat_wdt_enbl": {
+    "prefix": "scat_wdt_enbl",
+    "body": "scat_wdt_enbl",
+    "description": "[QSCAT] scat_wdt_enbl"
+  },
+  "qscat: htr_px_rs_dsbl": {
+    "prefix": "htr_px_rs_dsbl",
+    "body": "htr_px_rs_dsbl",
+    "description": "[QSCAT] htr_px_rs_dsbl"
+  },
+  "qscat: htr_thv_rd_dsbl": {
+    "prefix": "htr_thv_rd_dsbl",
+    "body": "htr_thv_rd_dsbl",
+    "description": "[QSCAT] htr_thv_rd_dsbl"
+  },
+  "qscat: htr_cds_ps_enbl": {
+    "prefix": "htr_cds_ps_enbl",
+    "body": "htr_cds_ps_enbl",
+    "description": "[QSCAT] htr_cds_ps_enbl"
+  },
+  "qscat: failure_to_sep": {
+    "prefix": "failure_to_sep",
+    "body": "failure_to_sep",
+    "description": "[QSCAT] failure_to_sep"
+  },
+  "qscat: hsc_comm_check": {
+    "prefix": "hsc_comm_check",
+    "body": "hsc_comm_check ${1:\\$tx}",
+    "description": "[QSCAT] hsc_comm_check"
+  },
+  "qscat: htr_st1_rd_dsbl": {
+    "prefix": "htr_st1_rd_dsbl",
+    "body": "htr_st1_rd_dsbl",
+    "description": "[QSCAT] htr_st1_rd_dsbl"
+  },
+  "qscat: main_34": {
+    "prefix": "main_34",
+    "body": "main_34",
+    "description": "[QSCAT] main_34"
+  },
+  "qscat: quacr_391c_feb": {
+    "prefix": "quacr_391c_feb",
+    "body": "quacr_391c_feb",
+    "description": "[QSCAT] quacr_391c_feb"
+  },
+  "qscat: qscat_csmencode": {
+    "prefix": "qscat_csmencode",
+    "body": "qscat_csmencode ${1:\\$file}, ${2:\\$type}",
+    "description": "[QSCAT] qscat_csmencode"
+  },
+  "qscat: switch_cdu": {
+    "prefix": "switch_cdu",
+    "body": "switch_cdu",
+    "description": "[QSCAT] switch_cdu"
+  },
+  "qscat: qs_dcr_108": {
+    "prefix": "qs_dcr_108",
+    "body": "qs_dcr_108",
+    "description": "[QSCAT] qs_dcr_108"
+  },
+  "qscat: scpv_connect": {
+    "prefix": "scpv_connect",
+    "body": "scpv_connect",
+    "description": "[QSCAT] scpv_connect"
+  },
+  "qscat: main_33": {
+    "prefix": "main_33",
+    "body": "main_33",
+    "description": "[QSCAT] main_33"
+  },
+  "qscat: qs_ps_1522": {
+    "prefix": "qs_ps_1522",
+    "body": "qs_ps_1522",
+    "description": "[QSCAT] qs_ps_1522"
+  },
+  "qscat: switch_format": {
+    "prefix": "switch_format",
+    "body": "switch_format",
+    "description": "[QSCAT] switch_format"
+  },
+  "qscat: qs_dcr_106": {
+    "prefix": "qs_dcr_106",
+    "body": "qs_dcr_106",
+    "description": "[QSCAT] qs_dcr_106"
+  },
+  "qscat: wb_rf_switch": {
+    "prefix": "wb_rf_switch",
+    "body": "wb_rf_switch ${1:\\$wbtx}",
+    "description": "[QSCAT] wb_rf_switch"
+  },
+  "qscat: hzb_loads_off": {
+    "prefix": "hzb_loads_off",
+    "body": "hzb_loads_off",
+    "description": "[QSCAT] hzb_loads_off"
+  },
+  "qscat: htr_px_ps_dsbl": {
+    "prefix": "htr_px_ps_dsbl",
+    "body": "htr_px_ps_dsbl",
+    "description": "[QSCAT] htr_px_ps_dsbl"
+  },
+  "qscat: htr_cds_rs_enbl": {
+    "prefix": "htr_cds_rs_enbl",
+    "body": "htr_cds_rs_enbl",
+    "description": "[QSCAT] htr_cds_rs_enbl"
+  },
+  "qscat: csm_delete": {
+    "prefix": "csm_delete",
+    "body": "csm_delete ${1:\\$index}, ${2:\\$count}",
+    "description": "[QSCAT] csm_delete"
+  },
+  "qscat: htr_flb_rd_enbl": {
+    "prefix": "htr_flb_rd_enbl",
+    "body": "htr_flb_rd_enbl",
+    "description": "[QSCAT] htr_flb_rd_enbl"
+  },
+  "qscat: cds_turn_off": {
+    "prefix": "cds_turn_off",
+    "body": "cds_turn_off",
+    "description": "[QSCAT] cds_turn_off"
+  },
+  "qscat: neb_loads_off": {
+    "prefix": "neb_loads_off",
+    "body": "neb_loads_off",
+    "description": "[QSCAT] neb_loads_off"
+  },
+  "qscat: qs_dcr_101": {
+    "prefix": "qs_dcr_101",
+    "body": "qs_dcr_101",
+    "description": "[QSCAT] qs_dcr_101"
+  },
+  "qscat: dcr_74": {
+    "prefix": "dcr_74",
+    "body": "dcr_74",
+    "description": "[QSCAT] dcr_74"
+  },
+  "qscat: cdsa_config": {
+    "prefix": "cdsa_config",
+    "body": "cdsa_config",
+    "description": "[QSCAT] cdsa_config"
+  },
+  "qscat: htr_flb_pr_enbl": {
+    "prefix": "htr_flb_pr_enbl",
+    "body": "htr_flb_pr_enbl",
+    "description": "[QSCAT] htr_flb_pr_enbl"
+  },
+  "qscat: nbtx_turn_off": {
+    "prefix": "nbtx_turn_off",
+    "body": "nbtx_turn_off",
+    "description": "[QSCAT] nbtx_turn_off"
+  },
+  "qscat: htr_my_ps_enbl": {
+    "prefix": "htr_my_ps_enbl",
+    "body": "htr_my_ps_enbl",
+    "description": "[QSCAT] htr_my_ps_enbl"
+  },
+  "qscat: gps_stale_page": {
+    "prefix": "gps_stale_page",
+    "body": "gps_stale_page",
+    "description": "[QSCAT] gps_stale_page"
+  },
+  "qscat: htr_catbed12_on": {
+    "prefix": "htr_catbed12_on",
+    "body": "htr_catbed12_on",
+    "description": "[QSCAT] htr_catbed12_on"
+  },
+  "qscat: hot_handover": {
+    "prefix": "hot_handover",
+    "body": "hot_handover ${1:\\$station_id}",
+    "description": "[QSCAT] hot_handover"
+  },
+  "qscat: update_db_sol10": {
+    "prefix": "update_db_sol10",
+    "body": "update_db_sol10",
+    "description": "[QSCAT] update_db_sol10"
+  },
+  "qscat: master": {
+    "prefix": "master",
+    "body": "master",
+    "description": "[QSCAT] master"
+  },
+  "qscat: scat_fst_acq": {
+    "prefix": "scat_fst_acq",
+    "body": "scat_fst_acq",
+    "description": "[QSCAT] scat_fst_acq"
+  },
+  "qscat: sas_tmon_enbl": {
+    "prefix": "sas_tmon_enbl",
+    "body": "sas_tmon_enbl",
+    "description": "[QSCAT] sas_tmon_enbl"
+  },
+  "qscat: htr_st1_pr_dsbl": {
+    "prefix": "htr_st1_pr_dsbl",
+    "body": "htr_st1_pr_dsbl",
+    "description": "[QSCAT] htr_st1_pr_dsbl"
+  },
+  "qscat: htr_b2_sr_enbl": {
+    "prefix": "htr_b2_sr_enbl",
+    "body": "htr_b2_sr_enbl",
+    "description": "[QSCAT] htr_b2_sr_enbl"
+  },
+  "qscat: pcu_vt_select": {
+    "prefix": "pcu_vt_select",
+    "body": "pcu_vt_select ${1:\\$pcu}",
+    "description": "[QSCAT] pcu_vt_select"
+  },
+  "qscat: main_4": {
+    "prefix": "main_4",
+    "body": "main_4",
+    "description": "[QSCAT] main_4"
+  },
+  "qscat: qs_1553_msg_que": {
+    "prefix": "qs_1553_msg_que",
+    "body": "qs_1553_msg_que",
+    "description": "[QSCAT] qs_1553_msg_que"
+  },
+  "qscat: main_22": {
+    "prefix": "main_22",
+    "body": "main_22",
+    "description": "[QSCAT] main_22"
+  },
+  "qscat: hsc_ssr_dump": {
+    "prefix": "hsc_ssr_dump",
+    "body": "hsc_ssr_dump",
+    "description": "[QSCAT] hsc_ssr_dump"
+  },
+  "qscat: sas_turn_off": {
+    "prefix": "sas_turn_off",
+    "body": "sas_turn_off",
+    "description": "[QSCAT] sas_turn_off"
+  },
+  "qscat: main_3": {
+    "prefix": "main_3",
+    "body": "main_3",
+    "description": "[QSCAT] main_3"
+  },
+  "qscat: main_25": {
+    "prefix": "main_25",
+    "body": "main_25",
+    "description": "[QSCAT] main_25"
+  },
+  "qscat: adcs_point": {
+    "prefix": "adcs_point",
+    "body": "adcs_point ${1:\\$AXIS}",
+    "description": "[QSCAT] adcs_point"
+  },
+  "qscat: twta_prf_switch": {
+    "prefix": "twta_prf_switch",
+    "body": "twta_prf_switch",
+    "description": "[QSCAT] twta_prf_switch"
+  },
+  "qscat: retrieve_setup": {
+    "prefix": "retrieve_setup",
+    "body": "retrieve_setup ${1:\\$frame}",
+    "description": "[QSCAT] retrieve_setup"
+  },
+  "qscat: sas_spin_vfy2": {
+    "prefix": "sas_spin_vfy2",
+    "body": "sas_spin_vfy2 ${1:\\$SAS}, ${2:\\$RPM}",
+    "description": "[QSCAT] sas_spin_vfy2"
+  },
+  "qscat: qs_msnops_246": {
+    "prefix": "qs_msnops_246",
+    "body": "qs_msnops_246",
+    "description": "[QSCAT] qs_msnops_246"
+  },
+  "qscat: main_10": {
+    "prefix": "main_10",
+    "body": "main_10",
+    "description": "[QSCAT] main_10"
+  },
+  "qscat: htr_my_rs_enbl": {
+    "prefix": "htr_my_rs_enbl",
+    "body": "htr_my_rs_enbl",
+    "description": "[QSCAT] htr_my_rs_enbl"
+  },
+  "qscat: twta_turn_off": {
+    "prefix": "twta_turn_off",
+    "body": "twta_turn_off",
+    "description": "[QSCAT] twta_turn_off"
+  },
+  "qscat: quacr_391c_nov": {
+    "prefix": "quacr_391c_nov",
+    "body": "quacr_391c_nov",
+    "description": "[QSCAT] quacr_391c_nov"
+  },
+  "qscat: htr_b2_pr_enbl": {
+    "prefix": "htr_b2_pr_enbl",
+    "body": "htr_b2_pr_enbl",
+    "description": "[QSCAT] htr_b2_pr_enbl"
+  },
+  "qscat: htr_thv_pr_dsbl": {
+    "prefix": "htr_thv_pr_dsbl",
+    "body": "htr_thv_pr_dsbl",
+    "description": "[QSCAT] htr_thv_pr_dsbl"
+  },
+  "qscat: cbm_dump": {
+    "prefix": "cbm_dump",
+    "body": "cbm_dump",
+    "description": "[QSCAT] cbm_dump"
+  },
+  "qscat: dcr_88": {
+    "prefix": "dcr_88",
+    "body": "dcr_88",
+    "description": "[QSCAT] dcr_88"
+  },
+  "qscat: st_get_centroid": {
+    "prefix": "st_get_centroid",
+    "body": "st_get_centroid ${1:\\$star}",
+    "description": "[QSCAT] st_get_centroid"
+  },
+  "qscat: qs_1553_clear": {
+    "prefix": "qs_1553_clear",
+    "body": "qs_1553_clear",
+    "description": "[QSCAT] qs_1553_clear"
+  },
+  "qscat: main_17": {
+    "prefix": "main_17",
+    "body": "main_17",
+    "description": "[QSCAT] main_17"
+  },
+  "qscat: scat_turn_off": {
+    "prefix": "scat_turn_off",
+    "body": "scat_turn_off",
+    "description": "[QSCAT] scat_turn_off"
+  },
+  "qscat: dcr_57": {
+    "prefix": "dcr_57",
+    "body": "dcr_57",
+    "description": "[QSCAT] dcr_57"
+  },
+  "qscat: htr_dt_pr_enbl": {
+    "prefix": "htr_dt_pr_enbl",
+    "body": "htr_dt_pr_enbl",
+    "description": "[QSCAT] htr_dt_pr_enbl"
+  },
+  "qscat: table_dump": {
+    "prefix": "table_dump",
+    "body": "table_dump ${1:\\$table}",
+    "description": "[QSCAT] table_dump"
+  },
+  "qscat: main_19": {
+    "prefix": "main_19",
+    "body": "main_19",
+    "description": "[QSCAT] main_19"
+  },
+  "qscat: htr_pps_mu_dsbl": {
+    "prefix": "htr_pps_mu_dsbl",
+    "body": "htr_pps_mu_dsbl",
+    "description": "[QSCAT] htr_pps_mu_dsbl"
+  },
+  "qscat: pcu_ki_level": {
+    "prefix": "pcu_ki_level",
+    "body": "pcu_ki_level ${1:\\$pcu}, ${2:\\$level}",
+    "description": "[QSCAT] pcu_ki_level"
+  },
+  "qscat: data_present": {
+    "prefix": "data_present",
+    "body": "data_present ${1:\\$ALERT}, ${2:\\$LOS}",
+    "description": "[QSCAT] data_present"
+  },
+  "qscat: table11_10": {
+    "prefix": "table11_10",
+    "body": "table11_10",
+    "description": "[QSCAT] table11_10"
+  },
+  "qscat: qs_dcr_125": {
+    "prefix": "qs_dcr_125",
+    "body": "qs_dcr_125",
+    "description": "[QSCAT] qs_dcr_125"
+  },
+  "qscat: master_mor": {
+    "prefix": "master_mor",
+    "body": "master_mor",
+    "description": "[QSCAT] master_mor"
+  },
+  "qscat: smb_turn_off": {
+    "prefix": "smb_turn_off",
+    "body": "smb_turn_off",
+    "description": "[QSCAT] smb_turn_off"
+  },
+  "qscat: macro_list": {
+    "prefix": "macro_list",
+    "body": "macro_list",
+    "description": "[QSCAT] macro_list"
+  },
+  "qscat: hzb_turn_on": {
+    "prefix": "hzb_turn_on",
+    "body": "hzb_turn_on",
+    "description": "[QSCAT] hzb_turn_on"
+  },
+  "qscat: dcr_75": {
+    "prefix": "dcr_75",
+    "body": "dcr_75",
+    "description": "[QSCAT] dcr_75"
+  },
+  "qscat: scat_mod_off": {
+    "prefix": "scat_mod_off",
+    "body": "scat_mod_off",
+    "description": "[QSCAT] scat_mod_off"
+  },
+  "qscat: nbtx_turn_on": {
+    "prefix": "nbtx_turn_on",
+    "body": "nbtx_turn_on ${1:\\$nbtx}",
+    "description": "[QSCAT] nbtx_turn_on"
+  },
+  "qscat: qs_dcr_107": {
+    "prefix": "qs_dcr_107",
+    "body": "qs_dcr_107",
+    "description": "[QSCAT] qs_dcr_107"
+  },
+  "qscat: cmd_postcheck": {
+    "prefix": "cmd_postcheck",
+    "body": "cmd_postcheck",
+    "description": "[QSCAT] cmd_postcheck"
+  },
+  "qscat: pcu_config": {
+    "prefix": "pcu_config",
+    "body": "pcu_config ${1:\\$PCU}",
+    "description": "[QSCAT] pcu_config"
+  },
+  "qscat: htr_b2_sr_dsbl": {
+    "prefix": "htr_b2_sr_dsbl",
+    "body": "htr_b2_sr_dsbl",
+    "description": "[QSCAT] htr_b2_sr_dsbl"
+  },
+  "qscat: neb_turn_on": {
+    "prefix": "neb_turn_on",
+    "body": "neb_turn_on ${1:\\$PCU}, ${2:\\$CPU}",
+    "description": "[QSCAT] neb_turn_on"
+  },
+  "qscat: htr_st1_pr_enbl": {
+    "prefix": "htr_st1_pr_enbl",
+    "body": "htr_st1_pr_enbl",
+    "description": "[QSCAT] htr_st1_pr_enbl"
+  },
+  "qscat: twta_vfy": {
+    "prefix": "twta_vfy",
+    "body": "twta_vfy ${1:\\$TWT}",
+    "description": "[QSCAT] twta_vfy"
+  },
+  "qscat: sta_cmd_test": {
+    "prefix": "sta_cmd_test",
+    "body": "sta_cmd_test",
+    "description": "[QSCAT] sta_cmd_test"
+  },
+  "qscat: main_32": {
+    "prefix": "main_32",
+    "body": "main_32",
+    "description": "[QSCAT] main_32"
+  },
+  "qscat: st_turn_off": {
+    "prefix": "st_turn_off",
+    "body": "st_turn_off ${1:\\$star}",
+    "description": "[QSCAT] st_turn_off"
+  },
+  "qscat: sep_turn_on": {
+    "prefix": "sep_turn_on",
+    "body": "sep_turn_on ${1:\\$sep}",
+    "description": "[QSCAT] sep_turn_on"
+  },
+  "qscat: main_35": {
+    "prefix": "main_35",
+    "body": "main_35",
+    "description": "[QSCAT] main_35"
+  },
+  "qscat: htr_my_ps_dsbl": {
+    "prefix": "htr_my_ps_dsbl",
+    "body": "htr_my_ps_dsbl",
+    "description": "[QSCAT] htr_my_ps_dsbl"
+  },
+  "qscat: scc_turn_on": {
+    "prefix": "scc_turn_on",
+    "body": "scc_turn_on ${1:\\$CPU}",
+    "description": "[QSCAT] scc_turn_on"
+  },
+  "qscat: comm_terminate": {
+    "prefix": "comm_terminate",
+    "body": "comm_terminate",
+    "description": "[QSCAT] comm_terminate"
+  },
+  "qscat: htr_catbed_off": {
+    "prefix": "htr_catbed_off",
+    "body": "htr_catbed_off",
+    "description": "[QSCAT] htr_catbed_off"
+  },
+  "qscat: htr_flb_pr_dsbl": {
+    "prefix": "htr_flb_pr_dsbl",
+    "body": "htr_flb_pr_dsbl",
+    "description": "[QSCAT] htr_flb_pr_dsbl"
+  },
+  "qscat: scpv_cond_flt": {
+    "prefix": "scpv_cond_flt",
+    "body": "scpv_cond_flt",
+    "description": "[QSCAT] scpv_cond_flt"
+  },
+  "qscat: scat_mode": {
+    "prefix": "scat_mode",
+    "body": "scat_mode ${1:\\$mode}",
+    "description": "[QSCAT] scat_mode"
+  },
+  "qscat: bad_ces_page": {
+    "prefix": "bad_ces_page",
+    "body": "bad_ces_page",
+    "description": "[QSCAT] bad_ces_page"
+  },
+  "qscat: table11_09": {
+    "prefix": "table11_09",
+    "body": "table11_09",
+    "description": "[QSCAT] table11_09"
+  },
+  "qscat: htr_pps_mu_enbl": {
+    "prefix": "htr_pps_mu_enbl",
+    "body": "htr_pps_mu_enbl",
+    "description": "[QSCAT] htr_pps_mu_enbl"
+  },
+  "qscat: htr_dt_pr_dsbl": {
+    "prefix": "htr_dt_pr_dsbl",
+    "body": "htr_dt_pr_dsbl",
+    "description": "[QSCAT] htr_dt_pr_dsbl"
+  },
+  "qscat: check_data": {
+    "prefix": "check_data",
+    "body": "check_data",
+    "description": "[QSCAT] check_data"
+  },
+  "qscat: pcu_sasegs89": {
+    "prefix": "pcu_sasegs89",
+    "body": "pcu_sasegs89 ${1:\\$state}",
+    "description": "[QSCAT] pcu_sasegs89"
+  },
+  "qscat: htr_st_enbl": {
+    "prefix": "htr_st_enbl",
+    "body": "htr_st_enbl ${1:\\$htr}",
+    "description": "[QSCAT] htr_st_enbl"
+  },
+  "qscat: table11_07": {
+    "prefix": "table11_07",
+    "body": "table11_07",
+    "description": "[QSCAT] table11_07"
+  },
+  "qscat: update_db_mor": {
+    "prefix": "update_db_mor",
+    "body": "update_db_mor",
+    "description": "[QSCAT] update_db_mor"
+  },
+  "qscat: wheel_limits_on": {
+    "prefix": "wheel_limits_on",
+    "body": "wheel_limits_on",
+    "description": "[QSCAT] wheel_limits_on"
+  },
+  "qscat: latchvalve_open": {
+    "prefix": "latchvalve_open",
+    "body": "latchvalve_open ${1:\\$VLV}",
+    "description": "[QSCAT] latchvalve_open"
+  },
+  "qscat: qs_dcr_92": {
+    "prefix": "qs_dcr_92",
+    "body": "qs_dcr_92",
+    "description": "[QSCAT] qs_dcr_92"
+  },
+  "qscat: htr_thv_pr_enbl": {
+    "prefix": "htr_thv_pr_enbl",
+    "body": "htr_thv_pr_enbl",
+    "description": "[QSCAT] htr_thv_pr_enbl"
+  },
+  "qscat: qs_dcr_95": {
+    "prefix": "qs_dcr_95",
+    "body": "qs_dcr_95",
+    "description": "[QSCAT] qs_dcr_95"
+  },
+  "qscat: wbtx_turn_on": {
+    "prefix": "wbtx_turn_on",
+    "body": "wbtx_turn_on ${1:\\$wbtx}",
+    "description": "[QSCAT] wbtx_turn_on"
+  },
+  "qscat: plb_loads_off": {
+    "prefix": "plb_loads_off",
+    "body": "plb_loads_off",
+    "description": "[QSCAT] plb_loads_off"
+  },
+  "qscat: htr_b2_pr_dsbl": {
+    "prefix": "htr_b2_pr_dsbl",
+    "body": "htr_b2_pr_dsbl",
+    "description": "[QSCAT] htr_b2_pr_dsbl"
+  },
+  "qscat: quit": {
+    "prefix": "quit",
+    "body": "quit",
+    "description": "[QSCAT] quit"
+  },
+  "qscat: limits_switch": {
+    "prefix": "limits_switch",
+    "body": "limits_switch",
+    "description": "[QSCAT] limits_switch"
+  },
+  "qscat: plb_turn_on": {
+    "prefix": "plb_turn_on",
+    "body": "plb_turn_on ${1:\\$PCU}",
+    "description": "[QSCAT] plb_turn_on"
+  },
+  "qscat: dsu_act_frames": {
+    "prefix": "dsu_act_frames",
+    "body": "dsu_act_frames",
+    "description": "[QSCAT] dsu_act_frames"
+  },
+  "qscat: htr_my_rs_dsbl": {
+    "prefix": "htr_my_rs_dsbl",
+    "body": "htr_my_rs_dsbl",
+    "description": "[QSCAT] htr_my_rs_dsbl"
+  },
+  "qscat: reconnect_cmd": {
+    "prefix": "reconnect_cmd",
+    "body": "reconnect_cmd ${1:\\$HOWMANY}",
+    "description": "[QSCAT] reconnect_cmd"
+  },
+  "qscat: dcr_80": {
+    "prefix": "dcr_80",
+    "body": "dcr_80",
+    "description": "[QSCAT] dcr_80"
+  },
+  "qscat: qs_plusz_config": {
+    "prefix": "qs_plusz_config",
+    "body": "qs_plusz_config ${1:\\$mode}",
+    "description": "[QSCAT] qs_plusz_config"
+  },
+  "qscat: table11_11": {
+    "prefix": "table11_11",
+    "body": "table11_11",
+    "description": "[QSCAT] table11_11"
+  },
+  "qscat: qs_dcr_124": {
+    "prefix": "qs_dcr_124",
+    "body": "qs_dcr_124",
+    "description": "[QSCAT] qs_dcr_124"
+  },
+  "qscat: htr_cds_ps_dsbl": {
+    "prefix": "htr_cds_ps_dsbl",
+    "body": "htr_cds_ps_dsbl",
+    "description": "[QSCAT] htr_cds_ps_dsbl"
+  },
+  "qscat: htr_thv_rd_enbl": {
+    "prefix": "htr_thv_rd_enbl",
+    "body": "htr_thv_rd_enbl",
+    "description": "[QSCAT] htr_thv_rd_enbl"
+  },
+  "qscat: htr_px_rs_enbl": {
+    "prefix": "htr_px_rs_enbl",
+    "body": "htr_px_rs_enbl",
+    "description": "[QSCAT] htr_px_rs_enbl"
+  },
+  "qscat: main_18": {
+    "prefix": "main_18",
+    "body": "main_18",
+    "description": "[QSCAT] main_18"
+  },
+  "qscat: scat_temp_mon": {
+    "prefix": "scat_temp_mon",
+    "body": "scat_temp_mon ${1:\\$STATE}",
+    "description": "[QSCAT] scat_temp_mon"
+  },
+  "qscat: command_check": {
+    "prefix": "command_check",
+    "body": "command_check ${1:\\$cmd}, ${2:\\$cdu}",
+    "description": "[QSCAT] command_check"
+  },
+  "qscat: latchvalve_close": {
+    "prefix": "latchvalve_close",
+    "body": "latchvalve_close ${1:\\$vlv}",
+    "description": "[QSCAT] latchvalve_close"
+  },
+  "qscat: cmd_verif_switch": {
+    "prefix": "cmd_verif_switch",
+    "body": "cmd_verif_switch",
+    "description": "[QSCAT] cmd_verif_switch"
+  },
+  "qscat: utility_tasks": {
+    "prefix": "utility_tasks",
+    "body": "utility_tasks",
+    "description": "[QSCAT] utility_tasks"
+  },
+  "qscat: update_db_mmc": {
+    "prefix": "update_db_mmc",
+    "body": "update_db_mmc",
+    "description": "[QSCAT] update_db_mmc"
+  },
+  "qscat: main_16": {
+    "prefix": "main_16",
+    "body": "main_16",
+    "description": "[QSCAT] main_16"
+  },
+  "qscat: qs_update_limits": {
+    "prefix": "qs_update_limits",
+    "body": "qs_update_limits ${1:\\$mode}",
+    "description": "[QSCAT] qs_update_limits"
+  },
+  "qscat: scc_mem_scrub": {
+    "prefix": "scc_mem_scrub",
+    "body": "scc_mem_scrub ${1:\\$state}",
+    "description": "[QSCAT] scc_mem_scrub"
+  },
+  "qscat: htr_dt_rd_dsbl": {
+    "prefix": "htr_dt_rd_dsbl",
+    "body": "htr_dt_rd_dsbl",
+    "description": "[QSCAT] htr_dt_rd_dsbl"
+  },
+  "qscat: sa_deploy_main": {
+    "prefix": "sa_deploy_main",
+    "body": "sa_deploy_main",
+    "description": "[QSCAT] sa_deploy_main"
+  },
+  "qscat: main_11": {
+    "prefix": "main_11",
+    "body": "main_11",
+    "description": "[QSCAT] main_11"
+  },
+  "qscat: record_cmd": {
+    "prefix": "record_cmd",
+    "body": "record_cmd",
+    "description": "[QSCAT] record_cmd"
+  },
+  "qscat: scat_mod_on": {
+    "prefix": "scat_mod_on",
+    "body": "scat_mod_on",
+    "description": "[QSCAT] scat_mod_on"
+  },
+  "qscat: dsu_exp_frames": {
+    "prefix": "dsu_exp_frames",
+    "body": "dsu_exp_frames",
+    "description": "[QSCAT] dsu_exp_frames"
+  },
+  "qscat: main_2": {
+    "prefix": "main_2",
+    "body": "main_2",
+    "description": "[QSCAT] main_2"
+  },
+  "qscat: record_tlm": {
+    "prefix": "record_tlm",
+    "body": "record_tlm ${1:\\$time}",
+    "description": "[QSCAT] record_tlm"
+  },
+  "qscat: master_planning": {
+    "prefix": "master_planning",
+    "body": "master_planning",
+    "description": "[QSCAT] master_planning"
+  },
+  "qscat: main_24": {
+    "prefix": "main_24",
+    "body": "main_24",
+    "description": "[QSCAT] main_24"
+  },
+  "qscat: master_mmc": {
+    "prefix": "master_mmc",
+    "body": "master_mmc",
+    "description": "[QSCAT] master_mmc"
+  },
+  "qscat: ssr_playback_off": {
+    "prefix": "ssr_playback_off",
+    "body": "ssr_playback_off",
+    "description": "[QSCAT] ssr_playback_off"
+  },
+  "qscat: st1_patch1_1553": {
+    "prefix": "st1_patch1_1553",
+    "body": "st1_patch1_1553 ${1:\\$burn}",
+    "description": "[QSCAT] st1_patch1_1553"
+  },
+  "qscat: cmd_precheck": {
+    "prefix": "cmd_precheck",
+    "body": "cmd_precheck ${1:\\$num_commands}",
+    "description": "[QSCAT] cmd_precheck"
+  },
+  "qscat: htr_cds_rs_dsbl": {
+    "prefix": "htr_cds_rs_dsbl",
+    "body": "htr_cds_rs_dsbl",
+    "description": "[QSCAT] htr_cds_rs_dsbl"
+  },
+  "qscat: htr_flb_rd_dsbl": {
+    "prefix": "htr_flb_rd_dsbl",
+    "body": "htr_flb_rd_dsbl",
+    "description": "[QSCAT] htr_flb_rd_dsbl"
+  },
+  "qscat: htr_px_ps_enbl": {
+    "prefix": "htr_px_ps_enbl",
+    "body": "htr_px_ps_enbl",
+    "description": "[QSCAT] htr_px_ps_enbl"
+  },
+  "qscat: main_5": {
+    "prefix": "main_5",
+    "body": "main_5",
+    "description": "[QSCAT] main_5"
+  },
+  "qscat: main_23": {
+    "prefix": "main_23",
+    "body": "main_23",
+    "description": "[QSCAT] main_23"
+  },
+  "qscat: st_turn_on": {
+    "prefix": "st_turn_on",
+    "body": "st_turn_on ${1:\\$star}, ${2:\\$centroid}",
+    "description": "[QSCAT] st_turn_on"
+  },
+  "qscat: comm_setup": {
+    "prefix": "comm_setup",
+    "body": "comm_setup ${1:\\$frame}, ${2:\\$type}, ${3:\\$id}",
+    "description": "[QSCAT] comm_setup"
+  },
+  "qscat: qscat_v0205146": {
+    "prefix": "qscat_v0205146",
+    "body": "qscat_v0205146",
+    "description": "[QSCAT] qscat_v0205146"
+  },
+  "qscat: ssr_switch_tlm": {
+    "prefix": "ssr_switch_tlm",
+    "body": "ssr_switch_tlm ${1:\\$format}",
+    "description": "[QSCAT] ssr_switch_tlm"
+  },
+  "qscat: init_qsops": {
+    "prefix": "init_qsops",
+    "body": "init_qsops",
+    "description": "[QSCAT] init_qsops"
+  },
+  "qscat: ssr_on_pr_side": {
+    "prefix": "ssr_on_pr_side",
+    "body": "ssr_on_pr_side ${1:\\$ssr}",
+    "description": "[QSCAT] ssr_on_pr_side"
+  },
+  "qscat: qs_msnops_200": {
+    "prefix": "qs_msnops_200",
+    "body": "qs_msnops_200",
+    "description": "[QSCAT] qs_msnops_200"
+  },
+  "qscat: sas_spin_vfy": {
+    "prefix": "sas_spin_vfy",
+    "body": "sas_spin_vfy ${1:\\$SAS}, ${2:\\$RPM}",
+    "description": "[QSCAT] sas_spin_vfy"
+  },
+  "qscat: qs_dcr_111": {
+    "prefix": "qs_dcr_111",
+    "body": "qs_dcr_111",
+    "description": "[QSCAT] qs_dcr_111"
+  },
+  "qscat: htr_st1_rd_enbl": {
+    "prefix": "htr_st1_rd_enbl",
+    "body": "htr_st1_rd_enbl",
+    "description": "[QSCAT] htr_st1_rd_enbl"
+  }
+}

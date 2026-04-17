@@ -1,0 +1,7167 @@
+{
+  "sorce: rts_026_build": {
+    "prefix": "rts_026_build",
+    "body": "rts_026_build",
+    "description": "[SORCE] rts_026_build"
+  },
+  "sorce: sima_quick_init": {
+    "prefix": "sima_quick_init",
+    "body": "sima_quick_init",
+    "description": "[SORCE] sima_quick_init"
+  },
+  "sorce: xb_st2tlm": {
+    "prefix": "xb_st2tlm",
+    "body": "xb_st2tlm",
+    "description": "[SORCE] xb_st2tlm"
+  },
+  "sorce: sc_cmd_precheck": {
+    "prefix": "sc_cmd_precheck",
+    "body": "sc_cmd_precheck",
+    "description": "[SORCE] sc_cmd_precheck"
+  },
+  "sorce: tim_swst_dd_snp": {
+    "prefix": "tim_swst_dd_snp",
+    "body": "tim_swst_dd_snp",
+    "description": "[SORCE] tim_swst_dd_snp"
+  },
+  "sorce: sorcec2mp05": {
+    "prefix": "sorcec2mp05",
+    "body": "sorcec2mp05",
+    "description": "[SORCE] sorcec2mp05"
+  },
+  "sorce: obc_80_rec_6": {
+    "prefix": "obc_80_rec_6",
+    "body": "obc_80_rec_6",
+    "description": "[SORCE] obc_80_rec_6"
+  },
+  "sorce: dcr_158": {
+    "prefix": "dcr_158",
+    "body": "dcr_158",
+    "description": "[SORCE] dcr_158"
+  },
+  "sorce: mu_turn_off": {
+    "prefix": "mu_turn_off",
+    "body": "mu_turn_off",
+    "description": "[SORCE] mu_turn_off"
+  },
+  "sorce: rts_078_build": {
+    "prefix": "rts_078_build",
+    "body": "rts_078_build",
+    "description": "[SORCE] rts_078_build"
+  },
+  "sorce: dl_stat_tst": {
+    "prefix": "dl_stat_tst",
+    "body": "dl_stat_tst",
+    "description": "[SORCE] dl_stat_tst"
+  },
+  "sorce: compute_pkt_dlt2": {
+    "prefix": "compute_pkt_dlt2",
+    "body": "compute_pkt_dlt2 ${1:\\$seconds1}, ${2:\\$subseconds1}, ${3:\\$seconds2}, ${4:\\$subseconds2}",
+    "description": "[SORCE] compute_pkt_dlt2"
+  },
+  "sorce: select_cmdchan": {
+    "prefix": "select_cmdchan",
+    "body": "select_cmdchan ${1:\\$chan}",
+    "description": "[SORCE] select_cmdchan"
+  },
+  "sorce: dump_act_tid": {
+    "prefix": "dump_act_tid",
+    "body": "dump_act_tid ${1:\\$TARGET}, ${2:\\$TID}",
+    "description": "[SORCE] dump_act_tid"
+  },
+  "sorce: im_temps_dd": {
+    "prefix": "im_temps_dd",
+    "body": "im_temps_dd",
+    "description": "[SORCE] im_temps_dd"
+  },
+  "sorce: st1_moon_001": {
+    "prefix": "st1_moon_001",
+    "body": "st1_moon_001",
+    "description": "[SORCE] st1_moon_001"
+  },
+  "sorce: ld_pat_363a8": {
+    "prefix": "ld_pat_363a8",
+    "body": "ld_pat_363a8",
+    "description": "[SORCE] ld_pat_363a8"
+  },
+  "sorce: sw_mgr_dd": {
+    "prefix": "sw_mgr_dd",
+    "body": "sw_mgr_dd",
+    "description": "[SORCE] sw_mgr_dd"
+  },
+  "sorce: update_limits": {
+    "prefix": "update_limits",
+    "body": "update_limits",
+    "description": "[SORCE] update_limits"
+  },
+  "sorce: st1_oldmoon_020": {
+    "prefix": "st1_oldmoon_020",
+    "body": "st1_oldmoon_020",
+    "description": "[SORCE] st1_oldmoon_020"
+  },
+  "sorce: reallocate_vr": {
+    "prefix": "reallocate_vr",
+    "body": "reallocate_vr",
+    "description": "[SORCE] reallocate_vr"
+  },
+  "sorce: auto_vr": {
+    "prefix": "auto_vr",
+    "body": "auto_vr ${1:\\$action}, ${2:\\$ds_sel}, ${3:\\$vr_sel}",
+    "description": "[SORCE] auto_vr"
+  },
+  "sorce: xps_stat_dd": {
+    "prefix": "xps_stat_dd",
+    "body": "xps_stat_dd",
+    "description": "[SORCE] xps_stat_dd"
+  },
+  "sorce: solb_bos_tst": {
+    "prefix": "solb_bos_tst",
+    "body": "solb_bos_tst",
+    "description": "[SORCE] solb_bos_tst"
+  },
+  "sorce: rts_118_build": {
+    "prefix": "rts_118_build",
+    "body": "rts_118_build",
+    "description": "[SORCE] rts_118_build"
+  },
+  "sorce: sola_default_seq": {
+    "prefix": "sola_default_seq",
+    "body": "sola_default_seq",
+    "description": "[SORCE] sola_default_seq"
+  },
+  "sorce: tim_gci_dd": {
+    "prefix": "tim_gci_dd",
+    "body": "tim_gci_dd",
+    "description": "[SORCE] tim_gci_dd"
+  },
+  "sorce: rts_095_build": {
+    "prefix": "rts_095_build",
+    "body": "rts_095_build",
+    "description": "[SORCE] rts_095_build"
+  },
+  "sorce: acs_css_tst": {
+    "prefix": "acs_css_tst",
+    "body": "acs_css_tst",
+    "description": "[SORCE] acs_css_tst"
+  },
+  "sorce: solstice_btlm": {
+    "prefix": "solstice_btlm",
+    "body": "solstice_btlm",
+    "description": "[SORCE] solstice_btlm"
+  },
+  "sorce: cspatchload": {
+    "prefix": "cspatchload",
+    "body": "cspatchload",
+    "description": "[SORCE] cspatchload"
+  },
+  "sorce: st1_moon_006": {
+    "prefix": "st1_moon_006",
+    "body": "st1_moon_006",
+    "description": "[SORCE] st1_moon_006"
+  },
+  "sorce: flight_cmd_test": {
+    "prefix": "flight_cmd_test",
+    "body": "flight_cmd_test",
+    "description": "[SORCE] flight_cmd_test"
+  },
+  "sorce: ctsim_switch_off": {
+    "prefix": "ctsim_switch_off",
+    "body": "ctsim_switch_off",
+    "description": "[SORCE] ctsim_switch_off"
+  },
+  "sorce: rcv_tlm": {
+    "prefix": "rcv_tlm",
+    "body": "rcv_tlm",
+    "description": "[SORCE] rcv_tlm"
+  },
+  "sorce: precmd": {
+    "prefix": "precmd",
+    "body": "precmd",
+    "description": "[SORCE] precmd"
+  },
+  "sorce: dsft2quota": {
+    "prefix": "dsft2quota",
+    "body": "dsft2quota",
+    "description": "[SORCE] dsft2quota"
+  },
+  "sorce: st2_star_dd": {
+    "prefix": "st2_star_dd",
+    "body": "st2_star_dd",
+    "description": "[SORCE] st2_star_dd"
+  },
+  "sorce: rts_050_build": {
+    "prefix": "rts_050_build",
+    "body": "rts_050_build",
+    "description": "[SORCE] rts_050_build"
+  },
+  "sorce: tim_door1_op": {
+    "prefix": "tim_door1_op",
+    "body": "tim_door1_op ${1:\\$dir}",
+    "description": "[SORCE] tim_door1_op"
+  },
+  "sorce: hs_main_dd": {
+    "prefix": "hs_main_dd",
+    "body": "hs_main_dd",
+    "description": "[SORCE] hs_main_dd"
+  },
+  "sorce: p11_il2_ram": {
+    "prefix": "p11_il2_ram",
+    "body": "p11_il2_ram",
+    "description": "[SORCE] p11_il2_ram"
+  },
+  "sorce: tim_hkp_dd_snp": {
+    "prefix": "tim_hkp_dd_snp",
+    "body": "tim_hkp_dd_snp",
+    "description": "[SORCE] tim_hkp_dd_snp"
+  },
+  "sorce: sorcec2mp02": {
+    "prefix": "sorcec2mp02",
+    "body": "sorcec2mp02",
+    "description": "[SORCE] sorcec2mp02"
+  },
+  "sorce: obc_80_rec_1": {
+    "prefix": "obc_80_rec_1",
+    "body": "obc_80_rec_1",
+    "description": "[SORCE] obc_80_rec_1"
+  },
+  "sorce: switch_logs": {
+    "prefix": "switch_logs",
+    "body": "switch_logs",
+    "description": "[SORCE] switch_logs"
+  },
+  "sorce: sc_umbil_tst": {
+    "prefix": "sc_umbil_tst",
+    "body": "sc_umbil_tst",
+    "description": "[SORCE] sc_umbil_tst"
+  },
+  "sorce: xps_init": {
+    "prefix": "xps_init",
+    "body": "xps_init",
+    "description": "[SORCE] xps_init"
+  },
+  "sorce: st1_eeload": {
+    "prefix": "st1_eeload",
+    "body": "st1_eeload",
+    "description": "[SORCE] st1_eeload"
+  },
+  "sorce: obc66patch": {
+    "prefix": "obc66patch",
+    "body": "obc66patch",
+    "description": "[SORCE] obc66patch"
+  },
+  "sorce: rts_079_build": {
+    "prefix": "rts_079_build",
+    "body": "rts_079_build",
+    "description": "[SORCE] rts_079_build"
+  },
+  "sorce: broadcaster_ois": {
+    "prefix": "broadcaster_ois",
+    "body": "broadcaster_ois ${1:\\$vcdu_host}",
+    "description": "[SORCE] broadcaster_ois"
+  },
+  "sorce: st2_oldmoon_005": {
+    "prefix": "st2_oldmoon_005",
+    "body": "st2_oldmoon_005",
+    "description": "[SORCE] st2_oldmoon_005"
+  },
+  "sorce: st1_moon_008": {
+    "prefix": "st1_moon_008",
+    "body": "st1_moon_008",
+    "description": "[SORCE] st1_moon_008"
+  },
+  "sorce: acs_tam_dd_snp": {
+    "prefix": "acs_tam_dd_snp",
+    "body": "acs_tam_dd_snp",
+    "description": "[SORCE] acs_tam_dd_snp"
+  },
+  "sorce: global_var": {
+    "prefix": "global_var",
+    "body": "global_var",
+    "description": "[SORCE] global_var"
+  },
+  "sorce: sim_bdsp_tst": {
+    "prefix": "sim_bdsp_tst",
+    "body": "sim_bdsp_tst",
+    "description": "[SORCE] sim_bdsp_tst"
+  },
+  "sorce: fs_sorceape69pat": {
+    "prefix": "fs_sorceape69pat",
+    "body": "fs_sorceape69pat",
+    "description": "[SORCE] fs_sorceape69pat"
+  },
+  "sorce: rts_027_build": {
+    "prefix": "rts_027_build",
+    "body": "rts_027_build",
+    "description": "[SORCE] rts_027_build"
+  },
+  "sorce: rts_119_build": {
+    "prefix": "rts_119_build",
+    "body": "rts_119_build",
+    "description": "[SORCE] rts_119_build"
+  },
+  "sorce: st1_acq_mn_patch": {
+    "prefix": "st1_acq_mn_patch",
+    "body": "st1_acq_mn_patch",
+    "description": "[SORCE] st1_acq_mn_patch"
+  },
+  "sorce: xfer_files": {
+    "prefix": "xfer_files",
+    "body": "xfer_files",
+    "description": "[SORCE] xfer_files"
+  },
+  "sorce: dcr_151": {
+    "prefix": "dcr_151",
+    "body": "dcr_151",
+    "description": "[SORCE] dcr_151"
+  },
+  "sorce: sima_htr_hi": {
+    "prefix": "sima_htr_hi",
+    "body": "sima_htr_hi",
+    "description": "[SORCE] sima_htr_hi"
+  },
+  "sorce: spm_eeprom": {
+    "prefix": "spm_eeprom",
+    "body": "spm_eeprom",
+    "description": "[SORCE] spm_eeprom"
+  },
+  "sorce: sim_asw_dd": {
+    "prefix": "sim_asw_dd",
+    "body": "sim_asw_dd",
+    "description": "[SORCE] sim_asw_dd"
+  },
+  "sorce: switch_sec_power": {
+    "prefix": "switch_sec_power",
+    "body": "switch_sec_power",
+    "description": "[SORCE] switch_sec_power"
+  },
+  "sorce: st1_conferr_undo": {
+    "prefix": "st1_conferr_undo",
+    "body": "st1_conferr_undo",
+    "description": "[SORCE] st1_conferr_undo"
+  },
+  "sorce: ape_exe_dd_snp": {
+    "prefix": "ape_exe_dd_snp",
+    "body": "ape_exe_dd_snp",
+    "description": "[SORCE] ape_exe_dd_snp"
+  },
+  "sorce: sol_bsci_tst": {
+    "prefix": "sol_bsci_tst",
+    "body": "sol_bsci_tst",
+    "description": "[SORCE] sol_bsci_tst"
+  },
+  "sorce: sola_ghv_on": {
+    "prefix": "sola_ghv_on",
+    "body": "sola_ghv_on",
+    "description": "[SORCE] sola_ghv_on"
+  },
+  "sorce: icmdpkts_dd_snp": {
+    "prefix": "icmdpkts_dd_snp",
+    "body": "icmdpkts_dd_snp",
+    "description": "[SORCE] icmdpkts_dd_snp"
+  },
+  "sorce: sol_ahkt_dd_snp": {
+    "prefix": "sol_ahkt_dd_snp",
+    "body": "sol_ahkt_dd_snp",
+    "description": "[SORCE] sol_ahkt_dd_snp"
+  },
+  "sorce: clock_freq_chg": {
+    "prefix": "clock_freq_chg",
+    "body": "clock_freq_chg ${1:\\$FREQUENCY}",
+    "description": "[SORCE] clock_freq_chg"
+  },
+  "sorce: p11_il1_eeprom": {
+    "prefix": "p11_il1_eeprom",
+    "body": "p11_il1_eeprom",
+    "description": "[SORCE] p11_il1_eeprom"
+  },
+  "sorce: pr541_il_inst": {
+    "prefix": "pr541_il_inst",
+    "body": "pr541_il_inst",
+    "description": "[SORCE] pr541_il_inst"
+  },
+  "sorce: tim_quick_init": {
+    "prefix": "tim_quick_init",
+    "body": "tim_quick_init",
+    "description": "[SORCE] tim_quick_init"
+  },
+  "sorce: sol_apkt_dd": {
+    "prefix": "sol_apkt_dd",
+    "body": "sol_apkt_dd",
+    "description": "[SORCE] sol_apkt_dd"
+  },
+  "sorce: t_018_sc_50_05": {
+    "prefix": "t_018_sc_50_05",
+    "body": "t_018_sc_50_05",
+    "description": "[SORCE] t_018_sc_50_05"
+  },
+  "sorce: obc_80_rec_8": {
+    "prefix": "obc_80_rec_8",
+    "body": "obc_80_rec_8",
+    "description": "[SORCE] obc_80_rec_8"
+  },
+  "sorce: sola_config": {
+    "prefix": "sola_config",
+    "body": "sola_config",
+    "description": "[SORCE] sola_config"
+  },
+  "sorce: simb_12min_scan": {
+    "prefix": "simb_12min_scan",
+    "body": "simb_12min_scan",
+    "description": "[SORCE] simb_12min_scan"
+  },
+  "sorce: rts_094_build": {
+    "prefix": "rts_094_build",
+    "body": "rts_094_build",
+    "description": "[SORCE] rts_094_build"
+  },
+  "sorce: p11_il2_ram_ad": {
+    "prefix": "p11_il2_ram_ad",
+    "body": "p11_il2_ram_ad",
+    "description": "[SORCE] p11_il2_ram_ad"
+  },
+  "sorce: st2_oldmoon_002": {
+    "prefix": "st2_oldmoon_002",
+    "body": "st2_oldmoon_002",
+    "description": "[SORCE] st2_oldmoon_002"
+  },
+  "sorce: acs_slew_tst": {
+    "prefix": "acs_slew_tst",
+    "body": "acs_slew_tst",
+    "description": "[SORCE] acs_slew_tst"
+  },
+  "sorce: sima_d_tmr_ee_ld": {
+    "prefix": "sima_d_tmr_ee_ld",
+    "body": "sima_d_tmr_ee_ld",
+    "description": "[SORCE] sima_d_tmr_ee_ld"
+  },
+  "sorce: fs_ape64patch": {
+    "prefix": "fs_ape64patch",
+    "body": "fs_ape64patch",
+    "description": "[SORCE] fs_ape64patch"
+  },
+  "sorce: clockcmd": {
+    "prefix": "clockcmd",
+    "body": "clockcmd",
+    "description": "[SORCE] clockcmd"
+  },
+  "sorce: rts_051_build": {
+    "prefix": "rts_051_build",
+    "body": "rts_051_build",
+    "description": "[SORCE] rts_051_build"
+  },
+  "sorce: load_sorce_obc81": {
+    "prefix": "load_sorce_obc81",
+    "body": "load_sorce_obc81",
+    "description": "[SORCE] load_sorce_obc81"
+  },
+  "sorce: crc_pat_eeprom": {
+    "prefix": "crc_pat_eeprom",
+    "body": "crc_pat_eeprom",
+    "description": "[SORCE] crc_pat_eeprom"
+  },
+  "sorce: load_pat_74ea0": {
+    "prefix": "load_pat_74ea0",
+    "body": "load_pat_74ea0",
+    "description": "[SORCE] load_pat_74ea0"
+  },
+  "sorce: sync_oasis": {
+    "prefix": "sync_oasis",
+    "body": "sync_oasis",
+    "description": "[SORCE] sync_oasis"
+  },
+  "sorce: sola_0_tmr_ee_ld": {
+    "prefix": "sola_0_tmr_ee_ld",
+    "body": "sola_0_tmr_ee_ld",
+    "description": "[SORCE] sola_0_tmr_ee_ld"
+  },
+  "sorce: sol_agci_tst": {
+    "prefix": "sol_agci_tst",
+    "body": "sol_agci_tst",
+    "description": "[SORCE] sol_agci_tst"
+  },
+  "sorce: clr_sbpipeover": {
+    "prefix": "clr_sbpipeover",
+    "body": "clr_sbpipeover",
+    "description": "[SORCE] clr_sbpipeover"
+  },
+  "sorce: vr4_remain": {
+    "prefix": "vr4_remain",
+    "body": "vr4_remain",
+    "description": "[SORCE] vr4_remain"
+  },
+  "sorce: xps_gci_dd_snp": {
+    "prefix": "xps_gci_dd_snp",
+    "body": "xps_gci_dd_snp",
+    "description": "[SORCE] xps_gci_dd_snp"
+  },
+  "sorce: p10_il_eeprom": {
+    "prefix": "p10_il_eeprom",
+    "body": "p10_il_eeprom",
+    "description": "[SORCE] p10_il_eeprom"
+  },
+  "sorce: st2_moon_006": {
+    "prefix": "st2_moon_006",
+    "body": "st2_moon_006",
+    "description": "[SORCE] st2_moon_006"
+  },
+  "sorce: vr_retran": {
+    "prefix": "vr_retran",
+    "body": "vr_retran ${1:\\$vrid_num}, ${2:\\$vcdu_start}, ${3:\\$num_vcdu}",
+    "description": "[SORCE] vr_retran"
+  },
+  "sorce: eps_pswa_dd_snp": {
+    "prefix": "eps_pswa_dd_snp",
+    "body": "eps_pswa_dd_snp",
+    "description": "[SORCE] eps_pswa_dd_snp"
+  },
+  "sorce: rts_024_build": {
+    "prefix": "rts_024_build",
+    "body": "rts_024_build",
+    "description": "[SORCE] rts_024_build"
+  },
+  "sorce: sola_dhtr_lo": {
+    "prefix": "sola_dhtr_lo",
+    "body": "sola_dhtr_lo",
+    "description": "[SORCE] sola_dhtr_lo"
+  },
+  "sorce: resetcounters": {
+    "prefix": "resetcounters",
+    "body": "resetcounters",
+    "description": "[SORCE] resetcounters"
+  },
+  "sorce: mu_patch_check": {
+    "prefix": "mu_patch_check",
+    "body": "mu_patch_check",
+    "description": "[SORCE] mu_patch_check"
+  },
+  "sorce: soacr_1187": {
+    "prefix": "soacr_1187",
+    "body": "soacr_1187",
+    "description": "[SORCE] soacr_1187"
+  },
+  "sorce: acs_ad_dd": {
+    "prefix": "acs_ad_dd",
+    "body": "acs_ad_dd",
+    "description": "[SORCE] acs_ad_dd"
+  },
+  "sorce: undo_sorce_obc80": {
+    "prefix": "undo_sorce_obc80",
+    "body": "undo_sorce_obc80",
+    "description": "[SORCE] undo_sorce_obc80"
+  },
+  "sorce: ops_eng_sync": {
+    "prefix": "ops_eng_sync",
+    "body": "ops_eng_sync",
+    "description": "[SORCE] ops_eng_sync"
+  },
+  "sorce: sim_bgci_dd_snp": {
+    "prefix": "sim_bgci_dd_snp",
+    "body": "sim_bgci_dd_snp",
+    "description": "[SORCE] sim_bgci_dd_snp"
+  },
+  "sorce: plot_11_dd": {
+    "prefix": "plot_11_dd",
+    "body": "plot_11_dd",
+    "description": "[SORCE] plot_11_dd"
+  },
+  "sorce: st2_moon_001": {
+    "prefix": "st2_moon_001",
+    "body": "st2_moon_001",
+    "description": "[SORCE] st2_moon_001"
+  },
+  "sorce: rts_052_build": {
+    "prefix": "rts_052_build",
+    "body": "rts_052_build",
+    "description": "[SORCE] rts_052_build"
+  },
+  "sorce: define_subclps": {
+    "prefix": "define_subclps",
+    "body": "define_subclps",
+    "description": "[SORCE] define_subclps"
+  },
+  "sorce: sima_tlm_ck": {
+    "prefix": "sima_tlm_ck",
+    "body": "sima_tlm_ck",
+    "description": "[SORCE] sima_tlm_ck"
+  },
+  "sorce: sima_esr": {
+    "prefix": "sima_esr",
+    "body": "sima_esr",
+    "description": "[SORCE] sima_esr"
+  },
+  "sorce: mu_spm_tst": {
+    "prefix": "mu_spm_tst",
+    "body": "mu_spm_tst",
+    "description": "[SORCE] mu_spm_tst"
+  },
+  "sorce: b10_sorcec2mp09": {
+    "prefix": "b10_sorcec2mp09",
+    "body": "b10_sorcec2mp09",
+    "description": "[SORCE] b10_sorcec2mp09"
+  },
+  "sorce: sol_bpkt_dd": {
+    "prefix": "sol_bpkt_dd",
+    "body": "sol_bpkt_dd",
+    "description": "[SORCE] sol_bpkt_dd"
+  },
+  "sorce: tim_dsp_dd": {
+    "prefix": "tim_dsp_dd",
+    "body": "tim_dsp_dd",
+    "description": "[SORCE] tim_dsp_dd"
+  },
+  "sorce: solb_low_pkt_rt": {
+    "prefix": "solb_low_pkt_rt",
+    "body": "solb_low_pkt_rt",
+    "description": "[SORCE] solb_low_pkt_rt"
+  },
+  "sorce: proc_list": {
+    "prefix": "proc_list",
+    "body": "proc_list",
+    "description": "[SORCE] proc_list"
+  },
+  "sorce: st2_self_test_td": {
+    "prefix": "st2_self_test_td",
+    "body": "st2_self_test_td",
+    "description": "[SORCE] st2_self_test_td"
+  },
+  "sorce: simb_eclipse_on": {
+    "prefix": "simb_eclipse_on",
+    "body": "simb_eclipse_on ${1:\\$eclipse_on}",
+    "description": "[SORCE] simb_eclipse_on"
+  },
+  "sorce: ld_sorceape69und": {
+    "prefix": "ld_sorceape69und",
+    "body": "ld_sorceape69und",
+    "description": "[SORCE] ld_sorceape69und"
+  },
+  "sorce: rts_097_build": {
+    "prefix": "rts_097_build",
+    "body": "rts_097_build",
+    "description": "[SORCE] rts_097_build"
+  },
+  "sorce: obc_sw_tst": {
+    "prefix": "obc_sw_tst",
+    "body": "obc_sw_tst",
+    "description": "[SORCE] obc_sw_tst"
+  },
+  "sorce: dcr_164": {
+    "prefix": "dcr_164",
+    "body": "dcr_164",
+    "description": "[SORCE] dcr_164"
+  },
+  "sorce: ld_sorce_71_pat": {
+    "prefix": "ld_sorce_71_pat",
+    "body": "ld_sorce_71_pat",
+    "description": "[SORCE] ld_sorce_71_pat"
+  },
+  "sorce: ld_jump_0006c20c": {
+    "prefix": "ld_jump_0006c20c",
+    "body": "ld_jump_0006c20c",
+    "description": "[SORCE] ld_jump_0006c20c"
+  },
+  "sorce: acs_cruc_dd_snp": {
+    "prefix": "acs_cruc_dd_snp",
+    "body": "acs_cruc_dd_snp",
+    "description": "[SORCE] acs_cruc_dd_snp"
+  },
+  "sorce: plot_07_dd": {
+    "prefix": "plot_07_dd",
+    "body": "plot_07_dd",
+    "description": "[SORCE] plot_07_dd"
+  },
+  "sorce: tim_high_pkt_rt": {
+    "prefix": "tim_high_pkt_rt",
+    "body": "tim_high_pkt_rt",
+    "description": "[SORCE] tim_high_pkt_rt"
+  },
+  "sorce: solb_vent_cl": {
+    "prefix": "solb_vent_cl",
+    "body": "solb_vent_cl",
+    "description": "[SORCE] solb_vent_cl"
+  },
+  "sorce: sim_bhkt_tst": {
+    "prefix": "sim_bhkt_tst",
+    "body": "sim_bhkt_tst",
+    "description": "[SORCE] sim_bhkt_tst"
+  },
+  "sorce: st1_oldmoon_012": {
+    "prefix": "st1_oldmoon_012",
+    "body": "st1_oldmoon_012",
+    "description": "[SORCE] st1_oldmoon_012"
+  },
+  "sorce: b10_sorcec2mp07": {
+    "prefix": "b10_sorcec2mp07",
+    "body": "b10_sorcec2mp07",
+    "description": "[SORCE] b10_sorcec2mp07"
+  },
+  "sorce: sc_state_dd_snp": {
+    "prefix": "sc_state_dd_snp",
+    "body": "sc_state_dd_snp",
+    "description": "[SORCE] sc_state_dd_snp"
+  },
+  "sorce: sim_bhkp_tst": {
+    "prefix": "sim_bhkp_tst",
+    "body": "sim_bhkp_tst",
+    "description": "[SORCE] sim_bhkp_tst"
+  },
+  "sorce: seltamb": {
+    "prefix": "seltamb",
+    "body": "seltamb",
+    "description": "[SORCE] seltamb"
+  },
+  "sorce: rts_025_build": {
+    "prefix": "rts_025_build",
+    "body": "rts_025_build",
+    "description": "[SORCE] rts_025_build"
+  },
+  "sorce: ois_setup": {
+    "prefix": "ois_setup",
+    "body": "ois_setup",
+    "description": "[SORCE] ois_setup"
+  },
+  "sorce: solstice_bcmd": {
+    "prefix": "solstice_bcmd",
+    "body": "solstice_bcmd",
+    "description": "[SORCE] solstice_bcmd"
+  },
+  "sorce: sol_bhkp_dd_snp": {
+    "prefix": "sol_bhkp_dd_snp",
+    "body": "sol_bhkp_dd_snp",
+    "description": "[SORCE] sol_bhkp_dd_snp"
+  },
+  "sorce: eps_shed_tst": {
+    "prefix": "eps_shed_tst",
+    "body": "eps_shed_tst",
+    "description": "[SORCE] eps_shed_tst"
+  },
+  "sorce: t_018_sc_70_10": {
+    "prefix": "t_018_sc_70_10",
+    "body": "t_018_sc_70_10",
+    "description": "[SORCE] t_018_sc_70_10"
+  },
+  "sorce: ad_oldtlm": {
+    "prefix": "ad_oldtlm",
+    "body": "ad_oldtlm",
+    "description": "[SORCE] ad_oldtlm"
+  },
+  "sorce: crc90_old10ee": {
+    "prefix": "crc90_old10ee",
+    "body": "crc90_old10ee",
+    "description": "[SORCE] crc90_old10ee"
+  },
+  "sorce: umb_precheck": {
+    "prefix": "umb_precheck",
+    "body": "umb_precheck",
+    "description": "[SORCE] umb_precheck"
+  },
+  "sorce: rts_053_build": {
+    "prefix": "rts_053_build",
+    "body": "rts_053_build",
+    "description": "[SORCE] rts_053_build"
+  },
+  "sorce: fst_rts14_build": {
+    "prefix": "fst_rts14_build",
+    "body": "fst_rts14_build",
+    "description": "[SORCE] fst_rts14_build"
+  },
+  "sorce: dcr_97": {
+    "prefix": "dcr_97",
+    "body": "dcr_97",
+    "description": "[SORCE] dcr_97"
+  },
+  "sorce: ceu_tx_off": {
+    "prefix": "ceu_tx_off",
+    "body": "ceu_tx_off",
+    "description": "[SORCE] ceu_tx_off"
+  },
+  "sorce: solb_nom_pkt_rt": {
+    "prefix": "solb_nom_pkt_rt",
+    "body": "solb_nom_pkt_rt",
+    "description": "[SORCE] solb_nom_pkt_rt"
+  },
+  "sorce: plot_16_tst": {
+    "prefix": "plot_16_tst",
+    "body": "plot_16_tst",
+    "description": "[SORCE] plot_16_tst"
+  },
+  "sorce: solb_f_scan": {
+    "prefix": "solb_f_scan",
+    "body": "solb_f_scan",
+    "description": "[SORCE] solb_f_scan"
+  },
+  "sorce: sola_dsp_dmp": {
+    "prefix": "sola_dsp_dmp",
+    "body": "sola_dsp_dmp",
+    "description": "[SORCE] sola_dsp_dmp"
+  },
+  "sorce: solb_zig_1_2": {
+    "prefix": "solb_zig_1_2",
+    "body": "solb_zig_1_2",
+    "description": "[SORCE] solb_zig_1_2"
+  },
+  "sorce: fss_turn_off": {
+    "prefix": "fss_turn_off",
+    "body": "fss_turn_off",
+    "description": "[SORCE] fss_turn_off"
+  },
+  "sorce: hot_limits": {
+    "prefix": "hot_limits",
+    "body": "hot_limits",
+    "description": "[SORCE] hot_limits"
+  },
+  "sorce: en_strdfltfdc": {
+    "prefix": "en_strdfltfdc",
+    "body": "en_strdfltfdc",
+    "description": "[SORCE] en_strdfltfdc"
+  },
+  "sorce: quit": {
+    "prefix": "quit",
+    "body": "quit",
+    "description": "[SORCE] quit"
+  },
+  "sorce: dummy_rts_059": {
+    "prefix": "dummy_rts_059",
+    "body": "dummy_rts_059",
+    "description": "[SORCE] dummy_rts_059"
+  },
+  "sorce: tlm_ck": {
+    "prefix": "tlm_ck",
+    "body": "tlm_ck",
+    "description": "[SORCE] tlm_ck"
+  },
+  "sorce: solb_ellipse": {
+    "prefix": "solb_ellipse",
+    "body": "solb_ellipse",
+    "description": "[SORCE] solb_ellipse"
+  },
+  "sorce: st2_moon_008": {
+    "prefix": "st2_moon_008",
+    "body": "st2_moon_008",
+    "description": "[SORCE] st2_moon_008"
+  },
+  "sorce: rts_096_build": {
+    "prefix": "rts_096_build",
+    "body": "rts_096_build",
+    "description": "[SORCE] rts_096_build"
+  },
+  "sorce: plot_12_tst": {
+    "prefix": "plot_12_tst",
+    "body": "plot_12_tst",
+    "description": "[SORCE] plot_12_tst"
+  },
+  "sorce: dcr_111": {
+    "prefix": "dcr_111",
+    "body": "dcr_111",
+    "description": "[SORCE] dcr_111"
+  },
+  "sorce: clp_stat_dd": {
+    "prefix": "clp_stat_dd",
+    "body": "clp_stat_dd",
+    "description": "[SORCE] clp_stat_dd"
+  },
+  "sorce: rwa_spin_dir": {
+    "prefix": "rwa_spin_dir",
+    "body": "rwa_spin_dir ${1:\\$dir}",
+    "description": "[SORCE] rwa_spin_dir"
+  },
+  "sorce: st1_oldmoon_015": {
+    "prefix": "st1_oldmoon_015",
+    "body": "st1_oldmoon_015",
+    "description": "[SORCE] st1_oldmoon_015"
+  },
+  "sorce: sorcec0mp08": {
+    "prefix": "sorcec0mp08",
+    "body": "sorcec0mp08",
+    "description": "[SORCE] sorcec0mp08"
+  },
+  "sorce: mu_soh_tst": {
+    "prefix": "mu_soh_tst",
+    "body": "mu_soh_tst",
+    "description": "[SORCE] mu_soh_tst"
+  },
+  "sorce: fst_rts13_build": {
+    "prefix": "fst_rts13_build",
+    "body": "fst_rts13_build",
+    "description": "[SORCE] fst_rts13_build"
+  },
+  "sorce: sv_upload": {
+    "prefix": "sv_upload",
+    "body": "sv_upload",
+    "description": "[SORCE] sv_upload"
+  },
+  "sorce: rts_054_build": {
+    "prefix": "rts_054_build",
+    "body": "rts_054_build",
+    "description": "[SORCE] rts_054_build"
+  },
+  "sorce: st2_acqs_dd": {
+    "prefix": "st2_acqs_dd",
+    "body": "st2_acqs_dd",
+    "description": "[SORCE] st2_acqs_dd"
+  },
+  "sorce: st1_fdc_disable": {
+    "prefix": "st1_fdc_disable",
+    "body": "st1_fdc_disable",
+    "description": "[SORCE] st1_fdc_disable"
+  },
+  "sorce: sol_bhkp_dd": {
+    "prefix": "sol_bhkp_dd",
+    "body": "sol_bhkp_dd",
+    "description": "[SORCE] sol_bhkp_dd"
+  },
+  "sorce: xpscmd": {
+    "prefix": "xpscmd",
+    "body": "xpscmd",
+    "description": "[SORCE] xpscmd"
+  },
+  "sorce: plot_20_tst": {
+    "prefix": "plot_20_tst",
+    "body": "plot_20_tst",
+    "description": "[SORCE] plot_20_tst"
+  },
+  "sorce: p23_il_eeprom": {
+    "prefix": "p23_il_eeprom",
+    "body": "p23_il_eeprom",
+    "description": "[SORCE] p23_il_eeprom"
+  },
+  "sorce: vr3_remain": {
+    "prefix": "vr3_remain",
+    "body": "vr3_remain",
+    "description": "[SORCE] vr3_remain"
+  },
+  "sorce: st1_oldmoon_004": {
+    "prefix": "st1_oldmoon_004",
+    "body": "st1_oldmoon_004",
+    "description": "[SORCE] st1_oldmoon_004"
+  },
+  "sorce: hy_ee_patch_inst": {
+    "prefix": "hy_ee_patch_inst",
+    "body": "hy_ee_patch_inst",
+    "description": "[SORCE] hy_ee_patch_inst"
+  },
+  "sorce: rts_091_build": {
+    "prefix": "rts_091_build",
+    "body": "rts_091_build",
+    "description": "[SORCE] rts_091_build"
+  },
+  "sorce: simb_halfcyc": {
+    "prefix": "simb_halfcyc",
+    "body": "simb_halfcyc",
+    "description": "[SORCE] simb_halfcyc"
+  },
+  "sorce: st2_moon_019": {
+    "prefix": "st2_moon_019",
+    "body": "st2_moon_019",
+    "description": "[SORCE] st2_moon_019"
+  },
+  "sorce: pkt_info_dd": {
+    "prefix": "pkt_info_dd",
+    "body": "pkt_info_dd",
+    "description": "[SORCE] pkt_info_dd"
+  },
+  "sorce: rts10mod_ld": {
+    "prefix": "rts10mod_ld",
+    "body": "rts10mod_ld",
+    "description": "[SORCE] rts10mod_ld"
+  },
+  "sorce: st1_oldmoon_003": {
+    "prefix": "st1_oldmoon_003",
+    "body": "st1_oldmoon_003",
+    "description": "[SORCE] st1_oldmoon_003"
+  },
+  "sorce: sol_ahkt_tst": {
+    "prefix": "sol_ahkt_tst",
+    "body": "sol_ahkt_tst",
+    "description": "[SORCE] sol_ahkt_tst"
+  },
+  "sorce: tps_main_tst": {
+    "prefix": "tps_main_tst",
+    "body": "tps_main_tst",
+    "description": "[SORCE] tps_main_tst"
+  },
+  "sorce: tim_hkm_dd_snp": {
+    "prefix": "tim_hkm_dd_snp",
+    "body": "tim_hkm_dd_snp",
+    "description": "[SORCE] tim_hkm_dd_snp"
+  },
+  "sorce: acs_ape_tst": {
+    "prefix": "acs_ape_tst",
+    "body": "acs_ape_tst",
+    "description": "[SORCE] acs_ape_tst"
+  },
+  "sorce: acs_cruc_dd": {
+    "prefix": "acs_cruc_dd",
+    "body": "acs_cruc_dd",
+    "description": "[SORCE] acs_cruc_dd"
+  },
+  "sorce: cdh_main_dd": {
+    "prefix": "cdh_main_dd",
+    "body": "cdh_main_dd",
+    "description": "[SORCE] cdh_main_dd"
+  },
+  "sorce: ops_dd": {
+    "prefix": "ops_dd",
+    "body": "ops_dd",
+    "description": "[SORCE] ops_dd"
+  },
+  "sorce: st1_moon_022": {
+    "prefix": "st1_moon_022",
+    "body": "st1_moon_022",
+    "description": "[SORCE] st1_moon_022"
+  },
+  "sorce: gumballs_tlm": {
+    "prefix": "gumballs_tlm",
+    "body": "gumballs_tlm",
+    "description": "[SORCE] gumballs_tlm"
+  },
+  "sorce: sim_agci_dd": {
+    "prefix": "sim_agci_dd",
+    "body": "sim_agci_dd",
+    "description": "[SORCE] sim_agci_dd"
+  },
+  "sorce: load_pat_62cb8": {
+    "prefix": "load_pat_62cb8",
+    "body": "load_pat_62cb8",
+    "description": "[SORCE] load_pat_62cb8"
+  },
+  "sorce: sola_d_tmr_ee_ld": {
+    "prefix": "sola_d_tmr_ee_ld",
+    "body": "sola_d_tmr_ee_ld",
+    "description": "[SORCE] sola_d_tmr_ee_ld"
+  },
+  "sorce: rts_022_build": {
+    "prefix": "rts_022_build",
+    "body": "rts_022_build",
+    "description": "[SORCE] rts_022_build"
+  },
+  "sorce: solb_fly_2": {
+    "prefix": "solb_fly_2",
+    "body": "solb_fly_2",
+    "description": "[SORCE] solb_fly_2"
+  },
+  "sorce: sol_ahkp_tst": {
+    "prefix": "sol_ahkp_tst",
+    "body": "sol_ahkp_tst",
+    "description": "[SORCE] sol_ahkp_tst"
+  },
+  "sorce: sorce_displays": {
+    "prefix": "sorce_displays",
+    "body": "sorce_displays",
+    "description": "[SORCE] sorce_displays"
+  },
+  "sorce: st1_turn_on": {
+    "prefix": "st1_turn_on",
+    "body": "st1_turn_on",
+    "description": "[SORCE] st1_turn_on"
+  },
+  "sorce: tim_dsp_dd_snp": {
+    "prefix": "tim_dsp_dd_snp",
+    "body": "tim_dsp_dd_snp",
+    "description": "[SORCE] tim_dsp_dd_snp"
+  },
+  "sorce: xbtlm": {
+    "prefix": "xbtlm",
+    "body": "xbtlm",
+    "description": "[SORCE] xbtlm"
+  },
+  "sorce: aaclmtoff": {
+    "prefix": "aaclmtoff",
+    "body": "aaclmtoff",
+    "description": "[SORCE] aaclmtoff"
+  },
+  "sorce: st1_self_test_td": {
+    "prefix": "st1_self_test_td",
+    "body": "st1_self_test_td",
+    "description": "[SORCE] st1_self_test_td"
+  },
+  "sorce: master_eor": {
+    "prefix": "master_eor",
+    "body": "master_eor",
+    "description": "[SORCE] master_eor"
+  },
+  "sorce: obc_sw_dd": {
+    "prefix": "obc_sw_dd",
+    "body": "obc_sw_dd",
+    "description": "[SORCE] obc_sw_dd"
+  },
+  "sorce: rts_055_build": {
+    "prefix": "rts_055_build",
+    "body": "rts_055_build",
+    "description": "[SORCE] rts_055_build"
+  },
+  "sorce: st2_moon_010": {
+    "prefix": "st2_moon_010",
+    "body": "st2_moon_010",
+    "description": "[SORCE] st2_moon_010"
+  },
+  "sorce: ld_sorce_68_pat": {
+    "prefix": "ld_sorce_68_pat",
+    "body": "ld_sorce_68_pat",
+    "description": "[SORCE] ld_sorce_68_pat"
+  },
+  "sorce: clearvr": {
+    "prefix": "clearvr",
+    "body": "clearvr ${1:\\$vr_num}",
+    "description": "[SORCE] clearvr"
+  },
+  "sorce: st2_oldmoon_021": {
+    "prefix": "st2_oldmoon_021",
+    "body": "st2_oldmoon_021",
+    "description": "[SORCE] st2_oldmoon_021"
+  },
+  "sorce: plot_03_tst": {
+    "prefix": "plot_03_tst",
+    "body": "plot_03_tst",
+    "description": "[SORCE] plot_03_tst"
+  },
+  "sorce: mscmd": {
+    "prefix": "mscmd",
+    "body": "mscmd",
+    "description": "[SORCE] mscmd"
+  },
+  "sorce: mu_pkts_tst": {
+    "prefix": "mu_pkts_tst",
+    "body": "mu_pkts_tst",
+    "description": "[SORCE] mu_pkts_tst"
+  },
+  "sorce: plot_07_tst": {
+    "prefix": "plot_07_tst",
+    "body": "plot_07_tst",
+    "description": "[SORCE] plot_07_tst"
+  },
+  "sorce: sorcec0mp01": {
+    "prefix": "sorcec0mp01",
+    "body": "sorcec0mp01",
+    "description": "[SORCE] sorcec0mp01"
+  },
+  "sorce: rm_cmds": {
+    "prefix": "rm_cmds",
+    "body": "rm_cmds",
+    "description": "[SORCE] rm_cmds"
+  },
+  "sorce: a040703_ptab": {
+    "prefix": "a040703_ptab",
+    "body": "a040703_ptab",
+    "description": "[SORCE] a040703_ptab"
+  },
+  "sorce: triad_tlm": {
+    "prefix": "triad_tlm",
+    "body": "triad_tlm",
+    "description": "[SORCE] triad_tlm"
+  },
+  "sorce: a040703_ld": {
+    "prefix": "a040703_ld",
+    "body": "a040703_ld",
+    "description": "[SORCE] a040703_ld"
+  },
+  "sorce: rts_090_build": {
+    "prefix": "rts_090_build",
+    "body": "rts_090_build",
+    "description": "[SORCE] rts_090_build"
+  },
+  "sorce: acs_fss_tst": {
+    "prefix": "acs_fss_tst",
+    "body": "acs_fss_tst",
+    "description": "[SORCE] acs_fss_tst"
+  },
+  "sorce: ad_commontlm": {
+    "prefix": "ad_commontlm",
+    "body": "ad_commontlm",
+    "description": "[SORCE] ad_commontlm"
+  },
+  "sorce: pbk_rsm": {
+    "prefix": "pbk_rsm",
+    "body": "pbk_rsm",
+    "description": "[SORCE] pbk_rsm"
+  },
+  "sorce: sima_default_seq": {
+    "prefix": "sima_default_seq",
+    "body": "sima_default_seq",
+    "description": "[SORCE] sima_default_seq"
+  },
+  "sorce: tdrs_4k_to_8k": {
+    "prefix": "tdrs_4k_to_8k",
+    "body": "tdrs_4k_to_8k",
+    "description": "[SORCE] tdrs_4k_to_8k"
+  },
+  "sorce: sim_btlm": {
+    "prefix": "sim_btlm",
+    "body": "sim_btlm",
+    "description": "[SORCE] sim_btlm"
+  },
+  "sorce: sorcec0mp06": {
+    "prefix": "sorcec0mp06",
+    "body": "sorcec0mp06",
+    "description": "[SORCE] sorcec0mp06"
+  },
+  "sorce: sim_bgci_tst": {
+    "prefix": "sim_bgci_tst",
+    "body": "sim_bgci_tst",
+    "description": "[SORCE] sim_bgci_tst"
+  },
+  "sorce: ld_src_pat_30000": {
+    "prefix": "ld_src_pat_30000",
+    "body": "ld_src_pat_30000",
+    "description": "[SORCE] ld_src_pat_30000"
+  },
+  "sorce: sol_asci_dd_snp": {
+    "prefix": "sol_asci_dd_snp",
+    "body": "sol_asci_dd_snp",
+    "description": "[SORCE] sol_asci_dd_snp"
+  },
+  "sorce: tdsp_set_time": {
+    "prefix": "tdsp_set_time",
+    "body": "tdsp_set_time",
+    "description": "[SORCE] tdsp_set_time"
+  },
+  "sorce: dcr_88": {
+    "prefix": "dcr_88",
+    "body": "dcr_88",
+    "description": "[SORCE] dcr_88"
+  },
+  "sorce: load7osx2_2_70": {
+    "prefix": "load7osx2_2_70",
+    "body": "load7osx2_2_70",
+    "description": "[SORCE] load7osx2_2_70"
+  },
+  "sorce: contingency_md": {
+    "prefix": "contingency_md",
+    "body": "contingency_md",
+    "description": "[SORCE] contingency_md"
+  },
+  "sorce: tim_shtr_b": {
+    "prefix": "tim_shtr_b",
+    "body": "tim_shtr_b",
+    "description": "[SORCE] tim_shtr_b"
+  },
+  "sorce: p21_ool_eeprom": {
+    "prefix": "p21_ool_eeprom",
+    "body": "p21_ool_eeprom",
+    "description": "[SORCE] p21_ool_eeprom"
+  },
+  "sorce: sorce_macros": {
+    "prefix": "sorce_macros",
+    "body": "sorce_macros",
+    "description": "[SORCE] sorce_macros"
+  },
+  "sorce: sim_bdsp_dd": {
+    "prefix": "sim_bdsp_dd",
+    "body": "sim_bdsp_dd",
+    "description": "[SORCE] sim_bdsp_dd"
+  },
+  "sorce: st2cmd": {
+    "prefix": "st2cmd",
+    "body": "st2cmd",
+    "description": "[SORCE] st2cmd"
+  },
+  "sorce: eps_pwsw_dd": {
+    "prefix": "eps_pwsw_dd",
+    "body": "eps_pwsw_dd",
+    "description": "[SORCE] eps_pwsw_dd"
+  },
+  "sorce: rts_023_build": {
+    "prefix": "rts_023_build",
+    "body": "rts_023_build",
+    "description": "[SORCE] rts_023_build"
+  },
+  "sorce: translator_procs": {
+    "prefix": "translator_procs",
+    "body": "translator_procs",
+    "description": "[SORCE] translator_procs"
+  },
+  "sorce: st2_moon_017": {
+    "prefix": "st2_moon_017",
+    "body": "st2_moon_017",
+    "description": "[SORCE] st2_moon_017"
+  },
+  "sorce: acs_css_dd": {
+    "prefix": "acs_css_dd",
+    "body": "acs_css_dd",
+    "description": "[SORCE] acs_css_dd"
+  },
+  "sorce: ape_exe_dd": {
+    "prefix": "ape_exe_dd",
+    "body": "ape_exe_dd",
+    "description": "[SORCE] ape_exe_dd"
+  },
+  "sorce: tim_swst_dd": {
+    "prefix": "tim_swst_dd",
+    "body": "tim_swst_dd",
+    "description": "[SORCE] tim_swst_dd"
+  },
+  "sorce: dcr_147": {
+    "prefix": "dcr_147",
+    "body": "dcr_147",
+    "description": "[SORCE] dcr_147"
+  },
+  "sorce: p11_ool_ram": {
+    "prefix": "p11_ool_ram",
+    "body": "p11_ool_ram",
+    "description": "[SORCE] p11_ool_ram"
+  },
+  "sorce: ceua_sync": {
+    "prefix": "ceua_sync",
+    "body": "ceua_sync",
+    "description": "[SORCE] ceua_sync"
+  },
+  "sorce: kill_wdt_ld": {
+    "prefix": "kill_wdt_ld",
+    "body": "kill_wdt_ld",
+    "description": "[SORCE] kill_wdt_ld"
+  },
+  "sorce: rts_093_build": {
+    "prefix": "rts_093_build",
+    "body": "rts_093_build",
+    "description": "[SORCE] rts_093_build"
+  },
+  "sorce: rjct_limits_on": {
+    "prefix": "rjct_limits_on",
+    "body": "rjct_limits_on",
+    "description": "[SORCE] rjct_limits_on"
+  },
+  "sorce: simb_gaincal_op2": {
+    "prefix": "simb_gaincal_op2",
+    "body": "simb_gaincal_op2",
+    "description": "[SORCE] simb_gaincal_op2"
+  },
+  "sorce: rts_008_build": {
+    "prefix": "rts_008_build",
+    "body": "rts_008_build",
+    "description": "[SORCE] rts_008_build"
+  },
+  "sorce: pass_proc": {
+    "prefix": "pass_proc",
+    "body": "pass_proc ${1:\\$AOS}, ${2:\\$LOS}, ${3:\\$MASKRISE}, ${4:\\$MASKSET}, ${5:\\$STATION}, ${6:\\$ORBNUMB}, ${7:\\$TRCODE}",
+    "description": "[SORCE] pass_proc"
+  },
+  "sorce: update_db": {
+    "prefix": "update_db",
+    "body": "update_db",
+    "description": "[SORCE] update_db"
+  },
+  "sorce: sim_bcmd": {
+    "prefix": "sim_bcmd",
+    "body": "sim_bcmd",
+    "description": "[SORCE] sim_bcmd"
+  },
+  "sorce: plot_13_dd": {
+    "prefix": "plot_13_dd",
+    "body": "plot_13_dd",
+    "description": "[SORCE] plot_13_dd"
+  },
+  "sorce: st2_moon_022": {
+    "prefix": "st2_moon_022",
+    "body": "st2_moon_022",
+    "description": "[SORCE] st2_moon_022"
+  },
+  "sorce: ld_jump_2f8f2": {
+    "prefix": "ld_jump_2f8f2",
+    "body": "ld_jump_2f8f2",
+    "description": "[SORCE] ld_jump_2f8f2"
+  },
+  "sorce: st2_oldmoon_013": {
+    "prefix": "st2_oldmoon_013",
+    "body": "st2_oldmoon_013",
+    "description": "[SORCE] st2_oldmoon_013"
+  },
+  "sorce: rts_056_build": {
+    "prefix": "rts_056_build",
+    "body": "rts_056_build",
+    "description": "[SORCE] rts_056_build"
+  },
+  "sorce: reset_tmons": {
+    "prefix": "reset_tmons",
+    "body": "reset_tmons",
+    "description": "[SORCE] reset_tmons"
+  },
+  "sorce: sim_adsp_dd": {
+    "prefix": "sim_adsp_dd",
+    "body": "sim_adsp_dd",
+    "description": "[SORCE] sim_adsp_dd"
+  },
+  "sorce: acslowgen_log": {
+    "prefix": "acslowgen_log",
+    "body": "acslowgen_log",
+    "description": "[SORCE] acslowgen_log"
+  },
+  "sorce: sol_adsp_tst": {
+    "prefix": "sol_adsp_tst",
+    "body": "sol_adsp_tst",
+    "description": "[SORCE] sol_adsp_tst"
+  },
+  "sorce: ld_src_und_8220c": {
+    "prefix": "ld_src_und_8220c",
+    "body": "ld_src_und_8220c",
+    "description": "[SORCE] ld_src_und_8220c"
+  },
+  "sorce: tmon_check": {
+    "prefix": "tmon_check",
+    "body": "tmon_check",
+    "description": "[SORCE] tmon_check"
+  },
+  "sorce: st2_acq_mn_patch": {
+    "prefix": "st2_acq_mn_patch",
+    "body": "st2_acq_mn_patch",
+    "description": "[SORCE] st2_acq_mn_patch"
+  },
+  "sorce: plot_08_dd": {
+    "prefix": "plot_08_dd",
+    "body": "plot_08_dd",
+    "description": "[SORCE] plot_08_dd"
+  },
+  "sorce: sola_turn_on": {
+    "prefix": "sola_turn_on",
+    "body": "sola_turn_on",
+    "description": "[SORCE] sola_turn_on"
+  },
+  "sorce: st1_moon_019": {
+    "prefix": "st1_moon_019",
+    "body": "st1_moon_019",
+    "description": "[SORCE] st1_moon_019"
+  },
+  "sorce: st2_conferr_undo": {
+    "prefix": "st2_conferr_undo",
+    "body": "st2_conferr_undo",
+    "description": "[SORCE] st2_conferr_undo"
+  },
+  "sorce: acs_eph_dd": {
+    "prefix": "acs_eph_dd",
+    "body": "acs_eph_dd",
+    "description": "[SORCE] acs_eph_dd"
+  },
+  "sorce: check_im_safe": {
+    "prefix": "check_im_safe",
+    "body": "check_im_safe",
+    "description": "[SORCE] check_im_safe"
+  },
+  "sorce: rts_020_build": {
+    "prefix": "rts_020_build",
+    "body": "rts_020_build",
+    "description": "[SORCE] rts_020_build"
+  },
+  "sorce: st2_oldmoon_014": {
+    "prefix": "st2_oldmoon_014",
+    "body": "st2_oldmoon_014",
+    "description": "[SORCE] st2_oldmoon_014"
+  },
+  "sorce: p26_il_eeprom": {
+    "prefix": "p26_il_eeprom",
+    "body": "p26_il_eeprom",
+    "description": "[SORCE] p26_il_eeprom"
+  },
+  "sorce: eps_pswa_dd": {
+    "prefix": "eps_pswa_dd",
+    "body": "eps_pswa_dd",
+    "description": "[SORCE] eps_pswa_dd"
+  },
+  "sorce: dcr_140": {
+    "prefix": "dcr_140",
+    "body": "dcr_140",
+    "description": "[SORCE] dcr_140"
+  },
+  "sorce: sim_asci_tst": {
+    "prefix": "sim_asci_tst",
+    "body": "sim_asci_tst",
+    "description": "[SORCE] sim_asci_tst"
+  },
+  "sorce: blind_td_no_ceu": {
+    "prefix": "blind_td_no_ceu",
+    "body": "blind_td_no_ceu",
+    "description": "[SORCE] blind_td_no_ceu"
+  },
+  "sorce: master_planning": {
+    "prefix": "master_planning",
+    "body": "master_planning",
+    "description": "[SORCE] master_planning"
+  },
+  "sorce: solb_door_op": {
+    "prefix": "solb_door_op",
+    "body": "solb_door_op ${1:\\$door_dir}",
+    "description": "[SORCE] solb_door_op"
+  },
+  "sorce: dis_ophtr_sw": {
+    "prefix": "dis_ophtr_sw",
+    "body": "dis_ophtr_sw",
+    "description": "[SORCE] dis_ophtr_sw"
+  },
+  "sorce: chg_cntrl_sensor": {
+    "prefix": "chg_cntrl_sensor",
+    "body": "chg_cntrl_sensor ${1:\\$SENSOR}",
+    "description": "[SORCE] chg_cntrl_sensor"
+  },
+  "sorce: unpatch_hy_ee": {
+    "prefix": "unpatch_hy_ee",
+    "body": "unpatch_hy_ee",
+    "description": "[SORCE] unpatch_hy_ee"
+  },
+  "sorce: st1_turn_on_td": {
+    "prefix": "st1_turn_on_td",
+    "body": "st1_turn_on_td",
+    "description": "[SORCE] st1_turn_on_td"
+  },
+  "sorce: b10_sorcec2md3": {
+    "prefix": "b10_sorcec2md3",
+    "body": "b10_sorcec2md3",
+    "description": "[SORCE] b10_sorcec2md3"
+  },
+  "sorce: mufsw_config": {
+    "prefix": "mufsw_config",
+    "body": "mufsw_config ${1:\\$reason}",
+    "description": "[SORCE] mufsw_config"
+  },
+  "sorce: tocmd": {
+    "prefix": "tocmd",
+    "body": "tocmd",
+    "description": "[SORCE] tocmd"
+  },
+  "sorce: rts_092_build": {
+    "prefix": "rts_092_build",
+    "body": "rts_092_build",
+    "description": "[SORCE] rts_092_build"
+  },
+  "sorce: dcr_132": {
+    "prefix": "dcr_132",
+    "body": "dcr_132",
+    "description": "[SORCE] dcr_132"
+  },
+  "sorce: sol_bhkm_dd_snp": {
+    "prefix": "sol_bhkm_dd_snp",
+    "body": "sol_bhkm_dd_snp",
+    "description": "[SORCE] sol_bhkm_dd_snp"
+  },
+  "sorce: st1_moon_017": {
+    "prefix": "st1_moon_017",
+    "body": "st1_moon_017",
+    "description": "[SORCE] st1_moon_017"
+  },
+  "sorce: ep_sens_ctrlcmd": {
+    "prefix": "ep_sens_ctrlcmd",
+    "body": "ep_sens_ctrlcmd",
+    "description": "[SORCE] ep_sens_ctrlcmd"
+  },
+  "sorce: sima_0_tmr_ee_ld": {
+    "prefix": "sima_0_tmr_ee_ld",
+    "body": "sima_0_tmr_ee_ld",
+    "description": "[SORCE] sima_0_tmr_ee_ld"
+  },
+  "sorce: sima_duty_cycle": {
+    "prefix": "sima_duty_cycle",
+    "body": "sima_duty_cycle ${1:\\$word1}, ${2:\\$word2}",
+    "description": "[SORCE] sima_duty_cycle"
+  },
+  "sorce: sol_bdsp_dd_snp": {
+    "prefix": "sol_bdsp_dd_snp",
+    "body": "sol_bdsp_dd_snp",
+    "description": "[SORCE] sol_bdsp_dd_snp"
+  },
+  "sorce: rts_057_build": {
+    "prefix": "rts_057_build",
+    "body": "rts_057_build",
+    "description": "[SORCE] rts_057_build"
+  },
+  "sorce: ld_jump_00067e24": {
+    "prefix": "ld_jump_00067e24",
+    "body": "ld_jump_00067e24",
+    "description": "[SORCE] ld_jump_00067e24"
+  },
+  "sorce: solb_filter": {
+    "prefix": "solb_filter",
+    "body": "solb_filter",
+    "description": "[SORCE] solb_filter"
+  },
+  "sorce: mu_mem_dump_c": {
+    "prefix": "mu_mem_dump_c",
+    "body": "mu_mem_dump_c",
+    "description": "[SORCE] mu_mem_dump_c"
+  },
+  "sorce: cmd_safety_level": {
+    "prefix": "cmd_safety_level",
+    "body": "cmd_safety_level ${1:\\$IT_OR_FLIGHT}",
+    "description": "[SORCE] cmd_safety_level"
+  },
+  "sorce: sol_ahkp_dd": {
+    "prefix": "sol_ahkp_dd",
+    "body": "sol_ahkp_dd",
+    "description": "[SORCE] sol_ahkp_dd"
+  },
+  "sorce: tim_gain_md": {
+    "prefix": "tim_gain_md",
+    "body": "tim_gain_md",
+    "description": "[SORCE] tim_gain_md"
+  },
+  "sorce: s2cmd": {
+    "prefix": "s2cmd",
+    "body": "s2cmd",
+    "description": "[SORCE] s2cmd"
+  },
+  "sorce: ccsds_dd": {
+    "prefix": "ccsds_dd",
+    "body": "ccsds_dd",
+    "description": "[SORCE] ccsds_dd"
+  },
+  "sorce: ld_jump_328cd": {
+    "prefix": "ld_jump_328cd",
+    "body": "ld_jump_328cd",
+    "description": "[SORCE] ld_jump_328cd"
+  },
+  "sorce: rts_009_build": {
+    "prefix": "rts_009_build",
+    "body": "rts_009_build",
+    "description": "[SORCE] rts_009_build"
+  },
+  "sorce: rts_021_build": {
+    "prefix": "rts_021_build",
+    "body": "rts_021_build",
+    "description": "[SORCE] rts_021_build"
+  },
+  "sorce: sim_adr_dd": {
+    "prefix": "sim_adr_dd",
+    "body": "sim_adr_dd",
+    "description": "[SORCE] sim_adr_dd"
+  },
+  "sorce: acs_mtb_tst": {
+    "prefix": "acs_mtb_tst",
+    "body": "acs_mtb_tst",
+    "description": "[SORCE] acs_mtb_tst"
+  },
+  "sorce: tdrs_8k_to_4k": {
+    "prefix": "tdrs_8k_to_4k",
+    "body": "tdrs_8k_to_4k",
+    "description": "[SORCE] tdrs_8k_to_4k"
+  },
+  "sorce: ape_switch": {
+    "prefix": "ape_switch",
+    "body": "ape_switch",
+    "description": "[SORCE] ape_switch"
+  },
+  "sorce: acs_ad_tst": {
+    "prefix": "acs_ad_tst",
+    "body": "acs_ad_tst",
+    "description": "[SORCE] acs_ad_tst"
+  },
+  "sorce: acs_fov_dd": {
+    "prefix": "acs_fov_dd",
+    "body": "acs_fov_dd",
+    "description": "[SORCE] acs_fov_dd"
+  },
+  "sorce: dcr_149": {
+    "prefix": "dcr_149",
+    "body": "dcr_149",
+    "description": "[SORCE] dcr_149"
+  },
+  "sorce: mu_mem_dump_d": {
+    "prefix": "mu_mem_dump_d",
+    "body": "mu_mem_dump_d",
+    "description": "[SORCE] mu_mem_dump_d"
+  },
+  "sorce: sim_bgci_dd": {
+    "prefix": "sim_bgci_dd",
+    "body": "sim_bgci_dd",
+    "description": "[SORCE] sim_bgci_dd"
+  },
+  "sorce: xpstlm": {
+    "prefix": "xpstlm",
+    "body": "xpstlm",
+    "description": "[SORCE] xpstlm"
+  },
+  "sorce: stpages": {
+    "prefix": "stpages",
+    "body": "stpages",
+    "description": "[SORCE] stpages"
+  },
+  "sorce: ld_pat_000480b4": {
+    "prefix": "ld_pat_000480b4",
+    "body": "ld_pat_000480b4",
+    "description": "[SORCE] ld_pat_000480b4"
+  },
+  "sorce: window_defs": {
+    "prefix": "window_defs",
+    "body": "window_defs",
+    "description": "[SORCE] window_defs"
+  },
+  "sorce: tim_hkm_tst": {
+    "prefix": "tim_hkm_tst",
+    "body": "tim_hkm_tst",
+    "description": "[SORCE] tim_hkm_tst"
+  },
+  "sorce: ape_rec_2": {
+    "prefix": "ape_rec_2",
+    "body": "ape_rec_2",
+    "description": "[SORCE] ape_rec_2"
+  },
+  "sorce: sol_bpkt_dd_snp": {
+    "prefix": "sol_bpkt_dd_snp",
+    "body": "sol_bpkt_dd_snp",
+    "description": "[SORCE] sol_bpkt_dd_snp"
+  },
+  "sorce: solb_vent_op": {
+    "prefix": "solb_vent_op",
+    "body": "solb_vent_op",
+    "description": "[SORCE] solb_vent_op"
+  },
+  "sorce: cmd_switch": {
+    "prefix": "cmd_switch",
+    "body": "cmd_switch ${1:\\$location}",
+    "description": "[SORCE] cmd_switch"
+  },
+  "sorce: sola_fly_2": {
+    "prefix": "sola_fly_2",
+    "body": "sola_fly_2",
+    "description": "[SORCE] sola_fly_2"
+  },
+  "sorce: dcr_135": {
+    "prefix": "dcr_135",
+    "body": "dcr_135",
+    "description": "[SORCE] dcr_135"
+  },
+  "sorce: ld_src_pat_31510": {
+    "prefix": "ld_src_pat_31510",
+    "body": "ld_src_pat_31510",
+    "description": "[SORCE] ld_src_pat_31510"
+  },
+  "sorce: st1_moon_010": {
+    "prefix": "st1_moon_010",
+    "body": "st1_moon_010",
+    "description": "[SORCE] st1_moon_010"
+  },
+  "sorce: st2_self_test": {
+    "prefix": "st2_self_test",
+    "body": "st2_self_test",
+    "description": "[SORCE] st2_self_test"
+  },
+  "sorce: master": {
+    "prefix": "master",
+    "body": "master",
+    "description": "[SORCE] master"
+  },
+  "sorce: sola_ihtr_hi": {
+    "prefix": "sola_ihtr_hi",
+    "body": "sola_ihtr_hi",
+    "description": "[SORCE] sola_ihtr_hi"
+  },
+  "sorce: plot_05_dd": {
+    "prefix": "plot_05_dd",
+    "body": "plot_05_dd",
+    "description": "[SORCE] plot_05_dd"
+  },
+  "sorce: sol_bsci_dd": {
+    "prefix": "sol_bsci_dd",
+    "body": "sol_bsci_dd",
+    "description": "[SORCE] sol_bsci_dd"
+  },
+  "sorce: b10_sorcec2mp01": {
+    "prefix": "b10_sorcec2mp01",
+    "body": "b10_sorcec2mp01",
+    "description": "[SORCE] b10_sorcec2mp01"
+  },
+  "sorce: ceub_ul_check": {
+    "prefix": "ceub_ul_check",
+    "body": "ceub_ul_check",
+    "description": "[SORCE] ceub_ul_check"
+  },
+  "sorce: compute_pkt_dlt": {
+    "prefix": "compute_pkt_dlt",
+    "body": "compute_pkt_dlt ${1:\\$seconds1}, ${2:\\$subseconds1}, ${3:\\$seconds2}, ${4:\\$subseconds2}",
+    "description": "[SORCE] compute_pkt_dlt"
+  },
+  "sorce: tim_vent_op": {
+    "prefix": "tim_vent_op",
+    "body": "tim_vent_op",
+    "description": "[SORCE] tim_vent_op"
+  },
+  "sorce: ld_src_pat_31598": {
+    "prefix": "ld_src_pat_31598",
+    "body": "ld_src_pat_31598",
+    "description": "[SORCE] ld_src_pat_31598"
+  },
+  "sorce: muhk_tlm_tst": {
+    "prefix": "muhk_tlm_tst",
+    "body": "muhk_tlm_tst",
+    "description": "[SORCE] muhk_tlm_tst"
+  },
+  "sorce: mucmd": {
+    "prefix": "mucmd",
+    "body": "mucmd",
+    "description": "[SORCE] mucmd"
+  },
+  "sorce: shelltlm": {
+    "prefix": "shelltlm",
+    "body": "shelltlm",
+    "description": "[SORCE] shelltlm"
+  },
+  "sorce: solb_tlm_ck": {
+    "prefix": "solb_tlm_ck",
+    "body": "solb_tlm_ck",
+    "description": "[SORCE] solb_tlm_ck"
+  },
+  "sorce: unpatch_eeprom": {
+    "prefix": "unpatch_eeprom",
+    "body": "unpatch_eeprom",
+    "description": "[SORCE] unpatch_eeprom"
+  },
+  "sorce: st2_main_dd": {
+    "prefix": "st2_main_dd",
+    "body": "st2_main_dd",
+    "description": "[SORCE] st2_main_dd"
+  },
+  "sorce: rts_059_build": {
+    "prefix": "rts_059_build",
+    "body": "rts_059_build",
+    "description": "[SORCE] rts_059_build"
+  },
+  "sorce: st2_moon_009": {
+    "prefix": "st2_moon_009",
+    "body": "st2_moon_009",
+    "description": "[SORCE] st2_moon_009"
+  },
+  "sorce: tim_pkts_tst": {
+    "prefix": "tim_pkts_tst",
+    "body": "tim_pkts_tst",
+    "description": "[SORCE] tim_pkts_tst"
+  },
+  "sorce: rts_007_build": {
+    "prefix": "rts_007_build",
+    "body": "rts_007_build",
+    "description": "[SORCE] rts_007_build"
+  },
+  "sorce: tim_dsp_tst": {
+    "prefix": "tim_dsp_tst",
+    "body": "tim_dsp_tst",
+    "description": "[SORCE] tim_dsp_tst"
+  },
+  "sorce: ditlm": {
+    "prefix": "ditlm",
+    "body": "ditlm",
+    "description": "[SORCE] ditlm"
+  },
+  "sorce: excdump": {
+    "prefix": "excdump",
+    "body": "excdump",
+    "description": "[SORCE] excdump"
+  },
+  "sorce: st1_oldmoon_014": {
+    "prefix": "st1_oldmoon_014",
+    "body": "st1_oldmoon_014",
+    "description": "[SORCE] st1_oldmoon_014"
+  },
+  "sorce: dcr_110": {
+    "prefix": "dcr_110",
+    "body": "dcr_110",
+    "description": "[SORCE] dcr_110"
+  },
+  "sorce: sima_gaincal_op2": {
+    "prefix": "sima_gaincal_op2",
+    "body": "sima_gaincal_op2",
+    "description": "[SORCE] sima_gaincal_op2"
+  },
+  "sorce: p24_il_eeprom": {
+    "prefix": "p24_il_eeprom",
+    "body": "p24_il_eeprom",
+    "description": "[SORCE] p24_il_eeprom"
+  },
+  "sorce: load5bftx2_70": {
+    "prefix": "load5bftx2_70",
+    "body": "load5bftx2_70",
+    "description": "[SORCE] load5bftx2_70"
+  },
+  "sorce: sol_bgci_dd_snp": {
+    "prefix": "sol_bgci_dd_snp",
+    "body": "sol_bgci_dd_snp",
+    "description": "[SORCE] sol_bgci_dd_snp"
+  },
+  "sorce: xps_quick_init": {
+    "prefix": "xps_quick_init",
+    "body": "xps_quick_init",
+    "description": "[SORCE] xps_quick_init"
+  },
+  "sorce: simb_5min_scan": {
+    "prefix": "simb_5min_scan",
+    "body": "simb_5min_scan",
+    "description": "[SORCE] simb_5min_scan"
+  },
+  "sorce: st1_stat_tst": {
+    "prefix": "st1_stat_tst",
+    "body": "st1_stat_tst",
+    "description": "[SORCE] st1_stat_tst"
+  },
+  "sorce: xps_hk_dd_snp": {
+    "prefix": "xps_hk_dd_snp",
+    "body": "xps_hk_dd_snp",
+    "description": "[SORCE] xps_hk_dd_snp"
+  },
+  "sorce: rts_071_build": {
+    "prefix": "rts_071_build",
+    "body": "rts_071_build",
+    "description": "[SORCE] rts_071_build"
+  },
+  "sorce: st_conferr_0": {
+    "prefix": "st_conferr_0",
+    "body": "st_conferr_0 ${1:\\$tracker}",
+    "description": "[SORCE] st_conferr_0"
+  },
+  "sorce: xb_1553cmd": {
+    "prefix": "xb_1553cmd",
+    "body": "xb_1553cmd",
+    "description": "[SORCE] xb_1553cmd"
+  },
+  "sorce: sc_state_tst": {
+    "prefix": "sc_state_tst",
+    "body": "sc_state_tst",
+    "description": "[SORCE] sc_state_tst"
+  },
+  "sorce: st1_oldmoon_013": {
+    "prefix": "st1_oldmoon_013",
+    "body": "st1_oldmoon_013",
+    "description": "[SORCE] st1_oldmoon_013"
+  },
+  "sorce: dcr_117": {
+    "prefix": "dcr_117",
+    "body": "dcr_117",
+    "description": "[SORCE] dcr_117"
+  },
+  "sorce: sim_asw_dd_snp": {
+    "prefix": "sim_asw_dd_snp",
+    "body": "sim_asw_dd_snp",
+    "description": "[SORCE] sim_asw_dd_snp"
+  },
+  "sorce: b10_sorcec2mp06": {
+    "prefix": "b10_sorcec2mp06",
+    "body": "b10_sorcec2mp06",
+    "description": "[SORCE] b10_sorcec2mp06"
+  },
+  "sorce: sccmd": {
+    "prefix": "sccmd",
+    "body": "sccmd",
+    "description": "[SORCE] sccmd"
+  },
+  "sorce: tscmd": {
+    "prefix": "tscmd",
+    "body": "tscmd",
+    "description": "[SORCE] tscmd"
+  },
+  "sorce: simb_low_pkt_rt": {
+    "prefix": "simb_low_pkt_rt",
+    "body": "simb_low_pkt_rt",
+    "description": "[SORCE] simb_low_pkt_rt"
+  },
+  "sorce: sc_tlm_prcs": {
+    "prefix": "sc_tlm_prcs",
+    "body": "sc_tlm_prcs",
+    "description": "[SORCE] sc_tlm_prcs"
+  },
+  "sorce: pr541_ool_inst": {
+    "prefix": "pr541_ool_inst",
+    "body": "pr541_ool_inst",
+    "description": "[SORCE] pr541_ool_inst"
+  },
+  "sorce: st2_turn_off": {
+    "prefix": "st2_turn_off",
+    "body": "st2_turn_off",
+    "description": "[SORCE] st2_turn_off"
+  },
+  "sorce: load7osx2_4_70": {
+    "prefix": "load7osx2_4_70",
+    "body": "load7osx2_4_70",
+    "description": "[SORCE] load7osx2_4_70"
+  },
+  "sorce: sim_adr_dd_snp": {
+    "prefix": "sim_adr_dd_snp",
+    "body": "sim_adr_dd_snp",
+    "description": "[SORCE] sim_adr_dd_snp"
+  },
+  "sorce: fss_fdc_enable": {
+    "prefix": "fss_fdc_enable",
+    "body": "fss_fdc_enable",
+    "description": "[SORCE] fss_fdc_enable"
+  },
+  "sorce: t_018_sc_55_10": {
+    "prefix": "t_018_sc_55_10",
+    "body": "t_018_sc_55_10",
+    "description": "[SORCE] t_018_sc_55_10"
+  },
+  "sorce: set_dsp_ld_tries": {
+    "prefix": "set_dsp_ld_tries",
+    "body": "set_dsp_ld_tries ${1:\\$num_attempts}",
+    "description": "[SORCE] set_dsp_ld_tries"
+  },
+  "sorce: rts_111_build": {
+    "prefix": "rts_111_build",
+    "body": "rts_111_build",
+    "description": "[SORCE] rts_111_build"
+  },
+  "sorce: dump_except_log": {
+    "prefix": "dump_except_log",
+    "body": "dump_except_log",
+    "description": "[SORCE] dump_except_log"
+  },
+  "sorce: execute_rts": {
+    "prefix": "execute_rts",
+    "body": "execute_rts ${1:\\$rts_id}",
+    "description": "[SORCE] execute_rts"
+  },
+  "sorce: st1_init": {
+    "prefix": "st1_init",
+    "body": "st1_init",
+    "description": "[SORCE] st1_init"
+  },
+  "sorce: ds_main_tst": {
+    "prefix": "ds_main_tst",
+    "body": "ds_main_tst",
+    "description": "[SORCE] ds_main_tst"
+  },
+  "sorce: undo_sorce_obc81": {
+    "prefix": "undo_sorce_obc81",
+    "body": "undo_sorce_obc81",
+    "description": "[SORCE] undo_sorce_obc81"
+  },
+  "sorce: memorytlm": {
+    "prefix": "memorytlm",
+    "body": "memorytlm",
+    "description": "[SORCE] memorytlm"
+  },
+  "sorce: solb_init": {
+    "prefix": "solb_init",
+    "body": "solb_init",
+    "description": "[SORCE] solb_init"
+  },
+  "sorce: safehold_exit": {
+    "prefix": "safehold_exit",
+    "body": "safehold_exit",
+    "description": "[SORCE] safehold_exit"
+  },
+  "sorce: pr541_cont": {
+    "prefix": "pr541_cont",
+    "body": "pr541_cont",
+    "description": "[SORCE] pr541_cont"
+  },
+  "sorce: dcr_119": {
+    "prefix": "dcr_119",
+    "body": "dcr_119",
+    "description": "[SORCE] dcr_119"
+  },
+  "sorce: sima_prsmcal": {
+    "prefix": "sima_prsmcal",
+    "body": "sima_prsmcal",
+    "description": "[SORCE] sima_prsmcal"
+  },
+  "sorce: b10_sorcec2mp08": {
+    "prefix": "b10_sorcec2mp08",
+    "body": "b10_sorcec2mp08",
+    "description": "[SORCE] b10_sorcec2mp08"
+  },
+  "sorce: sima_esr_tbl_ld": {
+    "prefix": "sima_esr_tbl_ld",
+    "body": "sima_esr_tbl_ld",
+    "description": "[SORCE] sima_esr_tbl_ld"
+  },
+  "sorce: init_gds_dyndata": {
+    "prefix": "init_gds_dyndata",
+    "body": "init_gds_dyndata",
+    "description": "[SORCE] init_gds_dyndata"
+  },
+  "sorce: sol_asw_dd_snp": {
+    "prefix": "sol_asw_dd_snp",
+    "body": "sol_asw_dd_snp",
+    "description": "[SORCE] sol_asw_dd_snp"
+  },
+  "sorce: rwa_config": {
+    "prefix": "rwa_config",
+    "body": "rwa_config",
+    "description": "[SORCE] rwa_config"
+  },
+  "sorce: boot_obc10bank2": {
+    "prefix": "boot_obc10bank2",
+    "body": "boot_obc10bank2",
+    "description": "[SORCE] boot_obc10bank2"
+  },
+  "sorce: rts_006_build": {
+    "prefix": "rts_006_build",
+    "body": "rts_006_build",
+    "description": "[SORCE] rts_006_build"
+  },
+  "sorce: rts_058_build": {
+    "prefix": "rts_058_build",
+    "body": "rts_058_build",
+    "description": "[SORCE] rts_058_build"
+  },
+  "sorce: sol_ahkm_tst": {
+    "prefix": "sol_ahkm_tst",
+    "body": "sol_ahkm_tst",
+    "description": "[SORCE] sol_ahkm_tst"
+  },
+  "sorce: remote_ois": {
+    "prefix": "remote_ois",
+    "body": "remote_ois ${1:\\$remote_host}",
+    "description": "[SORCE] remote_ois"
+  },
+  "sorce: acmedsens_log": {
+    "prefix": "acmedsens_log",
+    "body": "acmedsens_log",
+    "description": "[SORCE] acmedsens_log"
+  },
+  "sorce: flow_tlm": {
+    "prefix": "flow_tlm",
+    "body": "flow_tlm ${1:\\$file}",
+    "description": "[SORCE] flow_tlm"
+  },
+  "sorce: ad_common_dd": {
+    "prefix": "ad_common_dd",
+    "body": "ad_common_dd",
+    "description": "[SORCE] ad_common_dd"
+  },
+  "sorce: sim_bhkp_dd_snp": {
+    "prefix": "sim_bhkp_dd_snp",
+    "body": "sim_bhkp_dd_snp",
+    "description": "[SORCE] sim_bhkp_dd_snp"
+  },
+  "sorce: dscmd": {
+    "prefix": "dscmd",
+    "body": "dscmd",
+    "description": "[SORCE] dscmd"
+  },
+  "sorce: mem_sw_dd": {
+    "prefix": "mem_sw_dd",
+    "body": "mem_sw_dd",
+    "description": "[SORCE] mem_sw_dd"
+  },
+  "sorce: tim_relay_ab": {
+    "prefix": "tim_relay_ab",
+    "body": "tim_relay_ab",
+    "description": "[SORCE] tim_relay_ab"
+  },
+  "sorce: sorcec0md1": {
+    "prefix": "sorcec0md1",
+    "body": "sorcec0md1",
+    "description": "[SORCE] sorcec0md1"
+  },
+  "sorce: hs_115_defs": {
+    "prefix": "hs_115_defs",
+    "body": "hs_115_defs",
+    "description": "[SORCE] hs_115_defs"
+  },
+  "sorce: sima_htr_low": {
+    "prefix": "sima_htr_low",
+    "body": "sima_htr_low",
+    "description": "[SORCE] sima_htr_low"
+  },
+  "sorce: tim_hkm_dd": {
+    "prefix": "tim_hkm_dd",
+    "body": "tim_hkm_dd",
+    "description": "[SORCE] tim_hkm_dd"
+  },
+  "sorce: dcr_98": {
+    "prefix": "dcr_98",
+    "body": "dcr_98",
+    "description": "[SORCE] dcr_98"
+  },
+  "sorce: rts_070_build": {
+    "prefix": "rts_070_build",
+    "body": "rts_070_build",
+    "description": "[SORCE] rts_070_build"
+  },
+  "sorce: plot_02_tst": {
+    "prefix": "plot_02_tst",
+    "body": "plot_02_tst",
+    "description": "[SORCE] plot_02_tst"
+  },
+  "sorce: ld_sorce_69_pat": {
+    "prefix": "ld_sorce_69_pat",
+    "body": "ld_sorce_69_pat",
+    "description": "[SORCE] ld_sorce_69_pat"
+  },
+  "sorce: simb_nom_pkt_rt": {
+    "prefix": "simb_nom_pkt_rt",
+    "body": "simb_nom_pkt_rt",
+    "description": "[SORCE] simb_nom_pkt_rt"
+  },
+  "sorce: dcr_162": {
+    "prefix": "dcr_162",
+    "body": "dcr_162",
+    "description": "[SORCE] dcr_162"
+  },
+  "sorce: ape71patch": {
+    "prefix": "ape71patch",
+    "body": "ape71patch",
+    "description": "[SORCE] ape71patch"
+  },
+  "sorce: sc_state_dd": {
+    "prefix": "sc_state_dd",
+    "body": "sc_state_dd",
+    "description": "[SORCE] sc_state_dd"
+  },
+  "sorce: solb_g_scan": {
+    "prefix": "solb_g_scan",
+    "body": "solb_g_scan",
+    "description": "[SORCE] solb_g_scan"
+  },
+  "sorce: stor_cmd_dd": {
+    "prefix": "stor_cmd_dd",
+    "body": "stor_cmd_dd",
+    "description": "[SORCE] stor_cmd_dd"
+  },
+  "sorce: master_power_on": {
+    "prefix": "master_power_on",
+    "body": "master_power_on",
+    "description": "[SORCE] master_power_on"
+  },
+  "sorce: hscmd": {
+    "prefix": "hscmd",
+    "body": "hscmd",
+    "description": "[SORCE] hscmd"
+  },
+  "sorce: plot_06_tst": {
+    "prefix": "plot_06_tst",
+    "body": "plot_06_tst",
+    "description": "[SORCE] plot_06_tst"
+  },
+  "sorce: ctsim_switch_on": {
+    "prefix": "ctsim_switch_on",
+    "body": "ctsim_switch_on ${1:\\$ctsim_host}",
+    "description": "[SORCE] ctsim_switch_on"
+  },
+  "sorce: update_db_eor": {
+    "prefix": "update_db_eor",
+    "body": "update_db_eor",
+    "description": "[SORCE] update_db_eor"
+  },
+  "sorce: rts_110_build": {
+    "prefix": "rts_110_build",
+    "body": "rts_110_build",
+    "description": "[SORCE] rts_110_build"
+  },
+  "sorce: ena_ppp2": {
+    "prefix": "ena_ppp2",
+    "body": "ena_ppp2",
+    "description": "[SORCE] ena_ppp2"
+  },
+  "sorce: st2_moon_007": {
+    "prefix": "st2_moon_007",
+    "body": "st2_moon_007",
+    "description": "[SORCE] st2_moon_007"
+  },
+  "sorce: sol_bsw_tst": {
+    "prefix": "sol_bsw_tst",
+    "body": "sol_bsw_tst",
+    "description": "[SORCE] sol_bsw_tst"
+  },
+  "sorce: simb_0_tmr_ee_ld": {
+    "prefix": "simb_0_tmr_ee_ld",
+    "body": "simb_0_tmr_ee_ld",
+    "description": "[SORCE] simb_0_tmr_ee_ld"
+  },
+  "sorce: ceu_turn_on": {
+    "prefix": "ceu_turn_on",
+    "body": "ceu_turn_on",
+    "description": "[SORCE] ceu_turn_on"
+  },
+  "sorce: suromhkp_dd": {
+    "prefix": "suromhkp_dd",
+    "body": "suromhkp_dd",
+    "description": "[SORCE] suromhkp_dd"
+  },
+  "sorce: rts_005_build": {
+    "prefix": "rts_005_build",
+    "body": "rts_005_build",
+    "description": "[SORCE] rts_005_build"
+  },
+  "sorce: aso_low_rt": {
+    "prefix": "aso_low_rt",
+    "body": "aso_low_rt",
+    "description": "[SORCE] aso_low_rt"
+  },
+  "sorce: acs_cruc_tst": {
+    "prefix": "acs_cruc_tst",
+    "body": "acs_cruc_tst",
+    "description": "[SORCE] acs_cruc_tst"
+  },
+  "sorce: sim_bsw_dd_snp": {
+    "prefix": "sim_bsw_dd_snp",
+    "body": "sim_bsw_dd_snp",
+    "description": "[SORCE] sim_bsw_dd_snp"
+  },
+  "sorce: sim_bdr_dd_snp": {
+    "prefix": "sim_bdr_dd_snp",
+    "body": "sim_bdr_dd_snp",
+    "description": "[SORCE] sim_bdr_dd_snp"
+  },
+  "sorce: tim_hkp_tst": {
+    "prefix": "tim_hkp_tst",
+    "body": "tim_hkp_tst",
+    "description": "[SORCE] tim_hkp_tst"
+  },
+  "sorce: st1_turn_off": {
+    "prefix": "st1_turn_off",
+    "body": "st1_turn_off",
+    "description": "[SORCE] st1_turn_off"
+  },
+  "sorce: acs_slew_dd": {
+    "prefix": "acs_slew_dd",
+    "body": "acs_slew_dd",
+    "description": "[SORCE] acs_slew_dd"
+  },
+  "sorce: solb_d_tmr_ee_ld": {
+    "prefix": "solb_d_tmr_ee_ld",
+    "body": "solb_d_tmr_ee_ld",
+    "description": "[SORCE] solb_d_tmr_ee_ld"
+  },
+  "sorce: hstlm": {
+    "prefix": "hstlm",
+    "body": "hstlm",
+    "description": "[SORCE] hstlm"
+  },
+  "sorce: sola_quick_init": {
+    "prefix": "sola_quick_init",
+    "body": "sola_quick_init",
+    "description": "[SORCE] sola_quick_init"
+  },
+  "sorce: plot_18_dd": {
+    "prefix": "plot_18_dd",
+    "body": "plot_18_dd",
+    "description": "[SORCE] plot_18_dd"
+  },
+  "sorce: sol_tst": {
+    "prefix": "sol_tst",
+    "body": "sol_tst",
+    "description": "[SORCE] sol_tst"
+  },
+  "sorce: obc_80_rec_9": {
+    "prefix": "obc_80_rec_9",
+    "body": "obc_80_rec_9",
+    "description": "[SORCE] obc_80_rec_9"
+  },
+  "sorce: cmdverif": {
+    "prefix": "cmdverif",
+    "body": "cmdverif ${1:\\$state}",
+    "description": "[SORCE] cmdverif"
+  },
+  "sorce: safehold_rec_0": {
+    "prefix": "safehold_rec_0",
+    "body": "safehold_rec_0",
+    "description": "[SORCE] safehold_rec_0"
+  },
+  "sorce: st2_oldmoon_003": {
+    "prefix": "st2_oldmoon_003",
+    "body": "st2_oldmoon_003",
+    "description": "[SORCE] st2_oldmoon_003"
+  },
+  "sorce: sima_vent_op": {
+    "prefix": "sima_vent_op",
+    "body": "sima_vent_op",
+    "description": "[SORCE] sima_vent_op"
+  },
+  "sorce: sc_cmd_postcheck": {
+    "prefix": "sc_cmd_postcheck",
+    "body": "sc_cmd_postcheck",
+    "description": "[SORCE] sc_cmd_postcheck"
+  },
+  "sorce: st2_stat_tst": {
+    "prefix": "st2_stat_tst",
+    "body": "st2_stat_tst",
+    "description": "[SORCE] st2_stat_tst"
+  },
+  "sorce: tim_hkt_tst": {
+    "prefix": "tim_hkt_tst",
+    "body": "tim_hkt_tst",
+    "description": "[SORCE] tim_hkt_tst"
+  },
+  "sorce: misc_fsw_tst": {
+    "prefix": "misc_fsw_tst",
+    "body": "misc_fsw_tst",
+    "description": "[SORCE] misc_fsw_tst"
+  },
+  "sorce: obc67patch": {
+    "prefix": "obc67patch",
+    "body": "obc67patch",
+    "description": "[SORCE] obc67patch"
+  },
+  "sorce: persistance": {
+    "prefix": "persistance",
+    "body": "persistance",
+    "description": "[SORCE] persistance"
+  },
+  "sorce: sol_asw_tst": {
+    "prefix": "sol_asw_tst",
+    "body": "sol_asw_tst",
+    "description": "[SORCE] sol_asw_tst"
+  },
+  "sorce: ee_patch_inst": {
+    "prefix": "ee_patch_inst",
+    "body": "ee_patch_inst",
+    "description": "[SORCE] ee_patch_inst"
+  },
+  "sorce: verify_src_71": {
+    "prefix": "verify_src_71",
+    "body": "verify_src_71",
+    "description": "[SORCE] verify_src_71"
+  },
+  "sorce: st2_oldmoon_004": {
+    "prefix": "st2_oldmoon_004",
+    "body": "st2_oldmoon_004",
+    "description": "[SORCE] st2_oldmoon_004"
+  },
+  "sorce: rts_113_build": {
+    "prefix": "rts_113_build",
+    "body": "rts_113_build",
+    "description": "[SORCE] rts_113_build"
+  },
+  "sorce: auto_sorce_orbit": {
+    "prefix": "auto_sorce_orbit",
+    "body": "auto_sorce_orbit ${1:\\$sunset1}, ${2:\\$sunrise1}, ${3:\\$sunset2}, ${4:\\$eclipse_dur}",
+    "description": "[SORCE] auto_sorce_orbit"
+  },
+  "sorce: st1_moon_009": {
+    "prefix": "st1_moon_009",
+    "body": "st1_moon_009",
+    "description": "[SORCE] st1_moon_009"
+  },
+  "sorce: ops_tst": {
+    "prefix": "ops_tst",
+    "body": "ops_tst",
+    "description": "[SORCE] ops_tst"
+  },
+  "sorce: acs_ape_dd_snp": {
+    "prefix": "acs_ape_dd_snp",
+    "body": "acs_ape_dd_snp",
+    "description": "[SORCE] acs_ape_dd_snp"
+  },
+  "sorce: t_111_solar": {
+    "prefix": "t_111_solar",
+    "body": "t_111_solar",
+    "description": "[SORCE] t_111_solar"
+  },
+  "sorce: acs_sta_dd_snp": {
+    "prefix": "acs_sta_dd_snp",
+    "body": "acs_sta_dd_snp",
+    "description": "[SORCE] acs_sta_dd_snp"
+  },
+  "sorce: sola_fly_1_2": {
+    "prefix": "sola_fly_1_2",
+    "body": "sola_fly_1_2",
+    "description": "[SORCE] sola_fly_1_2"
+  },
+  "sorce: sol_bpkt_tst": {
+    "prefix": "sol_bpkt_tst",
+    "body": "sol_bpkt_tst",
+    "description": "[SORCE] sol_bpkt_tst"
+  },
+  "sorce: rts_dump": {
+    "prefix": "rts_dump",
+    "body": "rts_dump ${1:\\$RTS}",
+    "description": "[SORCE] rts_dump"
+  },
+  "sorce: dstlm": {
+    "prefix": "dstlm",
+    "body": "dstlm",
+    "description": "[SORCE] dstlm"
+  },
+  "sorce: rts_073_build": {
+    "prefix": "rts_073_build",
+    "body": "rts_073_build",
+    "description": "[SORCE] rts_073_build"
+  },
+  "sorce: primary_streams": {
+    "prefix": "primary_streams",
+    "body": "primary_streams",
+    "description": "[SORCE] primary_streams"
+  },
+  "sorce: memorycmd": {
+    "prefix": "memorycmd",
+    "body": "memorycmd",
+    "description": "[SORCE] memorycmd"
+  },
+  "sorce: fst_rts13_ld": {
+    "prefix": "fst_rts13_ld",
+    "body": "fst_rts13_ld",
+    "description": "[SORCE] fst_rts13_ld"
+  },
+  "sorce: plot_03_dd": {
+    "prefix": "plot_03_dd",
+    "body": "plot_03_dd",
+    "description": "[SORCE] plot_03_dd"
+  },
+  "sorce: mu_ee_uninst_14": {
+    "prefix": "mu_ee_uninst_14",
+    "body": "mu_ee_uninst_14",
+    "description": "[SORCE] mu_ee_uninst_14"
+  },
+  "sorce: dcr_150": {
+    "prefix": "dcr_150",
+    "body": "dcr_150",
+    "description": "[SORCE] dcr_150"
+  },
+  "sorce: jam_sc_time": {
+    "prefix": "jam_sc_time",
+    "body": "jam_sc_time ${1:\\$offset}",
+    "description": "[SORCE] jam_sc_time"
+  },
+  "sorce: st2_fdc_disable": {
+    "prefix": "st2_fdc_disable",
+    "body": "st2_fdc_disable",
+    "description": "[SORCE] st2_fdc_disable"
+  },
+  "sorce: fst_launch": {
+    "prefix": "fst_launch",
+    "body": "fst_launch",
+    "description": "[SORCE] fst_launch"
+  },
+  "sorce: thresh_check": {
+    "prefix": "thresh_check",
+    "body": "thresh_check",
+    "description": "[SORCE] thresh_check"
+  },
+  "sorce: mu_soh_dd": {
+    "prefix": "mu_soh_dd",
+    "body": "mu_soh_dd",
+    "description": "[SORCE] mu_soh_dd"
+  },
+  "sorce: load8os2_70": {
+    "prefix": "load8os2_70",
+    "body": "load8os2_70",
+    "description": "[SORCE] load8os2_70"
+  },
+  "sorce: tlm_mon_tst": {
+    "prefix": "tlm_mon_tst",
+    "body": "tlm_mon_tst",
+    "description": "[SORCE] tlm_mon_tst"
+  },
+  "sorce: st1_moon_007": {
+    "prefix": "st1_moon_007",
+    "body": "st1_moon_007",
+    "description": "[SORCE] st1_moon_007"
+  },
+  "sorce: sima_door_op": {
+    "prefix": "sima_door_op",
+    "body": "sima_door_op ${1:\\$door_dir}",
+    "description": "[SORCE] sima_door_op"
+  },
+  "sorce: p11_ool_eeprom": {
+    "prefix": "p11_ool_eeprom",
+    "body": "p11_ool_eeprom",
+    "description": "[SORCE] p11_ool_eeprom"
+  },
+  "sorce: acs_sta_dd": {
+    "prefix": "acs_sta_dd",
+    "body": "acs_sta_dd",
+    "description": "[SORCE] acs_sta_dd"
+  },
+  "sorce: fs_pat_363a8": {
+    "prefix": "fs_pat_363a8",
+    "body": "fs_pat_363a8",
+    "description": "[SORCE] fs_pat_363a8"
+  },
+  "sorce: rts_004_build": {
+    "prefix": "rts_004_build",
+    "body": "rts_004_build",
+    "description": "[SORCE] rts_004_build"
+  },
+  "sorce: tim_gci_dd_snp": {
+    "prefix": "tim_gci_dd_snp",
+    "body": "tim_gci_dd_snp",
+    "description": "[SORCE] tim_gci_dd_snp"
+  },
+  "sorce: dcr_109b": {
+    "prefix": "dcr_109b",
+    "body": "dcr_109b",
+    "description": "[SORCE] dcr_109b"
+  },
+  "sorce: sol_asci_dd": {
+    "prefix": "sol_asci_dd",
+    "body": "sol_asci_dd",
+    "description": "[SORCE] sol_asci_dd"
+  },
+  "sorce: limit_on": {
+    "prefix": "limit_on",
+    "body": "limit_on ${1:\\$ext_elmnt}, ${2:\\$item_name}",
+    "description": "[SORCE] limit_on"
+  },
+  "sorce: sorcec2mp03": {
+    "prefix": "sorcec2mp03",
+    "body": "sorcec2mp03",
+    "description": "[SORCE] sorcec2mp03"
+  },
+  "sorce: relay": {
+    "prefix": "relay",
+    "body": "relay ${1:\\$status}",
+    "description": "[SORCE] relay"
+  },
+  "sorce: simb_turn_on": {
+    "prefix": "simb_turn_on",
+    "body": "simb_turn_on",
+    "description": "[SORCE] simb_turn_on"
+  },
+  "sorce: vr_report": {
+    "prefix": "vr_report",
+    "body": "vr_report ${1:\\$vr1_dsid}, ${2:\\$vr2_dsid}, ${3:\\$vr3_dsid}, ${4:\\$vr4_dsid}",
+    "description": "[SORCE] vr_report"
+  },
+  "sorce: tim_cone_act": {
+    "prefix": "tim_cone_act",
+    "body": "tim_cone_act",
+    "description": "[SORCE] tim_cone_act"
+  },
+  "sorce: plot_15_dd": {
+    "prefix": "plot_15_dd",
+    "body": "plot_15_dd",
+    "description": "[SORCE] plot_15_dd"
+  },
+  "sorce: blind_acq_gn": {
+    "prefix": "blind_acq_gn",
+    "body": "blind_acq_gn",
+    "description": "[SORCE] blind_acq_gn"
+  },
+  "sorce: sim_ahkt_dd_snp": {
+    "prefix": "sim_ahkt_dd_snp",
+    "body": "sim_ahkt_dd_snp",
+    "description": "[SORCE] sim_ahkt_dd_snp"
+  },
+  "sorce: obc_80_rec_7": {
+    "prefix": "obc_80_rec_7",
+    "body": "obc_80_rec_7",
+    "description": "[SORCE] obc_80_rec_7"
+  },
+  "sorce: sol_bsw_dd_snp": {
+    "prefix": "sol_bsw_dd_snp",
+    "body": "sol_bsw_dd_snp",
+    "description": "[SORCE] sol_bsw_dd_snp"
+  },
+  "sorce: sorcec2mp04": {
+    "prefix": "sorcec2mp04",
+    "body": "sorcec2mp04",
+    "description": "[SORCE] sorcec2mp04"
+  },
+  "sorce: dicmd": {
+    "prefix": "dicmd",
+    "body": "dicmd",
+    "description": "[SORCE] dicmd"
+  },
+  "sorce: dcr_159": {
+    "prefix": "dcr_159",
+    "body": "dcr_159",
+    "description": "[SORCE] dcr_159"
+  },
+  "sorce: fs_ape65patch": {
+    "prefix": "fs_ape65patch",
+    "body": "fs_ape65patch",
+    "description": "[SORCE] fs_ape65patch"
+  },
+  "sorce: simb_default_seq": {
+    "prefix": "simb_default_seq",
+    "body": "simb_default_seq",
+    "description": "[SORCE] simb_default_seq"
+  },
+  "sorce: sola_dhtr_hi": {
+    "prefix": "sola_dhtr_hi",
+    "body": "sola_dhtr_hi",
+    "description": "[SORCE] sola_dhtr_hi"
+  },
+  "sorce: rts_112_build": {
+    "prefix": "rts_112_build",
+    "body": "rts_112_build",
+    "description": "[SORCE] rts_112_build"
+  },
+  "sorce: fdc_4_normal": {
+    "prefix": "fdc_4_normal",
+    "body": "fdc_4_normal",
+    "description": "[SORCE] fdc_4_normal"
+  },
+  "sorce: p13_il1_eeprom": {
+    "prefix": "p13_il1_eeprom",
+    "body": "p13_il1_eeprom",
+    "description": "[SORCE] p13_il1_eeprom"
+  },
+  "sorce: bad_sc_cmds": {
+    "prefix": "bad_sc_cmds",
+    "body": "bad_sc_cmds",
+    "description": "[SORCE] bad_sc_cmds"
+  },
+  "sorce: ep_obccmd": {
+    "prefix": "ep_obccmd",
+    "body": "ep_obccmd",
+    "description": "[SORCE] ep_obccmd"
+  },
+  "sorce: st1_oldmoon_021": {
+    "prefix": "st1_oldmoon_021",
+    "body": "st1_oldmoon_021",
+    "description": "[SORCE] st1_oldmoon_021"
+  },
+  "sorce: eps_batt_tst": {
+    "prefix": "eps_batt_tst",
+    "body": "eps_batt_tst",
+    "description": "[SORCE] eps_batt_tst"
+  },
+  "sorce: mutlm": {
+    "prefix": "mutlm",
+    "body": "mutlm",
+    "description": "[SORCE] mutlm"
+  },
+  "sorce: low_rt_low_rt": {
+    "prefix": "low_rt_low_rt",
+    "body": "low_rt_low_rt",
+    "description": "[SORCE] low_rt_low_rt"
+  },
+  "sorce: rts_072_build": {
+    "prefix": "rts_072_build",
+    "body": "rts_072_build",
+    "description": "[SORCE] rts_072_build"
+  },
+  "sorce: sola_fhv_on": {
+    "prefix": "sola_fhv_on",
+    "body": "sola_fhv_on",
+    "description": "[SORCE] sola_fhv_on"
+  },
+  "sorce: ds_main_dd": {
+    "prefix": "ds_main_dd",
+    "body": "ds_main_dd",
+    "description": "[SORCE] ds_main_dd"
+  },
+  "sorce: mu_mem_dump_e": {
+    "prefix": "mu_mem_dump_e",
+    "body": "mu_mem_dump_e",
+    "description": "[SORCE] mu_mem_dump_e"
+  },
+  "sorce: ld_src_jmp_99fe4": {
+    "prefix": "ld_src_jmp_99fe4",
+    "body": "ld_src_jmp_99fe4",
+    "description": "[SORCE] ld_src_jmp_99fe4"
+  },
+  "sorce: save_filenames": {
+    "prefix": "save_filenames",
+    "body": "save_filenames",
+    "description": "[SORCE] save_filenames"
+  },
+  "sorce: ape_rec_3": {
+    "prefix": "ape_rec_3",
+    "body": "ape_rec_3",
+    "description": "[SORCE] ape_rec_3"
+  },
+  "sorce: eps_psdo_dd": {
+    "prefix": "eps_psdo_dd",
+    "body": "eps_psdo_dd",
+    "description": "[SORCE] eps_psdo_dd"
+  },
+  "sorce: pass_setup_r": {
+    "prefix": "pass_setup_r",
+    "body": "pass_setup_r ${1:\\$STATION}",
+    "description": "[SORCE] pass_setup_r"
+  },
+  "sorce: mu_panic": {
+    "prefix": "mu_panic",
+    "body": "mu_panic",
+    "description": "[SORCE] mu_panic"
+  },
+  "sorce: rts_115_build": {
+    "prefix": "rts_115_build",
+    "body": "rts_115_build",
+    "description": "[SORCE] rts_115_build"
+  },
+  "sorce: pr598_install": {
+    "prefix": "pr598_install",
+    "body": "pr598_install",
+    "description": "[SORCE] pr598_install"
+  },
+  "sorce: pmdump": {
+    "prefix": "pmdump",
+    "body": "pmdump",
+    "description": "[SORCE] pmdump"
+  },
+  "sorce: acs_eph_tst": {
+    "prefix": "acs_eph_tst",
+    "body": "acs_eph_tst",
+    "description": "[SORCE] acs_eph_tst"
+  },
+  "sorce: route_log_hist": {
+    "prefix": "route_log_hist",
+    "body": "route_log_hist",
+    "description": "[SORCE] route_log_hist"
+  },
+  "sorce: simb_turn_off": {
+    "prefix": "simb_turn_off",
+    "body": "simb_turn_off",
+    "description": "[SORCE] simb_turn_off"
+  },
+  "sorce: plot_20_dd": {
+    "prefix": "plot_20_dd",
+    "body": "plot_20_dd",
+    "description": "[SORCE] plot_20_dd"
+  },
+  "sorce: hdstlm": {
+    "prefix": "hdstlm",
+    "body": "hdstlm",
+    "description": "[SORCE] hdstlm"
+  },
+  "sorce: dump_sbpipeover": {
+    "prefix": "dump_sbpipeover",
+    "body": "dump_sbpipeover",
+    "description": "[SORCE] dump_sbpipeover"
+  },
+  "sorce: st1_moon_011": {
+    "prefix": "st1_moon_011",
+    "body": "st1_moon_011",
+    "description": "[SORCE] st1_moon_011"
+  },
+  "sorce: p18_ool_eeprom": {
+    "prefix": "p18_ool_eeprom",
+    "body": "p18_ool_eeprom",
+    "description": "[SORCE] p18_ool_eeprom"
+  },
+  "sorce: rts_075_build": {
+    "prefix": "rts_075_build",
+    "body": "rts_075_build",
+    "description": "[SORCE] rts_075_build"
+  },
+  "sorce: st2_acqm_tst": {
+    "prefix": "st2_acqm_tst",
+    "body": "st2_acqm_tst",
+    "description": "[SORCE] st2_acqm_tst"
+  },
+  "sorce: xps_gci_tst": {
+    "prefix": "xps_gci_tst",
+    "body": "xps_gci_tst",
+    "description": "[SORCE] xps_gci_tst"
+  },
+  "sorce: tim_vent_cl": {
+    "prefix": "tim_vent_cl",
+    "body": "tim_vent_cl",
+    "description": "[SORCE] tim_vent_cl"
+  },
+  "sorce: solb_turn_off": {
+    "prefix": "solb_turn_off",
+    "body": "solb_turn_off",
+    "description": "[SORCE] solb_turn_off"
+  },
+  "sorce: pre2cmd": {
+    "prefix": "pre2cmd",
+    "body": "pre2cmd",
+    "description": "[SORCE] pre2cmd"
+  },
+  "sorce: st1_moon_016": {
+    "prefix": "st1_moon_016",
+    "body": "st1_moon_016",
+    "description": "[SORCE] st1_moon_016"
+  },
+  "sorce: rst_63_rec_69": {
+    "prefix": "rst_63_rec_69",
+    "body": "rst_63_rec_69",
+    "description": "[SORCE] rst_63_rec_69"
+  },
+  "sorce: auto_watchdog": {
+    "prefix": "auto_watchdog",
+    "body": "auto_watchdog",
+    "description": "[SORCE] auto_watchdog"
+  },
+  "sorce: rts_003_build": {
+    "prefix": "rts_003_build",
+    "body": "rts_003_build",
+    "description": "[SORCE] rts_003_build"
+  },
+  "sorce: ul_wdt": {
+    "prefix": "ul_wdt",
+    "body": "ul_wdt",
+    "description": "[SORCE] ul_wdt"
+  },
+  "sorce: rts_098_build": {
+    "prefix": "rts_098_build",
+    "body": "rts_098_build",
+    "description": "[SORCE] rts_098_build"
+  },
+  "sorce: mu_mem_dump_b": {
+    "prefix": "mu_mem_dump_b",
+    "body": "mu_mem_dump_b",
+    "description": "[SORCE] mu_mem_dump_b"
+  },
+  "sorce: tdrs_cmd_test": {
+    "prefix": "tdrs_cmd_test",
+    "body": "tdrs_cmd_test ${1:\\$count}",
+    "description": "[SORCE] tdrs_cmd_test"
+  },
+  "sorce: tim_gci_tst": {
+    "prefix": "tim_gci_tst",
+    "body": "tim_gci_tst",
+    "description": "[SORCE] tim_gci_tst"
+  },
+  "sorce: ind_heater_on": {
+    "prefix": "ind_heater_on",
+    "body": "ind_heater_on ${1:\\$heater}",
+    "description": "[SORCE] ind_heater_on"
+  },
+  "sorce: solb_0_tmr_ee_ld": {
+    "prefix": "solb_0_tmr_ee_ld",
+    "body": "solb_0_tmr_ee_ld",
+    "description": "[SORCE] solb_0_tmr_ee_ld"
+  },
+  "sorce: xps_int_59a_ld": {
+    "prefix": "xps_int_59a_ld",
+    "body": "xps_int_59a_ld",
+    "description": "[SORCE] xps_int_59a_ld"
+  },
+  "sorce: select_tlmf_tbl": {
+    "prefix": "select_tlmf_tbl",
+    "body": "select_tlmf_tbl ${1:\\$table}",
+    "description": "[SORCE] select_tlmf_tbl"
+  },
+  "sorce: rts_114_build": {
+    "prefix": "rts_114_build",
+    "body": "rts_114_build",
+    "description": "[SORCE] rts_114_build"
+  },
+  "sorce: sim_apkt_tst": {
+    "prefix": "sim_apkt_tst",
+    "body": "sim_apkt_tst",
+    "description": "[SORCE] sim_apkt_tst"
+  },
+  "sorce: sim_bhkm_dd_snp": {
+    "prefix": "sim_bhkm_dd_snp",
+    "body": "sim_bhkm_dd_snp",
+    "description": "[SORCE] sim_bhkm_dd_snp"
+  },
+  "sorce: t_018_sc_40_05": {
+    "prefix": "t_018_sc_40_05",
+    "body": "t_018_sc_40_05",
+    "description": "[SORCE] t_018_sc_40_05"
+  },
+  "sorce: solb_zig_2": {
+    "prefix": "solb_zig_2",
+    "body": "solb_zig_2",
+    "description": "[SORCE] solb_zig_2"
+  },
+  "sorce: rcv_broadcast": {
+    "prefix": "rcv_broadcast",
+    "body": "rcv_broadcast ${1:\\$port}",
+    "description": "[SORCE] rcv_broadcast"
+  },
+  "sorce: mu_spm_dd": {
+    "prefix": "mu_spm_dd",
+    "body": "mu_spm_dd",
+    "description": "[SORCE] mu_spm_dd"
+  },
+  "sorce: sol_bsw_dd": {
+    "prefix": "sol_bsw_dd",
+    "body": "sol_bsw_dd",
+    "description": "[SORCE] sol_bsw_dd"
+  },
+  "sorce: st1_moon_018": {
+    "prefix": "st1_moon_018",
+    "body": "st1_moon_018",
+    "description": "[SORCE] st1_moon_018"
+  },
+  "sorce: sc_cmdverif_en": {
+    "prefix": "sc_cmdverif_en",
+    "body": "sc_cmdverif_en",
+    "description": "[SORCE] sc_cmdverif_en"
+  },
+  "sorce: acs_cont_dd": {
+    "prefix": "acs_cont_dd",
+    "body": "acs_cont_dd",
+    "description": "[SORCE] acs_cont_dd"
+  },
+  "sorce: st2_oldmoon_015": {
+    "prefix": "st2_oldmoon_015",
+    "body": "st2_oldmoon_015",
+    "description": "[SORCE] st2_oldmoon_015"
+  },
+  "sorce: dumpvr": {
+    "prefix": "dumpvr",
+    "body": "dumpvr ${1:\\$vr_num}, ${2:\\$ds_num}",
+    "description": "[SORCE] dumpvr"
+  },
+  "sorce: dis_ppp2": {
+    "prefix": "dis_ppp2",
+    "body": "dis_ppp2",
+    "description": "[SORCE] dis_ppp2"
+  },
+  "sorce: rts_074_build": {
+    "prefix": "rts_074_build",
+    "body": "rts_074_build",
+    "description": "[SORCE] rts_074_build"
+  },
+  "sorce: ep_precmd": {
+    "prefix": "ep_precmd",
+    "body": "ep_precmd",
+    "description": "[SORCE] ep_precmd"
+  },
+  "sorce: st1_post_load": {
+    "prefix": "st1_post_load",
+    "body": "st1_post_load",
+    "description": "[SORCE] st1_post_load"
+  },
+  "sorce: sima_init": {
+    "prefix": "sima_init",
+    "body": "sima_init",
+    "description": "[SORCE] sima_init"
+  },
+  "sorce: dcr_141": {
+    "prefix": "dcr_141",
+    "body": "dcr_141",
+    "description": "[SORCE] dcr_141"
+  },
+  "sorce: sim_bdsp_dd_snp": {
+    "prefix": "sim_bdsp_dd_snp",
+    "body": "sim_bdsp_dd_snp",
+    "description": "[SORCE] sim_bdsp_dd_snp"
+  },
+  "sorce: acfastsens_log": {
+    "prefix": "acfastsens_log",
+    "body": "acfastsens_log",
+    "description": "[SORCE] acfastsens_log"
+  },
+  "sorce: rts_build_all": {
+    "prefix": "rts_build_all",
+    "body": "rts_build_all",
+    "description": "[SORCE] rts_build_all"
+  },
+  "sorce: st2_ee_undo": {
+    "prefix": "st2_ee_undo",
+    "body": "st2_ee_undo",
+    "description": "[SORCE] st2_ee_undo"
+  },
+  "sorce: xps_high_pkt_rt": {
+    "prefix": "xps_high_pkt_rt",
+    "body": "xps_high_pkt_rt",
+    "description": "[SORCE] xps_high_pkt_rt"
+  },
+  "sorce: tim_turn_off": {
+    "prefix": "tim_turn_off",
+    "body": "tim_turn_off",
+    "description": "[SORCE] tim_turn_off"
+  },
+  "sorce: b10_sorcec2md2": {
+    "prefix": "b10_sorcec2md2",
+    "body": "b10_sorcec2md2",
+    "description": "[SORCE] b10_sorcec2md2"
+  },
+  "sorce: flight_cmd_prcs": {
+    "prefix": "flight_cmd_prcs",
+    "body": "flight_cmd_prcs",
+    "description": "[SORCE] flight_cmd_prcs"
+  },
+  "sorce: obc_recovery": {
+    "prefix": "obc_recovery",
+    "body": "obc_recovery",
+    "description": "[SORCE] obc_recovery"
+  },
+  "sorce: rts_002_build": {
+    "prefix": "rts_002_build",
+    "body": "rts_002_build",
+    "description": "[SORCE] rts_002_build"
+  },
+  "sorce: dcr_146": {
+    "prefix": "dcr_146",
+    "body": "dcr_146",
+    "description": "[SORCE] dcr_146"
+  },
+  "sorce: switch_on_pkts": {
+    "prefix": "switch_on_pkts",
+    "body": "switch_on_pkts",
+    "description": "[SORCE] switch_on_pkts"
+  },
+  "sorce: st2_diag_dd": {
+    "prefix": "st2_diag_dd",
+    "body": "st2_diag_dd",
+    "description": "[SORCE] st2_diag_dd"
+  },
+  "sorce: ape66patch": {
+    "prefix": "ape66patch",
+    "body": "ape66patch",
+    "description": "[SORCE] ape66patch"
+  },
+  "sorce: sim_bpkt_dd_snp": {
+    "prefix": "sim_bpkt_dd_snp",
+    "body": "sim_bpkt_dd_snp",
+    "description": "[SORCE] sim_bpkt_dd_snp"
+  },
+  "sorce: pbk_ps": {
+    "prefix": "pbk_ps",
+    "body": "pbk_ps",
+    "description": "[SORCE] pbk_ps"
+  },
+  "sorce: acs_mtb_dd_snp": {
+    "prefix": "acs_mtb_dd_snp",
+    "body": "acs_mtb_dd_snp",
+    "description": "[SORCE] acs_mtb_dd_snp"
+  },
+  "sorce: eorinfo_setup": {
+    "prefix": "eorinfo_setup",
+    "body": "eorinfo_setup",
+    "description": "[SORCE] eorinfo_setup"
+  },
+  "sorce: undo_ape72pat": {
+    "prefix": "undo_ape72pat",
+    "body": "undo_ape72pat",
+    "description": "[SORCE] undo_ape72pat"
+  },
+  "sorce: pr598_activate": {
+    "prefix": "pr598_activate",
+    "body": "pr598_activate",
+    "description": "[SORCE] pr598_activate"
+  },
+  "sorce: st2_stat_dd": {
+    "prefix": "st2_stat_dd",
+    "body": "st2_stat_dd",
+    "description": "[SORCE] st2_stat_dd"
+  },
+  "sorce: sol_bhkt_dd": {
+    "prefix": "sol_bhkt_dd",
+    "body": "sol_bhkt_dd",
+    "description": "[SORCE] sol_bhkt_dd"
+  },
+  "sorce: sim_ahkm_dd": {
+    "prefix": "sim_ahkm_dd",
+    "body": "sim_ahkm_dd",
+    "description": "[SORCE] sim_ahkm_dd"
+  },
+  "sorce: tx_emrgncy_off": {
+    "prefix": "tx_emrgncy_off",
+    "body": "tx_emrgncy_off",
+    "description": "[SORCE] tx_emrgncy_off"
+  },
+  "sorce: ois_stat_dd": {
+    "prefix": "ois_stat_dd",
+    "body": "ois_stat_dd",
+    "description": "[SORCE] ois_stat_dd"
+  },
+  "sorce: sorcesurompatch": {
+    "prefix": "sorcesurompatch",
+    "body": "sorcesurompatch",
+    "description": "[SORCE] sorcesurompatch"
+  },
+  "sorce: shed_level0": {
+    "prefix": "shed_level0",
+    "body": "shed_level0",
+    "description": "[SORCE] shed_level0"
+  },
+  "sorce: st2_oldmoon_012": {
+    "prefix": "st2_oldmoon_012",
+    "body": "st2_oldmoon_012",
+    "description": "[SORCE] st2_oldmoon_012"
+  },
+  "sorce: ul_card_reset": {
+    "prefix": "ul_card_reset",
+    "body": "ul_card_reset ${1:\\$PREF_CMD_CHAN}, ${2:\\$TARGET}",
+    "description": "[SORCE] ul_card_reset"
+  },
+  "sorce: ape_stat_tst": {
+    "prefix": "ape_stat_tst",
+    "body": "ape_stat_tst",
+    "description": "[SORCE] ape_stat_tst"
+  },
+  "sorce: rts_099_build": {
+    "prefix": "rts_099_build",
+    "body": "rts_099_build",
+    "description": "[SORCE] rts_099_build"
+  },
+  "sorce: sorcec0mp07": {
+    "prefix": "sorcec0mp07",
+    "body": "sorcec0mp07",
+    "description": "[SORCE] sorcec0mp07"
+  },
+  "sorce: rts_077_build": {
+    "prefix": "rts_077_build",
+    "body": "rts_077_build",
+    "description": "[SORCE] rts_077_build"
+  },
+  "sorce: plot_01_dd": {
+    "prefix": "plot_01_dd",
+    "body": "plot_01_dd",
+    "description": "[SORCE] plot_01_dd"
+  },
+  "sorce: sol_pktb_dd": {
+    "prefix": "sol_pktb_dd",
+    "body": "sol_pktb_dd",
+    "description": "[SORCE] sol_pktb_dd"
+  },
+  "sorce: tlm_mon_dd_snp": {
+    "prefix": "tlm_mon_dd_snp",
+    "body": "tlm_mon_dd_snp",
+    "description": "[SORCE] tlm_mon_dd_snp"
+  },
+  "sorce: switch_pri_power": {
+    "prefix": "switch_pri_power",
+    "body": "switch_pri_power",
+    "description": "[SORCE] switch_pri_power"
+  },
+  "sorce: sola_ihtr_lo": {
+    "prefix": "sola_ihtr_lo",
+    "body": "sola_ihtr_lo",
+    "description": "[SORCE] sola_ihtr_lo"
+  },
+  "sorce: rts_029_build": {
+    "prefix": "rts_029_build",
+    "body": "rts_029_build",
+    "description": "[SORCE] rts_029_build"
+  },
+  "sorce: eps_prsw_dd_snp": {
+    "prefix": "eps_prsw_dd_snp",
+    "body": "eps_prsw_dd_snp",
+    "description": "[SORCE] eps_prsw_dd_snp"
+  },
+  "sorce: simb_rad_trp": {
+    "prefix": "simb_rad_trp",
+    "body": "simb_rad_trp",
+    "description": "[SORCE] simb_rad_trp"
+  },
+  "sorce: sola_turn_off": {
+    "prefix": "sola_turn_off",
+    "body": "sola_turn_off",
+    "description": "[SORCE] sola_turn_off"
+  },
+  "sorce: simb_dsp_dmp": {
+    "prefix": "simb_dsp_dmp",
+    "body": "simb_dsp_dmp",
+    "description": "[SORCE] simb_dsp_dmp"
+  },
+  "sorce: p15b_il_eeprom": {
+    "prefix": "p15b_il_eeprom",
+    "body": "p15b_il_eeprom",
+    "description": "[SORCE] p15b_il_eeprom"
+  },
+  "sorce: sola_zig_2": {
+    "prefix": "sola_zig_2",
+    "body": "sola_zig_2",
+    "description": "[SORCE] sola_zig_2"
+  },
+  "sorce: acs_msg_tst": {
+    "prefix": "acs_msg_tst",
+    "body": "acs_msg_tst",
+    "description": "[SORCE] acs_msg_tst"
+  },
+  "sorce: tim_shtr_c": {
+    "prefix": "tim_shtr_c",
+    "body": "tim_shtr_c",
+    "description": "[SORCE] tim_shtr_c"
+  },
+  "sorce: acs_sta_tst": {
+    "prefix": "acs_sta_tst",
+    "body": "acs_sta_tst",
+    "description": "[SORCE] acs_sta_tst"
+  },
+  "sorce: sima_gaincal_cl": {
+    "prefix": "sima_gaincal_cl",
+    "body": "sima_gaincal_cl",
+    "description": "[SORCE] sima_gaincal_cl"
+  },
+  "sorce: rts_117_build": {
+    "prefix": "rts_117_build",
+    "body": "rts_117_build",
+    "description": "[SORCE] rts_117_build"
+  },
+  "sorce: st2_moon_016": {
+    "prefix": "st2_moon_016",
+    "body": "st2_moon_016",
+    "description": "[SORCE] st2_moon_016"
+  },
+  "sorce: acs_main_tst": {
+    "prefix": "acs_main_tst",
+    "body": "acs_main_tst",
+    "description": "[SORCE] acs_main_tst"
+  },
+  "sorce: icmdpkts_tst": {
+    "prefix": "icmdpkts_tst",
+    "body": "icmdpkts_tst",
+    "description": "[SORCE] icmdpkts_tst"
+  },
+  "sorce: high_dump_low": {
+    "prefix": "high_dump_low",
+    "body": "high_dump_low",
+    "description": "[SORCE] high_dump_low"
+  },
+  "sorce: muhk_tlm_dd": {
+    "prefix": "muhk_tlm_dd",
+    "body": "muhk_tlm_dd",
+    "description": "[SORCE] muhk_tlm_dd"
+  },
+  "sorce: sim_bhkm_dd": {
+    "prefix": "sim_bhkm_dd",
+    "body": "sim_bhkm_dd",
+    "description": "[SORCE] sim_bhkm_dd"
+  },
+  "sorce: sol_ahkt_dd": {
+    "prefix": "sol_ahkt_dd",
+    "body": "sol_ahkt_dd",
+    "description": "[SORCE] sol_ahkt_dd"
+  },
+  "sorce: dumpvr_nowait": {
+    "prefix": "dumpvr_nowait",
+    "body": "dumpvr_nowait ${1:\\$vr_num}, ${2:\\$ds_num}",
+    "description": "[SORCE] dumpvr_nowait"
+  },
+  "sorce: sima_turn_off": {
+    "prefix": "sima_turn_off",
+    "body": "sima_turn_off",
+    "description": "[SORCE] sima_turn_off"
+  },
+  "sorce: st2_oldmoon_020": {
+    "prefix": "st2_oldmoon_020",
+    "body": "st2_oldmoon_020",
+    "description": "[SORCE] st2_oldmoon_020"
+  },
+  "sorce: st2_moon_011": {
+    "prefix": "st2_moon_011",
+    "body": "st2_moon_011",
+    "description": "[SORCE] st2_moon_011"
+  },
+  "sorce: solb_default_seq": {
+    "prefix": "solb_default_seq",
+    "body": "solb_default_seq",
+    "description": "[SORCE] solb_default_seq"
+  },
+  "sorce: st1_acqm_tst": {
+    "prefix": "st1_acqm_tst",
+    "body": "st1_acqm_tst",
+    "description": "[SORCE] st1_acqm_tst"
+  },
+  "sorce: sim_bhkm_tst": {
+    "prefix": "sim_bhkm_tst",
+    "body": "sim_bhkm_tst",
+    "description": "[SORCE] sim_bhkm_tst"
+  },
+  "sorce: rts_001_build": {
+    "prefix": "rts_001_build",
+    "body": "rts_001_build",
+    "description": "[SORCE] rts_001_build"
+  },
+  "sorce: sorce_obc68und": {
+    "prefix": "sorce_obc68und",
+    "body": "sorce_obc68und",
+    "description": "[SORCE] sorce_obc68und"
+  },
+  "sorce: sima_vent_cl": {
+    "prefix": "sima_vent_cl",
+    "body": "sima_vent_cl",
+    "description": "[SORCE] sima_vent_cl"
+  },
+  "sorce: fst_limits": {
+    "prefix": "fst_limits",
+    "body": "fst_limits",
+    "description": "[SORCE] fst_limits"
+  },
+  "sorce: ld_pat_00048230": {
+    "prefix": "ld_pat_00048230",
+    "body": "ld_pat_00048230",
+    "description": "[SORCE] ld_pat_00048230"
+  },
+  "sorce: ena_ophtr_sw": {
+    "prefix": "ena_ophtr_sw",
+    "body": "ena_ophtr_sw",
+    "description": "[SORCE] ena_ophtr_sw"
+  },
+  "sorce: st1_oldmoon_002": {
+    "prefix": "st1_oldmoon_002",
+    "body": "st1_oldmoon_002",
+    "description": "[SORCE] st1_oldmoon_002"
+  },
+  "sorce: simb_d_tmr_ee_ld": {
+    "prefix": "simb_d_tmr_ee_ld",
+    "body": "simb_d_tmr_ee_ld",
+    "description": "[SORCE] simb_d_tmr_ee_ld"
+  },
+  "sorce: rts_028_build": {
+    "prefix": "rts_028_build",
+    "body": "rts_028_build",
+    "description": "[SORCE] rts_028_build"
+  },
+  "sorce: ct_tlm_dd": {
+    "prefix": "ct_tlm_dd",
+    "body": "ct_tlm_dd",
+    "description": "[SORCE] ct_tlm_dd"
+  },
+  "sorce: st2_acqm_dd": {
+    "prefix": "st2_acqm_dd",
+    "body": "st2_acqm_dd",
+    "description": "[SORCE] st2_acqm_dd"
+  },
+  "sorce: rts_076_build": {
+    "prefix": "rts_076_build",
+    "body": "rts_076_build",
+    "description": "[SORCE] rts_076_build"
+  },
+  "sorce: plot_17_tst": {
+    "prefix": "plot_17_tst",
+    "body": "plot_17_tst",
+    "description": "[SORCE] plot_17_tst"
+  },
+  "sorce: xps_hk_tst": {
+    "prefix": "xps_hk_tst",
+    "body": "xps_hk_tst",
+    "description": "[SORCE] xps_hk_tst"
+  },
+  "sorce: plot_13_tst": {
+    "prefix": "plot_13_tst",
+    "body": "plot_13_tst",
+    "description": "[SORCE] plot_13_tst"
+  },
+  "sorce: ad_old_tst": {
+    "prefix": "ad_old_tst",
+    "body": "ad_old_tst",
+    "description": "[SORCE] ad_old_tst"
+  },
+  "sorce: ad_old_dd": {
+    "prefix": "ad_old_dd",
+    "body": "ad_old_dd",
+    "description": "[SORCE] ad_old_dd"
+  },
+  "sorce: rts10rtssafehld": {
+    "prefix": "rts10rtssafehld",
+    "body": "rts10rtssafehld",
+    "description": "[SORCE] rts10rtssafehld"
+  },
+  "sorce: standby2normal": {
+    "prefix": "standby2normal",
+    "body": "standby2normal",
+    "description": "[SORCE] standby2normal"
+  },
+  "sorce: rts_116_build": {
+    "prefix": "rts_116_build",
+    "body": "rts_116_build",
+    "description": "[SORCE] rts_116_build"
+  },
+  "sorce: ld_sorceape67pat": {
+    "prefix": "ld_sorceape67pat",
+    "body": "ld_sorceape67pat",
+    "description": "[SORCE] ld_sorceape67pat"
+  },
+  "sorce: plot_17_dd": {
+    "prefix": "plot_17_dd",
+    "body": "plot_17_dd",
+    "description": "[SORCE] plot_17_dd"
+  },
+  "sorce: sorcec0mp09": {
+    "prefix": "sorcec0mp09",
+    "body": "sorcec0mp09",
+    "description": "[SORCE] sorcec0mp09"
+  },
+  "sorce: sim_asci_dd_snp": {
+    "prefix": "sim_asci_dd_snp",
+    "body": "sim_asci_dd_snp",
+    "description": "[SORCE] sim_asci_dd_snp"
+  },
+  "sorce: limitchange": {
+    "prefix": "limitchange",
+    "body": "limitchange",
+    "description": "[SORCE] limitchange"
+  },
+  "sorce: eps_batt_dd_snp": {
+    "prefix": "eps_batt_dd_snp",
+    "body": "eps_batt_dd_snp",
+    "description": "[SORCE] eps_batt_dd_snp"
+  },
+  "sorce: ld_src_jmp_pat70": {
+    "prefix": "ld_src_jmp_pat70",
+    "body": "ld_src_jmp_pat70",
+    "description": "[SORCE] ld_src_jmp_pat70"
+  },
+  "sorce: solb_hv_test": {
+    "prefix": "solb_hv_test",
+    "body": "solb_hv_test",
+    "description": "[SORCE] solb_hv_test"
+  },
+  "sorce: xps_gci_dd": {
+    "prefix": "xps_gci_dd",
+    "body": "xps_gci_dd",
+    "description": "[SORCE] xps_gci_dd"
+  },
+  "sorce: st2_fdc_enable": {
+    "prefix": "st2_fdc_enable",
+    "body": "st2_fdc_enable",
+    "description": "[SORCE] st2_fdc_enable"
+  },
+  "sorce: st1_oldmoon_005": {
+    "prefix": "st1_oldmoon_005",
+    "body": "st1_oldmoon_005",
+    "description": "[SORCE] st1_oldmoon_005"
+  },
+  "sorce: tim_shutter": {
+    "prefix": "tim_shutter",
+    "body": "tim_shutter",
+    "description": "[SORCE] tim_shutter"
+  },
+  "sorce: sima_decimat": {
+    "prefix": "sima_decimat",
+    "body": "sima_decimat",
+    "description": "[SORCE] sima_decimat"
+  },
+  "sorce: st2_moon_018": {
+    "prefix": "st2_moon_018",
+    "body": "st2_moon_018",
+    "description": "[SORCE] st2_moon_018"
+  },
+  "sorce: t_018_sc_60_10": {
+    "prefix": "t_018_sc_60_10",
+    "body": "t_018_sc_60_10",
+    "description": "[SORCE] t_018_sc_60_10"
+  },
+  "sorce: sync_to_ceub": {
+    "prefix": "sync_to_ceub",
+    "body": "sync_to_ceub",
+    "description": "[SORCE] sync_to_ceub"
+  },
+  "sorce: aeptlm": {
+    "prefix": "aeptlm",
+    "body": "aeptlm",
+    "description": "[SORCE] aeptlm"
+  },
+  "sorce: rts_012_build": {
+    "prefix": "rts_012_build",
+    "body": "rts_012_build",
+    "description": "[SORCE] rts_012_build"
+  },
+  "sorce: inst_seq_dd_snp": {
+    "prefix": "inst_seq_dd_snp",
+    "body": "inst_seq_dd_snp",
+    "description": "[SORCE] inst_seq_dd_snp"
+  },
+  "sorce: high_rt_low_rt": {
+    "prefix": "high_rt_low_rt",
+    "body": "high_rt_low_rt",
+    "description": "[SORCE] high_rt_low_rt"
+  },
+  "sorce: plot_14_dd": {
+    "prefix": "plot_14_dd",
+    "body": "plot_14_dd",
+    "description": "[SORCE] plot_14_dd"
+  },
+  "sorce: sucmd": {
+    "prefix": "sucmd",
+    "body": "sucmd",
+    "description": "[SORCE] sucmd"
+  },
+  "sorce: st1_moon_015": {
+    "prefix": "st1_moon_015",
+    "body": "st1_moon_015",
+    "description": "[SORCE] st1_moon_015"
+  },
+  "sorce: xps_stat_tst": {
+    "prefix": "xps_stat_tst",
+    "body": "xps_stat_tst",
+    "description": "[SORCE] xps_stat_tst"
+  },
+  "sorce: sol_bhkp_tst": {
+    "prefix": "sol_bhkp_tst",
+    "body": "sol_bhkp_tst",
+    "description": "[SORCE] sol_bhkp_tst"
+  },
+  "sorce: st2_oldmoon_018": {
+    "prefix": "st2_oldmoon_018",
+    "body": "st2_oldmoon_018",
+    "description": "[SORCE] st2_oldmoon_018"
+  },
+  "sorce: b10_sorcec2m": {
+    "prefix": "b10_sorcec2m",
+    "body": "b10_sorcec2m",
+    "description": "[SORCE] b10_sorcec2m"
+  },
+  "sorce: p15c_il_eeprom": {
+    "prefix": "p15c_il_eeprom",
+    "body": "p15c_il_eeprom",
+    "description": "[SORCE] p15c_il_eeprom"
+  },
+  "sorce: xps_d_tmr_ee_ld": {
+    "prefix": "xps_d_tmr_ee_ld",
+    "body": "xps_d_tmr_ee_ld",
+    "description": "[SORCE] xps_d_tmr_ee_ld"
+  },
+  "sorce: sol_bhkt_tst": {
+    "prefix": "sol_bhkt_tst",
+    "body": "sol_bhkt_tst",
+    "description": "[SORCE] sol_bhkt_tst"
+  },
+  "sorce: mu_mem_dump_a": {
+    "prefix": "mu_mem_dump_a",
+    "body": "mu_mem_dump_a",
+    "description": "[SORCE] mu_mem_dump_a"
+  },
+  "sorce: plot_08_tst": {
+    "prefix": "plot_08_tst",
+    "body": "plot_08_tst",
+    "description": "[SORCE] plot_08_tst"
+  },
+  "sorce: accmd": {
+    "prefix": "accmd",
+    "body": "accmd",
+    "description": "[SORCE] accmd"
+  },
+  "sorce: p19_ool_eeprom": {
+    "prefix": "p19_ool_eeprom",
+    "body": "p19_ool_eeprom",
+    "description": "[SORCE] p19_ool_eeprom"
+  },
+  "sorce: rts_089_build": {
+    "prefix": "rts_089_build",
+    "body": "rts_089_build",
+    "description": "[SORCE] rts_089_build"
+  },
+  "sorce: rts_104_build": {
+    "prefix": "rts_104_build",
+    "body": "rts_104_build",
+    "description": "[SORCE] rts_104_build"
+  },
+  "sorce: st2_fsw_init": {
+    "prefix": "st2_fsw_init",
+    "body": "st2_fsw_init",
+    "description": "[SORCE] st2_fsw_init"
+  },
+  "sorce: vcdu1tlmmon": {
+    "prefix": "vcdu1tlmmon",
+    "body": "vcdu1tlmmon",
+    "description": "[SORCE] vcdu1tlmmon"
+  },
+  "sorce: mu_mem_dump_f": {
+    "prefix": "mu_mem_dump_f",
+    "body": "mu_mem_dump_f",
+    "description": "[SORCE] mu_mem_dump_f"
+  },
+  "sorce: solb_ihtr_lo": {
+    "prefix": "solb_ihtr_lo",
+    "body": "solb_ihtr_lo",
+    "description": "[SORCE] solb_ihtr_lo"
+  },
+  "sorce: sim_ahkt_dd": {
+    "prefix": "sim_ahkt_dd",
+    "body": "sim_ahkt_dd",
+    "description": "[SORCE] sim_ahkt_dd"
+  },
+  "sorce: sol_bhkm_dd": {
+    "prefix": "sol_bhkm_dd",
+    "body": "sol_bhkm_dd",
+    "description": "[SORCE] sol_bhkm_dd"
+  },
+  "sorce: st2_turn_on_td": {
+    "prefix": "st2_turn_on_td",
+    "body": "st2_turn_on_td",
+    "description": "[SORCE] st2_turn_on_td"
+  },
+  "sorce: sima_rad_trp": {
+    "prefix": "sima_rad_trp",
+    "body": "sima_rad_trp",
+    "description": "[SORCE] sima_rad_trp"
+  },
+  "sorce: rs_check": {
+    "prefix": "rs_check",
+    "body": "rs_check ${1:\\$state_input}",
+    "description": "[SORCE] rs_check"
+  },
+  "sorce: managercmd": {
+    "prefix": "managercmd",
+    "body": "managercmd",
+    "description": "[SORCE] managercmd"
+  },
+  "sorce: acs_cont_tst": {
+    "prefix": "acs_cont_tst",
+    "body": "acs_cont_tst",
+    "description": "[SORCE] acs_cont_tst"
+  },
+  "sorce: c_code_setup": {
+    "prefix": "c_code_setup",
+    "body": "c_code_setup",
+    "description": "[SORCE] c_code_setup"
+  },
+  "sorce: acs_css_dd_snp": {
+    "prefix": "acs_css_dd_snp",
+    "body": "acs_css_dd_snp",
+    "description": "[SORCE] acs_css_dd_snp"
+  },
+  "sorce: sima_dsp_dmp": {
+    "prefix": "sima_dsp_dmp",
+    "body": "sima_dsp_dmp",
+    "description": "[SORCE] sima_dsp_dmp"
+  },
+  "sorce: misc_fsw_dd": {
+    "prefix": "misc_fsw_dd",
+    "body": "misc_fsw_dd",
+    "description": "[SORCE] misc_fsw_dd"
+  },
+  "sorce: rts_064_build": {
+    "prefix": "rts_064_build",
+    "body": "rts_064_build",
+    "description": "[SORCE] rts_064_build"
+  },
+  "sorce: dlulcmd": {
+    "prefix": "dlulcmd",
+    "body": "dlulcmd",
+    "description": "[SORCE] dlulcmd"
+  },
+  "sorce: plot_04_tst": {
+    "prefix": "plot_04_tst",
+    "body": "plot_04_tst",
+    "description": "[SORCE] plot_04_tst"
+  },
+  "sorce: ena_ophtr_cntrl": {
+    "prefix": "ena_ophtr_cntrl",
+    "body": "ena_ophtr_cntrl",
+    "description": "[SORCE] ena_ophtr_cntrl"
+  },
+  "sorce: ld_pat30000_82": {
+    "prefix": "ld_pat30000_82",
+    "body": "ld_pat30000_82",
+    "description": "[SORCE] ld_pat30000_82"
+  },
+  "sorce: dis_ophtr_pwr_sw": {
+    "prefix": "dis_ophtr_pwr_sw",
+    "body": "dis_ophtr_pwr_sw",
+    "description": "[SORCE] dis_ophtr_pwr_sw"
+  },
+  "sorce: st1_moon_012": {
+    "prefix": "st1_moon_012",
+    "body": "st1_moon_012",
+    "description": "[SORCE] st1_moon_012"
+  },
+  "sorce: ancmd": {
+    "prefix": "ancmd",
+    "body": "ancmd",
+    "description": "[SORCE] ancmd"
+  },
+  "sorce: gumbl_sc_dd": {
+    "prefix": "gumbl_sc_dd",
+    "body": "gumbl_sc_dd",
+    "description": "[SORCE] gumbl_sc_dd"
+  },
+  "sorce: sola_hv_test": {
+    "prefix": "sola_hv_test",
+    "body": "sola_hv_test",
+    "description": "[SORCE] sola_hv_test"
+  },
+  "sorce: st2_main_tst": {
+    "prefix": "st2_main_tst",
+    "body": "st2_main_tst",
+    "description": "[SORCE] st2_main_tst"
+  },
+  "sorce: rts_013_build": {
+    "prefix": "rts_013_build",
+    "body": "rts_013_build",
+    "description": "[SORCE] rts_013_build"
+  },
+  "sorce: tim_sci_dd": {
+    "prefix": "tim_sci_dd",
+    "body": "tim_sci_dd",
+    "description": "[SORCE] tim_sci_dd"
+  },
+  "sorce: select_1553": {
+    "prefix": "select_1553",
+    "body": "select_1553 ${1:\\$INPUT_1553}",
+    "description": "[SORCE] select_1553"
+  },
+  "sorce: show_alarms": {
+    "prefix": "show_alarms",
+    "body": "show_alarms",
+    "description": "[SORCE] show_alarms"
+  },
+  "sorce: plot_19_dd": {
+    "prefix": "plot_19_dd",
+    "body": "plot_19_dd",
+    "description": "[SORCE] plot_19_dd"
+  },
+  "sorce: rts_088_build": {
+    "prefix": "rts_088_build",
+    "body": "rts_088_build",
+    "description": "[SORCE] rts_088_build"
+  },
+  "sorce: mtb_config": {
+    "prefix": "mtb_config",
+    "body": "mtb_config",
+    "description": "[SORCE] mtb_config"
+  },
+  "sorce: sc_cmd_test": {
+    "prefix": "sc_cmd_test",
+    "body": "sc_cmd_test",
+    "description": "[SORCE] sc_cmd_test"
+  },
+  "sorce: dcr_139": {
+    "prefix": "dcr_139",
+    "body": "dcr_139",
+    "description": "[SORCE] dcr_139"
+  },
+  "sorce: sim_agci_tst": {
+    "prefix": "sim_agci_tst",
+    "body": "sim_agci_tst",
+    "description": "[SORCE] sim_agci_tst"
+  },
+  "sorce: simb_decimat": {
+    "prefix": "simb_decimat",
+    "body": "simb_decimat",
+    "description": "[SORCE] simb_decimat"
+  },
+  "sorce: exitsafehold": {
+    "prefix": "exitsafehold",
+    "body": "exitsafehold",
+    "description": "[SORCE] exitsafehold"
+  },
+  "sorce: mu_sw_tm_tst": {
+    "prefix": "mu_sw_tm_tst",
+    "body": "mu_sw_tm_tst",
+    "description": "[SORCE] mu_sw_tm_tst"
+  },
+  "sorce: simb_duty_cycle": {
+    "prefix": "simb_duty_cycle",
+    "body": "simb_duty_cycle ${1:\\$word1}, ${2:\\$word2}",
+    "description": "[SORCE] simb_duty_cycle"
+  },
+  "sorce: st2_moon_020": {
+    "prefix": "st2_moon_020",
+    "body": "st2_moon_020",
+    "description": "[SORCE] st2_moon_020"
+  },
+  "sorce: st2_oldmoon_011": {
+    "prefix": "st2_oldmoon_011",
+    "body": "st2_oldmoon_011",
+    "description": "[SORCE] st2_oldmoon_011"
+  },
+  "sorce: slew_sc_time": {
+    "prefix": "slew_sc_time",
+    "body": "slew_sc_time",
+    "description": "[SORCE] slew_sc_time"
+  },
+  "sorce: st1_acqm_dd": {
+    "prefix": "st1_acqm_dd",
+    "body": "st1_acqm_dd",
+    "description": "[SORCE] st1_acqm_dd"
+  },
+  "sorce: solb_zig_1": {
+    "prefix": "solb_zig_1",
+    "body": "solb_zig_1",
+    "description": "[SORCE] solb_zig_1"
+  },
+  "sorce: a040703_en": {
+    "prefix": "a040703_en",
+    "body": "a040703_en",
+    "description": "[SORCE] a040703_en"
+  },
+  "sorce: eo_tmonconfig": {
+    "prefix": "eo_tmonconfig",
+    "body": "eo_tmonconfig",
+    "description": "[SORCE] eo_tmonconfig"
+  },
+  "sorce: rts_105_build": {
+    "prefix": "rts_105_build",
+    "body": "rts_105_build",
+    "description": "[SORCE] rts_105_build"
+  },
+  "sorce: ld_sorceape69pat": {
+    "prefix": "ld_sorceape69pat",
+    "body": "ld_sorceape69pat",
+    "description": "[SORCE] ld_sorceape69pat"
+  },
+  "sorce: plot_02_dd": {
+    "prefix": "plot_02_dd",
+    "body": "plot_02_dd",
+    "description": "[SORCE] plot_02_dd"
+  },
+  "sorce: dis_ppp1": {
+    "prefix": "dis_ppp1",
+    "body": "dis_ppp1",
+    "description": "[SORCE] dis_ppp1"
+  },
+  "sorce: st2_oldmoon_016": {
+    "prefix": "st2_oldmoon_016",
+    "body": "st2_oldmoon_016",
+    "description": "[SORCE] st2_oldmoon_016"
+  },
+  "sorce: sol_bhkt_dd_snp": {
+    "prefix": "sol_bhkt_dd_snp",
+    "body": "sol_bhkt_dd_snp",
+    "description": "[SORCE] sol_bhkt_dd_snp"
+  },
+  "sorce: dcr_142": {
+    "prefix": "dcr_142",
+    "body": "dcr_142",
+    "description": "[SORCE] dcr_142"
+  },
+  "sorce: acs_rwa_tst": {
+    "prefix": "acs_rwa_tst",
+    "body": "acs_rwa_tst",
+    "description": "[SORCE] acs_rwa_tst"
+  },
+  "sorce: limit_off": {
+    "prefix": "limit_off",
+    "body": "limit_off ${1:\\$ext_elmnt}, ${2:\\$item_name}",
+    "description": "[SORCE] limit_off"
+  },
+  "sorce: st1_star_tst": {
+    "prefix": "st1_star_tst",
+    "body": "st1_star_tst",
+    "description": "[SORCE] st1_star_tst"
+  },
+  "sorce: rts_065_build": {
+    "prefix": "rts_065_build",
+    "body": "rts_065_build",
+    "description": "[SORCE] rts_065_build"
+  },
+  "sorce: sorcec2md2": {
+    "prefix": "sorcec2md2",
+    "body": "sorcec2md2",
+    "description": "[SORCE] sorcec2md2"
+  },
+  "sorce: sc_umbil_dd": {
+    "prefix": "sc_umbil_dd",
+    "body": "sc_umbil_dd",
+    "description": "[SORCE] sc_umbil_dd"
+  },
+  "sorce: xps_pkts_dd": {
+    "prefix": "xps_pkts_dd",
+    "body": "xps_pkts_dd",
+    "description": "[SORCE] xps_pkts_dd"
+  },
+  "sorce: sim_bsci_tst": {
+    "prefix": "sim_bsci_tst",
+    "body": "sim_bsci_tst",
+    "description": "[SORCE] sim_bsci_tst"
+  },
+  "sorce: dump_logs": {
+    "prefix": "dump_logs",
+    "body": "dump_logs",
+    "description": "[SORCE] dump_logs"
+  },
+  "sorce: st2_moon_012": {
+    "prefix": "st2_moon_012",
+    "body": "st2_moon_012",
+    "description": "[SORCE] st2_moon_012"
+  },
+  "sorce: simb_high_pkt_rt": {
+    "prefix": "simb_high_pkt_rt",
+    "body": "simb_high_pkt_rt",
+    "description": "[SORCE] simb_high_pkt_rt"
+  },
+  "sorce: close_ois_strms": {
+    "prefix": "close_ois_strms",
+    "body": "close_ois_strms",
+    "description": "[SORCE] close_ois_strms"
+  },
+  "sorce: ctsim_seq_mon": {
+    "prefix": "ctsim_seq_mon",
+    "body": "ctsim_seq_mon ${1:\\$id}",
+    "description": "[SORCE] ctsim_seq_mon"
+  },
+  "sorce: the_fixx": {
+    "prefix": "the_fixx",
+    "body": "the_fixx ${1:\\$sunset}",
+    "description": "[SORCE] the_fixx"
+  },
+  "sorce: tps_main_dd": {
+    "prefix": "tps_main_dd",
+    "body": "tps_main_dd",
+    "description": "[SORCE] tps_main_dd"
+  },
+  "sorce: xps_stat_dd_snp": {
+    "prefix": "xps_stat_dd_snp",
+    "body": "xps_stat_dd_snp",
+    "description": "[SORCE] xps_stat_dd_snp"
+  },
+  "sorce: st1_fsw_init": {
+    "prefix": "st1_fsw_init",
+    "body": "st1_fsw_init",
+    "description": "[SORCE] st1_fsw_init"
+  },
+  "sorce: basic_fdc_4_norm": {
+    "prefix": "basic_fdc_4_norm",
+    "body": "basic_fdc_4_norm",
+    "description": "[SORCE] basic_fdc_4_norm"
+  },
+  "sorce: tim_pkts_dd_snp": {
+    "prefix": "tim_pkts_dd_snp",
+    "body": "tim_pkts_dd_snp",
+    "description": "[SORCE] tim_pkts_dd_snp"
+  },
+  "sorce: xps_ck_wheel": {
+    "prefix": "xps_ck_wheel",
+    "body": "xps_ck_wheel",
+    "description": "[SORCE] xps_ck_wheel"
+  },
+  "sorce: sorcec0mp03": {
+    "prefix": "sorcec0mp03",
+    "body": "sorcec0mp03",
+    "description": "[SORCE] sorcec0mp03"
+  },
+  "sorce: tim_swst_tst": {
+    "prefix": "tim_swst_tst",
+    "body": "tim_swst_tst",
+    "description": "[SORCE] tim_swst_tst"
+  },
+  "sorce: dis_ophtr_cntrl": {
+    "prefix": "dis_ophtr_cntrl",
+    "body": "dis_ophtr_cntrl",
+    "description": "[SORCE] dis_ophtr_cntrl"
+  },
+  "sorce: sol_bdsp_tst": {
+    "prefix": "sol_bdsp_tst",
+    "body": "sol_bdsp_tst",
+    "description": "[SORCE] sol_bdsp_tst"
+  },
+  "sorce: tim_pkts_dd": {
+    "prefix": "tim_pkts_dd",
+    "body": "tim_pkts_dd",
+    "description": "[SORCE] tim_pkts_dd"
+  },
+  "sorce: rts_010_build": {
+    "prefix": "rts_010_build",
+    "body": "rts_010_build",
+    "description": "[SORCE] rts_010_build"
+  },
+  "sorce: tim_hkt_dd_snp": {
+    "prefix": "tim_hkt_dd_snp",
+    "body": "tim_hkt_dd_snp",
+    "description": "[SORCE] tim_hkt_dd_snp"
+  },
+  "sorce: sorcec0mp04": {
+    "prefix": "sorcec0mp04",
+    "body": "sorcec0mp04",
+    "description": "[SORCE] sorcec0mp04"
+  },
+  "sorce: fs_patch_365ee": {
+    "prefix": "fs_patch_365ee",
+    "body": "fs_patch_365ee",
+    "description": "[SORCE] fs_patch_365ee"
+  },
+  "sorce: sxtlm": {
+    "prefix": "sxtlm",
+    "body": "sxtlm",
+    "description": "[SORCE] sxtlm"
+  },
+  "sorce: rts_038_build": {
+    "prefix": "rts_038_build",
+    "body": "rts_038_build",
+    "description": "[SORCE] rts_038_build"
+  },
+  "sorce: spm_tmon_load": {
+    "prefix": "spm_tmon_load",
+    "body": "spm_tmon_load",
+    "description": "[SORCE] spm_tmon_load"
+  },
+  "sorce: fst_standby": {
+    "prefix": "fst_standby",
+    "body": "fst_standby",
+    "description": "[SORCE] fst_standby"
+  },
+  "sorce: gumbl_im_ld": {
+    "prefix": "gumbl_im_ld",
+    "body": "gumbl_im_ld",
+    "description": "[SORCE] gumbl_im_ld"
+  },
+  "sorce: tim_dsp_dmp": {
+    "prefix": "tim_dsp_dmp",
+    "body": "tim_dsp_dmp",
+    "description": "[SORCE] tim_dsp_dmp"
+  },
+  "sorce: rts_066_build": {
+    "prefix": "rts_066_build",
+    "body": "rts_066_build",
+    "description": "[SORCE] rts_066_build"
+  },
+  "sorce: ceu_switch": {
+    "prefix": "ceu_switch",
+    "body": "ceu_switch",
+    "description": "[SORCE] ceu_switch"
+  },
+  "sorce: acs_tam_tst": {
+    "prefix": "acs_tam_tst",
+    "body": "acs_tam_tst",
+    "description": "[SORCE] acs_tam_tst"
+  },
+  "sorce: vr_pbk": {
+    "prefix": "vr_pbk",
+    "body": "vr_pbk ${1:\\$vr1_dsid}, ${2:\\$vr2_dsid}, ${3:\\$vr3_dsid}, ${4:\\$vr4_dsid}",
+    "description": "[SORCE] vr_pbk"
+  },
+  "sorce: xps_turn_off": {
+    "prefix": "xps_turn_off",
+    "body": "xps_turn_off",
+    "description": "[SORCE] xps_turn_off"
+  },
+  "sorce: sola_zig_1": {
+    "prefix": "sola_zig_1",
+    "body": "sola_zig_1",
+    "description": "[SORCE] sola_zig_1"
+  },
+  "sorce: comm_setup": {
+    "prefix": "comm_setup",
+    "body": "comm_setup ${1:\\$station}",
+    "description": "[SORCE] comm_setup"
+  },
+  "sorce: vr_users_tst": {
+    "prefix": "vr_users_tst",
+    "body": "vr_users_tst",
+    "description": "[SORCE] vr_users_tst"
+  },
+  "sorce: st1_oldmoon_008": {
+    "prefix": "st1_oldmoon_008",
+    "body": "st1_oldmoon_008",
+    "description": "[SORCE] st1_oldmoon_008"
+  },
+  "sorce: sim_agci_dd_snp": {
+    "prefix": "sim_agci_dd_snp",
+    "body": "sim_agci_dd_snp",
+    "description": "[SORCE] sim_agci_dd_snp"
+  },
+  "sorce: stor_cmd_dd_snp": {
+    "prefix": "stor_cmd_dd_snp",
+    "body": "stor_cmd_dd_snp",
+    "description": "[SORCE] stor_cmd_dd_snp"
+  },
+  "sorce: antlm": {
+    "prefix": "antlm",
+    "body": "antlm",
+    "description": "[SORCE] antlm"
+  },
+  "sorce: st2_moon_015": {
+    "prefix": "st2_moon_015",
+    "body": "st2_moon_015",
+    "description": "[SORCE] st2_moon_015"
+  },
+  "sorce: rts_106_build": {
+    "prefix": "rts_106_build",
+    "body": "rts_106_build",
+    "description": "[SORCE] rts_106_build"
+  },
+  "sorce: soacr_1193": {
+    "prefix": "soacr_1193",
+    "body": "soacr_1193",
+    "description": "[SORCE] soacr_1193"
+  },
+  "sorce: xfer_files_setup": {
+    "prefix": "xfer_files_setup",
+    "body": "xfer_files_setup",
+    "description": "[SORCE] xfer_files_setup"
+  },
+  "sorce: ld_pat_0004809c": {
+    "prefix": "ld_pat_0004809c",
+    "body": "ld_pat_0004809c",
+    "description": "[SORCE] ld_pat_0004809c"
+  },
+  "sorce: ct_tlm_dd_snp": {
+    "prefix": "ct_tlm_dd_snp",
+    "body": "ct_tlm_dd_snp",
+    "description": "[SORCE] ct_tlm_dd_snp"
+  },
+  "sorce: acs_ad_dd_snp": {
+    "prefix": "acs_ad_dd_snp",
+    "body": "acs_ad_dd_snp",
+    "description": "[SORCE] acs_ad_dd_snp"
+  },
+  "sorce: css_fsw_init": {
+    "prefix": "css_fsw_init",
+    "body": "css_fsw_init ${1:\\$TARGET}",
+    "description": "[SORCE] css_fsw_init"
+  },
+  "sorce: managertlm": {
+    "prefix": "managertlm",
+    "body": "managertlm",
+    "description": "[SORCE] managertlm"
+  },
+  "sorce: xps_wheel_mv": {
+    "prefix": "xps_wheel_mv",
+    "body": "xps_wheel_mv",
+    "description": "[SORCE] xps_wheel_mv"
+  },
+  "sorce: st1_diag_dd": {
+    "prefix": "st1_diag_dd",
+    "body": "st1_diag_dd",
+    "description": "[SORCE] st1_diag_dd"
+  },
+  "sorce: ape65patch": {
+    "prefix": "ape65patch",
+    "body": "ape65patch",
+    "description": "[SORCE] ape65patch"
+  },
+  "sorce: st2_star_tst": {
+    "prefix": "st2_star_tst",
+    "body": "st2_star_tst",
+    "description": "[SORCE] st2_star_tst"
+  },
+  "sorce: t_018_sc_55_05": {
+    "prefix": "t_018_sc_55_05",
+    "body": "t_018_sc_55_05",
+    "description": "[SORCE] t_018_sc_55_05"
+  },
+  "sorce: sol_ahkp_dd_snp": {
+    "prefix": "sol_ahkp_dd_snp",
+    "body": "sol_ahkp_dd_snp",
+    "description": "[SORCE] sol_ahkp_dd_snp"
+  },
+  "sorce: task_info": {
+    "prefix": "task_info",
+    "body": "task_info ${1:\\$Task}",
+    "description": "[SORCE] task_info"
+  },
+  "sorce: st1_oldmoon_006": {
+    "prefix": "st1_oldmoon_006",
+    "body": "st1_oldmoon_006",
+    "description": "[SORCE] st1_oldmoon_006"
+  },
+  "sorce: xps_int_59b_ld": {
+    "prefix": "xps_int_59b_ld",
+    "body": "xps_int_59b_ld",
+    "description": "[SORCE] xps_int_59b_ld"
+  },
+  "sorce: st1_stat_dd": {
+    "prefix": "st1_stat_dd",
+    "body": "st1_stat_dd",
+    "description": "[SORCE] st1_stat_dd"
+  },
+  "sorce: rts_011_build": {
+    "prefix": "rts_011_build",
+    "body": "rts_011_build",
+    "description": "[SORCE] rts_011_build"
+  },
+  "sorce: aso_mid_rt": {
+    "prefix": "aso_mid_rt",
+    "body": "aso_mid_rt",
+    "description": "[SORCE] aso_mid_rt"
+  },
+  "sorce: acs_slew_dd_snp": {
+    "prefix": "acs_slew_dd_snp",
+    "body": "acs_slew_dd_snp",
+    "description": "[SORCE] acs_slew_dd_snp"
+  },
+  "sorce: ul_crit_dd": {
+    "prefix": "ul_crit_dd",
+    "body": "ul_crit_dd",
+    "description": "[SORCE] ul_crit_dd"
+  },
+  "sorce: sync_to_ceua": {
+    "prefix": "sync_to_ceua",
+    "body": "sync_to_ceua",
+    "description": "[SORCE] sync_to_ceua"
+  },
+  "sorce: p10_il_ram": {
+    "prefix": "p10_il_ram",
+    "body": "p10_il_ram",
+    "description": "[SORCE] p10_il_ram"
+  },
+  "sorce: st1_oldmoon_001": {
+    "prefix": "st1_oldmoon_001",
+    "body": "st1_oldmoon_001",
+    "description": "[SORCE] st1_oldmoon_001"
+  },
+  "sorce: load7osx2_5_70": {
+    "prefix": "load7osx2_5_70",
+    "body": "load7osx2_5_70",
+    "description": "[SORCE] load7osx2_5_70"
+  },
+  "sorce: ld_src_jmp_69f0c": {
+    "prefix": "ld_src_jmp_69f0c",
+    "body": "ld_src_jmp_69f0c",
+    "description": "[SORCE] ld_src_jmp_69f0c"
+  },
+  "sorce: gumbl_sc_tlm": {
+    "prefix": "gumbl_sc_tlm",
+    "body": "gumbl_sc_tlm",
+    "description": "[SORCE] gumbl_sc_tlm"
+  },
+  "sorce: rts_067_build": {
+    "prefix": "rts_067_build",
+    "body": "rts_067_build",
+    "description": "[SORCE] rts_067_build"
+  },
+  "sorce: p22_ool_eeprom": {
+    "prefix": "p22_ool_eeprom",
+    "body": "p22_ool_eeprom",
+    "description": "[SORCE] p22_ool_eeprom"
+  },
+  "sorce: sola_filter": {
+    "prefix": "sola_filter",
+    "body": "sola_filter",
+    "description": "[SORCE] sola_filter"
+  },
+  "sorce: sbcmd": {
+    "prefix": "sbcmd",
+    "body": "sbcmd",
+    "description": "[SORCE] sbcmd"
+  },
+  "sorce: sol_asw_dd": {
+    "prefix": "sol_asw_dd",
+    "body": "sol_asw_dd",
+    "description": "[SORCE] sol_asw_dd"
+  },
+  "sorce: spm_ram": {
+    "prefix": "spm_ram",
+    "body": "spm_ram",
+    "description": "[SORCE] spm_ram"
+  },
+  "sorce: rts_039_build": {
+    "prefix": "rts_039_build",
+    "body": "rts_039_build",
+    "description": "[SORCE] rts_039_build"
+  },
+  "sorce: actlm": {
+    "prefix": "actlm",
+    "body": "actlm",
+    "description": "[SORCE] actlm"
+  },
+  "sorce: acs_msg_dd": {
+    "prefix": "acs_msg_dd",
+    "body": "acs_msg_dd",
+    "description": "[SORCE] acs_msg_dd"
+  },
+  "sorce: dump_sbstrmover": {
+    "prefix": "dump_sbstrmover",
+    "body": "dump_sbstrmover",
+    "description": "[SORCE] dump_sbstrmover"
+  },
+  "sorce: st1_moon_020": {
+    "prefix": "st1_moon_020",
+    "body": "st1_moon_020",
+    "description": "[SORCE] st1_moon_020"
+  },
+  "sorce: tlm_1553_tst": {
+    "prefix": "tlm_1553_tst",
+    "body": "tlm_1553_tst",
+    "description": "[SORCE] tlm_1553_tst"
+  },
+  "sorce: simb_init": {
+    "prefix": "simb_init",
+    "body": "simb_init",
+    "description": "[SORCE] simb_init"
+  },
+  "sorce: aepcmd": {
+    "prefix": "aepcmd",
+    "body": "aepcmd",
+    "description": "[SORCE] aepcmd"
+  },
+  "sorce: rts_107_build": {
+    "prefix": "rts_107_build",
+    "body": "rts_107_build",
+    "description": "[SORCE] rts_107_build"
+  },
+  "sorce: st1_ee_undo": {
+    "prefix": "st1_ee_undo",
+    "body": "st1_ee_undo",
+    "description": "[SORCE] st1_ee_undo"
+  },
+  "sorce: sw_mgr_tst": {
+    "prefix": "sw_mgr_tst",
+    "body": "sw_mgr_tst",
+    "description": "[SORCE] sw_mgr_tst"
+  },
+  "sorce: sol_ahkm_dd": {
+    "prefix": "sol_ahkm_dd",
+    "body": "sol_ahkm_dd",
+    "description": "[SORCE] sol_ahkm_dd"
+  },
+  "sorce: sim_bhkt_dd": {
+    "prefix": "sim_bhkt_dd",
+    "body": "sim_bhkt_dd",
+    "description": "[SORCE] sim_bhkt_dd"
+  },
+  "sorce: st1_main_tst": {
+    "prefix": "st1_main_tst",
+    "body": "st1_main_tst",
+    "description": "[SORCE] st1_main_tst"
+  },
+  "sorce: sutlm": {
+    "prefix": "sutlm",
+    "body": "sutlm",
+    "description": "[SORCE] sutlm"
+  },
+  "sorce: resume_pbk": {
+    "prefix": "resume_pbk",
+    "body": "resume_pbk",
+    "description": "[SORCE] resume_pbk"
+  },
+  "sorce: sima_gaincal_op1": {
+    "prefix": "sima_gaincal_op1",
+    "body": "sima_gaincal_op1",
+    "description": "[SORCE] sima_gaincal_op1"
+  },
+  "sorce: solb_bos_lvl_set": {
+    "prefix": "solb_bos_lvl_set",
+    "body": "solb_bos_lvl_set ${1:\\$level}",
+    "description": "[SORCE] solb_bos_lvl_set"
+  },
+  "sorce: tim_tlm_ck": {
+    "prefix": "tim_tlm_ck",
+    "body": "tim_tlm_ck",
+    "description": "[SORCE] tim_tlm_ck"
+  },
+  "sorce: rts_060_build": {
+    "prefix": "rts_060_build",
+    "body": "rts_060_build",
+    "description": "[SORCE] rts_060_build"
+  },
+  "sorce: gumbl_sc_ld": {
+    "prefix": "gumbl_sc_ld",
+    "body": "gumbl_sc_ld",
+    "description": "[SORCE] gumbl_sc_ld"
+  },
+  "sorce: obc_xb_tst": {
+    "prefix": "obc_xb_tst",
+    "body": "obc_xb_tst",
+    "description": "[SORCE] obc_xb_tst"
+  },
+  "sorce: solb_fly_1_2": {
+    "prefix": "solb_fly_1_2",
+    "body": "solb_fly_1_2",
+    "description": "[SORCE] solb_fly_1_2"
+  },
+  "sorce: ulcmd": {
+    "prefix": "ulcmd",
+    "body": "ulcmd",
+    "description": "[SORCE] ulcmd"
+  },
+  "sorce: st2_eeload": {
+    "prefix": "st2_eeload",
+    "body": "st2_eeload",
+    "description": "[SORCE] st2_eeload"
+  },
+  "sorce: acs_fss_dd": {
+    "prefix": "acs_fss_dd",
+    "body": "acs_fss_dd",
+    "description": "[SORCE] acs_fss_dd"
+  },
+  "sorce: sim_bdr_tst": {
+    "prefix": "sim_bdr_tst",
+    "body": "sim_bdr_tst",
+    "description": "[SORCE] sim_bdr_tst"
+  },
+  "sorce: dcr_114": {
+    "prefix": "dcr_114",
+    "body": "dcr_114",
+    "description": "[SORCE] dcr_114"
+  },
+  "sorce: st1_oldmoon_010": {
+    "prefix": "st1_oldmoon_010",
+    "body": "st1_oldmoon_010",
+    "description": "[SORCE] st1_oldmoon_010"
+  },
+  "sorce: eps_prsw_dd": {
+    "prefix": "eps_prsw_dd",
+    "body": "eps_prsw_dd",
+    "description": "[SORCE] eps_prsw_dd"
+  },
+  "sorce: ld_pat_00048308": {
+    "prefix": "ld_pat_00048308",
+    "body": "ld_pat_00048308",
+    "description": "[SORCE] ld_pat_00048308"
+  },
+  "sorce: b10_sorcec2mp05": {
+    "prefix": "b10_sorcec2mp05",
+    "body": "b10_sorcec2mp05",
+    "description": "[SORCE] b10_sorcec2mp05"
+  },
+  "sorce: acs_eph_dd_snp": {
+    "prefix": "acs_eph_dd_snp",
+    "body": "acs_eph_dd_snp",
+    "description": "[SORCE] acs_eph_dd_snp"
+  },
+  "sorce: ee_patch_uninst": {
+    "prefix": "ee_patch_uninst",
+    "body": "ee_patch_uninst",
+    "description": "[SORCE] ee_patch_uninst"
+  },
+  "sorce: rts_100_build": {
+    "prefix": "rts_100_build",
+    "body": "rts_100_build",
+    "description": "[SORCE] rts_100_build"
+  },
+  "sorce: pbk_ps_rsm": {
+    "prefix": "pbk_ps_rsm",
+    "body": "pbk_ps_rsm",
+    "description": "[SORCE] pbk_ps_rsm"
+  },
+  "sorce: flex_dat_dd": {
+    "prefix": "flex_dat_dd",
+    "body": "flex_dat_dd",
+    "description": "[SORCE] flex_dat_dd"
+  },
+  "sorce: st2_acqs_tst": {
+    "prefix": "st2_acqs_tst",
+    "body": "st2_acqs_tst",
+    "description": "[SORCE] st2_acqs_tst"
+  },
+  "sorce: ad_ftkftlm": {
+    "prefix": "ad_ftkftlm",
+    "body": "ad_ftkftlm",
+    "description": "[SORCE] ad_ftkftlm"
+  },
+  "sorce: b10_sorcec2mp02": {
+    "prefix": "b10_sorcec2mp02",
+    "body": "b10_sorcec2mp02",
+    "description": "[SORCE] b10_sorcec2mp02"
+  },
+  "sorce: sc_cmd_delay": {
+    "prefix": "sc_cmd_delay",
+    "body": "sc_cmd_delay",
+    "description": "[SORCE] sc_cmd_delay"
+  },
+  "sorce: sola_low_pkt_rt": {
+    "prefix": "sola_low_pkt_rt",
+    "body": "sola_low_pkt_rt",
+    "description": "[SORCE] sola_low_pkt_rt"
+  },
+  "sorce: sima_eclipse_on": {
+    "prefix": "sima_eclipse_on",
+    "body": "sima_eclipse_on ${1:\\$eclipse_on}",
+    "description": "[SORCE] sima_eclipse_on"
+  },
+  "sorce: rts_128_build": {
+    "prefix": "rts_128_build",
+    "body": "rts_128_build",
+    "description": "[SORCE] rts_128_build"
+  },
+  "sorce: sim_asw_tst": {
+    "prefix": "sim_asw_tst",
+    "body": "sim_asw_tst",
+    "description": "[SORCE] sim_asw_tst"
+  },
+  "sorce: pgcmd": {
+    "prefix": "pgcmd",
+    "body": "pgcmd",
+    "description": "[SORCE] pgcmd"
+  },
+  "sorce: tptlm": {
+    "prefix": "tptlm",
+    "body": "tptlm",
+    "description": "[SORCE] tptlm"
+  },
+  "sorce: tdsp_time_setup": {
+    "prefix": "tdsp_time_setup",
+    "body": "tdsp_time_setup",
+    "description": "[SORCE] tdsp_time_setup"
+  },
+  "sorce: fs_jump_2f8f2": {
+    "prefix": "fs_jump_2f8f2",
+    "body": "fs_jump_2f8f2",
+    "description": "[SORCE] fs_jump_2f8f2"
+  },
+  "sorce: plot_16_dd": {
+    "prefix": "plot_16_dd",
+    "body": "plot_16_dd",
+    "description": "[SORCE] plot_16_dd"
+  },
+  "sorce: rts_016_build": {
+    "prefix": "rts_016_build",
+    "body": "rts_016_build",
+    "description": "[SORCE] rts_016_build"
+  },
+  "sorce: tgcmd": {
+    "prefix": "tgcmd",
+    "body": "tgcmd",
+    "description": "[SORCE] tgcmd"
+  },
+  "sorce: comm_setup_r": {
+    "prefix": "comm_setup_r",
+    "body": "comm_setup_r ${1:\\$STATION}",
+    "description": "[SORCE] comm_setup_r"
+  },
+  "sorce: eps_main_dd_snp": {
+    "prefix": "eps_main_dd_snp",
+    "body": "eps_main_dd_snp",
+    "description": "[SORCE] eps_main_dd_snp"
+  },
+  "sorce: rts_048_build": {
+    "prefix": "rts_048_build",
+    "body": "rts_048_build",
+    "description": "[SORCE] rts_048_build"
+  },
+  "sorce: ld_jump_0007e998": {
+    "prefix": "ld_jump_0007e998",
+    "body": "ld_jump_0007e998",
+    "description": "[SORCE] ld_jump_0007e998"
+  },
+  "sorce: tim_hkt_dd": {
+    "prefix": "tim_hkt_dd",
+    "body": "tim_hkt_dd",
+    "description": "[SORCE] tim_hkt_dd"
+  },
+  "sorce: obc_reset": {
+    "prefix": "obc_reset",
+    "body": "obc_reset",
+    "description": "[SORCE] obc_reset"
+  },
+  "sorce: acs_mtb_dd": {
+    "prefix": "acs_mtb_dd",
+    "body": "acs_mtb_dd",
+    "description": "[SORCE] acs_mtb_dd"
+  },
+  "sorce: sol_pktb_tst": {
+    "prefix": "sol_pktb_tst",
+    "body": "sol_pktb_tst",
+    "description": "[SORCE] sol_pktb_tst"
+  },
+  "sorce: tlm_1553_dd_snp": {
+    "prefix": "tlm_1553_dd_snp",
+    "body": "tlm_1553_dd_snp",
+    "description": "[SORCE] tlm_1553_dd_snp"
+  },
+  "sorce: st1_oldmoon_017": {
+    "prefix": "st1_oldmoon_017",
+    "body": "st1_oldmoon_017",
+    "description": "[SORCE] st1_oldmoon_017"
+  },
+  "sorce: acs_rwa_dd": {
+    "prefix": "acs_rwa_dd",
+    "body": "acs_rwa_dd",
+    "description": "[SORCE] acs_rwa_dd"
+  },
+  "sorce: xps_default_seq": {
+    "prefix": "xps_default_seq",
+    "body": "xps_default_seq",
+    "description": "[SORCE] xps_default_seq"
+  },
+  "sorce: obc_tbl_ops_tst": {
+    "prefix": "obc_tbl_ops_tst",
+    "body": "obc_tbl_ops_tst",
+    "description": "[SORCE] obc_tbl_ops_tst"
+  },
+  "sorce: spmcmd": {
+    "prefix": "spmcmd",
+    "body": "spmcmd",
+    "description": "[SORCE] spmcmd"
+  },
+  "sorce: sorcec0md2": {
+    "prefix": "sorcec0md2",
+    "body": "sorcec0md2",
+    "description": "[SORCE] sorcec0md2"
+  },
+  "sorce: fs_ape66patch": {
+    "prefix": "fs_ape66patch",
+    "body": "fs_ape66patch",
+    "description": "[SORCE] fs_ape66patch"
+  },
+  "sorce: unpatch_ee_f_ld": {
+    "prefix": "unpatch_ee_f_ld",
+    "body": "unpatch_ee_f_ld",
+    "description": "[SORCE] unpatch_ee_f_ld"
+  },
+  "sorce: rts_061_build": {
+    "prefix": "rts_061_build",
+    "body": "rts_061_build",
+    "description": "[SORCE] rts_061_build"
+  },
+  "sorce: dcr_161": {
+    "prefix": "dcr_161",
+    "body": "dcr_161",
+    "description": "[SORCE] dcr_161"
+  },
+  "sorce: tim_feed": {
+    "prefix": "tim_feed",
+    "body": "tim_feed",
+    "description": "[SORCE] tim_feed"
+  },
+  "sorce: solb_dhtr_hi": {
+    "prefix": "solb_dhtr_hi",
+    "body": "solb_dhtr_hi",
+    "description": "[SORCE] solb_dhtr_hi"
+  },
+  "sorce: p11_il1_ram": {
+    "prefix": "p11_il1_ram",
+    "body": "p11_il1_ram",
+    "description": "[SORCE] p11_il1_ram"
+  },
+  "sorce: ad_ftkf_tst": {
+    "prefix": "ad_ftkf_tst",
+    "body": "ad_ftkf_tst",
+    "description": "[SORCE] ad_ftkf_tst"
+  },
+  "sorce: solb_ghv_on": {
+    "prefix": "solb_ghv_on",
+    "body": "solb_ghv_on",
+    "description": "[SORCE] solb_ghv_on"
+  },
+  "sorce: st2_moon_004": {
+    "prefix": "st2_moon_004",
+    "body": "st2_moon_004",
+    "description": "[SORCE] st2_moon_004"
+  },
+  "sorce: ena_ppp1": {
+    "prefix": "ena_ppp1",
+    "body": "ena_ppp1",
+    "description": "[SORCE] ena_ppp1"
+  },
+  "sorce: p11_il2_eeprom": {
+    "prefix": "p11_il2_eeprom",
+    "body": "p11_il2_eeprom",
+    "description": "[SORCE] p11_il2_eeprom"
+  },
+  "sorce: rts_101_build": {
+    "prefix": "rts_101_build",
+    "body": "rts_101_build",
+    "description": "[SORCE] rts_101_build"
+  },
+  "sorce: p11_il1_ram_ad": {
+    "prefix": "p11_il1_ram_ad",
+    "body": "p11_il1_ram_ad",
+    "description": "[SORCE] p11_il1_ram_ad"
+  },
+  "sorce: stor_cmd_tst": {
+    "prefix": "stor_cmd_tst",
+    "body": "stor_cmd_tst",
+    "description": "[SORCE] stor_cmd_tst"
+  },
+  "sorce: switch_cmd_vcid": {
+    "prefix": "switch_cmd_vcid",
+    "body": "switch_cmd_vcid",
+    "description": "[SORCE] switch_cmd_vcid"
+  },
+  "sorce: solb_config": {
+    "prefix": "solb_config",
+    "body": "solb_config",
+    "description": "[SORCE] solb_config"
+  },
+  "sorce: st1_oldmoon_019": {
+    "prefix": "st1_oldmoon_019",
+    "body": "st1_oldmoon_019",
+    "description": "[SORCE] st1_oldmoon_019"
+  },
+  "sorce: sim_asci_dd": {
+    "prefix": "sim_asci_dd",
+    "body": "sim_asci_dd",
+    "description": "[SORCE] sim_asci_dd"
+  },
+  "sorce: dl_stat_dd": {
+    "prefix": "dl_stat_dd",
+    "body": "dl_stat_dd",
+    "description": "[SORCE] dl_stat_dd"
+  },
+  "sorce: st2_moon_003": {
+    "prefix": "st2_moon_003",
+    "body": "st2_moon_003",
+    "description": "[SORCE] st2_moon_003"
+  },
+  "sorce: tx_switch": {
+    "prefix": "tx_switch",
+    "body": "tx_switch ${1:\\$INPUT_CEU}",
+    "description": "[SORCE] tx_switch"
+  },
+  "sorce: undo_sorce_obc82": {
+    "prefix": "undo_sorce_obc82",
+    "body": "undo_sorce_obc82",
+    "description": "[SORCE] undo_sorce_obc82"
+  },
+  "sorce: simb_door_op": {
+    "prefix": "simb_door_op",
+    "body": "simb_door_op ${1:\\$door_dir}",
+    "description": "[SORCE] simb_door_op"
+  },
+  "sorce: det_pref_cmdchan": {
+    "prefix": "det_pref_cmdchan",
+    "body": "det_pref_cmdchan",
+    "description": "[SORCE] det_pref_cmdchan"
+  },
+  "sorce: str_fss_fdc_ena": {
+    "prefix": "str_fss_fdc_ena",
+    "body": "str_fss_fdc_ena",
+    "description": "[SORCE] str_fss_fdc_ena"
+  },
+  "sorce: acs_rwa_dd_snp": {
+    "prefix": "acs_rwa_dd_snp",
+    "body": "acs_rwa_dd_snp",
+    "description": "[SORCE] acs_rwa_dd_snp"
+  },
+  "sorce: ois_stat_tst": {
+    "prefix": "ois_stat_tst",
+    "body": "ois_stat_tst",
+    "description": "[SORCE] ois_stat_tst"
+  },
+  "sorce: xps_tlm_stat": {
+    "prefix": "xps_tlm_stat",
+    "body": "xps_tlm_stat",
+    "description": "[SORCE] xps_tlm_stat"
+  },
+  "sorce: sol_asci_tst": {
+    "prefix": "sol_asci_tst",
+    "body": "sol_asci_tst",
+    "description": "[SORCE] sol_asci_tst"
+  },
+  "sorce: master_mor": {
+    "prefix": "master_mor",
+    "body": "master_mor",
+    "description": "[SORCE] master_mor"
+  },
+  "sorce: rts_cnfg4batthtr": {
+    "prefix": "rts_cnfg4batthtr",
+    "body": "rts_cnfg4batthtr",
+    "description": "[SORCE] rts_cnfg4batthtr"
+  },
+  "sorce: xps_safe_unpatch": {
+    "prefix": "xps_safe_unpatch",
+    "body": "xps_safe_unpatch",
+    "description": "[SORCE] xps_safe_unpatch"
+  },
+  "sorce: simb_htr_hi": {
+    "prefix": "simb_htr_hi",
+    "body": "simb_htr_hi",
+    "description": "[SORCE] simb_htr_hi"
+  },
+  "sorce: mu_tlm_ck": {
+    "prefix": "mu_tlm_ck",
+    "body": "mu_tlm_ck",
+    "description": "[SORCE] mu_tlm_ck"
+  },
+  "sorce: p17_ool_eeprom": {
+    "prefix": "p17_ool_eeprom",
+    "body": "p17_ool_eeprom",
+    "description": "[SORCE] p17_ool_eeprom"
+  },
+  "sorce: smtlm": {
+    "prefix": "smtlm",
+    "body": "smtlm",
+    "description": "[SORCE] smtlm"
+  },
+  "sorce: rts_049_build": {
+    "prefix": "rts_049_build",
+    "body": "rts_049_build",
+    "description": "[SORCE] rts_049_build"
+  },
+  "sorce: sol_bsci_dd_snp": {
+    "prefix": "sol_bsci_dd_snp",
+    "body": "sol_bsci_dd_snp",
+    "description": "[SORCE] sol_bsci_dd_snp"
+  },
+  "sorce: pre_ape67pat_chk": {
+    "prefix": "pre_ape67pat_chk",
+    "body": "pre_ape67pat_chk",
+    "description": "[SORCE] pre_ape67pat_chk"
+  },
+  "sorce: eps_aep_dd": {
+    "prefix": "eps_aep_dd",
+    "body": "eps_aep_dd",
+    "description": "[SORCE] eps_aep_dd"
+  },
+  "sorce: fs_jump_328cd": {
+    "prefix": "fs_jump_328cd",
+    "body": "fs_jump_328cd",
+    "description": "[SORCE] fs_jump_328cd"
+  },
+  "sorce: sima_turn_on": {
+    "prefix": "sima_turn_on",
+    "body": "sima_turn_on",
+    "description": "[SORCE] sima_turn_on"
+  },
+  "sorce: macro_list": {
+    "prefix": "macro_list",
+    "body": "macro_list",
+    "description": "[SORCE] macro_list"
+  },
+  "sorce: sola_nom_pkt_rt": {
+    "prefix": "sola_nom_pkt_rt",
+    "body": "sola_nom_pkt_rt",
+    "description": "[SORCE] sola_nom_pkt_rt"
+  },
+  "sorce: rts_017_build": {
+    "prefix": "rts_017_build",
+    "body": "rts_017_build",
+    "description": "[SORCE] rts_017_build"
+  },
+  "sorce: sim_adsp_tst": {
+    "prefix": "sim_adsp_tst",
+    "body": "sim_adsp_tst",
+    "description": "[SORCE] sim_adsp_tst"
+  },
+  "sorce: smcmd": {
+    "prefix": "smcmd",
+    "body": "smcmd",
+    "description": "[SORCE] smcmd"
+  },
+  "sorce: st2_oldmoon_007": {
+    "prefix": "st2_oldmoon_007",
+    "body": "st2_oldmoon_007",
+    "description": "[SORCE] st2_oldmoon_007"
+  },
+  "sorce: xps_low_pkt_rt": {
+    "prefix": "xps_low_pkt_rt",
+    "body": "xps_low_pkt_rt",
+    "description": "[SORCE] xps_low_pkt_rt"
+  },
+  "sorce: plot_15_tst": {
+    "prefix": "plot_15_tst",
+    "body": "plot_15_tst",
+    "description": "[SORCE] plot_15_tst"
+  },
+  "sorce: sim_bsci_dd": {
+    "prefix": "sim_bsci_dd",
+    "body": "sim_bsci_dd",
+    "description": "[SORCE] sim_bsci_dd"
+  },
+  "sorce: dump_all_sc_tbl": {
+    "prefix": "dump_all_sc_tbl",
+    "body": "dump_all_sc_tbl",
+    "description": "[SORCE] dump_all_sc_tbl"
+  },
+  "sorce: rts_102_build": {
+    "prefix": "rts_102_build",
+    "body": "rts_102_build",
+    "description": "[SORCE] rts_102_build"
+  },
+  "sorce: plot_11_tst": {
+    "prefix": "plot_11_tst",
+    "body": "plot_11_tst",
+    "description": "[SORCE] plot_11_tst"
+  },
+  "sorce: simb_quick_init": {
+    "prefix": "simb_quick_init",
+    "body": "simb_quick_init",
+    "description": "[SORCE] simb_quick_init"
+  },
+  "sorce: tlm_mon_dd": {
+    "prefix": "tlm_mon_dd",
+    "body": "tlm_mon_dd",
+    "description": "[SORCE] tlm_mon_dd"
+  },
+  "sorce: tim_sci_dd_snp": {
+    "prefix": "tim_sci_dd_snp",
+    "body": "tim_sci_dd_snp",
+    "description": "[SORCE] tim_sci_dd_snp"
+  },
+  "sorce: dcr_153": {
+    "prefix": "dcr_153",
+    "body": "dcr_153",
+    "description": "[SORCE] dcr_153"
+  },
+  "sorce: simb_tlm_ck": {
+    "prefix": "simb_tlm_ck",
+    "body": "simb_tlm_ck",
+    "description": "[SORCE] simb_tlm_ck"
+  },
+  "sorce: rts_062_build": {
+    "prefix": "rts_062_build",
+    "body": "rts_062_build",
+    "description": "[SORCE] rts_062_build"
+  },
+  "sorce: p101602_map": {
+    "prefix": "p101602_map",
+    "body": "p101602_map",
+    "description": "[SORCE] p101602_map"
+  },
+  "sorce: st1_diag_dd_snp": {
+    "prefix": "st1_diag_dd_snp",
+    "body": "st1_diag_dd_snp",
+    "description": "[SORCE] st1_diag_dd_snp"
+  },
+  "sorce: p25_il_eeprom": {
+    "prefix": "p25_il_eeprom",
+    "body": "p25_il_eeprom",
+    "description": "[SORCE] p25_il_eeprom"
+  },
+  "sorce: plot_19_tst": {
+    "prefix": "plot_19_tst",
+    "body": "plot_19_tst",
+    "description": "[SORCE] plot_19_tst"
+  },
+  "sorce: sorcec2mp09": {
+    "prefix": "sorcec2mp09",
+    "body": "sorcec2mp09",
+    "description": "[SORCE] sorcec2mp09"
+  },
+  "sorce: xps_0_tmr_ee_ld": {
+    "prefix": "xps_0_tmr_ee_ld",
+    "body": "xps_0_tmr_ee_ld",
+    "description": "[SORCE] xps_0_tmr_ee_ld"
+  },
+  "sorce: p10_il_ram_ad": {
+    "prefix": "p10_il_ram_ad",
+    "body": "p10_il_ram_ad",
+    "description": "[SORCE] p10_il_ram_ad"
+  },
+  "sorce: st1_acqs_tst": {
+    "prefix": "st1_acqs_tst",
+    "body": "st1_acqs_tst",
+    "description": "[SORCE] st1_acqs_tst"
+  },
+  "sorce: dcr_154": {
+    "prefix": "dcr_154",
+    "body": "dcr_154",
+    "description": "[SORCE] dcr_154"
+  },
+  "sorce: rts_014_build": {
+    "prefix": "rts_014_build",
+    "body": "rts_014_build",
+    "description": "[SORCE] rts_014_build"
+  },
+  "sorce: icmdpkts_dd": {
+    "prefix": "icmdpkts_dd",
+    "body": "icmdpkts_dd",
+    "description": "[SORCE] icmdpkts_dd"
+  },
+  "sorce: st1_main_dd": {
+    "prefix": "st1_main_dd",
+    "body": "st1_main_dd",
+    "description": "[SORCE] st1_main_dd"
+  },
+  "sorce: dump_scevents_rt": {
+    "prefix": "dump_scevents_rt",
+    "body": "dump_scevents_rt",
+    "description": "[SORCE] dump_scevents_rt"
+  },
+  "sorce: dcr_128": {
+    "prefix": "dcr_128",
+    "body": "dcr_128",
+    "description": "[SORCE] dcr_128"
+  },
+  "sorce: sol_bgci_tst": {
+    "prefix": "sol_bgci_tst",
+    "body": "sol_bgci_tst",
+    "description": "[SORCE] sol_bgci_tst"
+  },
+  "sorce: crc_verif": {
+    "prefix": "crc_verif",
+    "body": "crc_verif ${1:\\$addr}, ${2:\\$len}, ${3:\\$crc}",
+    "description": "[SORCE] crc_verif"
+  },
+  "sorce: acfastatt_log": {
+    "prefix": "acfastatt_log",
+    "body": "acfastatt_log",
+    "description": "[SORCE] acfastatt_log"
+  },
+  "sorce: rts_103_build": {
+    "prefix": "rts_103_build",
+    "body": "rts_103_build",
+    "description": "[SORCE] rts_103_build"
+  },
+  "sorce: sol_adsp_dd_snp": {
+    "prefix": "sol_adsp_dd_snp",
+    "body": "sol_adsp_dd_snp",
+    "description": "[SORCE] sol_adsp_dd_snp"
+  },
+  "sorce: im_pwr_dd": {
+    "prefix": "im_pwr_dd",
+    "body": "im_pwr_dd",
+    "description": "[SORCE] im_pwr_dd"
+  },
+  "sorce: tgtlm": {
+    "prefix": "tgtlm",
+    "body": "tgtlm",
+    "description": "[SORCE] tgtlm"
+  },
+  "sorce: ld_patch_365ee": {
+    "prefix": "ld_patch_365ee",
+    "body": "ld_patch_365ee",
+    "description": "[SORCE] ld_patch_365ee"
+  },
+  "sorce: sorcec2mp07": {
+    "prefix": "sorcec2mp07",
+    "body": "sorcec2mp07",
+    "description": "[SORCE] sorcec2mp07"
+  },
+  "sorce: obc_80_rec_4": {
+    "prefix": "obc_80_rec_4",
+    "body": "obc_80_rec_4 ${1:\\$vr1_dsid}, ${2:\\$vr2_dsid}, ${3:\\$vr3_dsid}, ${4:\\$vr4_dsid}",
+    "description": "[SORCE] obc_80_rec_4"
+  },
+  "sorce: simb_htr_low": {
+    "prefix": "simb_htr_low",
+    "body": "simb_htr_low",
+    "description": "[SORCE] simb_htr_low"
+  },
+  "sorce: obc_80_rec_10": {
+    "prefix": "obc_80_rec_10",
+    "body": "obc_80_rec_10",
+    "description": "[SORCE] obc_80_rec_10"
+  },
+  "sorce: solb_high_pkt_rt": {
+    "prefix": "solb_high_pkt_rt",
+    "body": "solb_high_pkt_rt",
+    "description": "[SORCE] solb_high_pkt_rt"
+  },
+  "sorce: simb_esr": {
+    "prefix": "simb_esr",
+    "body": "simb_esr",
+    "description": "[SORCE] simb_esr"
+  },
+  "sorce: spmtlm": {
+    "prefix": "spmtlm",
+    "body": "spmtlm",
+    "description": "[SORCE] spmtlm"
+  },
+  "sorce: obc_xb_dd": {
+    "prefix": "obc_xb_dd",
+    "body": "obc_xb_dd",
+    "description": "[SORCE] obc_xb_dd"
+  },
+  "sorce: reset_dl_card": {
+    "prefix": "reset_dl_card",
+    "body": "reset_dl_card",
+    "description": "[SORCE] reset_dl_card"
+  },
+  "sorce: dl_ulcmd": {
+    "prefix": "dl_ulcmd",
+    "body": "dl_ulcmd",
+    "description": "[SORCE] dl_ulcmd"
+  },
+  "sorce: ape72patch": {
+    "prefix": "ape72patch",
+    "body": "ape72patch",
+    "description": "[SORCE] ape72patch"
+  },
+  "sorce: execute_ats": {
+    "prefix": "execute_ats",
+    "body": "execute_ats",
+    "description": "[SORCE] execute_ats"
+  },
+  "sorce: ape_stat_dd": {
+    "prefix": "ape_stat_dd",
+    "body": "ape_stat_dd",
+    "description": "[SORCE] ape_stat_dd"
+  },
+  "sorce: rts_063_build": {
+    "prefix": "rts_063_build",
+    "body": "rts_063_build",
+    "description": "[SORCE] rts_063_build"
+  },
+  "sorce: ois_stat_dd_snp": {
+    "prefix": "ois_stat_dd_snp",
+    "body": "ois_stat_dd_snp",
+    "description": "[SORCE] ois_stat_dd_snp"
+  },
+  "sorce: ul_crit_tst": {
+    "prefix": "ul_crit_tst",
+    "body": "ul_crit_tst",
+    "description": "[SORCE] ul_crit_tst"
+  },
+  "sorce: sol_ahkm_dd_snp": {
+    "prefix": "sol_ahkm_dd_snp",
+    "body": "sol_ahkm_dd_snp",
+    "description": "[SORCE] sol_ahkm_dd_snp"
+  },
+  "sorce: st1_moon_003": {
+    "prefix": "st1_moon_003",
+    "body": "st1_moon_003",
+    "description": "[SORCE] st1_moon_003"
+  },
+  "sorce: pgtlm": {
+    "prefix": "pgtlm",
+    "body": "pgtlm",
+    "description": "[SORCE] pgtlm"
+  },
+  "sorce: xps_nom_pkt_rt": {
+    "prefix": "xps_nom_pkt_rt",
+    "body": "xps_nom_pkt_rt",
+    "description": "[SORCE] xps_nom_pkt_rt"
+  },
+  "sorce: sola_f_scan": {
+    "prefix": "sola_f_scan",
+    "body": "sola_f_scan",
+    "description": "[SORCE] sola_f_scan"
+  },
+  "sorce: dcr_126": {
+    "prefix": "dcr_126",
+    "body": "dcr_126",
+    "description": "[SORCE] dcr_126"
+  },
+  "sorce: st1_oldmoon_022": {
+    "prefix": "st1_oldmoon_022",
+    "body": "st1_oldmoon_022",
+    "description": "[SORCE] st1_oldmoon_022"
+  },
+  "sorce: tpcmd": {
+    "prefix": "tpcmd",
+    "body": "tpcmd",
+    "description": "[SORCE] tpcmd"
+  },
+  "sorce: sim_adr_tst": {
+    "prefix": "sim_adr_tst",
+    "body": "sim_adr_tst",
+    "description": "[SORCE] sim_adr_tst"
+  },
+  "sorce: eps_shed_dd_snp": {
+    "prefix": "eps_shed_dd_snp",
+    "body": "eps_shed_dd_snp",
+    "description": "[SORCE] eps_shed_dd_snp"
+  },
+  "sorce: vr_users_dd": {
+    "prefix": "vr_users_dd",
+    "body": "vr_users_dd",
+    "description": "[SORCE] vr_users_dd"
+  },
+  "sorce: xps_hk_dd": {
+    "prefix": "xps_hk_dd",
+    "body": "xps_hk_dd",
+    "description": "[SORCE] xps_hk_dd"
+  },
+  "sorce: rts_015_build": {
+    "prefix": "rts_015_build",
+    "body": "rts_015_build",
+    "description": "[SORCE] rts_015_build"
+  },
+  "sorce: st2_init": {
+    "prefix": "st2_init",
+    "body": "st2_init",
+    "description": "[SORCE] st2_init"
+  },
+  "sorce: tim_turn_on": {
+    "prefix": "tim_turn_on",
+    "body": "tim_turn_on",
+    "description": "[SORCE] tim_turn_on"
+  },
+  "sorce: st2_oldmoon_009": {
+    "prefix": "st2_oldmoon_009",
+    "body": "st2_oldmoon_009",
+    "description": "[SORCE] st2_oldmoon_009"
+  },
+  "sorce: inst_seq_tst": {
+    "prefix": "inst_seq_tst",
+    "body": "inst_seq_tst",
+    "description": "[SORCE] inst_seq_tst"
+  },
+  "sorce: ac_obcp72_tst": {
+    "prefix": "ac_obcp72_tst",
+    "body": "ac_obcp72_tst",
+    "description": "[SORCE] ac_obcp72_tst"
+  },
+  "sorce: gumbl_im_dd": {
+    "prefix": "gumbl_im_dd",
+    "body": "gumbl_im_dd",
+    "description": "[SORCE] gumbl_im_dd"
+  },
+  "sorce: sim_ahkp_tst": {
+    "prefix": "sim_ahkp_tst",
+    "body": "sim_ahkp_tst",
+    "description": "[SORCE] sim_ahkp_tst"
+  },
+  "sorce: sol_pktb_dd_snp": {
+    "prefix": "sol_pktb_dd_snp",
+    "body": "sol_pktb_dd_snp",
+    "description": "[SORCE] sol_pktb_dd_snp"
+  },
+  "sorce: st1_moon_004": {
+    "prefix": "st1_moon_004",
+    "body": "st1_moon_004",
+    "description": "[SORCE] st1_moon_004"
+  },
+  "sorce: sola_init": {
+    "prefix": "sola_init",
+    "body": "sola_init",
+    "description": "[SORCE] sola_init"
+  },
+  "sorce: rwa_turn_off": {
+    "prefix": "rwa_turn_off",
+    "body": "rwa_turn_off ${1:\\$wheel_num}",
+    "description": "[SORCE] rwa_turn_off"
+  },
+  "sorce: acs_fss_dd_snp": {
+    "prefix": "acs_fss_dd_snp",
+    "body": "acs_fss_dd_snp",
+    "description": "[SORCE] acs_fss_dd_snp"
+  },
+  "sorce: st1_self_test": {
+    "prefix": "st1_self_test",
+    "body": "st1_self_test",
+    "description": "[SORCE] st1_self_test"
+  },
+  "sorce: xps_pkts_tst": {
+    "prefix": "xps_pkts_tst",
+    "body": "xps_pkts_tst",
+    "description": "[SORCE] xps_pkts_tst"
+  },
+  "sorce: vr_blksremain": {
+    "prefix": "vr_blksremain",
+    "body": "vr_blksremain",
+    "description": "[SORCE] vr_blksremain"
+  },
+  "sorce: crc_b1_pat_dis": {
+    "prefix": "crc_b1_pat_dis",
+    "body": "crc_b1_pat_dis",
+    "description": "[SORCE] crc_b1_pat_dis"
+  },
+  "sorce: st2_acq_mn_undo": {
+    "prefix": "st2_acq_mn_undo",
+    "body": "st2_acq_mn_undo",
+    "description": "[SORCE] st2_acq_mn_undo"
+  },
+  "sorce: ac_obc72cmd": {
+    "prefix": "ac_obc72cmd",
+    "body": "ac_obc72cmd",
+    "description": "[SORCE] ac_obc72cmd"
+  },
+  "sorce: simb_prsmcal": {
+    "prefix": "simb_prsmcal",
+    "body": "simb_prsmcal",
+    "description": "[SORCE] simb_prsmcal"
+  },
+  "sorce: dcr_109a": {
+    "prefix": "dcr_109a",
+    "body": "dcr_109a",
+    "description": "[SORCE] dcr_109a"
+  },
+  "sorce: xps_turn_on": {
+    "prefix": "xps_turn_on",
+    "body": "xps_turn_on",
+    "description": "[SORCE] xps_turn_on"
+  },
+  "sorce: obc_80_rec_3": {
+    "prefix": "obc_80_rec_3",
+    "body": "obc_80_rec_3",
+    "description": "[SORCE] obc_80_rec_3"
+  },
+  "sorce: pagesetup": {
+    "prefix": "pagesetup",
+    "body": "pagesetup",
+    "description": "[SORCE] pagesetup"
+  },
+  "sorce: sima_12min_scan": {
+    "prefix": "sima_12min_scan",
+    "body": "sima_12min_scan",
+    "description": "[SORCE] sima_12min_scan"
+  },
+  "sorce: sol_apkt_dd_snp": {
+    "prefix": "sol_apkt_dd_snp",
+    "body": "sol_apkt_dd_snp",
+    "description": "[SORCE] sol_apkt_dd_snp"
+  },
+  "sorce: ultlm": {
+    "prefix": "ultlm",
+    "body": "ultlm",
+    "description": "[SORCE] ultlm"
+  },
+  "sorce: sim_bsw_tst": {
+    "prefix": "sim_bsw_tst",
+    "body": "sim_bsw_tst",
+    "description": "[SORCE] sim_bsw_tst"
+  },
+  "sorce: sim_ahkt_tst": {
+    "prefix": "sim_ahkt_tst",
+    "body": "sim_ahkt_tst",
+    "description": "[SORCE] sim_ahkt_tst"
+  },
+  "sorce: tps_main_dd_snp": {
+    "prefix": "tps_main_dd_snp",
+    "body": "tps_main_dd_snp",
+    "description": "[SORCE] tps_main_dd_snp"
+  },
+  "sorce: fdc_config": {
+    "prefix": "fdc_config",
+    "body": "fdc_config ${1:\\$state}",
+    "description": "[SORCE] fdc_config"
+  },
+  "sorce: solb_turn_on": {
+    "prefix": "solb_turn_on",
+    "body": "solb_turn_on",
+    "description": "[SORCE] solb_turn_on"
+  },
+  "sorce: fs_ape67pat_chk": {
+    "prefix": "fs_ape67pat_chk",
+    "body": "fs_ape67pat_chk",
+    "description": "[SORCE] fs_ape67pat_chk"
+  },
+  "sorce: csspatchen": {
+    "prefix": "csspatchen",
+    "body": "csspatchen",
+    "description": "[SORCE] csspatchen"
+  },
+  "sorce: simb_gaincal_cl": {
+    "prefix": "simb_gaincal_cl",
+    "body": "simb_gaincal_cl",
+    "description": "[SORCE] simb_gaincal_cl"
+  },
+  "sorce: acslowatt_log": {
+    "prefix": "acslowatt_log",
+    "body": "acslowatt_log",
+    "description": "[SORCE] acslowatt_log"
+  },
+  "sorce: st1_moon_021": {
+    "prefix": "st1_moon_021",
+    "body": "st1_moon_021",
+    "description": "[SORCE] st1_moon_021"
+  },
+  "sorce: gse_tlm_prcs": {
+    "prefix": "gse_tlm_prcs",
+    "body": "gse_tlm_prcs",
+    "description": "[SORCE] gse_tlm_prcs"
+  },
+  "sorce: clp_privileges": {
+    "prefix": "clp_privileges",
+    "body": "clp_privileges",
+    "description": "[SORCE] clp_privileges"
+  },
+  "sorce: mu_pkts_dd_snp": {
+    "prefix": "mu_pkts_dd_snp",
+    "body": "mu_pkts_dd_snp",
+    "description": "[SORCE] mu_pkts_dd_snp"
+  },
+  "sorce: plot_06_dd": {
+    "prefix": "plot_06_dd",
+    "body": "plot_06_dd",
+    "description": "[SORCE] plot_06_dd"
+  },
+  "sorce: ad_ftkf_dd": {
+    "prefix": "ad_ftkf_dd",
+    "body": "ad_ftkf_dd",
+    "description": "[SORCE] ad_ftkf_dd"
+  },
+  "sorce: solb_fly_1": {
+    "prefix": "solb_fly_1",
+    "body": "solb_fly_1",
+    "description": "[SORCE] solb_fly_1"
+  },
+  "sorce: rts_033_build": {
+    "prefix": "rts_033_build",
+    "body": "rts_033_build",
+    "description": "[SORCE] rts_033_build"
+  },
+  "sorce: ld_obcee_b2d2d3m": {
+    "prefix": "ld_obcee_b2d2d3m",
+    "body": "ld_obcee_b2d2d3m",
+    "description": "[SORCE] ld_obcee_b2d2d3m"
+  },
+  "sorce: initmsmem": {
+    "prefix": "initmsmem",
+    "body": "initmsmem",
+    "description": "[SORCE] initmsmem"
+  },
+  "sorce: limits_mode": {
+    "prefix": "limits_mode",
+    "body": "limits_mode ${1:\\$state}",
+    "description": "[SORCE] limits_mode"
+  },
+  "sorce: ceub_sync": {
+    "prefix": "ceub_sync",
+    "body": "ceub_sync",
+    "description": "[SORCE] ceub_sync"
+  },
+  "sorce: shed_level2_sh": {
+    "prefix": "shed_level2_sh",
+    "body": "shed_level2_sh",
+    "description": "[SORCE] shed_level2_sh"
+  },
+  "sorce: sol_adsp_dd": {
+    "prefix": "sol_adsp_dd",
+    "body": "sol_adsp_dd",
+    "description": "[SORCE] sol_adsp_dd"
+  },
+  "sorce: rts_045_build": {
+    "prefix": "rts_045_build",
+    "body": "rts_045_build",
+    "description": "[SORCE] rts_045_build"
+  },
+  "sorce: tim_decimate": {
+    "prefix": "tim_decimate",
+    "body": "tim_decimate",
+    "description": "[SORCE] tim_decimate"
+  },
+  "sorce: st1_oldmoon_007": {
+    "prefix": "st1_oldmoon_007",
+    "body": "st1_oldmoon_007",
+    "description": "[SORCE] st1_oldmoon_007"
+  },
+  "sorce: sol_agci_dd_snp": {
+    "prefix": "sol_agci_dd_snp",
+    "body": "sol_agci_dd_snp",
+    "description": "[SORCE] sol_agci_dd_snp"
+  },
+  "sorce: s1cmd": {
+    "prefix": "s1cmd",
+    "body": "s1cmd",
+    "description": "[SORCE] s1cmd"
+  },
+  "sorce: manual_load_shed": {
+    "prefix": "manual_load_shed",
+    "body": "manual_load_shed",
+    "description": "[SORCE] manual_load_shed"
+  },
+  "sorce: sima_5min_scan": {
+    "prefix": "sima_5min_scan",
+    "body": "sima_5min_scan",
+    "description": "[SORCE] sima_5min_scan"
+  },
+  "sorce: tim_0_tmr_ee_ld": {
+    "prefix": "tim_0_tmr_ee_ld",
+    "body": "tim_0_tmr_ee_ld",
+    "description": "[SORCE] tim_0_tmr_ee_ld"
+  },
+  "sorce: umb_postcheck": {
+    "prefix": "umb_postcheck",
+    "body": "umb_postcheck",
+    "description": "[SORCE] umb_postcheck"
+  },
+  "sorce: rts_125_build": {
+    "prefix": "rts_125_build",
+    "body": "rts_125_build",
+    "description": "[SORCE] rts_125_build"
+  },
+  "sorce: rts_080_build": {
+    "prefix": "rts_080_build",
+    "body": "rts_080_build",
+    "description": "[SORCE] rts_080_build"
+  },
+  "sorce: ape_68_undo": {
+    "prefix": "ape_68_undo",
+    "body": "ape_68_undo",
+    "description": "[SORCE] ape_68_undo"
+  },
+  "sorce: xps_safe_patch": {
+    "prefix": "xps_safe_patch",
+    "body": "xps_safe_patch",
+    "description": "[SORCE] xps_safe_patch"
+  },
+  "sorce: sorcec0mp05": {
+    "prefix": "sorcec0mp05",
+    "body": "sorcec0mp05",
+    "description": "[SORCE] sorcec0mp05"
+  },
+  "sorce: sim_bdr_dd": {
+    "prefix": "sim_bdr_dd",
+    "body": "sim_bdr_dd",
+    "description": "[SORCE] sim_bdr_dd"
+  },
+  "sorce: flight_tlm_prcs": {
+    "prefix": "flight_tlm_prcs",
+    "body": "flight_tlm_prcs",
+    "description": "[SORCE] flight_tlm_prcs"
+  },
+  "sorce: dlcmd": {
+    "prefix": "dlcmd",
+    "body": "dlcmd",
+    "description": "[SORCE] dlcmd"
+  },
+  "sorce: spam_ck": {
+    "prefix": "spam_ck",
+    "body": "spam_ck",
+    "description": "[SORCE] spam_ck"
+  },
+  "sorce: sola_vent_op": {
+    "prefix": "sola_vent_op",
+    "body": "sola_vent_op",
+    "description": "[SORCE] sola_vent_op"
+  },
+  "sorce: sim_ahkp_dd_snp": {
+    "prefix": "sim_ahkp_dd_snp",
+    "body": "sim_ahkp_dd_snp",
+    "description": "[SORCE] sim_ahkp_dd_snp"
+  },
+  "sorce: st1_oldmoon_009": {
+    "prefix": "st1_oldmoon_009",
+    "body": "st1_oldmoon_009",
+    "description": "[SORCE] st1_oldmoon_009"
+  },
+  "sorce: tim_shtr_a": {
+    "prefix": "tim_shtr_a",
+    "body": "tim_shtr_a",
+    "description": "[SORCE] tim_shtr_a"
+  },
+  "sorce: sim_ahkp_dd": {
+    "prefix": "sim_ahkp_dd",
+    "body": "sim_ahkp_dd",
+    "description": "[SORCE] sim_ahkp_dd"
+  },
+  "sorce: rts_032_build": {
+    "prefix": "rts_032_build",
+    "body": "rts_032_build",
+    "description": "[SORCE] rts_032_build"
+  },
+  "sorce: select_dsf_tbl": {
+    "prefix": "select_dsf_tbl",
+    "body": "select_dsf_tbl ${1:\\$table}",
+    "description": "[SORCE] select_dsf_tbl"
+  },
+  "sorce: epstlm": {
+    "prefix": "epstlm",
+    "body": "epstlm",
+    "description": "[SORCE] epstlm"
+  },
+  "sorce: ape64patch": {
+    "prefix": "ape64patch",
+    "body": "ape64patch",
+    "description": "[SORCE] ape64patch"
+  },
+  "sorce: acs_tam_dd": {
+    "prefix": "acs_tam_dd",
+    "body": "acs_tam_dd",
+    "description": "[SORCE] acs_tam_dd"
+  },
+  "sorce: st2_moon_014": {
+    "prefix": "st2_moon_014",
+    "body": "st2_moon_014",
+    "description": "[SORCE] st2_moon_014"
+  },
+  "sorce: crc62_80eeprom": {
+    "prefix": "crc62_80eeprom",
+    "body": "crc62_80eeprom",
+    "description": "[SORCE] crc62_80eeprom"
+  },
+  "sorce: proc_list_rhrsl": {
+    "prefix": "proc_list_rhrsl",
+    "body": "proc_list_rhrsl",
+    "description": "[SORCE] proc_list_rhrsl"
+  },
+  "sorce: update_db_mor": {
+    "prefix": "update_db_mor",
+    "body": "update_db_mor",
+    "description": "[SORCE] update_db_mor"
+  },
+  "sorce: st1_acq_mn_undo": {
+    "prefix": "st1_acq_mn_undo",
+    "body": "st1_acq_mn_undo",
+    "description": "[SORCE] st1_acq_mn_undo"
+  },
+  "sorce: solb_ihtr_hi": {
+    "prefix": "solb_ihtr_hi",
+    "body": "solb_ihtr_hi",
+    "description": "[SORCE] solb_ihtr_hi"
+  },
+  "sorce: gumballs_ld": {
+    "prefix": "gumballs_ld",
+    "body": "gumballs_ld",
+    "description": "[SORCE] gumballs_ld"
+  },
+  "sorce: st1_fdc_enable": {
+    "prefix": "st1_fdc_enable",
+    "body": "st1_fdc_enable",
+    "description": "[SORCE] st1_fdc_enable"
+  },
+  "sorce: st1_diag_tst": {
+    "prefix": "st1_diag_tst",
+    "body": "st1_diag_tst",
+    "description": "[SORCE] st1_diag_tst"
+  },
+  "sorce: t_111_stellar": {
+    "prefix": "t_111_stellar",
+    "body": "t_111_stellar",
+    "description": "[SORCE] t_111_stellar"
+  },
+  "sorce: mem_sw_tst": {
+    "prefix": "mem_sw_tst",
+    "body": "mem_sw_tst",
+    "description": "[SORCE] mem_sw_tst"
+  },
+  "sorce: rts_044_build": {
+    "prefix": "rts_044_build",
+    "body": "rts_044_build",
+    "description": "[SORCE] rts_044_build"
+  },
+  "sorce: rts10mod": {
+    "prefix": "rts10mod",
+    "body": "rts10mod",
+    "description": "[SORCE] rts10mod"
+  },
+  "sorce: st2_oldmoon_022": {
+    "prefix": "st2_oldmoon_022",
+    "body": "st2_oldmoon_022",
+    "description": "[SORCE] st2_oldmoon_022"
+  },
+  "sorce: st2_moon_013": {
+    "prefix": "st2_moon_013",
+    "body": "st2_moon_013",
+    "description": "[SORCE] st2_moon_013"
+  },
+  "sorce: msk_stat_dd": {
+    "prefix": "msk_stat_dd",
+    "body": "msk_stat_dd",
+    "description": "[SORCE] msk_stat_dd"
+  },
+  "sorce: ds_main_dd_snp": {
+    "prefix": "ds_main_dd_snp",
+    "body": "ds_main_dd_snp",
+    "description": "[SORCE] ds_main_dd_snp"
+  },
+  "sorce: sol_bgci_dd": {
+    "prefix": "sol_bgci_dd",
+    "body": "sol_bgci_dd",
+    "description": "[SORCE] sol_bgci_dd"
+  },
+  "sorce: apecmd": {
+    "prefix": "apecmd",
+    "body": "apecmd",
+    "description": "[SORCE] apecmd"
+  },
+  "sorce: dcr_176": {
+    "prefix": "dcr_176",
+    "body": "dcr_176",
+    "description": "[SORCE] dcr_176"
+  },
+  "sorce: vr2_remain": {
+    "prefix": "vr2_remain",
+    "body": "vr2_remain",
+    "description": "[SORCE] vr2_remain"
+  },
+  "sorce: sorcec0mp02": {
+    "prefix": "sorcec0mp02",
+    "body": "sorcec0mp02",
+    "description": "[SORCE] sorcec0mp02"
+  },
+  "sorce: plot_10_dd": {
+    "prefix": "plot_10_dd",
+    "body": "plot_10_dd",
+    "description": "[SORCE] plot_10_dd"
+  },
+  "sorce: limits_switch": {
+    "prefix": "limits_switch",
+    "body": "limits_switch",
+    "description": "[SORCE] limits_switch"
+  },
+  "sorce: rts_081_build": {
+    "prefix": "rts_081_build",
+    "body": "rts_081_build",
+    "description": "[SORCE] rts_081_build"
+  },
+  "sorce: sim_bpkt_tst": {
+    "prefix": "sim_bpkt_tst",
+    "body": "sim_bpkt_tst",
+    "description": "[SORCE] sim_bpkt_tst"
+  },
+  "sorce: rts_124_build": {
+    "prefix": "rts_124_build",
+    "body": "rts_124_build",
+    "description": "[SORCE] rts_124_build"
+  },
+  "sorce: im_pwr_tst": {
+    "prefix": "im_pwr_tst",
+    "body": "im_pwr_tst",
+    "description": "[SORCE] im_pwr_tst"
+  },
+  "sorce: p20_ool_eeprom": {
+    "prefix": "p20_ool_eeprom",
+    "body": "p20_ool_eeprom",
+    "description": "[SORCE] p20_ool_eeprom"
+  },
+  "sorce: limits_switch2": {
+    "prefix": "limits_switch2",
+    "body": "limits_switch2",
+    "description": "[SORCE] limits_switch2"
+  },
+  "sorce: powerdown_msg": {
+    "prefix": "powerdown_msg",
+    "body": "powerdown_msg",
+    "description": "[SORCE] powerdown_msg"
+  },
+  "sorce: sola_high_pkt_rt": {
+    "prefix": "sola_high_pkt_rt",
+    "body": "sola_high_pkt_rt",
+    "description": "[SORCE] sola_high_pkt_rt"
+  },
+  "sorce: smcmd_update": {
+    "prefix": "smcmd_update",
+    "body": "smcmd_update",
+    "description": "[SORCE] smcmd_update"
+  },
+  "sorce: pr598_antidote": {
+    "prefix": "pr598_antidote",
+    "body": "pr598_antidote",
+    "description": "[SORCE] pr598_antidote"
+  },
+  "sorce: sim_acmd": {
+    "prefix": "sim_acmd",
+    "body": "sim_acmd",
+    "description": "[SORCE] sim_acmd"
+  },
+  "sorce: rts_031_build": {
+    "prefix": "rts_031_build",
+    "body": "rts_031_build",
+    "description": "[SORCE] rts_031_build"
+  },
+  "sorce: launch_config": {
+    "prefix": "launch_config",
+    "body": "launch_config",
+    "description": "[SORCE] launch_config"
+  },
+  "sorce: msk_stat_tst": {
+    "prefix": "msk_stat_tst",
+    "body": "msk_stat_tst",
+    "description": "[SORCE] msk_stat_tst"
+  },
+  "sorce: sim_bhkp_dd": {
+    "prefix": "sim_bhkp_dd",
+    "body": "sim_bhkp_dd",
+    "description": "[SORCE] sim_bhkp_dd"
+  },
+  "sorce: fss_turn_on": {
+    "prefix": "fss_turn_on",
+    "body": "fss_turn_on",
+    "description": "[SORCE] fss_turn_on"
+  },
+  "sorce: apetlm": {
+    "prefix": "apetlm",
+    "body": "apetlm",
+    "description": "[SORCE] apetlm"
+  },
+  "sorce: sim_ahkm_tst": {
+    "prefix": "sim_ahkm_tst",
+    "body": "sim_ahkm_tst",
+    "description": "[SORCE] sim_ahkm_tst"
+  },
+  "sorce: observatorycmd": {
+    "prefix": "observatorycmd",
+    "body": "observatorycmd",
+    "description": "[SORCE] observatorycmd"
+  },
+  "sorce: plot_18_tst": {
+    "prefix": "plot_18_tst",
+    "body": "plot_18_tst",
+    "description": "[SORCE] plot_18_tst"
+  },
+  "sorce: ctsim": {
+    "prefix": "ctsim",
+    "body": "ctsim",
+    "description": "[SORCE] ctsim"
+  },
+  "sorce: sim_atlm": {
+    "prefix": "sim_atlm",
+    "body": "sim_atlm",
+    "description": "[SORCE] sim_atlm"
+  },
+  "sorce: aactlm": {
+    "prefix": "aactlm",
+    "body": "aactlm",
+    "description": "[SORCE] aactlm"
+  },
+  "sorce: st2_oldmoon_017": {
+    "prefix": "st2_oldmoon_017",
+    "body": "st2_oldmoon_017",
+    "description": "[SORCE] st2_oldmoon_017"
+  },
+  "sorce: cspatchenable": {
+    "prefix": "cspatchenable",
+    "body": "cspatchenable",
+    "description": "[SORCE] cspatchenable"
+  },
+  "sorce: st1cmd": {
+    "prefix": "st1cmd",
+    "body": "st1cmd",
+    "description": "[SORCE] st1cmd"
+  },
+  "sorce: op_heater_cntrl": {
+    "prefix": "op_heater_cntrl",
+    "body": "op_heater_cntrl",
+    "description": "[SORCE] op_heater_cntrl"
+  },
+  "sorce: ad_common_tst": {
+    "prefix": "ad_common_tst",
+    "body": "ad_common_tst",
+    "description": "[SORCE] ad_common_tst"
+  },
+  "sorce: dcr_143": {
+    "prefix": "dcr_143",
+    "body": "dcr_143",
+    "description": "[SORCE] dcr_143"
+  },
+  "sorce: load7osx2_1_70": {
+    "prefix": "load7osx2_1_70",
+    "body": "load7osx2_1_70",
+    "description": "[SORCE] load7osx2_1_70"
+  },
+  "sorce: crc_verif2": {
+    "prefix": "crc_verif2",
+    "body": "crc_verif2 ${1:\\$addr}, ${2:\\$len}, ${3:\\$crc}",
+    "description": "[SORCE] crc_verif2"
+  },
+  "sorce: tim_gain_md_off": {
+    "prefix": "tim_gain_md_off",
+    "body": "tim_gain_md_off",
+    "description": "[SORCE] tim_gain_md_off"
+  },
+  "sorce: st2_turn_on": {
+    "prefix": "st2_turn_on",
+    "body": "st2_turn_on",
+    "description": "[SORCE] st2_turn_on"
+  },
+  "sorce: mufsw_conf_verif": {
+    "prefix": "mufsw_conf_verif",
+    "body": "mufsw_conf_verif",
+    "description": "[SORCE] mufsw_conf_verif"
+  },
+  "sorce: rts10_shrts_ld": {
+    "prefix": "rts10_shrts_ld",
+    "body": "rts10_shrts_ld",
+    "description": "[SORCE] rts10_shrts_ld"
+  },
+  "sorce: undo_pat_74ea0": {
+    "prefix": "undo_pat_74ea0",
+    "body": "undo_pat_74ea0",
+    "description": "[SORCE] undo_pat_74ea0"
+  },
+  "sorce: sorcec2md3": {
+    "prefix": "sorcec2md3",
+    "body": "sorcec2md3",
+    "description": "[SORCE] sorcec2md3"
+  },
+  "sorce: tim_default_seq": {
+    "prefix": "tim_default_seq",
+    "body": "tim_default_seq",
+    "description": "[SORCE] tim_default_seq"
+  },
+  "sorce: rts_127_build": {
+    "prefix": "rts_127_build",
+    "body": "rts_127_build",
+    "description": "[SORCE] rts_127_build"
+  },
+  "sorce: hsc_pbk": {
+    "prefix": "hsc_pbk",
+    "body": "hsc_pbk ${1:\\$vr1_dsid}, ${2:\\$vr2_dsid}, ${3:\\$vr3_dsid}, ${4:\\$vr4_dsid}",
+    "description": "[SORCE] hsc_pbk"
+  },
+  "sorce: mu_ee_inst_14_15": {
+    "prefix": "mu_ee_inst_14_15",
+    "body": "mu_ee_inst_14_15",
+    "description": "[SORCE] mu_ee_inst_14_15"
+  },
+  "sorce: rts_082_build": {
+    "prefix": "rts_082_build",
+    "body": "rts_082_build",
+    "description": "[SORCE] rts_082_build"
+  },
+  "sorce: st1_init_td": {
+    "prefix": "st1_init_td",
+    "body": "st1_init_td",
+    "description": "[SORCE] st1_init_td"
+  },
+  "sorce: tim_relay_cd": {
+    "prefix": "tim_relay_cd",
+    "body": "tim_relay_cd",
+    "description": "[SORCE] tim_relay_cd"
+  },
+  "sorce: tim_default": {
+    "prefix": "tim_default",
+    "body": "tim_default",
+    "description": "[SORCE] tim_default"
+  },
+  "sorce: plot_14_tst": {
+    "prefix": "plot_14_tst",
+    "body": "plot_14_tst",
+    "description": "[SORCE] plot_14_tst"
+  },
+  "sorce: zero_ee_patctl": {
+    "prefix": "zero_ee_patctl",
+    "body": "zero_ee_patctl",
+    "description": "[SORCE] zero_ee_patctl"
+  },
+  "sorce: st1_acqs_dd": {
+    "prefix": "st1_acqs_dd",
+    "body": "st1_acqs_dd",
+    "description": "[SORCE] st1_acqs_dd"
+  },
+  "sorce: src_ape_bb2": {
+    "prefix": "src_ape_bb2",
+    "body": "src_ape_bb2",
+    "description": "[SORCE] src_ape_bb2"
+  },
+  "sorce: eps_main_dd": {
+    "prefix": "eps_main_dd",
+    "body": "eps_main_dd",
+    "description": "[SORCE] eps_main_dd"
+  },
+  "sorce: eps_aep_dd_snp": {
+    "prefix": "eps_aep_dd_snp",
+    "body": "eps_aep_dd_snp",
+    "description": "[SORCE] eps_aep_dd_snp"
+  },
+  "sorce: sola_bos_lvl_set": {
+    "prefix": "sola_bos_lvl_set",
+    "body": "sola_bos_lvl_set ${1:\\$level}",
+    "description": "[SORCE] sola_bos_lvl_set"
+  },
+  "sorce: p101602_ppt": {
+    "prefix": "p101602_ppt",
+    "body": "p101602_ppt",
+    "description": "[SORCE] p101602_ppt"
+  },
+  "sorce: crc_62_eeprom": {
+    "prefix": "crc_62_eeprom",
+    "body": "crc_62_eeprom",
+    "description": "[SORCE] crc_62_eeprom"
+  },
+  "sorce: plot_10_tst": {
+    "prefix": "plot_10_tst",
+    "body": "plot_10_tst",
+    "description": "[SORCE] plot_10_tst"
+  },
+  "sorce: rts_047_build": {
+    "prefix": "rts_047_build",
+    "body": "rts_047_build",
+    "description": "[SORCE] rts_047_build"
+  },
+  "sorce: simb_gaincal_op1": {
+    "prefix": "simb_gaincal_op1",
+    "body": "simb_gaincal_op1",
+    "description": "[SORCE] simb_gaincal_op1"
+  },
+  "sorce: dltlm": {
+    "prefix": "dltlm",
+    "body": "dltlm",
+    "description": "[SORCE] dltlm"
+  },
+  "sorce: undo_obc90": {
+    "prefix": "undo_obc90",
+    "body": "undo_obc90",
+    "description": "[SORCE] undo_obc90"
+  },
+  "sorce: dcr_138": {
+    "prefix": "dcr_138",
+    "body": "dcr_138",
+    "description": "[SORCE] dcr_138"
+  },
+  "sorce: sima_halfcyc": {
+    "prefix": "sima_halfcyc",
+    "body": "sima_halfcyc",
+    "description": "[SORCE] sima_halfcyc"
+  },
+  "sorce: cmd_postcheck": {
+    "prefix": "cmd_postcheck",
+    "body": "cmd_postcheck",
+    "description": "[SORCE] cmd_postcheck"
+  },
+  "sorce: sol_agci_dd": {
+    "prefix": "sol_agci_dd",
+    "body": "sol_agci_dd",
+    "description": "[SORCE] sol_agci_dd"
+  },
+  "sorce: mu_turn_on": {
+    "prefix": "mu_turn_on",
+    "body": "mu_turn_on ${1:\\$bus}",
+    "description": "[SORCE] mu_turn_on"
+  },
+  "sorce: rts_019_build": {
+    "prefix": "rts_019_build",
+    "body": "rts_019_build",
+    "description": "[SORCE] rts_019_build"
+  },
+  "sorce: st2_oldmoon_010": {
+    "prefix": "st2_oldmoon_010",
+    "body": "st2_oldmoon_010",
+    "description": "[SORCE] st2_oldmoon_010"
+  },
+  "sorce: st2_moon_021": {
+    "prefix": "st2_moon_021",
+    "body": "st2_moon_021",
+    "description": "[SORCE] st2_moon_021"
+  },
+  "sorce: xps_sci_tst": {
+    "prefix": "xps_sci_tst",
+    "body": "xps_sci_tst",
+    "description": "[SORCE] xps_sci_tst"
+  },
+  "sorce: ld_src_pat_48330": {
+    "prefix": "ld_src_pat_48330",
+    "body": "ld_src_pat_48330",
+    "description": "[SORCE] ld_src_pat_48330"
+  },
+  "sorce: und_src_pat_71": {
+    "prefix": "und_src_pat_71",
+    "body": "und_src_pat_71",
+    "description": "[SORCE] und_src_pat_71"
+  },
+  "sorce: mu_mem_dump_g": {
+    "prefix": "mu_mem_dump_g",
+    "body": "mu_mem_dump_g",
+    "description": "[SORCE] mu_mem_dump_g"
+  },
+  "sorce: ape_rec_1": {
+    "prefix": "ape_rec_1",
+    "body": "ape_rec_1",
+    "description": "[SORCE] ape_rec_1"
+  },
+  "sorce: patch_eot": {
+    "prefix": "patch_eot",
+    "body": "patch_eot",
+    "description": "[SORCE] patch_eot"
+  },
+  "sorce: rts_030_build": {
+    "prefix": "rts_030_build",
+    "body": "rts_030_build",
+    "description": "[SORCE] rts_030_build"
+  },
+  "sorce: sola_fly_1": {
+    "prefix": "sola_fly_1",
+    "body": "sola_fly_1",
+    "description": "[SORCE] sola_fly_1"
+  },
+  "sorce: s125_cont": {
+    "prefix": "s125_cont",
+    "body": "s125_cont ${1:\\$rwa_num}",
+    "description": "[SORCE] s125_cont"
+  },
+  "sorce: st2_diag_tst": {
+    "prefix": "st2_diag_tst",
+    "body": "st2_diag_tst",
+    "description": "[SORCE] st2_diag_tst"
+  },
+  "sorce: dcr_136": {
+    "prefix": "dcr_136",
+    "body": "dcr_136",
+    "description": "[SORCE] dcr_136"
+  },
+  "sorce: tim_sci_tst": {
+    "prefix": "tim_sci_tst",
+    "body": "tim_sci_tst",
+    "description": "[SORCE] tim_sci_tst"
+  },
+  "sorce: solb_duty_cycle": {
+    "prefix": "solb_duty_cycle",
+    "body": "solb_duty_cycle ${1:\\$eclipse_on}",
+    "description": "[SORCE] solb_duty_cycle"
+  },
+  "sorce: st1_moon_013": {
+    "prefix": "st1_moon_013",
+    "body": "st1_moon_013",
+    "description": "[SORCE] st1_moon_013"
+  },
+  "sorce: ops_dd_snp": {
+    "prefix": "ops_dd_snp",
+    "body": "ops_dd_snp",
+    "description": "[SORCE] ops_dd_snp"
+  },
+  "sorce: ac_obcp72_dd": {
+    "prefix": "ac_obcp72_dd",
+    "body": "ac_obcp72_dd",
+    "description": "[SORCE] ac_obcp72_dd"
+  },
+  "sorce: fss_fsw_init": {
+    "prefix": "fss_fsw_init",
+    "body": "fss_fsw_init",
+    "description": "[SORCE] fss_fsw_init"
+  },
+  "sorce: dcr_131": {
+    "prefix": "dcr_131",
+    "body": "dcr_131",
+    "description": "[SORCE] dcr_131"
+  },
+  "sorce: st1_moon_014": {
+    "prefix": "st1_moon_014",
+    "body": "st1_moon_014",
+    "description": "[SORCE] st1_moon_014"
+  },
+  "sorce: eps_pwsw_tst": {
+    "prefix": "eps_pwsw_tst",
+    "body": "eps_pwsw_tst",
+    "description": "[SORCE] eps_pwsw_tst"
+  },
+  "sorce: rts_083_build": {
+    "prefix": "rts_083_build",
+    "body": "rts_083_build",
+    "description": "[SORCE] rts_083_build"
+  },
+  "sorce: rts_126_build": {
+    "prefix": "rts_126_build",
+    "body": "rts_126_build",
+    "description": "[SORCE] rts_126_build"
+  },
+  "sorce: st2_oldmoon_019": {
+    "prefix": "st2_oldmoon_019",
+    "body": "st2_oldmoon_019",
+    "description": "[SORCE] st2_oldmoon_019"
+  },
+  "sorce: eps_batt_dd": {
+    "prefix": "eps_batt_dd",
+    "body": "eps_batt_dd",
+    "description": "[SORCE] eps_batt_dd"
+  },
+  "sorce: comm_terminate_r": {
+    "prefix": "comm_terminate_r",
+    "body": "comm_terminate_r",
+    "description": "[SORCE] comm_terminate_r"
+  },
+  "sorce: sima_eclipse_ops": {
+    "prefix": "sima_eclipse_ops",
+    "body": "sima_eclipse_ops ${1:\\$eclipse_on}",
+    "description": "[SORCE] sima_eclipse_ops"
+  },
+  "sorce: rts_018_build": {
+    "prefix": "rts_018_build",
+    "body": "rts_018_build",
+    "description": "[SORCE] rts_018_build"
+  },
+  "sorce: sim_bhkt_dd_snp": {
+    "prefix": "sim_bhkt_dd_snp",
+    "body": "sim_bhkt_dd_snp",
+    "description": "[SORCE] sim_bhkt_dd_snp"
+  },
+  "sorce: boot_build80": {
+    "prefix": "boot_build80",
+    "body": "boot_build80",
+    "description": "[SORCE] boot_build80"
+  },
+  "sorce: dump_act_tbl": {
+    "prefix": "dump_act_tbl",
+    "body": "dump_act_tbl ${1:\\$NAME}",
+    "description": "[SORCE] dump_act_tbl"
+  },
+  "sorce: rts_046_build": {
+    "prefix": "rts_046_build",
+    "body": "rts_046_build",
+    "description": "[SORCE] rts_046_build"
+  },
+  "sorce: sol_bdsp_dd": {
+    "prefix": "sol_bdsp_dd",
+    "body": "sol_bdsp_dd",
+    "description": "[SORCE] sol_bdsp_dd"
+  },
+  "sorce: powerdowncmd": {
+    "prefix": "powerdowncmd",
+    "body": "powerdowncmd",
+    "description": "[SORCE] powerdowncmd"
+  },
+  "sorce: st2_oldmoon_008": {
+    "prefix": "st2_oldmoon_008",
+    "body": "st2_oldmoon_008",
+    "description": "[SORCE] st2_oldmoon_008"
+  },
+  "sorce: eps_pswa_tst": {
+    "prefix": "eps_pswa_tst",
+    "body": "eps_pswa_tst",
+    "description": "[SORCE] eps_pswa_tst"
+  },
+  "sorce: fdc4_sdby_13_113": {
+    "prefix": "fdc4_sdby_13_113",
+    "body": "fdc4_sdby_13_113",
+    "description": "[SORCE] fdc4_sdby_13_113"
+  },
+  "sorce: misc_fsw_dd_snp": {
+    "prefix": "misc_fsw_dd_snp",
+    "body": "misc_fsw_dd_snp",
+    "description": "[SORCE] misc_fsw_dd_snp"
+  },
+  "sorce: st1_moon_005": {
+    "prefix": "st1_moon_005",
+    "body": "st1_moon_005",
+    "description": "[SORCE] st1_moon_005"
+  },
+  "sorce: eps_main_tst": {
+    "prefix": "eps_main_tst",
+    "body": "eps_main_tst",
+    "description": "[SORCE] eps_main_tst"
+  },
+  "sorce: ld_sorceape67und": {
+    "prefix": "ld_sorceape67und",
+    "body": "ld_sorceape67und",
+    "description": "[SORCE] ld_sorceape67und"
+  },
+  "sorce: rts_084_build": {
+    "prefix": "rts_084_build",
+    "body": "rts_084_build",
+    "description": "[SORCE] rts_084_build"
+  },
+  "sorce: timcmd": {
+    "prefix": "timcmd",
+    "body": "timcmd",
+    "description": "[SORCE] timcmd"
+  },
+  "sorce: auto_pwr_ee_ld": {
+    "prefix": "auto_pwr_ee_ld",
+    "body": "auto_pwr_ee_ld",
+    "description": "[SORCE] auto_pwr_ee_ld"
+  },
+  "sorce: plot_01_tst": {
+    "prefix": "plot_01_tst",
+    "body": "plot_01_tst",
+    "description": "[SORCE] plot_01_tst"
+  },
+  "sorce: rts_121_build": {
+    "prefix": "rts_121_build",
+    "body": "rts_121_build",
+    "description": "[SORCE] rts_121_build"
+  },
+  "sorce: torq_auth_setup": {
+    "prefix": "torq_auth_setup",
+    "body": "torq_auth_setup",
+    "description": "[SORCE] torq_auth_setup"
+  },
+  "sorce: fst_im_limits": {
+    "prefix": "fst_im_limits",
+    "body": "fst_im_limits",
+    "description": "[SORCE] fst_im_limits"
+  },
+  "sorce: perf_clear": {
+    "prefix": "perf_clear",
+    "body": "perf_clear",
+    "description": "[SORCE] perf_clear"
+  },
+  "sorce: xps_pkts_dd_snp": {
+    "prefix": "xps_pkts_dd_snp",
+    "body": "xps_pkts_dd_snp",
+    "description": "[SORCE] xps_pkts_dd_snp"
+  },
+  "sorce: pre_obc68pat_chk": {
+    "prefix": "pre_obc68pat_chk",
+    "body": "pre_obc68pat_chk",
+    "description": "[SORCE] pre_obc68pat_chk"
+  },
+  "sorce: obc_80_rec_2": {
+    "prefix": "obc_80_rec_2",
+    "body": "obc_80_rec_2",
+    "description": "[SORCE] obc_80_rec_2"
+  },
+  "sorce: inst_seq_dd": {
+    "prefix": "inst_seq_dd",
+    "body": "inst_seq_dd",
+    "description": "[SORCE] inst_seq_dd"
+  },
+  "sorce: pr541_antidote": {
+    "prefix": "pr541_antidote",
+    "body": "pr541_antidote",
+    "description": "[SORCE] pr541_antidote"
+  },
+  "sorce: sorcec2mp01": {
+    "prefix": "sorcec2mp01",
+    "body": "sorcec2mp01",
+    "description": "[SORCE] sorcec2mp01"
+  },
+  "sorce: ape70_sh_enter": {
+    "prefix": "ape70_sh_enter",
+    "body": "ape70_sh_enter",
+    "description": "[SORCE] ape70_sh_enter"
+  },
+  "sorce: plot_05_tst": {
+    "prefix": "plot_05_tst",
+    "body": "plot_05_tst",
+    "description": "[SORCE] plot_05_tst"
+  },
+  "sorce: cdh_main_tst": {
+    "prefix": "cdh_main_tst",
+    "body": "cdh_main_tst",
+    "description": "[SORCE] cdh_main_tst"
+  },
+  "sorce: solb_quick_init": {
+    "prefix": "solb_quick_init",
+    "body": "solb_quick_init",
+    "description": "[SORCE] solb_quick_init"
+  },
+  "sorce: load6decomp2_70": {
+    "prefix": "load6decomp2_70",
+    "body": "load6decomp2_70",
+    "description": "[SORCE] load6decomp2_70"
+  },
+  "sorce: muhk_tlm_dd_snp": {
+    "prefix": "muhk_tlm_dd_snp",
+    "body": "muhk_tlm_dd_snp",
+    "description": "[SORCE] muhk_tlm_dd_snp"
+  },
+  "sorce: mu_sw_tm_dd": {
+    "prefix": "mu_sw_tm_dd",
+    "body": "mu_sw_tm_dd",
+    "description": "[SORCE] mu_sw_tm_dd"
+  },
+  "sorce: acs_ape_dd": {
+    "prefix": "acs_ape_dd",
+    "body": "acs_ape_dd",
+    "description": "[SORCE] acs_ape_dd"
+  },
+  "sorce: rts_041_build": {
+    "prefix": "rts_041_build",
+    "body": "rts_041_build",
+    "description": "[SORCE] rts_041_build"
+  },
+  "sorce: cscmd": {
+    "prefix": "cscmd",
+    "body": "cscmd",
+    "description": "[SORCE] cscmd"
+  },
+  "sorce: fst_rts14_ld": {
+    "prefix": "fst_rts14_ld",
+    "body": "fst_rts14_ld",
+    "description": "[SORCE] fst_rts14_ld"
+  },
+  "sorce: rts_069_build": {
+    "prefix": "rts_069_build",
+    "body": "rts_069_build",
+    "description": "[SORCE] rts_069_build"
+  },
+  "sorce: obc_80_rec_5": {
+    "prefix": "obc_80_rec_5",
+    "body": "obc_80_rec_5",
+    "description": "[SORCE] obc_80_rec_5"
+  },
+  "sorce: sorcec2mp06": {
+    "prefix": "sorcec2mp06",
+    "body": "sorcec2mp06",
+    "description": "[SORCE] sorcec2mp06"
+  },
+  "sorce: sola_tlm_ck": {
+    "prefix": "sola_tlm_ck",
+    "body": "sola_tlm_ck",
+    "description": "[SORCE] sola_tlm_ck"
+  },
+  "sorce: plot_04_dd": {
+    "prefix": "plot_04_dd",
+    "body": "plot_04_dd",
+    "description": "[SORCE] plot_04_dd"
+  },
+  "sorce: gumballs_dd": {
+    "prefix": "gumballs_dd",
+    "body": "gumballs_dd",
+    "description": "[SORCE] gumballs_dd"
+  },
+  "sorce: rts_037_build": {
+    "prefix": "rts_037_build",
+    "body": "rts_037_build",
+    "description": "[SORCE] rts_037_build"
+  },
+  "sorce: undo_pat_62cb8": {
+    "prefix": "undo_pat_62cb8",
+    "body": "undo_pat_62cb8",
+    "description": "[SORCE] undo_pat_62cb8"
+  },
+  "sorce: sc_cmd_prcs": {
+    "prefix": "sc_cmd_prcs",
+    "body": "sc_cmd_prcs",
+    "description": "[SORCE] sc_cmd_prcs"
+  },
+  "sorce: route1_switch_on": {
+    "prefix": "route1_switch_on",
+    "body": "route1_switch_on",
+    "description": "[SORCE] route1_switch_on"
+  },
+  "sorce: sc_cmds_to_ctsim": {
+    "prefix": "sc_cmds_to_ctsim",
+    "body": "sc_cmds_to_ctsim",
+    "description": "[SORCE] sc_cmds_to_ctsim"
+  },
+  "sorce: st1_reset": {
+    "prefix": "st1_reset",
+    "body": "st1_reset",
+    "description": "[SORCE] st1_reset"
+  },
+  "sorce: ape_reset": {
+    "prefix": "ape_reset",
+    "body": "ape_reset",
+    "description": "[SORCE] ape_reset"
+  },
+  "sorce: rts_109_build": {
+    "prefix": "rts_109_build",
+    "body": "rts_109_build",
+    "description": "[SORCE] rts_109_build"
+  },
+  "sorce: mag_main": {
+    "prefix": "mag_main",
+    "body": "mag_main",
+    "description": "[SORCE] mag_main"
+  },
+  "sorce: st1_moon_002": {
+    "prefix": "st1_moon_002",
+    "body": "st1_moon_002",
+    "description": "[SORCE] st1_moon_002"
+  },
+  "sorce: mu_ee_unpatch_14": {
+    "prefix": "mu_ee_unpatch_14",
+    "body": "mu_ee_unpatch_14",
+    "description": "[SORCE] mu_ee_unpatch_14"
+  },
+  "sorce: sim_bpkt_dd": {
+    "prefix": "sim_bpkt_dd",
+    "body": "sim_bpkt_dd",
+    "description": "[SORCE] sim_bpkt_dd"
+  },
+  "sorce: sima_high_pkt_rt": {
+    "prefix": "sima_high_pkt_rt",
+    "body": "sima_high_pkt_rt",
+    "description": "[SORCE] sima_high_pkt_rt"
+  },
+  "sorce: solb_dhtr_lo": {
+    "prefix": "solb_dhtr_lo",
+    "body": "solb_dhtr_lo",
+    "description": "[SORCE] solb_dhtr_lo"
+  },
+  "sorce: dcr_127": {
+    "prefix": "dcr_127",
+    "body": "dcr_127",
+    "description": "[SORCE] dcr_127"
+  },
+  "sorce: plot_09_tst": {
+    "prefix": "plot_09_tst",
+    "body": "plot_09_tst",
+    "description": "[SORCE] plot_09_tst"
+  },
+  "sorce: cdh_main_dd_snp": {
+    "prefix": "cdh_main_dd_snp",
+    "body": "cdh_main_dd_snp",
+    "description": "[SORCE] cdh_main_dd_snp"
+  },
+  "sorce: idlecmd": {
+    "prefix": "idlecmd",
+    "body": "idlecmd",
+    "description": "[SORCE] idlecmd"
+  },
+  "sorce: solstice_acmd": {
+    "prefix": "solstice_acmd",
+    "body": "solstice_acmd",
+    "description": "[SORCE] solstice_acmd"
+  },
+  "sorce: rts_120_build": {
+    "prefix": "rts_120_build",
+    "body": "rts_120_build",
+    "description": "[SORCE] rts_120_build"
+  },
+  "sorce: rts_085_build": {
+    "prefix": "rts_085_build",
+    "body": "rts_085_build",
+    "description": "[SORCE] rts_085_build"
+  },
+  "sorce: st2_post_load": {
+    "prefix": "st2_post_load",
+    "body": "st2_post_load",
+    "description": "[SORCE] st2_post_load"
+  },
+  "sorce: tim_hkp_dd": {
+    "prefix": "tim_hkp_dd",
+    "body": "tim_hkp_dd",
+    "description": "[SORCE] tim_hkp_dd"
+  },
+  "sorce: tim_panic": {
+    "prefix": "tim_panic",
+    "body": "tim_panic",
+    "description": "[SORCE] tim_panic"
+  },
+  "sorce: sorcec2mp08": {
+    "prefix": "sorcec2mp08",
+    "body": "sorcec2mp08",
+    "description": "[SORCE] sorcec2mp08"
+  },
+  "sorce: sola_g_scan": {
+    "prefix": "sola_g_scan",
+    "body": "sola_g_scan",
+    "description": "[SORCE] sola_g_scan"
+  },
+  "sorce: sim_adsp_dd_snp": {
+    "prefix": "sim_adsp_dd_snp",
+    "body": "sim_adsp_dd_snp",
+    "description": "[SORCE] sim_adsp_dd_snp"
+  },
+  "sorce: ld_src_pat_31570": {
+    "prefix": "ld_src_pat_31570",
+    "body": "ld_src_pat_31570",
+    "description": "[SORCE] ld_src_pat_31570"
+  },
+  "sorce: acs_fov_tst": {
+    "prefix": "acs_fov_tst",
+    "body": "acs_fov_tst",
+    "description": "[SORCE] acs_fov_tst"
+  },
+  "sorce: tccmd": {
+    "prefix": "tccmd",
+    "body": "tccmd",
+    "description": "[SORCE] tccmd"
+  },
+  "sorce: solb_dsp_dmp": {
+    "prefix": "solb_dsp_dmp",
+    "body": "solb_dsp_dmp",
+    "description": "[SORCE] solb_dsp_dmp"
+  },
+  "sorce: plot_12_dd": {
+    "prefix": "plot_12_dd",
+    "body": "plot_12_dd",
+    "description": "[SORCE] plot_12_dd"
+  },
+  "sorce: sim_ahkm_dd_snp": {
+    "prefix": "sim_ahkm_dd_snp",
+    "body": "sim_ahkm_dd_snp",
+    "description": "[SORCE] sim_ahkm_dd_snp"
+  },
+  "sorce: sola_zig_1_2": {
+    "prefix": "sola_zig_1_2",
+    "body": "sola_zig_1_2",
+    "description": "[SORCE] sola_zig_1_2"
+  },
+  "sorce: t_018_sc_65_10": {
+    "prefix": "t_018_sc_65_10",
+    "body": "t_018_sc_65_10",
+    "description": "[SORCE] t_018_sc_65_10"
+  },
+  "sorce: st2_oldmoon_001": {
+    "prefix": "st2_oldmoon_001",
+    "body": "st2_oldmoon_001",
+    "description": "[SORCE] st2_oldmoon_001"
+  },
+  "sorce: rts_040_build": {
+    "prefix": "rts_040_build",
+    "body": "rts_040_build",
+    "description": "[SORCE] rts_040_build"
+  },
+  "sorce: fss_fdc_disable": {
+    "prefix": "fss_fdc_disable",
+    "body": "fss_fdc_disable",
+    "description": "[SORCE] fss_fdc_disable"
+  },
+  "sorce: unpatch_hyb_eeprom": {
+    "prefix": "unpatch_hyb_eeprom",
+    "body": "unpatch_hyb_eeprom",
+    "description": "[SORCE] unpatch_hyb_eeprom"
+  },
+  "sorce: populate_db": {
+    "prefix": "populate_db",
+    "body": "populate_db",
+    "description": "[SORCE] populate_db"
+  },
+  "sorce: sola_ellipse": {
+    "prefix": "sola_ellipse",
+    "body": "sola_ellipse",
+    "description": "[SORCE] sola_ellipse"
+  },
+  "sorce: obc_69_load": {
+    "prefix": "obc_69_load",
+    "body": "obc_69_load",
+    "description": "[SORCE] obc_69_load"
+  },
+  "sorce: blind_acq_tdrss": {
+    "prefix": "blind_acq_tdrss",
+    "body": "blind_acq_tdrss",
+    "description": "[SORCE] blind_acq_tdrss"
+  },
+  "sorce: mu_sw_tm_dd_snp": {
+    "prefix": "mu_sw_tm_dd_snp",
+    "body": "mu_sw_tm_dd_snp",
+    "description": "[SORCE] mu_sw_tm_dd_snp"
+  },
+  "sorce: sima_quick_on": {
+    "prefix": "sima_quick_on",
+    "body": "sima_quick_on",
+    "description": "[SORCE] sima_quick_on"
+  },
+  "sorce: dcr_129": {
+    "prefix": "dcr_129",
+    "body": "dcr_129",
+    "description": "[SORCE] dcr_129"
+  },
+  "sorce: load_sorce62d1": {
+    "prefix": "load_sorce62d1",
+    "body": "load_sorce62d1",
+    "description": "[SORCE] load_sorce62d1"
+  },
+  "sorce: st2_oldmoon_006": {
+    "prefix": "st2_oldmoon_006",
+    "body": "st2_oldmoon_006",
+    "description": "[SORCE] st2_oldmoon_006"
+  },
+  "sorce: rts_036_build": {
+    "prefix": "rts_036_build",
+    "body": "rts_036_build",
+    "description": "[SORCE] rts_036_build"
+  },
+  "sorce: sola_vent_cl": {
+    "prefix": "sola_vent_cl",
+    "body": "sola_vent_cl",
+    "description": "[SORCE] sola_vent_cl"
+  },
+  "sorce: define_tmon": {
+    "prefix": "define_tmon",
+    "body": "define_tmon",
+    "description": "[SORCE] define_tmon"
+  },
+  "sorce: flghtobc63ptch": {
+    "prefix": "flghtobc63ptch",
+    "body": "flghtobc63ptch",
+    "description": "[SORCE] flghtobc63ptch"
+  },
+  "sorce: crc90_80eeprom": {
+    "prefix": "crc90_80eeprom",
+    "body": "crc90_80eeprom",
+    "description": "[SORCE] crc90_80eeprom"
+  },
+  "sorce: mor_eor_synch": {
+    "prefix": "mor_eor_synch",
+    "body": "mor_eor_synch",
+    "description": "[SORCE] mor_eor_synch"
+  },
+  "sorce: st1_verif": {
+    "prefix": "st1_verif",
+    "body": "st1_verif",
+    "description": "[SORCE] st1_verif"
+  },
+  "sorce: sola_quick_on": {
+    "prefix": "sola_quick_on",
+    "body": "sola_quick_on",
+    "description": "[SORCE] sola_quick_on"
+  },
+  "sorce: cmd_verif_switch": {
+    "prefix": "cmd_verif_switch",
+    "body": "cmd_verif_switch",
+    "description": "[SORCE] cmd_verif_switch"
+  },
+  "sorce: rts_068_build": {
+    "prefix": "rts_068_build",
+    "body": "rts_068_build",
+    "description": "[SORCE] rts_068_build"
+  },
+  "sorce: sol_bhkm_tst": {
+    "prefix": "sol_bhkm_tst",
+    "body": "sol_bhkm_tst",
+    "description": "[SORCE] sol_bhkm_tst"
+  },
+  "sorce: acs_fov_dd_snp": {
+    "prefix": "acs_fov_dd_snp",
+    "body": "acs_fov_dd_snp",
+    "description": "[SORCE] acs_fov_dd_snp"
+  },
+  "sorce: plot_09_dd": {
+    "prefix": "plot_09_dd",
+    "body": "plot_09_dd",
+    "description": "[SORCE] plot_09_dd"
+  },
+  "sorce: mem_sw_dd_snp": {
+    "prefix": "mem_sw_dd_snp",
+    "body": "mem_sw_dd_snp",
+    "description": "[SORCE] mem_sw_dd_snp"
+  },
+  "sorce: blind_gn_no_ceu": {
+    "prefix": "blind_gn_no_ceu",
+    "body": "blind_gn_no_ceu",
+    "description": "[SORCE] blind_gn_no_ceu"
+  },
+  "sorce: clr_sbstrmover": {
+    "prefix": "clr_sbstrmover",
+    "body": "clr_sbstrmover",
+    "description": "[SORCE] clr_sbstrmover"
+  },
+  "sorce: jeff_fswcmd": {
+    "prefix": "jeff_fswcmd",
+    "body": "jeff_fswcmd",
+    "description": "[SORCE] jeff_fswcmd"
+  },
+  "sorce: tam_config": {
+    "prefix": "tam_config",
+    "body": "tam_config",
+    "description": "[SORCE] tam_config"
+  },
+  "sorce: disable_sa_dep": {
+    "prefix": "disable_sa_dep",
+    "body": "disable_sa_dep",
+    "description": "[SORCE] disable_sa_dep"
+  },
+  "sorce: mu_ee_inst_14": {
+    "prefix": "mu_ee_inst_14",
+    "body": "mu_ee_inst_14",
+    "description": "[SORCE] mu_ee_inst_14"
+  },
+  "sorce: dcr_152": {
+    "prefix": "dcr_152",
+    "body": "dcr_152",
+    "description": "[SORCE] dcr_152"
+  },
+  "sorce: sim_apkt_dd_snp": {
+    "prefix": "sim_apkt_dd_snp",
+    "body": "sim_apkt_dd_snp",
+    "description": "[SORCE] sim_apkt_dd_snp"
+  },
+  "sorce: rts_108_build": {
+    "prefix": "rts_108_build",
+    "body": "rts_108_build",
+    "description": "[SORCE] rts_108_build"
+  },
+  "sorce: p15a_il_eeprom": {
+    "prefix": "p15a_il_eeprom",
+    "body": "p15a_il_eeprom",
+    "description": "[SORCE] p15a_il_eeprom"
+  },
+  "sorce: xps_sci_dd": {
+    "prefix": "xps_sci_dd",
+    "body": "xps_sci_dd",
+    "description": "[SORCE] xps_sci_dd"
+  },
+  "sorce: hy_ee_pat_uninst": {
+    "prefix": "hy_ee_pat_uninst",
+    "body": "hy_ee_pat_uninst",
+    "description": "[SORCE] hy_ee_pat_uninst"
+  },
+  "sorce: eps_shed_dd": {
+    "prefix": "eps_shed_dd",
+    "body": "eps_shed_dd",
+    "description": "[SORCE] eps_shed_dd"
+  },
+  "sorce: rts_043_build": {
+    "prefix": "rts_043_build",
+    "body": "rts_043_build",
+    "description": "[SORCE] rts_043_build"
+  },
+  "sorce: st2_moon_002": {
+    "prefix": "st2_moon_002",
+    "body": "st2_moon_002",
+    "description": "[SORCE] st2_moon_002"
+  },
+  "sorce: shell_outpkt_tst": {
+    "prefix": "shell_outpkt_tst",
+    "body": "shell_outpkt_tst",
+    "description": "[SORCE] shell_outpkt_tst"
+  },
+  "sorce: ld_src_jmp_8220c": {
+    "prefix": "ld_src_jmp_8220c",
+    "body": "ld_src_jmp_8220c",
+    "description": "[SORCE] ld_src_jmp_8220c"
+  },
+  "sorce: tim_d_tmr_ee_ld": {
+    "prefix": "tim_d_tmr_ee_ld",
+    "body": "tim_d_tmr_ee_ld",
+    "description": "[SORCE] tim_d_tmr_ee_ld"
+  },
+  "sorce: ld_jump_00066874": {
+    "prefix": "ld_jump_00066874",
+    "body": "ld_jump_00066874",
+    "description": "[SORCE] ld_jump_00066874"
+  },
+  "sorce: st1_star_dd": {
+    "prefix": "st1_star_dd",
+    "body": "st1_star_dd",
+    "description": "[SORCE] st1_star_dd"
+  },
+  "sorce: actlm_fix": {
+    "prefix": "actlm_fix",
+    "body": "actlm_fix",
+    "description": "[SORCE] actlm_fix"
+  },
+  "sorce: eps_prsw_tst": {
+    "prefix": "eps_prsw_tst",
+    "body": "eps_prsw_tst",
+    "description": "[SORCE] eps_prsw_tst"
+  },
+  "sorce: ex_safe_ape_rst": {
+    "prefix": "ex_safe_ape_rst",
+    "body": "ex_safe_ape_rst",
+    "description": "[SORCE] ex_safe_ape_rst"
+  },
+  "sorce: rts_086_build": {
+    "prefix": "rts_086_build",
+    "body": "rts_086_build",
+    "description": "[SORCE] rts_086_build"
+  },
+  "sorce: rts_123_build": {
+    "prefix": "rts_123_build",
+    "body": "rts_123_build",
+    "description": "[SORCE] rts_123_build"
+  },
+  "sorce: tim_nom_pkt_rt": {
+    "prefix": "tim_nom_pkt_rt",
+    "body": "tim_nom_pkt_rt",
+    "description": "[SORCE] tim_nom_pkt_rt"
+  },
+  "sorce: sol_apkt_tst": {
+    "prefix": "sol_apkt_tst",
+    "body": "sol_apkt_tst",
+    "description": "[SORCE] sol_apkt_tst"
+  },
+  "sorce: obc65patch": {
+    "prefix": "obc65patch",
+    "body": "obc65patch",
+    "description": "[SORCE] obc65patch"
+  },
+  "sorce: tim_quick_on": {
+    "prefix": "tim_quick_on",
+    "body": "tim_quick_on",
+    "description": "[SORCE] tim_quick_on"
+  },
+  "sorce: xb_stcmd": {
+    "prefix": "xb_stcmd",
+    "body": "xb_stcmd",
+    "description": "[SORCE] xb_stcmd"
+  },
+  "sorce: tlm_1553_dd": {
+    "prefix": "tlm_1553_dd",
+    "body": "tlm_1553_dd",
+    "description": "[SORCE] tlm_1553_dd"
+  },
+  "sorce: sima_low_pkt_rt": {
+    "prefix": "sima_low_pkt_rt",
+    "body": "sima_low_pkt_rt",
+    "description": "[SORCE] sima_low_pkt_rt"
+  },
+  "sorce: load_sorce_obc82": {
+    "prefix": "load_sorce_obc82",
+    "body": "load_sorce_obc82",
+    "description": "[SORCE] load_sorce_obc82"
+  },
+  "sorce: load7osx2_3_70": {
+    "prefix": "load7osx2_3_70",
+    "body": "load7osx2_3_70",
+    "description": "[SORCE] load7osx2_3_70"
+  },
+  "sorce: comm_terminate": {
+    "prefix": "comm_terminate",
+    "body": "comm_terminate",
+    "description": "[SORCE] comm_terminate"
+  },
+  "sorce: clp_stat_dd_snp": {
+    "prefix": "clp_stat_dd_snp",
+    "body": "clp_stat_dd_snp",
+    "description": "[SORCE] clp_stat_dd_snp"
+  },
+  "sorce: define_rts": {
+    "prefix": "define_rts",
+    "body": "define_rts",
+    "description": "[SORCE] define_rts"
+  },
+  "sorce: mu_recover": {
+    "prefix": "mu_recover",
+    "body": "mu_recover",
+    "description": "[SORCE] mu_recover"
+  },
+  "sorce: acs_main_dd_snp": {
+    "prefix": "acs_main_dd_snp",
+    "body": "acs_main_dd_snp",
+    "description": "[SORCE] acs_main_dd_snp"
+  },
+  "sorce: logtlm": {
+    "prefix": "logtlm",
+    "body": "logtlm",
+    "description": "[SORCE] logtlm"
+  },
+  "sorce: dcr_160": {
+    "prefix": "dcr_160",
+    "body": "dcr_160",
+    "description": "[SORCE] dcr_160"
+  },
+  "sorce: p14_il_eeprom": {
+    "prefix": "p14_il_eeprom",
+    "body": "p14_il_eeprom",
+    "description": "[SORCE] p14_il_eeprom"
+  },
+  "sorce: gumbl_sc_tst": {
+    "prefix": "gumbl_sc_tst",
+    "body": "gumbl_sc_tst",
+    "description": "[SORCE] gumbl_sc_tst"
+  },
+  "sorce: rts10_shrts": {
+    "prefix": "rts10_shrts",
+    "body": "rts10_shrts",
+    "description": "[SORCE] rts10_shrts"
+  },
+  "sorce: rts_035_build": {
+    "prefix": "rts_035_build",
+    "body": "rts_035_build",
+    "description": "[SORCE] rts_035_build"
+  },
+  "sorce: st2_moon_005": {
+    "prefix": "st2_moon_005",
+    "body": "st2_moon_005",
+    "description": "[SORCE] st2_moon_005"
+  },
+  "sorce: tim_init": {
+    "prefix": "tim_init",
+    "body": "tim_init",
+    "description": "[SORCE] tim_init"
+  },
+  "sorce: hs_main_tst": {
+    "prefix": "hs_main_tst",
+    "body": "hs_main_tst",
+    "description": "[SORCE] hs_main_tst"
+  },
+  "sorce: st2_verif": {
+    "prefix": "st2_verif",
+    "body": "st2_verif",
+    "description": "[SORCE] st2_verif"
+  },
+  "sorce: st1_oldmoon_018": {
+    "prefix": "st1_oldmoon_018",
+    "body": "st1_oldmoon_018",
+    "description": "[SORCE] st1_oldmoon_018"
+  },
+  "sorce: perf_dump": {
+    "prefix": "perf_dump",
+    "body": "perf_dump",
+    "description": "[SORCE] perf_dump"
+  },
+  "sorce: b10_sorcec2mp03": {
+    "prefix": "b10_sorcec2mp03",
+    "body": "b10_sorcec2mp03",
+    "description": "[SORCE] b10_sorcec2mp03"
+  },
+  "sorce: simb_esr_tbl_ld": {
+    "prefix": "simb_esr_tbl_ld",
+    "body": "simb_esr_tbl_ld",
+    "description": "[SORCE] simb_esr_tbl_ld"
+  },
+  "sorce: p13_il2_eeprom": {
+    "prefix": "p13_il2_eeprom",
+    "body": "p13_il2_eeprom",
+    "description": "[SORCE] p13_il2_eeprom"
+  },
+  "sorce: tim_low_pkt_rt": {
+    "prefix": "tim_low_pkt_rt",
+    "body": "tim_low_pkt_rt",
+    "description": "[SORCE] tim_low_pkt_rt"
+  },
+  "sorce: suromhkp_tst": {
+    "prefix": "suromhkp_tst",
+    "body": "suromhkp_tst",
+    "description": "[SORCE] suromhkp_tst"
+  },
+  "sorce: idletlm": {
+    "prefix": "idletlm",
+    "body": "idletlm",
+    "description": "[SORCE] idletlm"
+  },
+  "sorce: rts_042_build": {
+    "prefix": "rts_042_build",
+    "body": "rts_042_build",
+    "description": "[SORCE] rts_042_build"
+  },
+  "sorce: solb_fhv_on": {
+    "prefix": "solb_fhv_on",
+    "body": "solb_fhv_on",
+    "description": "[SORCE] solb_fhv_on"
+  },
+  "sorce: solstice_atlm": {
+    "prefix": "solstice_atlm",
+    "body": "solstice_atlm",
+    "description": "[SORCE] solstice_atlm"
+  },
+  "sorce: gstlm": {
+    "prefix": "gstlm",
+    "body": "gstlm",
+    "description": "[SORCE] gstlm"
+  },
+  "sorce: mu_pkts_dd": {
+    "prefix": "mu_pkts_dd",
+    "body": "mu_pkts_dd",
+    "description": "[SORCE] mu_pkts_dd"
+  },
+  "sorce: utility_tasks": {
+    "prefix": "utility_tasks",
+    "body": "utility_tasks",
+    "description": "[SORCE] utility_tasks"
+  },
+  "sorce: msk_stat_dd_snp": {
+    "prefix": "msk_stat_dd_snp",
+    "body": "msk_stat_dd_snp",
+    "description": "[SORCE] msk_stat_dd_snp"
+  },
+  "sorce: acs_main_dd": {
+    "prefix": "acs_main_dd",
+    "body": "acs_main_dd",
+    "description": "[SORCE] acs_main_dd"
+  },
+  "sorce: hybrid_patch_eot": {
+    "prefix": "hybrid_patch_eot",
+    "body": "hybrid_patch_eot",
+    "description": "[SORCE] hybrid_patch_eot"
+  },
+  "sorce: ats_rts_dd": {
+    "prefix": "ats_rts_dd",
+    "body": "ats_rts_dd",
+    "description": "[SORCE] ats_rts_dd"
+  },
+  "sorce: xps_sci_dd_snp": {
+    "prefix": "xps_sci_dd_snp",
+    "body": "xps_sci_dd_snp",
+    "description": "[SORCE] xps_sci_dd_snp"
+  },
+  "sorce: rts_122_build": {
+    "prefix": "rts_122_build",
+    "body": "rts_122_build",
+    "description": "[SORCE] rts_122_build"
+  },
+  "sorce: tim_door2_op": {
+    "prefix": "tim_door2_op",
+    "body": "tim_door2_op ${1:\\$dir}",
+    "description": "[SORCE] tim_door2_op"
+  },
+  "sorce: rts_087_build": {
+    "prefix": "rts_087_build",
+    "body": "rts_087_build",
+    "description": "[SORCE] rts_087_build"
+  },
+  "sorce: st1_oldmoon_016": {
+    "prefix": "st1_oldmoon_016",
+    "body": "st1_oldmoon_016",
+    "description": "[SORCE] st1_oldmoon_016"
+  },
+  "sorce: crc_pat_sram": {
+    "prefix": "crc_pat_sram",
+    "body": "crc_pat_sram",
+    "description": "[SORCE] crc_pat_sram"
+  },
+  "sorce: solb_quick_on": {
+    "prefix": "solb_quick_on",
+    "body": "solb_quick_on",
+    "description": "[SORCE] solb_quick_on"
+  },
+  "sorce: p15_ool_eeprom": {
+    "prefix": "p15_ool_eeprom",
+    "body": "p15_ool_eeprom",
+    "description": "[SORCE] p15_ool_eeprom"
+  },
+  "sorce: fdc4_stdby_obc80": {
+    "prefix": "fdc4_stdby_obc80",
+    "body": "fdc4_stdby_obc80",
+    "description": "[SORCE] fdc4_stdby_obc80"
+  },
+  "sorce: dump_all_ape_tbl": {
+    "prefix": "dump_all_ape_tbl",
+    "body": "dump_all_ape_tbl",
+    "description": "[SORCE] dump_all_ape_tbl"
+  },
+  "sorce: ld_build62_d3": {
+    "prefix": "ld_build62_d3",
+    "body": "ld_build62_d3",
+    "description": "[SORCE] ld_build62_d3"
+  },
+  "sorce: simb_quick_on": {
+    "prefix": "simb_quick_on",
+    "body": "simb_quick_on",
+    "description": "[SORCE] simb_quick_on"
+  },
+  "sorce: t_018_sc_45_05": {
+    "prefix": "t_018_sc_45_05",
+    "body": "t_018_sc_45_05",
+    "description": "[SORCE] t_018_sc_45_05"
+  },
+  "sorce: xb_st1tlm": {
+    "prefix": "xb_st1tlm",
+    "body": "xb_st1tlm",
+    "description": "[SORCE] xb_st1tlm"
+  },
+  "sorce: fst_fdcconfig": {
+    "prefix": "fst_fdcconfig",
+    "body": "fst_fdcconfig ${1:\\$state}, ${2:\\$cmds}",
+    "description": "[SORCE] fst_fdcconfig"
+  },
+  "sorce: im_temps_tst": {
+    "prefix": "im_temps_tst",
+    "body": "im_temps_tst",
+    "description": "[SORCE] im_temps_tst"
+  },
+  "sorce: st1_oldmoon_011": {
+    "prefix": "st1_oldmoon_011",
+    "body": "st1_oldmoon_011",
+    "description": "[SORCE] st1_oldmoon_011"
+  },
+  "sorce: dcr_115": {
+    "prefix": "dcr_115",
+    "body": "dcr_115",
+    "description": "[SORCE] dcr_115"
+  },
+  "sorce: sim_apkt_dd": {
+    "prefix": "sim_apkt_dd",
+    "body": "sim_apkt_dd",
+    "description": "[SORCE] sim_apkt_dd"
+  },
+  "sorce: switch_on_gse": {
+    "prefix": "switch_on_gse",
+    "body": "switch_on_gse",
+    "description": "[SORCE] switch_on_gse"
+  },
+  "sorce: enable_statechks": {
+    "prefix": "enable_statechks",
+    "body": "enable_statechks",
+    "description": "[SORCE] enable_statechks"
+  },
+  "sorce: sim_bsci_dd_snp": {
+    "prefix": "sim_bsci_dd_snp",
+    "body": "sim_bsci_dd_snp",
+    "description": "[SORCE] sim_bsci_dd_snp"
+  },
+  "sorce: b10_sorcec2mp04": {
+    "prefix": "b10_sorcec2mp04",
+    "body": "b10_sorcec2mp04",
+    "description": "[SORCE] b10_sorcec2mp04"
+  },
+  "sorce: st2_reset": {
+    "prefix": "st2_reset",
+    "body": "st2_reset",
+    "description": "[SORCE] st2_reset"
+  },
+  "sorce: undo_obc10": {
+    "prefix": "undo_obc10",
+    "body": "undo_obc10",
+    "description": "[SORCE] undo_obc10"
+  },
+  "sorce: rts_034_build": {
+    "prefix": "rts_034_build",
+    "body": "rts_034_build",
+    "description": "[SORCE] rts_034_build"
+  },
+  "sorce: timtlm": {
+    "prefix": "timtlm",
+    "body": "timtlm",
+    "description": "[SORCE] timtlm"
+  },
+  "sorce: fs_sorceape67pat": {
+    "prefix": "fs_sorceape67pat",
+    "body": "fs_sorceape67pat",
+    "description": "[SORCE] fs_sorceape67pat"
+  },
+  "sorce: sim_bsw_dd": {
+    "prefix": "sim_bsw_dd",
+    "body": "sim_bsw_dd",
+    "description": "[SORCE] sim_bsw_dd"
+  },
+  "sorce: sima_nom_pkt_rt": {
+    "prefix": "sima_nom_pkt_rt",
+    "body": "sima_nom_pkt_rt",
+    "description": "[SORCE] sima_nom_pkt_rt"
+  },
+  "sorce: pg_sv_check": {
+    "prefix": "pg_sv_check",
+    "body": "pg_sv_check",
+    "description": "[SORCE] pg_sv_check"
+  }
+}

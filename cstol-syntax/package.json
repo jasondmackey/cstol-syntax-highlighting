@@ -25,6 +25,14 @@
         "scopeName": "source.cstol",
         "path": "./syntaxes/cstol.tmLanguage.json"
       }
+    ],
+    "snippets": [
+      { "language": "cstol", "path": "./snippets/cstol-core.json" },
+      { "language": "cstol", "path": "./snippets/aim.json" },
+      { "language": "cstol", "path": "./snippets/kepler.json" },
+      { "language": "cstol", "path": "./snippets/mms.json" },
+      { "language": "cstol", "path": "./snippets/qscat.json" },
+      { "language": "cstol", "path": "./snippets/sorce.json" }
     ]
   }
 }
