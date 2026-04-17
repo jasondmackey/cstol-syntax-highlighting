@@ -1,0 +1,5147 @@
+{
+  "aim: select_tlmf_tbl": {
+    "prefix": "select_tlmf_tbl",
+    "body": "select_tlmf_tbl ${1:\\$table}",
+    "description": "[AIM] select_tlmf_tbl"
+  },
+  "aim: cips_to_sram": {
+    "prefix": "cips_to_sram",
+    "body": "cips_to_sram",
+    "description": "[AIM] cips_to_sram"
+  },
+  "aim: rts_072_build": {
+    "prefix": "rts_072_build",
+    "body": "rts_072_build",
+    "description": "[AIM] rts_072_build"
+  },
+  "aim: cipscmd": {
+    "prefix": "cipscmd",
+    "body": "cipscmd",
+    "description": "[AIM] cipscmd"
+  },
+  "aim: apecmd": {
+    "prefix": "apecmd",
+    "body": "apecmd",
+    "description": "[AIM] apecmd"
+  },
+  "aim: hscmd": {
+    "prefix": "hscmd",
+    "body": "hscmd",
+    "description": "[AIM] hscmd"
+  },
+  "aim: plot_10_dd": {
+    "prefix": "plot_10_dd",
+    "body": "plot_10_dd",
+    "description": "[AIM] plot_10_dd"
+  },
+  "aim: ats_rts_tst": {
+    "prefix": "ats_rts_tst",
+    "body": "ats_rts_tst",
+    "description": "[AIM] ats_rts_tst"
+  },
+  "aim: sc_cmd_postcheck": {
+    "prefix": "sc_cmd_postcheck",
+    "body": "sc_cmd_postcheck",
+    "description": "[AIM] sc_cmd_postcheck"
+  },
+  "aim: obc_sw_dd": {
+    "prefix": "obc_sw_dd",
+    "body": "obc_sw_dd",
+    "description": "[AIM] obc_sw_dd"
+  },
+  "aim: cmdtlm_fix": {
+    "prefix": "cmdtlm_fix",
+    "body": "cmdtlm_fix",
+    "description": "[AIM] cmdtlm_fix"
+  },
+  "aim: rts_112_build": {
+    "prefix": "rts_112_build",
+    "body": "rts_112_build",
+    "description": "[AIM] rts_112_build"
+  },
+  "aim: bridge_apid0357": {
+    "prefix": "bridge_apid0357",
+    "body": "bridge_apid0357",
+    "description": "[AIM] bridge_apid0357"
+  },
+  "aim: cps_main_dd": {
+    "prefix": "cps_main_dd",
+    "body": "cps_main_dd",
+    "description": "[AIM] cps_main_dd"
+  },
+  "aim: bridge_apid0091": {
+    "prefix": "bridge_apid0091",
+    "body": "bridge_apid0091",
+    "description": "[AIM] bridge_apid0091"
+  },
+  "aim: ats_rts_snp": {
+    "prefix": "ats_rts_snp",
+    "body": "ats_rts_snp",
+    "description": "[AIM] ats_rts_snp"
+  },
+  "aim: bridge_apid1600": {
+    "prefix": "bridge_apid1600",
+    "body": "bridge_apid1600",
+    "description": "[AIM] bridge_apid1600"
+  },
+  "aim: bridge_apid0386": {
+    "prefix": "bridge_apid0386",
+    "body": "bridge_apid0386",
+    "description": "[AIM] bridge_apid0386"
+  },
+  "aim: dscmd": {
+    "prefix": "dscmd",
+    "body": "dscmd",
+    "description": "[AIM] dscmd"
+  },
+  "aim: ape_exe_tst": {
+    "prefix": "ape_exe_tst",
+    "body": "ape_exe_tst",
+    "description": "[AIM] ape_exe_tst"
+  },
+  "aim: epstlm": {
+    "prefix": "epstlm",
+    "body": "epstlm",
+    "description": "[AIM] epstlm"
+  },
+  "aim: dump_sbpipeover": {
+    "prefix": "dump_sbpipeover",
+    "body": "dump_sbpipeover",
+    "description": "[AIM] dump_sbpipeover"
+  },
+  "aim: ape_exe_snp": {
+    "prefix": "ape_exe_snp",
+    "body": "ape_exe_snp",
+    "description": "[AIM] ape_exe_snp"
+  },
+  "aim: sof_ob2_dd": {
+    "prefix": "sof_ob2_dd",
+    "body": "sof_ob2_dd",
+    "description": "[AIM] sof_ob2_dd"
+  },
+  "aim: sc_tlm_prcs": {
+    "prefix": "sc_tlm_prcs",
+    "body": "sc_tlm_prcs",
+    "description": "[AIM] sc_tlm_prcs"
+  },
+  "aim: acs_tam_dd": {
+    "prefix": "acs_tam_dd",
+    "body": "acs_tam_dd",
+    "description": "[AIM] acs_tam_dd"
+  },
+  "aim: plot_21_tst": {
+    "prefix": "plot_21_tst",
+    "body": "plot_21_tst",
+    "description": "[AIM] plot_21_tst"
+  },
+  "aim: cips_dc_deploy": {
+    "prefix": "cips_dc_deploy",
+    "body": "cips_dc_deploy",
+    "description": "[AIM] cips_dc_deploy"
+  },
+  "aim: blind_acq_gn_sh": {
+    "prefix": "blind_acq_gn_sh",
+    "body": "blind_acq_gn_sh",
+    "description": "[AIM] blind_acq_gn_sh"
+  },
+  "aim: rts_004_build": {
+    "prefix": "rts_004_build",
+    "body": "rts_004_build",
+    "description": "[AIM] rts_004_build"
+  },
+  "aim: execute_rts": {
+    "prefix": "execute_rts",
+    "body": "execute_rts ${1:\\$rts_id}",
+    "description": "[AIM] execute_rts"
+  },
+  "aim: sa_phase4enable": {
+    "prefix": "sa_phase4enable",
+    "body": "sa_phase4enable",
+    "description": "[AIM] sa_phase4enable"
+  },
+  "aim: cips_auto_sh": {
+    "prefix": "cips_auto_sh",
+    "body": "cips_auto_sh",
+    "description": "[AIM] cips_auto_sh"
+  },
+  "aim: cips_auto_nh": {
+    "prefix": "cips_auto_nh",
+    "body": "cips_auto_nh",
+    "description": "[AIM] cips_auto_nh"
+  },
+  "aim: ds_main_tst": {
+    "prefix": "ds_main_tst",
+    "body": "ds_main_tst",
+    "description": "[AIM] ds_main_tst"
+  },
+  "aim: bridge_apid0111": {
+    "prefix": "bridge_apid0111",
+    "body": "bridge_apid0111",
+    "description": "[AIM] bridge_apid0111"
+  },
+  "aim: cmdverif_en": {
+    "prefix": "cmdverif_en",
+    "body": "cmdverif_en",
+    "description": "[AIM] cmdverif_en"
+  },
+  "aim: rts_073_build": {
+    "prefix": "rts_073_build",
+    "body": "rts_073_build",
+    "description": "[AIM] rts_073_build"
+  },
+  "aim: ds_main_snp": {
+    "prefix": "ds_main_snp",
+    "body": "ds_main_snp",
+    "description": "[AIM] ds_main_snp"
+  },
+  "aim: bridge_apid0098": {
+    "prefix": "bridge_apid0098",
+    "body": "bridge_apid0098",
+    "description": "[AIM] bridge_apid0098"
+  },
+  "aim: bridge_apid0049": {
+    "prefix": "bridge_apid0049",
+    "body": "bridge_apid0049",
+    "description": "[AIM] bridge_apid0049"
+  },
+  "aim: sccmd": {
+    "prefix": "sccmd",
+    "body": "sccmd",
+    "description": "[AIM] sccmd"
+  },
+  "aim: tscmd": {
+    "prefix": "tscmd",
+    "body": "tscmd",
+    "description": "[AIM] tscmd"
+  },
+  "aim: sof_gmb_ld": {
+    "prefix": "sof_gmb_ld",
+    "body": "sof_gmb_ld",
+    "description": "[AIM] sof_gmb_ld"
+  },
+  "aim: rts_113_build": {
+    "prefix": "rts_113_build",
+    "body": "rts_113_build",
+    "description": "[AIM] rts_113_build"
+  },
+  "aim: cde_gmb_dd": {
+    "prefix": "cde_gmb_dd",
+    "body": "cde_gmb_dd",
+    "description": "[AIM] cde_gmb_dd"
+  },
+  "aim: sof_vfy_eeprom": {
+    "prefix": "sof_vfy_eeprom",
+    "body": "sof_vfy_eeprom",
+    "description": "[AIM] sof_vfy_eeprom"
+  },
+  "aim: sv_upload": {
+    "prefix": "sv_upload",
+    "body": "sv_upload",
+    "description": "[AIM] sv_upload"
+  },
+  "aim: ape_stat_snp": {
+    "prefix": "ape_stat_snp",
+    "body": "ape_stat_snp",
+    "description": "[AIM] ape_stat_snp"
+  },
+  "aim: ditlm": {
+    "prefix": "ditlm",
+    "body": "ditlm",
+    "description": "[AIM] ditlm"
+  },
+  "aim: hs_115_defs": {
+    "prefix": "hs_115_defs",
+    "body": "hs_115_defs",
+    "description": "[AIM] hs_115_defs"
+  },
+  "aim: fdc_config": {
+    "prefix": "fdc_config",
+    "body": "fdc_config ${1:\\$state}, ${2:\\$cmds}",
+    "description": "[AIM] fdc_config"
+  },
+  "aim: flight_cmd_prcs": {
+    "prefix": "flight_cmd_prcs",
+    "body": "flight_cmd_prcs",
+    "description": "[AIM] flight_cmd_prcs"
+  },
+  "aim: ape_stat_tst": {
+    "prefix": "ape_stat_tst",
+    "body": "ape_stat_tst",
+    "description": "[AIM] ape_stat_tst"
+  },
+  "aim: bridge_apid0325": {
+    "prefix": "bridge_apid0325",
+    "body": "bridge_apid0325",
+    "description": "[AIM] bridge_apid0325"
+  },
+  "aim: sc_state_dd": {
+    "prefix": "sc_state_dd",
+    "body": "sc_state_dd",
+    "description": "[AIM] sc_state_dd"
+  },
+  "aim: plot_02_tst": {
+    "prefix": "plot_02_tst",
+    "body": "plot_02_tst",
+    "description": "[AIM] plot_02_tst"
+  },
+  "aim: bridge_apid0116": {
+    "prefix": "bridge_apid0116",
+    "body": "bridge_apid0116",
+    "description": "[AIM] bridge_apid0116"
+  },
+  "aim: cps_crc_flex_tst": {
+    "prefix": "cps_crc_flex_tst",
+    "body": "cps_crc_flex_tst",
+    "description": "[AIM] cps_crc_flex_tst"
+  },
+  "aim: plot_06_tst": {
+    "prefix": "plot_06_tst",
+    "body": "plot_06_tst",
+    "description": "[AIM] plot_06_tst"
+  },
+  "aim: plot_06_dd": {
+    "prefix": "plot_06_dd",
+    "body": "plot_06_dd",
+    "description": "[AIM] plot_06_dd"
+  },
+  "aim: stor_cmd_dd": {
+    "prefix": "stor_cmd_dd",
+    "body": "stor_cmd_dd",
+    "description": "[AIM] stor_cmd_dd"
+  },
+  "aim: rts_005_build": {
+    "prefix": "rts_005_build",
+    "body": "rts_005_build",
+    "description": "[AIM] rts_005_build"
+  },
+  "aim: bridge_apid0359": {
+    "prefix": "bridge_apid0359",
+    "body": "bridge_apid0359",
+    "description": "[AIM] bridge_apid0359"
+  },
+  "aim: cps_crc_flex_snp": {
+    "prefix": "cps_crc_flex_snp",
+    "body": "cps_crc_flex_snp",
+    "description": "[AIM] cps_crc_flex_snp"
+  },
+  "aim: suromhkp_dd": {
+    "prefix": "suromhkp_dd",
+    "body": "suromhkp_dd",
+    "description": "[AIM] suromhkp_dd"
+  },
+  "aim: acs_main_snp": {
+    "prefix": "acs_main_snp",
+    "body": "acs_main_snp",
+    "description": "[AIM] acs_main_snp"
+  },
+  "aim: acs_slew_dd": {
+    "prefix": "acs_slew_dd",
+    "body": "acs_slew_dd",
+    "description": "[AIM] acs_slew_dd"
+  },
+  "aim: dcr_66": {
+    "prefix": "dcr_66",
+    "body": "dcr_66",
+    "description": "[AIM] dcr_66"
+  },
+  "aim: rts_110_build": {
+    "prefix": "rts_110_build",
+    "body": "rts_110_build",
+    "description": "[AIM] rts_110_build"
+  },
+  "aim: sof_vfy_version": {
+    "prefix": "sof_vfy_version",
+    "body": "sof_vfy_version",
+    "description": "[AIM] sof_vfy_version"
+  },
+  "aim: update_db_eor": {
+    "prefix": "update_db_eor",
+    "body": "update_db_eor",
+    "description": "[AIM] update_db_eor"
+  },
+  "aim: t_023_sc_v2": {
+    "prefix": "t_023_sc_v2",
+    "body": "t_023_sc_v2",
+    "description": "[AIM] t_023_sc_v2"
+  },
+  "aim: acs_main_tst": {
+    "prefix": "acs_main_tst",
+    "body": "acs_main_tst",
+    "description": "[AIM] acs_main_tst"
+  },
+  "aim: cde_endcomm": {
+    "prefix": "cde_endcomm",
+    "body": "cde_endcomm",
+    "description": "[AIM] cde_endcomm"
+  },
+  "aim: bridge_apid0007": {
+    "prefix": "bridge_apid0007",
+    "body": "bridge_apid0007",
+    "description": "[AIM] bridge_apid0007"
+  },
+  "aim: rts_070_build": {
+    "prefix": "rts_070_build",
+    "body": "rts_070_build",
+    "description": "[AIM] rts_070_build"
+  },
+  "aim: dicmd": {
+    "prefix": "dicmd",
+    "body": "dicmd",
+    "description": "[AIM] dicmd"
+  },
+  "aim: cps_hkm_tst": {
+    "prefix": "cps_hkm_tst",
+    "body": "cps_hkm_tst",
+    "description": "[AIM] cps_hkm_tst"
+  },
+  "aim: clp_privileges": {
+    "prefix": "clp_privileges",
+    "body": "clp_privileges",
+    "description": "[AIM] clp_privileges"
+  },
+  "aim: cps_hkm_snp": {
+    "prefix": "cps_hkm_snp",
+    "body": "cps_hkm_snp",
+    "description": "[AIM] cps_hkm_snp"
+  },
+  "aim: rts_006_build": {
+    "prefix": "rts_006_build",
+    "body": "rts_006_build",
+    "description": "[AIM] rts_006_build"
+  },
+  "aim: persistance": {
+    "prefix": "persistance",
+    "body": "persistance",
+    "description": "[AIM] persistance"
+  },
+  "aim: cde_nom_rate": {
+    "prefix": "cde_nom_rate",
+    "body": "cde_nom_rate",
+    "description": "[AIM] cde_nom_rate"
+  },
+  "aim: ena_ophtr_sw": {
+    "prefix": "ena_ophtr_sw",
+    "body": "ena_ophtr_sw",
+    "description": "[AIM] ena_ophtr_sw"
+  },
+  "aim: cips_open_dc": {
+    "prefix": "cips_open_dc",
+    "body": "cips_open_dc ${1:\\$camera}, ${2:\\$channel}",
+    "description": "[AIM] cips_open_dc"
+  },
+  "aim: cps_em_dd": {
+    "prefix": "cps_em_dd",
+    "body": "cps_em_dd",
+    "description": "[AIM] cps_em_dd"
+  },
+  "aim: rts_058_build": {
+    "prefix": "rts_058_build",
+    "body": "rts_058_build",
+    "description": "[AIM] rts_058_build"
+  },
+  "aim: st1_acqm_snp": {
+    "prefix": "st1_acqm_snp",
+    "body": "st1_acqm_snp",
+    "description": "[AIM] st1_acqm_snp"
+  },
+  "aim: cips_sdram_on": {
+    "prefix": "cips_sdram_on",
+    "body": "cips_sdram_on",
+    "description": "[AIM] cips_sdram_on"
+  },
+  "aim: cde_chnl_tst": {
+    "prefix": "cde_chnl_tst",
+    "body": "cde_chnl_tst",
+    "description": "[AIM] cde_chnl_tst"
+  },
+  "aim: st1_acqm_tst": {
+    "prefix": "st1_acqm_tst",
+    "body": "st1_acqm_tst",
+    "description": "[AIM] st1_acqm_tst"
+  },
+  "aim: jam_sc_time": {
+    "prefix": "jam_sc_time",
+    "body": "jam_sc_time ${1:\\$offset}",
+    "description": "[AIM] jam_sc_time"
+  },
+  "aim: cde_set_thresh": {
+    "prefix": "cde_set_thresh",
+    "body": "cde_set_thresh ${1:\\$chan}, ${2:\\$lo}, ${3:\\$md}, ${4:\\$hi}",
+    "description": "[AIM] cde_set_thresh"
+  },
+  "aim: t_084_ape_v2": {
+    "prefix": "t_084_ape_v2",
+    "body": "t_084_ape_v2",
+    "description": "[AIM] t_084_ape_v2"
+  },
+  "aim: shed_level2_sh": {
+    "prefix": "shed_level2_sh",
+    "body": "shed_level2_sh",
+    "description": "[AIM] shed_level2_sh"
+  },
+  "aim: cde_chnl_snp": {
+    "prefix": "cde_chnl_snp",
+    "body": "cde_chnl_snp",
+    "description": "[AIM] cde_chnl_snp"
+  },
+  "aim: cde_flsh_dd": {
+    "prefix": "cde_flsh_dd",
+    "body": "cde_flsh_dd",
+    "description": "[AIM] cde_flsh_dd"
+  },
+  "aim: bridge_apid0317": {
+    "prefix": "bridge_apid0317",
+    "body": "bridge_apid0317",
+    "description": "[AIM] bridge_apid0317"
+  },
+  "aim: tlm_mon_tst": {
+    "prefix": "tlm_mon_tst",
+    "body": "tlm_mon_tst",
+    "description": "[AIM] tlm_mon_tst"
+  },
+  "aim: select_dsf_tbl": {
+    "prefix": "select_dsf_tbl",
+    "body": "select_dsf_tbl ${1:\\$table}",
+    "description": "[AIM] select_dsf_tbl"
+  },
+  "aim: cde_testsig_2": {
+    "prefix": "cde_testsig_2",
+    "body": "cde_testsig_2",
+    "description": "[AIM] cde_testsig_2"
+  },
+  "aim: tlm_mon_snp": {
+    "prefix": "tlm_mon_snp",
+    "body": "tlm_mon_snp",
+    "description": "[AIM] tlm_mon_snp"
+  },
+  "aim: update_db": {
+    "prefix": "update_db",
+    "body": "update_db",
+    "description": "[AIM] update_db"
+  },
+  "aim: cps_crc_dd": {
+    "prefix": "cps_crc_dd",
+    "body": "cps_crc_dd",
+    "description": "[AIM] cps_crc_dd"
+  },
+  "aim: isim_val": {
+    "prefix": "isim_val",
+    "body": "isim_val",
+    "description": "[AIM] isim_val"
+  },
+  "aim: pass_proc": {
+    "prefix": "pass_proc",
+    "body": "pass_proc ${1:\\$AOS}, ${2:\\$LOS}, ${3:\\$MASKRISE}, ${4:\\$MASKSET}, ${5:\\$STATION}, ${6:\\$ORBNUMB}, ${7:\\$TRCODE}",
+    "description": "[AIM] pass_proc"
+  },
+  "aim: rts_111_build": {
+    "prefix": "rts_111_build",
+    "body": "rts_111_build",
+    "description": "[AIM] rts_111_build"
+  },
+  "aim: dis_str_ophtr": {
+    "prefix": "dis_str_ophtr",
+    "body": "dis_str_ophtr",
+    "description": "[AIM] dis_str_ophtr"
+  },
+  "aim: init_gds_dyndata": {
+    "prefix": "init_gds_dyndata",
+    "body": "init_gds_dyndata",
+    "description": "[AIM] init_gds_dyndata"
+  },
+  "aim: dstlm": {
+    "prefix": "dstlm",
+    "body": "dstlm",
+    "description": "[AIM] dstlm"
+  },
+  "aim: cips_mcp_on": {
+    "prefix": "cips_mcp_on",
+    "body": "cips_mcp_on ${1:\\$cam}",
+    "description": "[AIM] cips_mcp_on"
+  },
+  "aim: cips_ips_off": {
+    "prefix": "cips_ips_off",
+    "body": "cips_ips_off ${1:\\$cam}",
+    "description": "[AIM] cips_ips_off"
+  },
+  "aim: cde_turn_off": {
+    "prefix": "cde_turn_off",
+    "body": "cde_turn_off",
+    "description": "[AIM] cde_turn_off"
+  },
+  "aim: rts_071_build": {
+    "prefix": "rts_071_build",
+    "body": "rts_071_build",
+    "description": "[AIM] rts_071_build"
+  },
+  "aim: rts_059_build": {
+    "prefix": "rts_059_build",
+    "body": "rts_059_build",
+    "description": "[AIM] rts_059_build"
+  },
+  "aim: sof_ob1_snp": {
+    "prefix": "sof_ob1_snp",
+    "body": "sof_ob1_snp",
+    "description": "[AIM] sof_ob1_snp"
+  },
+  "aim: cps_expt_dd": {
+    "prefix": "cps_expt_dd",
+    "body": "cps_expt_dd",
+    "description": "[AIM] cps_expt_dd"
+  },
+  "aim: st1cmd": {
+    "prefix": "st1cmd",
+    "body": "st1cmd",
+    "description": "[AIM] st1cmd"
+  },
+  "aim: cde_auto_dd": {
+    "prefix": "cde_auto_dd",
+    "body": "cde_auto_dd",
+    "description": "[AIM] cde_auto_dd"
+  },
+  "aim: cde_sw_dd": {
+    "prefix": "cde_sw_dd",
+    "body": "cde_sw_dd",
+    "description": "[AIM] cde_sw_dd"
+  },
+  "aim: rts_007_build": {
+    "prefix": "rts_007_build",
+    "body": "rts_007_build",
+    "description": "[AIM] rts_007_build"
+  },
+  "aim: sof_ob1_tst": {
+    "prefix": "sof_ob1_tst",
+    "body": "sof_ob1_tst",
+    "description": "[AIM] sof_ob1_tst"
+  },
+  "aim: sun_angles": {
+    "prefix": "sun_angles",
+    "body": "sun_angles",
+    "description": "[AIM] sun_angles"
+  },
+  "aim: ape_boot_fail": {
+    "prefix": "ape_boot_fail",
+    "body": "ape_boot_fail",
+    "description": "[AIM] ape_boot_fail"
+  },
+  "aim: instpkts_tst": {
+    "prefix": "instpkts_tst",
+    "body": "instpkts_tst",
+    "description": "[AIM] instpkts_tst"
+  },
+  "aim: st1_fdc_enable": {
+    "prefix": "st1_fdc_enable",
+    "body": "st1_fdc_enable",
+    "description": "[AIM] st1_fdc_enable"
+  },
+  "aim: cps_swcd_tst": {
+    "prefix": "cps_swcd_tst",
+    "body": "cps_swcd_tst",
+    "description": "[AIM] cps_swcd_tst"
+  },
+  "aim: sof_ob5_tst": {
+    "prefix": "sof_ob5_tst",
+    "body": "sof_ob5_tst",
+    "description": "[AIM] sof_ob5_tst"
+  },
+  "aim: sof_hk_dd": {
+    "prefix": "sof_hk_dd",
+    "body": "sof_hk_dd",
+    "description": "[AIM] sof_hk_dd"
+  },
+  "aim: aactlm": {
+    "prefix": "aactlm",
+    "body": "aactlm",
+    "description": "[AIM] aactlm"
+  },
+  "aim: blind_acq_td_sh": {
+    "prefix": "blind_acq_td_sh",
+    "body": "blind_acq_td_sh",
+    "description": "[AIM] blind_acq_td_sh"
+  },
+  "aim: cps_dust_dd": {
+    "prefix": "cps_dust_dd",
+    "body": "cps_dust_dd",
+    "description": "[AIM] cps_dust_dd"
+  },
+  "aim: instpkts_snp": {
+    "prefix": "instpkts_snp",
+    "body": "instpkts_snp",
+    "description": "[AIM] instpkts_snp"
+  },
+  "aim: hstlm": {
+    "prefix": "hstlm",
+    "body": "hstlm",
+    "description": "[AIM] hstlm"
+  },
+  "aim: cps_swcd_snp": {
+    "prefix": "cps_swcd_snp",
+    "body": "cps_swcd_snp",
+    "description": "[AIM] cps_swcd_snp"
+  },
+  "aim: sof_ob5_snp": {
+    "prefix": "sof_ob5_snp",
+    "body": "sof_ob5_snp",
+    "description": "[AIM] sof_ob5_snp"
+  },
+  "aim: apetlm": {
+    "prefix": "apetlm",
+    "body": "apetlm",
+    "description": "[AIM] apetlm"
+  },
+  "aim: clcw_dd": {
+    "prefix": "clcw_dd",
+    "body": "clcw_dd",
+    "description": "[AIM] clcw_dd"
+  },
+  "aim: cipstlm": {
+    "prefix": "cipstlm",
+    "body": "cipstlm",
+    "description": "[AIM] cipstlm"
+  },
+  "aim: bridge_apid0362": {
+    "prefix": "bridge_apid0362",
+    "body": "bridge_apid0362",
+    "description": "[AIM] bridge_apid0362"
+  },
+  "aim: dump_except_log": {
+    "prefix": "dump_except_log",
+    "body": "dump_except_log",
+    "description": "[AIM] dump_except_log"
+  },
+  "aim: eps_psdo_dd": {
+    "prefix": "eps_psdo_dd",
+    "body": "eps_psdo_dd",
+    "description": "[AIM] eps_psdo_dd"
+  },
+  "aim: plot_09_dd": {
+    "prefix": "plot_09_dd",
+    "body": "plot_09_dd",
+    "description": "[AIM] plot_09_dd"
+  },
+  "aim: bridge_apid0373": {
+    "prefix": "bridge_apid0373",
+    "body": "bridge_apid0373",
+    "description": "[AIM] bridge_apid0373"
+  },
+  "aim: acs_eph_tst": {
+    "prefix": "acs_eph_tst",
+    "body": "acs_eph_tst",
+    "description": "[AIM] acs_eph_tst"
+  },
+  "aim: tam_config": {
+    "prefix": "tam_config",
+    "body": "tam_config",
+    "description": "[AIM] tam_config"
+  },
+  "aim: cde_gmb_ld": {
+    "prefix": "cde_gmb_ld",
+    "body": "cde_gmb_ld",
+    "description": "[AIM] cde_gmb_ld"
+  },
+  "aim: cips_fsw_config": {
+    "prefix": "cips_fsw_config",
+    "body": "cips_fsw_config ${1:\\$type}",
+    "description": "[AIM] cips_fsw_config"
+  },
+  "aim: acs_eph_snp": {
+    "prefix": "acs_eph_snp",
+    "body": "acs_eph_snp",
+    "description": "[AIM] acs_eph_snp"
+  },
+  "aim: sof_gmb_dd": {
+    "prefix": "sof_gmb_dd",
+    "body": "sof_gmb_dd",
+    "description": "[AIM] sof_gmb_dd"
+  },
+  "aim: bridge_apid0374": {
+    "prefix": "bridge_apid0374",
+    "body": "bridge_apid0374",
+    "description": "[AIM] bridge_apid0374"
+  },
+  "aim: cde_cal_dd": {
+    "prefix": "cde_cal_dd",
+    "body": "cde_cal_dd",
+    "description": "[AIM] cde_cal_dd"
+  },
+  "aim: cps_swsq_tst": {
+    "prefix": "cps_swsq_tst",
+    "body": "cps_swsq_tst",
+    "description": "[AIM] cps_swsq_tst"
+  },
+  "aim: cips_tlm_check": {
+    "prefix": "cips_tlm_check",
+    "body": "cips_tlm_check",
+    "description": "[AIM] cips_tlm_check"
+  },
+  "aim: obc_patches": {
+    "prefix": "obc_patches",
+    "body": "obc_patches",
+    "description": "[AIM] obc_patches"
+  },
+  "aim: rts_116_build": {
+    "prefix": "rts_116_build",
+    "body": "rts_116_build",
+    "description": "[AIM] rts_116_build"
+  },
+  "aim: cps_sc_dd": {
+    "prefix": "cps_sc_dd",
+    "body": "cps_sc_dd",
+    "description": "[AIM] cps_sc_dd"
+  },
+  "aim: cps_swsq_snp": {
+    "prefix": "cps_swsq_snp",
+    "body": "cps_swsq_snp",
+    "description": "[AIM] cps_swsq_snp"
+  },
+  "aim: sof_sw_chop_left": {
+    "prefix": "sof_sw_chop_left",
+    "body": "sof_sw_chop_left",
+    "description": "[AIM] sof_sw_chop_left"
+  },
+  "aim: plot_12_dd": {
+    "prefix": "plot_12_dd",
+    "body": "plot_12_dd",
+    "description": "[AIM] plot_12_dd"
+  },
+  "aim: cde_sw_snp": {
+    "prefix": "cde_sw_snp",
+    "body": "cde_sw_snp",
+    "description": "[AIM] cde_sw_snp"
+  },
+  "aim: rts_028_build": {
+    "prefix": "rts_028_build",
+    "body": "rts_028_build",
+    "description": "[AIM] rts_028_build"
+  },
+  "aim: cont2norm": {
+    "prefix": "cont2norm",
+    "body": "cont2norm ${1:\\$ATS}",
+    "description": "[AIM] cont2norm"
+  },
+  "aim: sc_state_snp": {
+    "prefix": "sc_state_snp",
+    "body": "sc_state_snp",
+    "description": "[AIM] sc_state_snp"
+  },
+  "aim: st1_stat_tst": {
+    "prefix": "st1_stat_tst",
+    "body": "st1_stat_tst",
+    "description": "[AIM] st1_stat_tst"
+  },
+  "aim: comm_terminate": {
+    "prefix": "comm_terminate",
+    "body": "comm_terminate",
+    "description": "[AIM] comm_terminate"
+  },
+  "aim: bridge_apid0308": {
+    "prefix": "bridge_apid0308",
+    "body": "bridge_apid0308",
+    "description": "[AIM] bridge_apid0308"
+  },
+  "aim: sof_hk_zero": {
+    "prefix": "sof_hk_zero",
+    "body": "sof_hk_zero",
+    "description": "[AIM] sof_hk_zero"
+  },
+  "aim: sc_state_tst": {
+    "prefix": "sc_state_tst",
+    "body": "sc_state_tst",
+    "description": "[AIM] sc_state_tst"
+  },
+  "aim: cde_sw_tst": {
+    "prefix": "cde_sw_tst",
+    "body": "cde_sw_tst",
+    "description": "[AIM] cde_sw_tst"
+  },
+  "aim: st1_stat_snp": {
+    "prefix": "st1_stat_snp",
+    "body": "st1_stat_snp",
+    "description": "[AIM] st1_stat_snp"
+  },
+  "aim: cde_precheck": {
+    "prefix": "cde_precheck",
+    "body": "cde_precheck",
+    "description": "[AIM] cde_precheck"
+  },
+  "aim: rts_076_build": {
+    "prefix": "rts_076_build",
+    "body": "rts_076_build",
+    "description": "[AIM] rts_076_build"
+  },
+  "aim: cde_tlm_check": {
+    "prefix": "cde_tlm_check",
+    "body": "cde_tlm_check",
+    "description": "[AIM] cde_tlm_check"
+  },
+  "aim: rts_001_build": {
+    "prefix": "rts_001_build",
+    "body": "rts_001_build",
+    "description": "[AIM] rts_001_build"
+  },
+  "aim: cips_dc_status": {
+    "prefix": "cips_dc_status",
+    "body": "cips_dc_status",
+    "description": "[AIM] cips_dc_status"
+  },
+  "aim: cde_sramboot": {
+    "prefix": "cde_sramboot",
+    "body": "cde_sramboot",
+    "description": "[AIM] cde_sramboot"
+  },
+  "aim: sw_mgr_dd": {
+    "prefix": "sw_mgr_dd",
+    "body": "sw_mgr_dd",
+    "description": "[AIM] sw_mgr_dd"
+  },
+  "aim: ld_aim_jmp_62508": {
+    "prefix": "ld_aim_jmp_62508",
+    "body": "ld_aim_jmp_62508",
+    "description": "[AIM] ld_aim_jmp_62508"
+  },
+  "aim: ctsim_switch_on": {
+    "prefix": "ctsim_switch_on",
+    "body": "ctsim_switch_on ${1:\\$ctsim_host}",
+    "description": "[AIM] ctsim_switch_on"
+  },
+  "aim: plot_04_dd": {
+    "prefix": "plot_04_dd",
+    "body": "plot_04_dd",
+    "description": "[AIM] plot_04_dd"
+  },
+  "aim: acs_cont_dd": {
+    "prefix": "acs_cont_dd",
+    "body": "acs_cont_dd",
+    "description": "[AIM] acs_cont_dd"
+  },
+  "aim: dumpvr_nowait": {
+    "prefix": "dumpvr_nowait",
+    "body": "dumpvr_nowait ${1:\\$vr_num}, ${2:\\$ds_num}",
+    "description": "[AIM] dumpvr_nowait"
+  },
+  "aim: bridge_apid1546": {
+    "prefix": "bridge_apid1546",
+    "body": "bridge_apid1546",
+    "description": "[AIM] bridge_apid1546"
+  },
+  "aim: sof_vfy_stby_ssb": {
+    "prefix": "sof_vfy_stby_ssb",
+    "body": "sof_vfy_stby_ssb",
+    "description": "[AIM] sof_vfy_stby_ssb"
+  },
+  "aim: bridge_apid0011": {
+    "prefix": "bridge_apid0011",
+    "body": "bridge_apid0011",
+    "description": "[AIM] bridge_apid0011"
+  },
+  "aim: sof_atp": {
+    "prefix": "sof_atp",
+    "body": "sof_atp",
+    "description": "[AIM] sof_atp"
+  },
+  "aim: uc_logtlm": {
+    "prefix": "uc_logtlm",
+    "body": "uc_logtlm",
+    "description": "[AIM] uc_logtlm"
+  },
+  "aim: rts_117_build": {
+    "prefix": "rts_117_build",
+    "body": "rts_117_build",
+    "description": "[AIM] rts_117_build"
+  },
+  "aim: bridge_apid2035": {
+    "prefix": "bridge_apid2035",
+    "body": "bridge_apid2035",
+    "description": "[AIM] bridge_apid2035"
+  },
+  "aim: bridge_apid1541": {
+    "prefix": "bridge_apid1541",
+    "body": "bridge_apid1541",
+    "description": "[AIM] bridge_apid1541"
+  },
+  "aim: perf_clear": {
+    "prefix": "perf_clear",
+    "body": "perf_clear",
+    "description": "[AIM] perf_clear"
+  },
+  "aim: pkt_info_snp": {
+    "prefix": "pkt_info_snp",
+    "body": "pkt_info_snp",
+    "description": "[AIM] pkt_info_snp"
+  },
+  "aim: rts_077_build": {
+    "prefix": "rts_077_build",
+    "body": "rts_077_build",
+    "description": "[AIM] rts_077_build"
+  },
+  "aim: pkt_info_tst": {
+    "prefix": "pkt_info_tst",
+    "body": "pkt_info_tst",
+    "description": "[AIM] pkt_info_tst"
+  },
+  "aim: rts_load": {
+    "prefix": "rts_load",
+    "body": "rts_load",
+    "description": "[AIM] rts_load"
+  },
+  "aim: shed_level0": {
+    "prefix": "shed_level0",
+    "body": "shed_level0",
+    "description": "[AIM] shed_level0"
+  },
+  "aim: acs_ape_dd": {
+    "prefix": "acs_ape_dd",
+    "body": "acs_ape_dd",
+    "description": "[AIM] acs_ape_dd"
+  },
+  "aim: rts_029_build": {
+    "prefix": "rts_029_build",
+    "body": "rts_029_build",
+    "description": "[AIM] rts_029_build"
+  },
+  "aim: ois_stat_dd": {
+    "prefix": "ois_stat_dd",
+    "body": "ois_stat_dd",
+    "description": "[AIM] ois_stat_dd"
+  },
+  "aim: misc_fsw_snp": {
+    "prefix": "misc_fsw_snp",
+    "body": "misc_fsw_snp",
+    "description": "[AIM] misc_fsw_snp"
+  },
+  "aim: get_table_value": {
+    "prefix": "get_table_value",
+    "body": "get_table_value ${1:\\$TABLE}, ${2:\\$ITEM}, ${3:\\$VALUE}",
+    "description": "[AIM] get_table_value"
+  },
+  "aim: post_p4_config": {
+    "prefix": "post_p4_config",
+    "body": "post_p4_config",
+    "description": "[AIM] post_p4_config"
+  },
+  "aim: rts_099_build": {
+    "prefix": "rts_099_build",
+    "body": "rts_099_build",
+    "description": "[AIM] rts_099_build"
+  },
+  "aim: ul_card_reset": {
+    "prefix": "ul_card_reset",
+    "body": "ul_card_reset",
+    "description": "[AIM] ul_card_reset"
+  },
+  "aim: misc_fsw_tst": {
+    "prefix": "misc_fsw_tst",
+    "body": "misc_fsw_tst",
+    "description": "[AIM] misc_fsw_tst"
+  },
+  "aim: primary_streams": {
+    "prefix": "primary_streams",
+    "body": "primary_streams",
+    "description": "[AIM] primary_streams"
+  },
+  "aim: ois_setup": {
+    "prefix": "ois_setup",
+    "body": "ois_setup",
+    "description": "[AIM] ois_setup"
+  },
+  "aim: st1_turn_off": {
+    "prefix": "st1_turn_off",
+    "body": "st1_turn_off",
+    "description": "[AIM] st1_turn_off"
+  },
+  "aim: peg_tlm1_tst": {
+    "prefix": "peg_tlm1_tst",
+    "body": "peg_tlm1_tst",
+    "description": "[AIM] peg_tlm1_tst"
+  },
+  "aim: acs_sta_tst": {
+    "prefix": "acs_sta_tst",
+    "body": "acs_sta_tst",
+    "description": "[AIM] acs_sta_tst"
+  },
+  "aim: norm_to_cont": {
+    "prefix": "norm_to_cont",
+    "body": "norm_to_cont",
+    "description": "[AIM] norm_to_cont"
+  },
+  "aim: rts_002_build": {
+    "prefix": "rts_002_build",
+    "body": "rts_002_build",
+    "description": "[AIM] rts_002_build"
+  },
+  "aim: acs_msg_tst": {
+    "prefix": "acs_msg_tst",
+    "body": "acs_msg_tst",
+    "description": "[AIM] acs_msg_tst"
+  },
+  "aim: peg_tlm1_snp": {
+    "prefix": "peg_tlm1_snp",
+    "body": "peg_tlm1_snp",
+    "description": "[AIM] peg_tlm1_snp"
+  },
+  "aim: acs_sta_snp": {
+    "prefix": "acs_sta_snp",
+    "body": "acs_sta_snp",
+    "description": "[AIM] acs_sta_snp"
+  },
+  "aim: vr_retran_by_ds": {
+    "prefix": "vr_retran_by_ds",
+    "body": "vr_retran_by_ds ${1:\\$vrid_num}, ${2:\\$ds_num}",
+    "description": "[AIM] vr_retran_by_ds"
+  },
+  "aim: cips_sdram_off": {
+    "prefix": "cips_sdram_off",
+    "body": "cips_sdram_off",
+    "description": "[AIM] cips_sdram_off"
+  },
+  "aim: acs_msg_snp": {
+    "prefix": "acs_msg_snp",
+    "body": "acs_msg_snp",
+    "description": "[AIM] acs_msg_snp"
+  },
+  "aim: ape_mem_dump": {
+    "prefix": "ape_mem_dump",
+    "body": "ape_mem_dump ${1:\\$start_add}",
+    "description": "[AIM] ape_mem_dump"
+  },
+  "aim: obc_turn_on": {
+    "prefix": "obc_turn_on",
+    "body": "obc_turn_on",
+    "description": "[AIM] obc_turn_on"
+  },
+  "aim: rts_074_build": {
+    "prefix": "rts_074_build",
+    "body": "rts_074_build",
+    "description": "[AIM] rts_074_build"
+  },
+  "aim: safehold_ck": {
+    "prefix": "safehold_ck",
+    "body": "safehold_ck",
+    "description": "[AIM] safehold_ck"
+  },
+  "aim: cips_mcp_off": {
+    "prefix": "cips_mcp_off",
+    "body": "cips_mcp_off ${1:\\$cam}",
+    "description": "[AIM] cips_mcp_off"
+  },
+  "aim: rcv_broadcast": {
+    "prefix": "rcv_broadcast",
+    "body": "rcv_broadcast ${1:\\$target}",
+    "description": "[AIM] rcv_broadcast"
+  },
+  "aim: cps_swim_dd": {
+    "prefix": "cps_swim_dd",
+    "body": "cps_swim_dd",
+    "description": "[AIM] cps_swim_dd"
+  },
+  "aim: ats_rts_dd": {
+    "prefix": "ats_rts_dd",
+    "body": "ats_rts_dd",
+    "description": "[AIM] ats_rts_dd"
+  },
+  "aim: rts_114_build": {
+    "prefix": "rts_114_build",
+    "body": "rts_114_build",
+    "description": "[AIM] rts_114_build"
+  },
+  "aim: get_table": {
+    "prefix": "get_table",
+    "body": "get_table ${1:\\$TABLE}, ${2:\\$VERSION}",
+    "description": "[AIM] get_table"
+  },
+  "aim: acs_sol_dd": {
+    "prefix": "acs_sol_dd",
+    "body": "acs_sol_dd",
+    "description": "[AIM] acs_sol_dd"
+  },
+  "aim: rts_098_build": {
+    "prefix": "rts_098_build",
+    "body": "rts_098_build",
+    "description": "[AIM] rts_098_build"
+  },
+  "aim: define_rts": {
+    "prefix": "define_rts",
+    "body": "define_rts",
+    "description": "[AIM] define_rts"
+  },
+  "aim: plot_17_tst": {
+    "prefix": "plot_17_tst",
+    "body": "plot_17_tst",
+    "description": "[AIM] plot_17_tst"
+  },
+  "aim: vr_retran": {
+    "prefix": "vr_retran",
+    "body": "vr_retran ${1:\\$vrid_num}, ${2:\\$num_vcdu}, ${3:\\$vcdu_start}",
+    "description": "[AIM] vr_retran"
+  },
+  "aim: cips_hv_off": {
+    "prefix": "cips_hv_off",
+    "body": "cips_hv_off ${1:\\$cam}",
+    "description": "[AIM] cips_hv_off"
+  },
+  "aim: isim_tlm_prcs": {
+    "prefix": "isim_tlm_prcs",
+    "body": "isim_tlm_prcs",
+    "description": "[AIM] isim_tlm_prcs"
+  },
+  "aim: high_rt_lim": {
+    "prefix": "high_rt_lim",
+    "body": "high_rt_lim",
+    "description": "[AIM] high_rt_lim"
+  },
+  "aim: plot_13_tst": {
+    "prefix": "plot_13_tst",
+    "body": "plot_13_tst",
+    "description": "[AIM] plot_13_tst"
+  },
+  "aim: xb_stcmd": {
+    "prefix": "xb_stcmd",
+    "body": "xb_stcmd",
+    "description": "[AIM] xb_stcmd"
+  },
+  "aim: ld_aim_jmp_62700": {
+    "prefix": "ld_aim_jmp_62700",
+    "body": "ld_aim_jmp_62700",
+    "description": "[AIM] ld_aim_jmp_62700"
+  },
+  "aim: rts_003_build": {
+    "prefix": "rts_003_build",
+    "body": "rts_003_build",
+    "description": "[AIM] rts_003_build"
+  },
+  "aim: auto_watchdog": {
+    "prefix": "auto_watchdog",
+    "body": "auto_watchdog",
+    "description": "[AIM] auto_watchdog"
+  },
+  "aim: bridge_apid0172": {
+    "prefix": "bridge_apid0172",
+    "body": "bridge_apid0172",
+    "description": "[AIM] bridge_apid0172"
+  },
+  "aim: op_heater_cntl": {
+    "prefix": "op_heater_cntl",
+    "body": "op_heater_cntl ${1:\\$ENA_DIS}",
+    "description": "[AIM] op_heater_cntl"
+  },
+  "aim: limitchange": {
+    "prefix": "limitchange",
+    "body": "limitchange",
+    "description": "[AIM] limitchange"
+  },
+  "aim: clr_sbstrmover": {
+    "prefix": "clr_sbstrmover",
+    "body": "clr_sbstrmover",
+    "description": "[AIM] clr_sbstrmover"
+  },
+  "aim: str_on_lim": {
+    "prefix": "str_on_lim",
+    "body": "str_on_lim",
+    "description": "[AIM] str_on_lim"
+  },
+  "aim: eps_batt_snp": {
+    "prefix": "eps_batt_snp",
+    "body": "eps_batt_snp",
+    "description": "[AIM] eps_batt_snp"
+  },
+  "aim: rts_075_build": {
+    "prefix": "rts_075_build",
+    "body": "rts_075_build",
+    "description": "[AIM] rts_075_build"
+  },
+  "aim: proc_list": {
+    "prefix": "proc_list",
+    "body": "proc_list",
+    "description": "[AIM] proc_list"
+  },
+  "aim: eps_batt_tst": {
+    "prefix": "eps_batt_tst",
+    "body": "eps_batt_tst",
+    "description": "[AIM] eps_batt_tst"
+  },
+  "aim: acs_aut_dd": {
+    "prefix": "acs_aut_dd",
+    "body": "acs_aut_dd",
+    "description": "[AIM] acs_aut_dd"
+  },
+  "aim: cmdctrl_dd": {
+    "prefix": "cmdctrl_dd",
+    "body": "cmdctrl_dd",
+    "description": "[AIM] cmdctrl_dd"
+  },
+  "aim: bridge_apid0051": {
+    "prefix": "bridge_apid0051",
+    "body": "bridge_apid0051",
+    "description": "[AIM] bridge_apid0051"
+  },
+  "aim: sof_main_tst": {
+    "prefix": "sof_main_tst",
+    "body": "sof_main_tst",
+    "description": "[AIM] sof_main_tst"
+  },
+  "aim: t_027_ape_v2": {
+    "prefix": "t_027_ape_v2",
+    "body": "t_027_ape_v2",
+    "description": "[AIM] t_027_ape_v2"
+  },
+  "aim: acs_oomp_tst": {
+    "prefix": "acs_oomp_tst",
+    "body": "acs_oomp_tst",
+    "description": "[AIM] acs_oomp_tst"
+  },
+  "aim: acs_ad_dd": {
+    "prefix": "acs_ad_dd",
+    "body": "acs_ad_dd",
+    "description": "[AIM] acs_ad_dd"
+  },
+  "aim: sof_main_snp": {
+    "prefix": "sof_main_snp",
+    "body": "sof_main_snp",
+    "description": "[AIM] sof_main_snp"
+  },
+  "aim: rts_115_build": {
+    "prefix": "rts_115_build",
+    "body": "rts_115_build",
+    "description": "[AIM] rts_115_build"
+  },
+  "aim: master_updates": {
+    "prefix": "master_updates",
+    "body": "master_updates",
+    "description": "[AIM] master_updates"
+  },
+  "aim: acs_oomp_snp": {
+    "prefix": "acs_oomp_snp",
+    "body": "acs_oomp_snp",
+    "description": "[AIM] acs_oomp_snp"
+  },
+  "aim: bridge_apid0109": {
+    "prefix": "bridge_apid0109",
+    "body": "bridge_apid0109",
+    "description": "[AIM] bridge_apid0109"
+  },
+  "aim: rts_096_build": {
+    "prefix": "rts_096_build",
+    "body": "rts_096_build",
+    "description": "[AIM] rts_096_build"
+  },
+  "aim: cips_precheck": {
+    "prefix": "cips_precheck",
+    "body": "cips_precheck",
+    "description": "[AIM] cips_precheck"
+  },
+  "aim: dl_stat_snp": {
+    "prefix": "dl_stat_snp",
+    "body": "dl_stat_snp",
+    "description": "[AIM] dl_stat_snp"
+  },
+  "aim: bridge_apid0008": {
+    "prefix": "bridge_apid0008",
+    "body": "bridge_apid0008",
+    "description": "[AIM] bridge_apid0008"
+  },
+  "aim: dl_stat_tst": {
+    "prefix": "dl_stat_tst",
+    "body": "dl_stat_tst",
+    "description": "[AIM] dl_stat_tst"
+  },
+  "aim: plot_02_dd": {
+    "prefix": "plot_02_dd",
+    "body": "plot_02_dd",
+    "description": "[AIM] plot_02_dd"
+  },
+  "aim: ep_precmd": {
+    "prefix": "ep_precmd",
+    "body": "ep_precmd",
+    "description": "[AIM] ep_precmd"
+  },
+  "aim: instpkts_dd": {
+    "prefix": "instpkts_dd",
+    "body": "instpkts_dd",
+    "description": "[AIM] instpkts_dd"
+  },
+  "aim: rts_053_build": {
+    "prefix": "rts_053_build",
+    "body": "rts_053_build",
+    "description": "[AIM] rts_053_build"
+  },
+  "aim: cps_cde_tst": {
+    "prefix": "cps_cde_tst",
+    "body": "cps_cde_tst",
+    "description": "[AIM] cps_cde_tst"
+  },
+  "aim: cde_postcheck": {
+    "prefix": "cde_postcheck",
+    "body": "cde_postcheck",
+    "description": "[AIM] cde_postcheck"
+  },
+  "aim: verify_phase3": {
+    "prefix": "verify_phase3",
+    "body": "verify_phase3",
+    "description": "[AIM] verify_phase3"
+  },
+  "aim: cps_cde_snp": {
+    "prefix": "cps_cde_snp",
+    "body": "cps_cde_snp",
+    "description": "[AIM] cps_cde_snp"
+  },
+  "aim: bridge_apid0363": {
+    "prefix": "bridge_apid0363",
+    "body": "bridge_apid0363",
+    "description": "[AIM] bridge_apid0363"
+  },
+  "aim: rts_025_build": {
+    "prefix": "rts_025_build",
+    "body": "rts_025_build",
+    "description": "[AIM] rts_025_build"
+  },
+  "aim: acs_css_tst": {
+    "prefix": "acs_css_tst",
+    "body": "acs_css_tst",
+    "description": "[AIM] acs_css_tst"
+  },
+  "aim: cde_testsig_3": {
+    "prefix": "cde_testsig_3",
+    "body": "cde_testsig_3",
+    "description": "[AIM] cde_testsig_3"
+  },
+  "aim: acs_css_snp": {
+    "prefix": "acs_css_snp",
+    "body": "acs_css_snp",
+    "description": "[AIM] acs_css_snp"
+  },
+  "aim: mtb_config": {
+    "prefix": "mtb_config",
+    "body": "mtb_config",
+    "description": "[AIM] mtb_config"
+  },
+  "aim: plot_19_dd": {
+    "prefix": "plot_19_dd",
+    "body": "plot_19_dd",
+    "description": "[AIM] plot_19_dd"
+  },
+  "aim: tps_main_snp": {
+    "prefix": "tps_main_snp",
+    "body": "tps_main_snp",
+    "description": "[AIM] tps_main_snp"
+  },
+  "aim: aac_iru_snp": {
+    "prefix": "aac_iru_snp",
+    "body": "aac_iru_snp",
+    "description": "[AIM] aac_iru_snp"
+  },
+  "aim: switch_logs": {
+    "prefix": "switch_logs",
+    "body": "switch_logs",
+    "description": "[AIM] switch_logs"
+  },
+  "aim: rts_077eq": {
+    "prefix": "rts_077eq",
+    "body": "rts_077eq",
+    "description": "[AIM] rts_077eq"
+  },
+  "aim: tps_main_tst": {
+    "prefix": "tps_main_tst",
+    "body": "tps_main_tst",
+    "description": "[AIM] tps_main_tst"
+  },
+  "aim: aim_test_2_ld": {
+    "prefix": "aim_test_2_ld",
+    "body": "aim_test_2_ld",
+    "description": "[AIM] aim_test_2_ld"
+  },
+  "aim: aac_iru_tst": {
+    "prefix": "aac_iru_tst",
+    "body": "aac_iru_tst",
+    "description": "[AIM] aac_iru_tst"
+  },
+  "aim: cps_gmbe_ld": {
+    "prefix": "cps_gmbe_ld",
+    "body": "cps_gmbe_ld",
+    "description": "[AIM] cps_gmbe_ld"
+  },
+  "aim: rs_check": {
+    "prefix": "rs_check",
+    "body": "rs_check ${1:\\$state_input}",
+    "description": "[AIM] rs_check"
+  },
+  "aim: cps_dl_snp": {
+    "prefix": "cps_dl_snp",
+    "body": "cps_dl_snp",
+    "description": "[AIM] cps_dl_snp"
+  },
+  "aim: rts_097_build": {
+    "prefix": "rts_097_build",
+    "body": "rts_097_build",
+    "description": "[AIM] rts_097_build"
+  },
+  "aim: cps_dl_tst": {
+    "prefix": "cps_dl_tst",
+    "body": "cps_dl_tst",
+    "description": "[AIM] cps_dl_tst"
+  },
+  "aim: sof_ob6_dd": {
+    "prefix": "sof_ob6_dd",
+    "body": "sof_ob6_dd",
+    "description": "[AIM] sof_ob6_dd"
+  },
+  "aim: bridge_apid0001": {
+    "prefix": "bridge_apid0001",
+    "body": "bridge_apid0001",
+    "description": "[AIM] bridge_apid0001"
+  },
+  "aim: osnap_setup": {
+    "prefix": "osnap_setup",
+    "body": "osnap_setup",
+    "description": "[AIM] osnap_setup"
+  },
+  "aim: rts_052_build": {
+    "prefix": "rts_052_build",
+    "body": "rts_052_build",
+    "description": "[AIM] rts_052_build"
+  },
+  "aim: sof_aut_snp": {
+    "prefix": "sof_aut_snp",
+    "body": "sof_aut_snp",
+    "description": "[AIM] sof_aut_snp"
+  },
+  "aim: testcmd": {
+    "prefix": "testcmd",
+    "body": "testcmd",
+    "description": "[AIM] testcmd"
+  },
+  "aim: t_023_sc_v3": {
+    "prefix": "t_023_sc_v3",
+    "body": "t_023_sc_v3",
+    "description": "[AIM] t_023_sc_v3"
+  },
+  "aim: sof_aut_tst": {
+    "prefix": "sof_aut_tst",
+    "body": "sof_aut_tst",
+    "description": "[AIM] sof_aut_tst"
+  },
+  "aim: plot_14_dd": {
+    "prefix": "plot_14_dd",
+    "body": "plot_14_dd",
+    "description": "[AIM] plot_14_dd"
+  },
+  "aim: resetcounters": {
+    "prefix": "resetcounters",
+    "body": "resetcounters",
+    "description": "[AIM] resetcounters"
+  },
+  "aim: cde_memdump": {
+    "prefix": "cde_memdump",
+    "body": "cde_memdump",
+    "description": "[AIM] cde_memdump"
+  },
+  "aim: bridge_apid0006": {
+    "prefix": "bridge_apid0006",
+    "body": "bridge_apid0006",
+    "description": "[AIM] bridge_apid0006"
+  },
+  "aim: rts_024_build": {
+    "prefix": "rts_024_build",
+    "body": "rts_024_build",
+    "description": "[AIM] rts_024_build"
+  },
+  "aim: cips_postcheck": {
+    "prefix": "cips_postcheck",
+    "body": "cips_postcheck",
+    "description": "[AIM] cips_postcheck"
+  },
+  "aim: tx_turn_off_sh": {
+    "prefix": "tx_turn_off_sh",
+    "body": "tx_turn_off_sh",
+    "description": "[AIM] tx_turn_off_sh"
+  },
+  "aim: cips_hv_on": {
+    "prefix": "cips_hv_on",
+    "body": "cips_hv_on ${1:\\$cam}",
+    "description": "[AIM] cips_hv_on"
+  },
+  "aim: trip_bos": {
+    "prefix": "trip_bos",
+    "body": "trip_bos ${1:\\$bos_trip}",
+    "description": "[AIM] trip_bos"
+  },
+  "aim: aeptlm": {
+    "prefix": "aeptlm",
+    "body": "aeptlm",
+    "description": "[AIM] aeptlm"
+  },
+  "aim: quit": {
+    "prefix": "quit",
+    "body": "quit",
+    "description": "[AIM] quit"
+  },
+  "aim: master_planning": {
+    "prefix": "master_planning",
+    "body": "master_planning",
+    "description": "[AIM] master_planning"
+  },
+  "aim: rts_051_build": {
+    "prefix": "rts_051_build",
+    "body": "rts_051_build",
+    "description": "[AIM] rts_051_build"
+  },
+  "aim: sh_lim": {
+    "prefix": "sh_lim",
+    "body": "sh_lim",
+    "description": "[AIM] sh_lim"
+  },
+  "aim: cips_hv_cmds": {
+    "prefix": "cips_hv_cmds",
+    "body": "cips_hv_cmds ${1:\\$state}",
+    "description": "[AIM] cips_hv_cmds"
+  },
+  "aim: acs_msg_dd": {
+    "prefix": "acs_msg_dd",
+    "body": "acs_msg_dd",
+    "description": "[AIM] acs_msg_dd"
+  },
+  "aim: aepcmd": {
+    "prefix": "aepcmd",
+    "body": "aepcmd",
+    "description": "[AIM] aepcmd"
+  },
+  "aim: sof_all_tec_off": {
+    "prefix": "sof_all_tec_off",
+    "body": "sof_all_tec_off",
+    "description": "[AIM] sof_all_tec_off"
+  },
+  "aim: bridge_apid0117": {
+    "prefix": "bridge_apid0117",
+    "body": "bridge_apid0117",
+    "description": "[AIM] bridge_apid0117"
+  },
+  "aim: cips_mcp_step_up": {
+    "prefix": "cips_mcp_step_up",
+    "body": "cips_mcp_step_up ${1:\\$cam}, ${2:\\$voltage}",
+    "description": "[AIM] cips_mcp_step_up"
+  },
+  "aim: sw_mgr_snp": {
+    "prefix": "sw_mgr_snp",
+    "body": "sw_mgr_snp",
+    "description": "[AIM] sw_mgr_snp"
+  },
+  "aim: cps_cst_tst": {
+    "prefix": "cps_cst_tst",
+    "body": "cps_cst_tst",
+    "description": "[AIM] cps_cst_tst"
+  },
+  "aim: peg_tlm2_dd": {
+    "prefix": "peg_tlm2_dd",
+    "body": "peg_tlm2_dd",
+    "description": "[AIM] peg_tlm2_dd"
+  },
+  "aim: bridge_apid0358": {
+    "prefix": "bridge_apid0358",
+    "body": "bridge_apid0358",
+    "description": "[AIM] bridge_apid0358"
+  },
+  "aim: sw_mgr_tst": {
+    "prefix": "sw_mgr_tst",
+    "body": "sw_mgr_tst",
+    "description": "[AIM] sw_mgr_tst"
+  },
+  "aim: rts_094_build": {
+    "prefix": "rts_094_build",
+    "body": "rts_094_build",
+    "description": "[AIM] rts_094_build"
+  },
+  "aim: ct_tlm_dd": {
+    "prefix": "ct_tlm_dd",
+    "body": "ct_tlm_dd",
+    "description": "[AIM] ct_tlm_dd"
+  },
+  "aim: cps_cst_snp": {
+    "prefix": "cps_cst_snp",
+    "body": "cps_cst_snp",
+    "description": "[AIM] cps_cst_snp"
+  },
+  "aim: bridge_apid0389": {
+    "prefix": "bridge_apid0389",
+    "body": "bridge_apid0389",
+    "description": "[AIM] bridge_apid0389"
+  },
+  "aim: plot_23_dd": {
+    "prefix": "plot_23_dd",
+    "body": "plot_23_dd",
+    "description": "[AIM] plot_23_dd"
+  },
+  "aim: bridge_apid0110": {
+    "prefix": "bridge_apid0110",
+    "body": "bridge_apid0110",
+    "description": "[AIM] bridge_apid0110"
+  },
+  "aim: rts_119_build": {
+    "prefix": "rts_119_build",
+    "body": "rts_119_build",
+    "description": "[AIM] rts_119_build"
+  },
+  "aim: dis_ophtr_sw": {
+    "prefix": "dis_ophtr_sw",
+    "body": "dis_ophtr_sw",
+    "description": "[AIM] dis_ophtr_sw"
+  },
+  "aim: cop1_setup": {
+    "prefix": "cop1_setup",
+    "body": "cop1_setup ${1:\\$station}",
+    "description": "[AIM] cop1_setup"
+  },
+  "aim: ctsim_switch_off": {
+    "prefix": "ctsim_switch_off",
+    "body": "ctsim_switch_off",
+    "description": "[AIM] ctsim_switch_off"
+  },
+  "aim: aim_obc62patch": {
+    "prefix": "aim_obc62patch",
+    "body": "aim_obc62patch",
+    "description": "[AIM] aim_obc62patch"
+  },
+  "aim: ul_crit_dd": {
+    "prefix": "ul_crit_dd",
+    "body": "ul_crit_dd",
+    "description": "[AIM] ul_crit_dd"
+  },
+  "aim: rts_079_build": {
+    "prefix": "rts_079_build",
+    "body": "rts_079_build",
+    "description": "[AIM] rts_079_build"
+  },
+  "aim: rts_027_build": {
+    "prefix": "rts_027_build",
+    "body": "rts_027_build",
+    "description": "[AIM] rts_027_build"
+  },
+  "aim: bridge_apid0323": {
+    "prefix": "bridge_apid0323",
+    "body": "bridge_apid0323",
+    "description": "[AIM] bridge_apid0323"
+  },
+  "aim: rts_050_build": {
+    "prefix": "rts_050_build",
+    "body": "rts_050_build",
+    "description": "[AIM] rts_050_build"
+  },
+  "aim: comm_setup": {
+    "prefix": "comm_setup",
+    "body": "comm_setup ${1:\\$station}",
+    "description": "[AIM] comm_setup"
+  },
+  "aim: cps_rst_boot_ctr": {
+    "prefix": "cps_rst_boot_ctr",
+    "body": "cps_rst_boot_ctr",
+    "description": "[AIM] cps_rst_boot_ctr"
+  },
+  "aim: vr_pbk": {
+    "prefix": "vr_pbk",
+    "body": "vr_pbk ${1:\\$vr1_dsid}, ${2:\\$vr2_dsid}, ${3:\\$vr3_dsid}, ${4:\\$vr4_dsid}",
+    "description": "[AIM] vr_pbk"
+  },
+  "aim: cde_smallcal": {
+    "prefix": "cde_smallcal",
+    "body": "cde_smallcal",
+    "description": "[AIM] cde_smallcal"
+  },
+  "aim: cps_1553_snp": {
+    "prefix": "cps_1553_snp",
+    "body": "cps_1553_snp",
+    "description": "[AIM] cps_1553_snp"
+  },
+  "aim: rts_095_build": {
+    "prefix": "rts_095_build",
+    "body": "rts_095_build",
+    "description": "[AIM] rts_095_build"
+  },
+  "aim: sof_pkt_zero": {
+    "prefix": "sof_pkt_zero",
+    "body": "sof_pkt_zero",
+    "description": "[AIM] sof_pkt_zero"
+  },
+  "aim: dataserver": {
+    "prefix": "dataserver",
+    "body": "dataserver",
+    "description": "[AIM] dataserver"
+  },
+  "aim: cps_1553_tst": {
+    "prefix": "cps_1553_tst",
+    "body": "cps_1553_tst",
+    "description": "[AIM] cps_1553_tst"
+  },
+  "aim: cips_parm_change": {
+    "prefix": "cips_parm_change",
+    "body": "cips_parm_change ${1:\\$parm}, ${2:\\$value}",
+    "description": "[AIM] cips_parm_change"
+  },
+  "aim: acs_angles": {
+    "prefix": "acs_angles",
+    "body": "acs_angles",
+    "description": "[AIM] acs_angles"
+  },
+  "aim: cps_hkm_dd": {
+    "prefix": "cps_hkm_dd",
+    "body": "cps_hkm_dd",
+    "description": "[AIM] cps_hkm_dd"
+  },
+  "aim: cips_lns_htr_ena": {
+    "prefix": "cips_lns_htr_ena",
+    "body": "cips_lns_htr_ena ${1:\\$cam}",
+    "description": "[AIM] cips_lns_htr_ena"
+  },
+  "aim: bridge_apid0272": {
+    "prefix": "bridge_apid0272",
+    "body": "bridge_apid0272",
+    "description": "[AIM] bridge_apid0272"
+  },
+  "aim: plot_16_tst": {
+    "prefix": "plot_16_tst",
+    "body": "plot_16_tst",
+    "description": "[AIM] plot_16_tst"
+  },
+  "aim: rts_118_build": {
+    "prefix": "rts_118_build",
+    "body": "rts_118_build",
+    "description": "[AIM] rts_118_build"
+  },
+  "aim: sof_sys_zero": {
+    "prefix": "sof_sys_zero",
+    "body": "sof_sys_zero",
+    "description": "[AIM] sof_sys_zero"
+  },
+  "aim: update_limits": {
+    "prefix": "update_limits",
+    "body": "update_limits",
+    "description": "[AIM] update_limits"
+  },
+  "aim: plot_12_tst": {
+    "prefix": "plot_12_tst",
+    "body": "plot_12_tst",
+    "description": "[AIM] plot_12_tst"
+  },
+  "aim: ep_sens_ctrlcmd": {
+    "prefix": "ep_sens_ctrlcmd",
+    "body": "ep_sens_ctrlcmd",
+    "description": "[AIM] ep_sens_ctrlcmd"
+  },
+  "aim: rts_026_build": {
+    "prefix": "rts_026_build",
+    "body": "rts_026_build",
+    "description": "[AIM] rts_026_build"
+  },
+  "aim: bridge_apid0356": {
+    "prefix": "bridge_apid0356",
+    "body": "bridge_apid0356",
+    "description": "[AIM] bridge_apid0356"
+  },
+  "aim: rts_078_build": {
+    "prefix": "rts_078_build",
+    "body": "rts_078_build",
+    "description": "[AIM] rts_078_build"
+  },
+  "aim: clp_stat_dd": {
+    "prefix": "clp_stat_dd",
+    "body": "clp_stat_dd",
+    "description": "[AIM] clp_stat_dd"
+  },
+  "aim: dl_stat_dd": {
+    "prefix": "dl_stat_dd",
+    "body": "dl_stat_dd",
+    "description": "[AIM] dl_stat_dd"
+  },
+  "aim: sh_recovery": {
+    "prefix": "sh_recovery",
+    "body": "sh_recovery",
+    "description": "[AIM] sh_recovery"
+  },
+  "aim: cps_cst_dd": {
+    "prefix": "cps_cst_dd",
+    "body": "cps_cst_dd",
+    "description": "[AIM] cps_cst_dd"
+  },
+  "aim: acs_iru_dd": {
+    "prefix": "acs_iru_dd",
+    "body": "acs_iru_dd",
+    "description": "[AIM] acs_iru_dd"
+  },
+  "aim: master_mor": {
+    "prefix": "master_mor",
+    "body": "master_mor",
+    "description": "[AIM] master_mor"
+  },
+  "aim: cde_4_cips": {
+    "prefix": "cde_4_cips",
+    "body": "cde_4_cips",
+    "description": "[AIM] cde_4_cips"
+  },
+  "aim: cps_gmbe_dd": {
+    "prefix": "cps_gmbe_dd",
+    "body": "cps_gmbe_dd",
+    "description": "[AIM] cps_gmbe_dd"
+  },
+  "aim: plot_24_tst": {
+    "prefix": "plot_24_tst",
+    "body": "plot_24_tst",
+    "description": "[AIM] plot_24_tst"
+  },
+  "aim: bridge_apid0050": {
+    "prefix": "bridge_apid0050",
+    "body": "bridge_apid0050",
+    "description": "[AIM] bridge_apid0050"
+  },
+  "aim: t_112_sc_v2": {
+    "prefix": "t_112_sc_v2",
+    "body": "t_112_sc_v2",
+    "description": "[AIM] t_112_sc_v2"
+  },
+  "aim: clcw_snp": {
+    "prefix": "clcw_snp",
+    "body": "clcw_snp",
+    "description": "[AIM] clcw_snp"
+  },
+  "aim: plot_20_tst": {
+    "prefix": "plot_20_tst",
+    "body": "plot_20_tst",
+    "description": "[AIM] plot_20_tst"
+  },
+  "aim: sof_sys_eng": {
+    "prefix": "sof_sys_eng",
+    "body": "sof_sys_eng",
+    "description": "[AIM] sof_sys_eng"
+  },
+  "aim: eps_aep_dd": {
+    "prefix": "eps_aep_dd",
+    "body": "eps_aep_dd",
+    "description": "[AIM] eps_aep_dd"
+  },
+  "aim: ul_mem_dump_rt": {
+    "prefix": "ul_mem_dump_rt",
+    "body": "ul_mem_dump_rt ${1:\\$METHOD}",
+    "description": "[AIM] ul_mem_dump_rt"
+  },
+  "aim: rts_021_build": {
+    "prefix": "rts_021_build",
+    "body": "rts_021_build",
+    "description": "[AIM] rts_021_build"
+  },
+  "aim: pkt_info_dd": {
+    "prefix": "pkt_info_dd",
+    "body": "pkt_info_dd",
+    "description": "[AIM] pkt_info_dd"
+  },
+  "aim: clcw_tst": {
+    "prefix": "clcw_tst",
+    "body": "clcw_tst",
+    "description": "[AIM] clcw_tst"
+  },
+  "aim: flight_cmd_test": {
+    "prefix": "flight_cmd_test",
+    "body": "flight_cmd_test",
+    "description": "[AIM] flight_cmd_test"
+  },
+  "aim: bridge_apid0057": {
+    "prefix": "bridge_apid0057",
+    "body": "bridge_apid0057",
+    "description": "[AIM] bridge_apid0057"
+  },
+  "aim: sc_umbil_snp": {
+    "prefix": "sc_umbil_snp",
+    "body": "sc_umbil_snp",
+    "description": "[AIM] sc_umbil_snp"
+  },
+  "aim: sofietlm": {
+    "prefix": "sofietlm",
+    "body": "sofietlm",
+    "description": "[AIM] sofietlm"
+  },
+  "aim: acs_ape_snp": {
+    "prefix": "acs_ape_snp",
+    "body": "acs_ape_snp",
+    "description": "[AIM] acs_ape_snp"
+  },
+  "aim: rts_057_build": {
+    "prefix": "rts_057_build",
+    "body": "rts_057_build",
+    "description": "[AIM] rts_057_build"
+  },
+  "aim: rts_009_build": {
+    "prefix": "rts_009_build",
+    "body": "rts_009_build",
+    "description": "[AIM] rts_009_build"
+  },
+  "aim: sc_umbil_tst": {
+    "prefix": "sc_umbil_tst",
+    "body": "sc_umbil_tst",
+    "description": "[AIM] sc_umbil_tst"
+  },
+  "aim: cdh_main_dd": {
+    "prefix": "cdh_main_dd",
+    "body": "cdh_main_dd",
+    "description": "[AIM] cdh_main_dd"
+  },
+  "aim: flatsat_cmd": {
+    "prefix": "flatsat_cmd",
+    "body": "flatsat_cmd ${1:\\$state}",
+    "description": "[AIM] flatsat_cmd"
+  },
+  "aim: acs_ape_tst": {
+    "prefix": "acs_ape_tst",
+    "body": "acs_ape_tst",
+    "description": "[AIM] acs_ape_tst"
+  },
+  "aim: cde_channel_on": {
+    "prefix": "cde_channel_on",
+    "body": "cde_channel_on ${1:\\$chan}",
+    "description": "[AIM] cde_channel_on"
+  },
+  "aim: rts_092_build": {
+    "prefix": "rts_092_build",
+    "body": "rts_092_build",
+    "description": "[AIM] rts_092_build"
+  },
+  "aim: mscmd": {
+    "prefix": "mscmd",
+    "body": "mscmd",
+    "description": "[AIM] mscmd"
+  },
+  "aim: st1_turn_on": {
+    "prefix": "st1_turn_on",
+    "body": "st1_turn_on",
+    "description": "[AIM] st1_turn_on"
+  },
+  "aim: xbtlm": {
+    "prefix": "xbtlm",
+    "body": "xbtlm",
+    "description": "[AIM] xbtlm"
+  },
+  "aim: sc_cmd_precheck": {
+    "prefix": "sc_cmd_precheck",
+    "body": "sc_cmd_precheck",
+    "description": "[AIM] sc_cmd_precheck"
+  },
+  "aim: instcmd": {
+    "prefix": "instcmd",
+    "body": "instcmd",
+    "description": "[AIM] instcmd"
+  },
+  "aim: bridge_apid0101": {
+    "prefix": "bridge_apid0101",
+    "body": "bridge_apid0101",
+    "description": "[AIM] bridge_apid0101"
+  },
+  "aim: plot_03_tst": {
+    "prefix": "plot_03_tst",
+    "body": "plot_03_tst",
+    "description": "[AIM] plot_03_tst"
+  },
+  "aim: sof_sys_reset": {
+    "prefix": "sof_sys_reset",
+    "body": "sof_sys_reset ${1:\\$cdh_od}, ${2:\\$cdh_image}, ${3:\\$ssb_od}, ${4:\\$ssb_image}",
+    "description": "[AIM] sof_sys_reset"
+  },
+  "aim: cmd_safety_level": {
+    "prefix": "cmd_safety_level",
+    "body": "cmd_safety_level ${1:\\$IT_OR_FLIGHT}",
+    "description": "[AIM] cmd_safety_level"
+  },
+  "aim: plot_07_tst": {
+    "prefix": "plot_07_tst",
+    "body": "plot_07_tst",
+    "description": "[AIM] plot_07_tst"
+  },
+  "aim: plot_16_dd": {
+    "prefix": "plot_16_dd",
+    "body": "plot_16_dd",
+    "description": "[AIM] plot_16_dd"
+  },
+  "aim: rts_020_build": {
+    "prefix": "rts_020_build",
+    "body": "rts_020_build",
+    "description": "[AIM] rts_020_build"
+  },
+  "aim: cde_4_sofie": {
+    "prefix": "cde_4_sofie",
+    "body": "cde_4_sofie",
+    "description": "[AIM] cde_4_sofie"
+  },
+  "aim: acs_rwa_dd": {
+    "prefix": "acs_rwa_dd",
+    "body": "acs_rwa_dd",
+    "description": "[AIM] acs_rwa_dd"
+  },
+  "aim: acs_mtb_dd": {
+    "prefix": "acs_mtb_dd",
+    "body": "acs_mtb_dd",
+    "description": "[AIM] acs_mtb_dd"
+  },
+  "aim: resume_pbk": {
+    "prefix": "resume_pbk",
+    "body": "resume_pbk",
+    "description": "[AIM] resume_pbk"
+  },
+  "aim: obc_xb_snp": {
+    "prefix": "obc_xb_snp",
+    "body": "obc_xb_snp",
+    "description": "[AIM] obc_xb_snp"
+  },
+  "aim: acs_slew_tst": {
+    "prefix": "acs_slew_tst",
+    "body": "acs_slew_tst",
+    "description": "[AIM] acs_slew_tst"
+  },
+  "aim: rts_008_build": {
+    "prefix": "rts_008_build",
+    "body": "rts_008_build",
+    "description": "[AIM] rts_008_build"
+  },
+  "aim: dump_table": {
+    "prefix": "dump_table",
+    "body": "dump_table ${1:\\$NAME}",
+    "description": "[AIM] dump_table"
+  },
+  "aim: sof_ob4_dd": {
+    "prefix": "sof_ob4_dd",
+    "body": "sof_ob4_dd",
+    "description": "[AIM] sof_ob4_dd"
+  },
+  "aim: cps_crc_flex_dd": {
+    "prefix": "cps_crc_flex_dd",
+    "body": "cps_crc_flex_dd",
+    "description": "[AIM] cps_crc_flex_dd"
+  },
+  "aim: acs_slew_snp": {
+    "prefix": "acs_slew_snp",
+    "body": "acs_slew_snp",
+    "description": "[AIM] acs_slew_snp"
+  },
+  "aim: obc_xb_tst": {
+    "prefix": "obc_xb_tst",
+    "body": "obc_xb_tst",
+    "description": "[AIM] obc_xb_tst"
+  },
+  "aim: rts_056_build": {
+    "prefix": "rts_056_build",
+    "body": "rts_056_build",
+    "description": "[AIM] rts_056_build"
+  },
+  "aim: iru_turn_off": {
+    "prefix": "iru_turn_off",
+    "body": "iru_turn_off",
+    "description": "[AIM] iru_turn_off"
+  },
+  "aim: low_rt_lim": {
+    "prefix": "low_rt_lim",
+    "body": "low_rt_lim",
+    "description": "[AIM] low_rt_lim"
+  },
+  "aim: pbk_ps_rsm": {
+    "prefix": "pbk_ps_rsm",
+    "body": "pbk_ps_rsm",
+    "description": "[AIM] pbk_ps_rsm"
+  },
+  "aim: cips_img_viewer": {
+    "prefix": "cips_img_viewer",
+    "body": "cips_img_viewer",
+    "description": "[AIM] cips_img_viewer"
+  },
+  "aim: s2_reset": {
+    "prefix": "s2_reset",
+    "body": "s2_reset",
+    "description": "[AIM] s2_reset"
+  },
+  "aim: rts_093_build": {
+    "prefix": "rts_093_build",
+    "body": "rts_093_build",
+    "description": "[AIM] rts_093_build"
+  },
+  "aim: broadcaster_ois": {
+    "prefix": "broadcaster_ois",
+    "body": "broadcaster_ois ${1:\\$vcdu_host}",
+    "description": "[AIM] broadcaster_ois"
+  },
+  "aim: bridge_apid0106": {
+    "prefix": "bridge_apid0106",
+    "body": "bridge_apid0106",
+    "description": "[AIM] bridge_apid0106"
+  },
+  "aim: eps_pwsw_dd": {
+    "prefix": "eps_pwsw_dd",
+    "body": "eps_pwsw_dd",
+    "description": "[AIM] eps_pwsw_dd"
+  },
+  "aim: bridge_apid2034": {
+    "prefix": "bridge_apid2034",
+    "body": "bridge_apid2034",
+    "description": "[AIM] bridge_apid2034"
+  },
+  "aim: sof_sw_chop_off": {
+    "prefix": "sof_sw_chop_off",
+    "body": "sof_sw_chop_off",
+    "description": "[AIM] sof_sw_chop_off"
+  },
+  "aim: bridge_apid1540": {
+    "prefix": "bridge_apid1540",
+    "body": "bridge_apid1540",
+    "description": "[AIM] bridge_apid1540"
+  },
+  "aim: vr_report": {
+    "prefix": "vr_report",
+    "body": "vr_report ${1:\\$vr1_dsid}, ${2:\\$vr2_dsid}, ${3:\\$vr3_dsid}, ${4:\\$vr4_dsid}",
+    "description": "[AIM] vr_report"
+  },
+  "aim: rts_023_build": {
+    "prefix": "rts_023_build",
+    "body": "rts_023_build",
+    "description": "[AIM] rts_023_build"
+  },
+  "aim: peg_diag_dd": {
+    "prefix": "peg_diag_dd",
+    "body": "peg_diag_dd",
+    "description": "[AIM] peg_diag_dd"
+  },
+  "aim: tdsp_set_time": {
+    "prefix": "tdsp_set_time",
+    "body": "tdsp_set_time",
+    "description": "[AIM] tdsp_set_time"
+  },
+  "aim: cips_nom_rate": {
+    "prefix": "cips_nom_rate",
+    "body": "cips_nom_rate",
+    "description": "[AIM] cips_nom_rate"
+  },
+  "aim: sof_vfy_memory": {
+    "prefix": "sof_vfy_memory",
+    "body": "sof_vfy_memory",
+    "description": "[AIM] sof_vfy_memory"
+  },
+  "aim: gcmr_setup": {
+    "prefix": "gcmr_setup",
+    "body": "gcmr_setup",
+    "description": "[AIM] gcmr_setup"
+  },
+  "aim: cps_main_snp": {
+    "prefix": "cps_main_snp",
+    "body": "cps_main_snp",
+    "description": "[AIM] cps_main_snp"
+  },
+  "aim: s2cmd": {
+    "prefix": "s2cmd",
+    "body": "s2cmd",
+    "description": "[AIM] s2cmd"
+  },
+  "aim: plot_21_dd": {
+    "prefix": "plot_21_dd",
+    "body": "plot_21_dd",
+    "description": "[AIM] plot_21_dd"
+  },
+  "aim: sof_main_dd": {
+    "prefix": "sof_main_dd",
+    "body": "sof_main_dd",
+    "description": "[AIM] sof_main_dd"
+  },
+  "aim: ep_obccmd": {
+    "prefix": "ep_obccmd",
+    "body": "ep_obccmd",
+    "description": "[AIM] ep_obccmd"
+  },
+  "aim: cps_main_tst": {
+    "prefix": "cps_main_tst",
+    "body": "cps_main_tst",
+    "description": "[AIM] cps_main_tst"
+  },
+  "aim: rts_090_build": {
+    "prefix": "rts_090_build",
+    "body": "rts_090_build",
+    "description": "[AIM] rts_090_build"
+  },
+  "aim: ops_eng_sync": {
+    "prefix": "ops_eng_sync",
+    "body": "ops_eng_sync",
+    "description": "[AIM] ops_eng_sync"
+  },
+  "aim: sof_hk_eng": {
+    "prefix": "sof_hk_eng",
+    "body": "sof_hk_eng",
+    "description": "[AIM] sof_hk_eng"
+  },
+  "aim: bridge_apid1547": {
+    "prefix": "bridge_apid1547",
+    "body": "bridge_apid1547",
+    "description": "[AIM] bridge_apid1547"
+  },
+  "aim: bridge_apid0307": {
+    "prefix": "bridge_apid0307",
+    "body": "bridge_apid0307",
+    "description": "[AIM] bridge_apid0307"
+  },
+  "aim: eps_pswa_dd": {
+    "prefix": "eps_pswa_dd",
+    "body": "eps_pswa_dd",
+    "description": "[AIM] eps_pswa_dd"
+  },
+  "aim: bridge_apid0010": {
+    "prefix": "bridge_apid0010",
+    "body": "bridge_apid0010",
+    "description": "[AIM] bridge_apid0010"
+  },
+  "aim: t_040_ape_v2": {
+    "prefix": "t_040_ape_v2",
+    "body": "t_040_ape_v2",
+    "description": "[AIM] t_040_ape_v2"
+  },
+  "aim: cde_chantest_1": {
+    "prefix": "cde_chantest_1",
+    "body": "cde_chantest_1",
+    "description": "[AIM] cde_chantest_1"
+  },
+  "aim: sof_vfy_sram_cdh": {
+    "prefix": "sof_vfy_sram_cdh",
+    "body": "sof_vfy_sram_cdh",
+    "description": "[AIM] sof_vfy_sram_cdh"
+  },
+  "aim: rts_055_build": {
+    "prefix": "rts_055_build",
+    "body": "rts_055_build",
+    "description": "[AIM] rts_055_build"
+  },
+  "aim: tocmd": {
+    "prefix": "tocmd",
+    "body": "tocmd",
+    "description": "[AIM] tocmd"
+  },
+  "aim: launchtables": {
+    "prefix": "launchtables",
+    "body": "launchtables ${1:\\$PROCESSOR}",
+    "description": "[AIM] launchtables"
+  },
+  "aim: dl_ulcmd": {
+    "prefix": "dl_ulcmd",
+    "body": "dl_ulcmd",
+    "description": "[AIM] dl_ulcmd"
+  },
+  "aim: rts_022_build": {
+    "prefix": "rts_022_build",
+    "body": "rts_022_build",
+    "description": "[AIM] rts_022_build"
+  },
+  "aim: eps_shed_snp": {
+    "prefix": "eps_shed_snp",
+    "body": "eps_shed_snp",
+    "description": "[AIM] eps_shed_snp"
+  },
+  "aim: cde_thresh_low": {
+    "prefix": "cde_thresh_low",
+    "body": "cde_thresh_low",
+    "description": "[AIM] cde_thresh_low"
+  },
+  "aim: cde_itf_dd": {
+    "prefix": "cde_itf_dd",
+    "body": "cde_itf_dd",
+    "description": "[AIM] cde_itf_dd"
+  },
+  "aim: flex_dat_snp": {
+    "prefix": "flex_dat_snp",
+    "body": "flex_dat_snp",
+    "description": "[AIM] flex_dat_snp"
+  },
+  "aim: eps_shed_tst": {
+    "prefix": "eps_shed_tst",
+    "body": "eps_shed_tst",
+    "description": "[AIM] eps_shed_tst"
+  },
+  "aim: flex_dat_tst": {
+    "prefix": "flex_dat_tst",
+    "body": "flex_dat_tst",
+    "description": "[AIM] flex_dat_tst"
+  },
+  "aim: goods_lim": {
+    "prefix": "goods_lim",
+    "body": "goods_lim",
+    "description": "[AIM] goods_lim"
+  },
+  "aim: sofiecmd": {
+    "prefix": "sofiecmd",
+    "body": "sofiecmd",
+    "description": "[AIM] sofiecmd"
+  },
+  "aim: sa_phase4deploy": {
+    "prefix": "sa_phase4deploy",
+    "body": "sa_phase4deploy",
+    "description": "[AIM] sa_phase4deploy"
+  },
+  "aim: print_table": {
+    "prefix": "print_table",
+    "body": "print_table ${1:\\$TABLE}, ${2:\\$IMAGE}",
+    "description": "[AIM] print_table"
+  },
+  "aim: dload_rts": {
+    "prefix": "dload_rts",
+    "body": "dload_rts ${1:\\$rts_number}, ${2:\\$from_image}, ${3:\\$commit_op}",
+    "description": "[AIM] dload_rts"
+  },
+  "aim: sof_ob4_tst": {
+    "prefix": "sof_ob4_tst",
+    "body": "sof_ob4_tst",
+    "description": "[AIM] sof_ob4_tst"
+  },
+  "aim: norm_lim": {
+    "prefix": "norm_lim",
+    "body": "norm_lim",
+    "description": "[AIM] norm_lim"
+  },
+  "aim: clracsfdc": {
+    "prefix": "clracsfdc",
+    "body": "clracsfdc",
+    "description": "[AIM] clracsfdc"
+  },
+  "aim: sof_ob4_snp": {
+    "prefix": "sof_ob4_snp",
+    "body": "sof_ob4_snp",
+    "description": "[AIM] sof_ob4_snp"
+  },
+  "aim: copy_table": {
+    "prefix": "copy_table",
+    "body": "copy_table ${1:\\$TABLE}, ${2:\\$IMAGE}",
+    "description": "[AIM] copy_table"
+  },
+  "aim: rts_091_build": {
+    "prefix": "rts_091_build",
+    "body": "rts_091_build",
+    "description": "[AIM] rts_091_build"
+  },
+  "aim: window_defs": {
+    "prefix": "window_defs",
+    "body": "window_defs",
+    "description": "[AIM] window_defs"
+  },
+  "aim: acs_mtb_tst": {
+    "prefix": "acs_mtb_tst",
+    "body": "acs_mtb_tst",
+    "description": "[AIM] acs_mtb_tst"
+  },
+  "aim: cips_turn_off": {
+    "prefix": "cips_turn_off",
+    "body": "cips_turn_off",
+    "description": "[AIM] cips_turn_off"
+  },
+  "aim: cps_hkt_snp": {
+    "prefix": "cps_hkt_snp",
+    "body": "cps_hkt_snp",
+    "description": "[AIM] cps_hkt_snp"
+  },
+  "aim: sun_angle": {
+    "prefix": "sun_angle",
+    "body": "sun_angle",
+    "description": "[AIM] sun_angle"
+  },
+  "aim: bridge_apid0019": {
+    "prefix": "bridge_apid0019",
+    "body": "bridge_apid0019",
+    "description": "[AIM] bridge_apid0019"
+  },
+  "aim: aim_macros": {
+    "prefix": "aim_macros",
+    "body": "aim_macros",
+    "description": "[AIM] aim_macros"
+  },
+  "aim: acs_mtb_snp": {
+    "prefix": "acs_mtb_snp",
+    "body": "acs_mtb_snp",
+    "description": "[AIM] acs_mtb_snp"
+  },
+  "aim: cps_hkt_tst": {
+    "prefix": "cps_hkt_tst",
+    "body": "cps_hkt_tst",
+    "description": "[AIM] cps_hkt_tst"
+  },
+  "aim: rts_054_build": {
+    "prefix": "rts_054_build",
+    "body": "rts_054_build",
+    "description": "[AIM] rts_054_build"
+  },
+  "aim: umb_precheck": {
+    "prefix": "umb_precheck",
+    "body": "umb_precheck",
+    "description": "[AIM] umb_precheck"
+  },
+  "aim: cps_em_tst": {
+    "prefix": "cps_em_tst",
+    "body": "cps_em_tst",
+    "description": "[AIM] cps_em_tst"
+  },
+  "aim: bridge_apid0372": {
+    "prefix": "bridge_apid0372",
+    "body": "bridge_apid0372",
+    "description": "[AIM] bridge_apid0372"
+  },
+  "aim: cps_hkp_tst": {
+    "prefix": "cps_hkp_tst",
+    "body": "cps_hkp_tst",
+    "description": "[AIM] cps_hkp_tst"
+  },
+  "aim: bridge_apid0065": {
+    "prefix": "bridge_apid0065",
+    "body": "bridge_apid0065",
+    "description": "[AIM] bridge_apid0065"
+  },
+  "aim: tlm_mon_dd": {
+    "prefix": "tlm_mon_dd",
+    "body": "tlm_mon_dd",
+    "description": "[AIM] tlm_mon_dd"
+  },
+  "aim: cps_em_snp": {
+    "prefix": "cps_em_snp",
+    "body": "cps_em_snp",
+    "description": "[AIM] cps_em_snp"
+  },
+  "aim: translator_procs": {
+    "prefix": "translator_procs",
+    "body": "translator_procs",
+    "description": "[AIM] translator_procs"
+  },
+  "aim: cps_hkp_snp": {
+    "prefix": "cps_hkp_snp",
+    "body": "cps_hkp_snp",
+    "description": "[AIM] cps_hkp_snp"
+  },
+  "aim: cdh_main_tst": {
+    "prefix": "cdh_main_tst",
+    "body": "cdh_main_tst",
+    "description": "[AIM] cdh_main_tst"
+  },
+  "aim: rts_018_build": {
+    "prefix": "rts_018_build",
+    "body": "rts_018_build",
+    "description": "[AIM] rts_018_build"
+  },
+  "aim: cps_dust_snp": {
+    "prefix": "cps_dust_snp",
+    "body": "cps_dust_snp",
+    "description": "[AIM] cps_dust_snp"
+  },
+  "aim: rts_046_build": {
+    "prefix": "rts_046_build",
+    "body": "rts_046_build",
+    "description": "[AIM] rts_046_build"
+  },
+  "aim: cdh_main_snp": {
+    "prefix": "cdh_main_snp",
+    "body": "cdh_main_snp",
+    "description": "[AIM] cdh_main_snp"
+  },
+  "aim: cps_dust_tst": {
+    "prefix": "cps_dust_tst",
+    "body": "cps_dust_tst",
+    "description": "[AIM] cps_dust_tst"
+  },
+  "aim: acs_aut_tst": {
+    "prefix": "acs_aut_tst",
+    "body": "acs_aut_tst",
+    "description": "[AIM] acs_aut_tst"
+  },
+  "aim: eps_main_snp": {
+    "prefix": "eps_main_snp",
+    "body": "eps_main_snp",
+    "description": "[AIM] eps_main_snp"
+  },
+  "aim: eps_pswa_tst": {
+    "prefix": "eps_pswa_tst",
+    "body": "eps_pswa_tst",
+    "description": "[AIM] eps_pswa_tst"
+  },
+  "aim: acs_iru_tst": {
+    "prefix": "acs_iru_tst",
+    "body": "acs_iru_tst",
+    "description": "[AIM] acs_iru_tst"
+  },
+  "aim: setup_dataserver": {
+    "prefix": "setup_dataserver",
+    "body": "setup_dataserver",
+    "description": "[AIM] setup_dataserver"
+  },
+  "aim: rts_126_build": {
+    "prefix": "rts_126_build",
+    "body": "rts_126_build",
+    "description": "[AIM] rts_126_build"
+  },
+  "aim: rts_083_build": {
+    "prefix": "rts_083_build",
+    "body": "rts_083_build",
+    "description": "[AIM] rts_083_build"
+  },
+  "aim: acs_aut_snp": {
+    "prefix": "acs_aut_snp",
+    "body": "acs_aut_snp",
+    "description": "[AIM] acs_aut_snp"
+  },
+  "aim: eps_main_tst": {
+    "prefix": "eps_main_tst",
+    "body": "eps_main_tst",
+    "description": "[AIM] eps_main_tst"
+  },
+  "aim: acs_iru_snp": {
+    "prefix": "acs_iru_snp",
+    "body": "acs_iru_snp",
+    "description": "[AIM] acs_iru_snp"
+  },
+  "aim: eps_pswa_snp": {
+    "prefix": "eps_pswa_snp",
+    "body": "eps_pswa_snp",
+    "description": "[AIM] eps_pswa_snp"
+  },
+  "aim: t_039_ape_v2": {
+    "prefix": "t_039_ape_v2",
+    "body": "t_039_ape_v2",
+    "description": "[AIM] t_039_ape_v2"
+  },
+  "aim: ops_snp": {
+    "prefix": "ops_snp",
+    "body": "ops_snp",
+    "description": "[AIM] ops_snp"
+  },
+  "aim: dload_ats": {
+    "prefix": "dload_ats",
+    "body": "dload_ats ${1:\\$ats_name}, ${2:\\$from_image}, ${3:\\$commit_op}",
+    "description": "[AIM] dload_ats"
+  },
+  "aim: flow_tlm": {
+    "prefix": "flow_tlm",
+    "body": "flow_tlm ${1:\\$source}, ${2:\\$file}",
+    "description": "[AIM] flow_tlm"
+  },
+  "aim: ops_tst": {
+    "prefix": "ops_tst",
+    "body": "ops_tst",
+    "description": "[AIM] ops_tst"
+  },
+  "aim: st1_init": {
+    "prefix": "st1_init",
+    "body": "st1_init",
+    "description": "[AIM] st1_init"
+  },
+  "aim: bridge_apid0053": {
+    "prefix": "bridge_apid0053",
+    "body": "bridge_apid0053",
+    "description": "[AIM] bridge_apid0053"
+  },
+  "aim: rwa_config": {
+    "prefix": "rwa_config",
+    "body": "rwa_config",
+    "description": "[AIM] rwa_config"
+  },
+  "aim: cps_misc_tst": {
+    "prefix": "cps_misc_tst",
+    "body": "cps_misc_tst",
+    "description": "[AIM] cps_misc_tst"
+  },
+  "aim: dlcmd": {
+    "prefix": "dlcmd",
+    "body": "dlcmd",
+    "description": "[AIM] dlcmd"
+  },
+  "aim: rts_030_build": {
+    "prefix": "rts_030_build",
+    "body": "rts_030_build",
+    "description": "[AIM] rts_030_build"
+  },
+  "aim: remote_ois": {
+    "prefix": "remote_ois",
+    "body": "remote_ois ${1:\\$remote_host}",
+    "description": "[AIM] remote_ois"
+  },
+  "aim: cps_misc_snp": {
+    "prefix": "cps_misc_snp",
+    "body": "cps_misc_snp",
+    "description": "[AIM] cps_misc_snp"
+  },
+  "aim: t_103_sc_v2": {
+    "prefix": "t_103_sc_v2",
+    "body": "t_103_sc_v2",
+    "description": "[AIM] t_103_sc_v2"
+  },
+  "aim: peg_tlm3_dd": {
+    "prefix": "peg_tlm3_dd",
+    "body": "peg_tlm3_dd",
+    "description": "[AIM] peg_tlm3_dd"
+  },
+  "aim: rts_047_build": {
+    "prefix": "rts_047_build",
+    "body": "rts_047_build",
+    "description": "[AIM] rts_047_build"
+  },
+  "aim: rts_019_build": {
+    "prefix": "rts_019_build",
+    "body": "rts_019_build",
+    "description": "[AIM] rts_019_build"
+  },
+  "aim: s1cmd": {
+    "prefix": "s1cmd",
+    "body": "s1cmd",
+    "description": "[AIM] s1cmd"
+  },
+  "aim: plot_22_dd": {
+    "prefix": "plot_22_dd",
+    "body": "plot_22_dd",
+    "description": "[AIM] plot_22_dd"
+  },
+  "aim: xb_1553cmd": {
+    "prefix": "xb_1553cmd",
+    "body": "xb_1553cmd",
+    "description": "[AIM] xb_1553cmd"
+  },
+  "aim: cips_dc_deploy_m": {
+    "prefix": "cips_dc_deploy_m",
+    "body": "cips_dc_deploy_m",
+    "description": "[AIM] cips_dc_deploy_m"
+  },
+  "aim: rts_082_build": {
+    "prefix": "rts_082_build",
+    "body": "rts_082_build",
+    "description": "[AIM] rts_082_build"
+  },
+  "aim: rts_127_build": {
+    "prefix": "rts_127_build",
+    "body": "rts_127_build",
+    "description": "[AIM] rts_127_build"
+  },
+  "aim: sof_hk_tst": {
+    "prefix": "sof_hk_tst",
+    "body": "sof_hk_tst",
+    "description": "[AIM] sof_hk_tst"
+  },
+  "aim: cips_phos_off": {
+    "prefix": "cips_phos_off",
+    "body": "cips_phos_off ${1:\\$cam}",
+    "description": "[AIM] cips_phos_off"
+  },
+  "aim: ld_aim_jmp_62188": {
+    "prefix": "ld_aim_jmp_62188",
+    "body": "ld_aim_jmp_62188",
+    "description": "[AIM] ld_aim_jmp_62188"
+  },
+  "aim: sof_hk_snp": {
+    "prefix": "sof_hk_snp",
+    "body": "sof_hk_snp",
+    "description": "[AIM] sof_hk_snp"
+  },
+  "aim: cps_swsq_dd": {
+    "prefix": "cps_swsq_dd",
+    "body": "cps_swsq_dd",
+    "description": "[AIM] cps_swsq_dd"
+  },
+  "aim: obc_reset": {
+    "prefix": "obc_reset",
+    "body": "obc_reset",
+    "description": "[AIM] obc_reset"
+  },
+  "aim: critical_log": {
+    "prefix": "critical_log",
+    "body": "critical_log",
+    "description": "[AIM] critical_log"
+  },
+  "aim: rts_031_build": {
+    "prefix": "rts_031_build",
+    "body": "rts_031_build",
+    "description": "[AIM] rts_031_build"
+  },
+  "aim: bridge_apid0331": {
+    "prefix": "bridge_apid0331",
+    "body": "bridge_apid0331",
+    "description": "[AIM] bridge_apid0331"
+  },
+  "aim: comm_terminate_r": {
+    "prefix": "comm_terminate_r",
+    "body": "comm_terminate_r",
+    "description": "[AIM] comm_terminate_r"
+  },
+  "aim: cips_phos_on": {
+    "prefix": "cips_phos_on",
+    "body": "cips_phos_on ${1:\\$cam}",
+    "description": "[AIM] cips_phos_on"
+  },
+  "aim: sc_safing": {
+    "prefix": "sc_safing",
+    "body": "sc_safing",
+    "description": "[AIM] sc_safing"
+  },
+  "aim: cips_camera_off": {
+    "prefix": "cips_camera_off",
+    "body": "cips_camera_off ${1:\\$cam}",
+    "description": "[AIM] cips_camera_off"
+  },
+  "aim: sof_ob7_dd": {
+    "prefix": "sof_ob7_dd",
+    "body": "sof_ob7_dd",
+    "description": "[AIM] sof_ob7_dd"
+  },
+  "aim: plot_18_tst": {
+    "prefix": "plot_18_tst",
+    "body": "plot_18_tst",
+    "description": "[AIM] plot_18_tst"
+  },
+  "aim: rts_124_build": {
+    "prefix": "rts_124_build",
+    "body": "rts_124_build",
+    "description": "[AIM] rts_124_build"
+  },
+  "aim: limits_switch": {
+    "prefix": "limits_switch",
+    "body": "limits_switch",
+    "description": "[AIM] limits_switch"
+  },
+  "aim: rts_081_build": {
+    "prefix": "rts_081_build",
+    "body": "rts_081_build",
+    "description": "[AIM] rts_081_build"
+  },
+  "aim: cips_eeprom": {
+    "prefix": "cips_eeprom",
+    "body": "cips_eeprom",
+    "description": "[AIM] cips_eeprom"
+  },
+  "aim: aim_trend": {
+    "prefix": "aim_trend",
+    "body": "aim_trend ${1:\\$state}",
+    "description": "[AIM] aim_trend"
+  },
+  "aim: insert_table": {
+    "prefix": "insert_table",
+    "body": "insert_table ${1:\\$TABLE}, ${2:\\$VERSION}, ${3:\\$DESCRIPTION}",
+    "description": "[AIM] insert_table"
+  },
+  "aim: sofietlm2": {
+    "prefix": "sofietlm2",
+    "body": "sofietlm2",
+    "description": "[AIM] sofietlm2"
+  },
+  "aim: rts_044_build": {
+    "prefix": "rts_044_build",
+    "body": "rts_044_build",
+    "description": "[AIM] rts_044_build"
+  },
+  "aim: sof_cvropen_wrap": {
+    "prefix": "sof_cvropen_wrap",
+    "body": "sof_cvropen_wrap ${1:\\$pwr_side}, ${2:\\$pin}",
+    "description": "[AIM] sof_cvropen_wrap"
+  },
+  "aim: low_rt_rts_sh": {
+    "prefix": "low_rt_rts_sh",
+    "body": "low_rt_rts_sh",
+    "description": "[AIM] low_rt_rts_sh"
+  },
+  "aim: obc_xb_dd": {
+    "prefix": "obc_xb_dd",
+    "body": "obc_xb_dd",
+    "description": "[AIM] obc_xb_dd"
+  },
+  "aim: cde_chantest_2": {
+    "prefix": "cde_chantest_2",
+    "body": "cde_chantest_2",
+    "description": "[AIM] cde_chantest_2"
+  },
+  "aim: cps_gmb_ld": {
+    "prefix": "cps_gmb_ld",
+    "body": "cps_gmb_ld",
+    "description": "[AIM] cps_gmb_ld"
+  },
+  "aim: ds_main_dd": {
+    "prefix": "ds_main_dd",
+    "body": "ds_main_dd",
+    "description": "[AIM] ds_main_dd"
+  },
+  "aim: rts_032_build": {
+    "prefix": "rts_032_build",
+    "body": "rts_032_build",
+    "description": "[AIM] rts_032_build"
+  },
+  "aim: cde_gmb_tlm": {
+    "prefix": "cde_gmb_tlm",
+    "body": "cde_gmb_tlm",
+    "description": "[AIM] cde_gmb_tlm"
+  },
+  "aim: bridge_apid0014": {
+    "prefix": "bridge_apid0014",
+    "body": "bridge_apid0014",
+    "description": "[AIM] bridge_apid0014"
+  },
+  "aim: t_101_sc_v2": {
+    "prefix": "t_101_sc_v2",
+    "body": "t_101_sc_v2",
+    "description": "[AIM] t_101_sc_v2"
+  },
+  "aim: limit_on": {
+    "prefix": "limit_on",
+    "body": "limit_on ${1:\\$ext_elmnt}, ${2:\\$item_name}",
+    "description": "[AIM] limit_on"
+  },
+  "aim: acs_sta_dd": {
+    "prefix": "acs_sta_dd",
+    "body": "acs_sta_dd",
+    "description": "[AIM] acs_sta_dd"
+  },
+  "aim: sof_ob_limit_upd": {
+    "prefix": "sof_ob_limit_upd",
+    "body": "sof_ob_limit_upd",
+    "description": "[AIM] sof_ob_limit_upd"
+  },
+  "aim: gumbl_sc_tst": {
+    "prefix": "gumbl_sc_tst",
+    "body": "gumbl_sc_tst",
+    "description": "[AIM] gumbl_sc_tst"
+  },
+  "aim: isim_st_tst": {
+    "prefix": "isim_st_tst",
+    "body": "isim_st_tst",
+    "description": "[AIM] isim_st_tst"
+  },
+  "aim: sof_aut_dd": {
+    "prefix": "sof_aut_dd",
+    "body": "sof_aut_dd",
+    "description": "[AIM] sof_aut_dd"
+  },
+  "aim: eps_main_dd": {
+    "prefix": "eps_main_dd",
+    "body": "eps_main_dd",
+    "description": "[AIM] eps_main_dd"
+  },
+  "aim: update_db_mor": {
+    "prefix": "update_db_mor",
+    "body": "update_db_mor",
+    "description": "[AIM] update_db_mor"
+  },
+  "aim: st1_acqs_dd": {
+    "prefix": "st1_acqs_dd",
+    "body": "st1_acqs_dd",
+    "description": "[AIM] st1_acqs_dd"
+  },
+  "aim: isim_st_snp": {
+    "prefix": "isim_st_snp",
+    "body": "isim_st_snp",
+    "description": "[AIM] isim_st_snp"
+  },
+  "aim: plot_14_tst": {
+    "prefix": "plot_14_tst",
+    "body": "plot_14_tst",
+    "description": "[AIM] plot_14_tst"
+  },
+  "aim: manual_load_shed": {
+    "prefix": "manual_load_shed",
+    "body": "manual_load_shed",
+    "description": "[AIM] manual_load_shed"
+  },
+  "aim: plot_10_tst": {
+    "prefix": "plot_10_tst",
+    "body": "plot_10_tst",
+    "description": "[AIM] plot_10_tst"
+  },
+  "aim: bridge_apid0068": {
+    "prefix": "bridge_apid0068",
+    "body": "bridge_apid0068",
+    "description": "[AIM] bridge_apid0068"
+  },
+  "aim: cips_turn_on": {
+    "prefix": "cips_turn_on",
+    "body": "cips_turn_on ${1:\\$side}",
+    "description": "[AIM] cips_turn_on"
+  },
+  "aim: plot_15_dd": {
+    "prefix": "plot_15_dd",
+    "body": "plot_15_dd",
+    "description": "[AIM] plot_15_dd"
+  },
+  "aim: cips_high_rate": {
+    "prefix": "cips_high_rate",
+    "body": "cips_high_rate",
+    "description": "[AIM] cips_high_rate"
+  },
+  "aim: cps_sc_snp": {
+    "prefix": "cps_sc_snp",
+    "body": "cps_sc_snp",
+    "description": "[AIM] cps_sc_snp"
+  },
+  "aim: cps_sc_tst": {
+    "prefix": "cps_sc_tst",
+    "body": "cps_sc_tst",
+    "description": "[AIM] cps_sc_tst"
+  },
+  "aim: leop_cont_lim": {
+    "prefix": "leop_cont_lim",
+    "body": "leop_cont_lim",
+    "description": "[AIM] leop_cont_lim"
+  },
+  "aim: t_057_ape_v2": {
+    "prefix": "t_057_ape_v2",
+    "body": "t_057_ape_v2",
+    "description": "[AIM] t_057_ape_v2"
+  },
+  "aim: ld_shed_recovery": {
+    "prefix": "ld_shed_recovery",
+    "body": "ld_shed_recovery",
+    "description": "[AIM] ld_shed_recovery"
+  },
+  "aim: rts_117_build002": {
+    "prefix": "rts_117_build002",
+    "body": "rts_117_build002",
+    "description": "[AIM] rts_117_build002"
+  },
+  "aim: rts_080_build": {
+    "prefix": "rts_080_build",
+    "body": "rts_080_build",
+    "description": "[AIM] rts_080_build"
+  },
+  "aim: dltlm": {
+    "prefix": "dltlm",
+    "body": "dltlm",
+    "description": "[AIM] dltlm"
+  },
+  "aim: umb_postcheck": {
+    "prefix": "umb_postcheck",
+    "body": "umb_postcheck",
+    "description": "[AIM] umb_postcheck"
+  },
+  "aim: rts_125_build": {
+    "prefix": "rts_125_build",
+    "body": "rts_125_build",
+    "description": "[AIM] rts_125_build"
+  },
+  "aim: bridge_apid0371": {
+    "prefix": "bridge_apid0371",
+    "body": "bridge_apid0371",
+    "description": "[AIM] bridge_apid0371"
+  },
+  "aim: suromhkp_tst": {
+    "prefix": "suromhkp_tst",
+    "body": "suromhkp_tst",
+    "description": "[AIM] suromhkp_tst"
+  },
+  "aim: isim_cmd_prcs": {
+    "prefix": "isim_cmd_prcs",
+    "body": "isim_cmd_prcs",
+    "description": "[AIM] isim_cmd_prcs"
+  },
+  "aim: cps_gmbe_tst": {
+    "prefix": "cps_gmbe_tst",
+    "body": "cps_gmbe_tst",
+    "description": "[AIM] cps_gmbe_tst"
+  },
+  "aim: bridge_apid2045": {
+    "prefix": "bridge_apid2045",
+    "body": "bridge_apid2045",
+    "description": "[AIM] bridge_apid2045"
+  },
+  "aim: cde_channeltest": {
+    "prefix": "cde_channeltest",
+    "body": "cde_channeltest",
+    "description": "[AIM] cde_channeltest"
+  },
+  "aim: suromhkp_snp": {
+    "prefix": "suromhkp_snp",
+    "body": "suromhkp_snp",
+    "description": "[AIM] suromhkp_snp"
+  },
+  "aim: plot_03_dd": {
+    "prefix": "plot_03_dd",
+    "body": "plot_03_dd",
+    "description": "[AIM] plot_03_dd"
+  },
+  "aim: t_041_ape_v2": {
+    "prefix": "t_041_ape_v2",
+    "body": "t_041_ape_v2",
+    "description": "[AIM] t_041_ape_v2"
+  },
+  "aim: cps_gmbe_snp": {
+    "prefix": "cps_gmbe_snp",
+    "body": "cps_gmbe_snp",
+    "description": "[AIM] cps_gmbe_snp"
+  },
+  "aim: sof_door_sci": {
+    "prefix": "sof_door_sci",
+    "body": "sof_door_sci",
+    "description": "[AIM] sof_door_sci"
+  },
+  "aim: rts_045_build": {
+    "prefix": "rts_045_build",
+    "body": "rts_045_build",
+    "description": "[AIM] rts_045_build"
+  },
+  "aim: cips_ips_on": {
+    "prefix": "cips_ips_on",
+    "body": "cips_ips_on ${1:\\$cam}",
+    "description": "[AIM] cips_ips_on"
+  },
+  "aim: mc_setup": {
+    "prefix": "mc_setup",
+    "body": "mc_setup",
+    "description": "[AIM] mc_setup"
+  },
+  "aim: plot_18_dd": {
+    "prefix": "plot_18_dd",
+    "body": "plot_18_dd",
+    "description": "[AIM] plot_18_dd"
+  },
+  "aim: t_100_sc_v2": {
+    "prefix": "t_100_sc_v2",
+    "body": "t_100_sc_v2",
+    "description": "[AIM] t_100_sc_v2"
+  },
+  "aim: rts_033_build": {
+    "prefix": "rts_033_build",
+    "body": "rts_033_build",
+    "description": "[AIM] rts_033_build"
+  },
+  "aim: dump_scevents_td": {
+    "prefix": "dump_scevents_td",
+    "body": "dump_scevents_td",
+    "description": "[AIM] dump_scevents_td"
+  },
+  "aim: automated_noop": {
+    "prefix": "automated_noop",
+    "body": "automated_noop",
+    "description": "[AIM] automated_noop"
+  },
+  "aim: rts_067eq": {
+    "prefix": "rts_067eq",
+    "body": "rts_067eq",
+    "description": "[AIM] rts_067eq"
+  },
+  "aim: sof_sys_tst": {
+    "prefix": "sof_sys_tst",
+    "body": "sof_sys_tst",
+    "description": "[AIM] sof_sys_tst"
+  },
+  "aim: ctsim": {
+    "prefix": "ctsim",
+    "body": "ctsim",
+    "description": "[AIM] ctsim"
+  },
+  "aim: peg_tlm2_tst": {
+    "prefix": "peg_tlm2_tst",
+    "body": "peg_tlm2_tst",
+    "description": "[AIM] peg_tlm2_tst"
+  },
+  "aim: eps_batt_dd": {
+    "prefix": "eps_batt_dd",
+    "body": "eps_batt_dd",
+    "description": "[AIM] eps_batt_dd"
+  },
+  "aim: sof_sys_snp": {
+    "prefix": "sof_sys_snp",
+    "body": "sof_sys_snp",
+    "description": "[AIM] sof_sys_snp"
+  },
+  "aim: cmdverif": {
+    "prefix": "cmdverif",
+    "body": "cmdverif ${1:\\$state}",
+    "description": "[AIM] cmdverif"
+  },
+  "aim: peg_tlm2_snp": {
+    "prefix": "peg_tlm2_snp",
+    "body": "peg_tlm2_snp",
+    "description": "[AIM] peg_tlm2_snp"
+  },
+  "aim: sof_sw_chop_rt": {
+    "prefix": "sof_sw_chop_rt",
+    "body": "sof_sw_chop_rt",
+    "description": "[AIM] sof_sw_chop_rt"
+  },
+  "aim: blind_acq_gn_obc": {
+    "prefix": "blind_acq_gn_obc",
+    "body": "blind_acq_gn_obc",
+    "description": "[AIM] blind_acq_gn_obc"
+  },
+  "aim: plot_01_tst": {
+    "prefix": "plot_01_tst",
+    "body": "plot_01_tst",
+    "description": "[AIM] plot_01_tst"
+  },
+  "aim: rts_034_build": {
+    "prefix": "rts_034_build",
+    "body": "rts_034_build",
+    "description": "[AIM] rts_034_build"
+  },
+  "aim: acs_oomp_dd": {
+    "prefix": "acs_oomp_dd",
+    "body": "acs_oomp_dd",
+    "description": "[AIM] acs_oomp_dd"
+  },
+  "aim: cps_crc_snp": {
+    "prefix": "cps_crc_snp",
+    "body": "cps_crc_snp",
+    "description": "[AIM] cps_crc_snp"
+  },
+  "aim: plot_05_tst": {
+    "prefix": "plot_05_tst",
+    "body": "plot_05_tst",
+    "description": "[AIM] plot_05_tst"
+  },
+  "aim: aim_obc61patch": {
+    "prefix": "aim_obc61patch",
+    "body": "aim_obc61patch",
+    "description": "[AIM] aim_obc61patch"
+  },
+  "aim: cps_crc_tst": {
+    "prefix": "cps_crc_tst",
+    "body": "cps_crc_tst",
+    "description": "[AIM] cps_crc_tst"
+  },
+  "aim: gse_tlm_prcs": {
+    "prefix": "gse_tlm_prcs",
+    "body": "gse_tlm_prcs",
+    "description": "[AIM] gse_tlm_prcs"
+  },
+  "aim: limit_off": {
+    "prefix": "limit_off",
+    "body": "limit_off ${1:\\$ext_elmnt}, ${2:\\$item_name}",
+    "description": "[AIM] limit_off"
+  },
+  "aim: utility_tasks": {
+    "prefix": "utility_tasks",
+    "body": "utility_tasks",
+    "description": "[AIM] utility_tasks"
+  },
+  "aim: sc_cmd_prcs": {
+    "prefix": "sc_cmd_prcs",
+    "body": "sc_cmd_prcs",
+    "description": "[AIM] sc_cmd_prcs"
+  },
+  "aim: rts_087_build": {
+    "prefix": "rts_087_build",
+    "body": "rts_087_build",
+    "description": "[AIM] rts_087_build"
+  },
+  "aim: rts_122_build": {
+    "prefix": "rts_122_build",
+    "body": "rts_122_build",
+    "description": "[AIM] rts_122_build"
+  },
+  "aim: tccmd": {
+    "prefix": "tccmd",
+    "body": "tccmd",
+    "description": "[AIM] tccmd"
+  },
+  "aim: dumpvr": {
+    "prefix": "dumpvr",
+    "body": "dumpvr ${1:\\$vr_num}, ${2:\\$ds_num}",
+    "description": "[AIM] dumpvr"
+  },
+  "aim: gumballs_setup": {
+    "prefix": "gumballs_setup",
+    "body": "gumballs_setup",
+    "description": "[AIM] gumballs_setup"
+  },
+  "aim: bridge_apid0360": {
+    "prefix": "bridge_apid0360",
+    "body": "bridge_apid0360",
+    "description": "[AIM] bridge_apid0360"
+  },
+  "aim: plot_09_tst": {
+    "prefix": "plot_09_tst",
+    "body": "plot_09_tst",
+    "description": "[AIM] plot_09_tst"
+  },
+  "aim: rts_042_build": {
+    "prefix": "rts_042_build",
+    "body": "rts_042_build",
+    "description": "[AIM] rts_042_build"
+  },
+  "aim: cps_ptbl_dd": {
+    "prefix": "cps_ptbl_dd",
+    "body": "cps_ptbl_dd",
+    "description": "[AIM] cps_ptbl_dd"
+  },
+  "aim: cdecmd": {
+    "prefix": "cdecmd",
+    "body": "cdecmd",
+    "description": "[AIM] cdecmd"
+  },
+  "aim: rts_035_build": {
+    "prefix": "rts_035_build",
+    "body": "rts_035_build",
+    "description": "[AIM] rts_035_build"
+  },
+  "aim: bridge_apid0005": {
+    "prefix": "bridge_apid0005",
+    "body": "bridge_apid0005",
+    "description": "[AIM] bridge_apid0005"
+  },
+  "aim: low_rt_no_rts": {
+    "prefix": "low_rt_no_rts",
+    "body": "low_rt_no_rts",
+    "description": "[AIM] low_rt_no_rts"
+  },
+  "aim: bridge_apid1552": {
+    "prefix": "bridge_apid1552",
+    "body": "bridge_apid1552",
+    "description": "[AIM] bridge_apid1552"
+  },
+  "aim: plot_22_tst": {
+    "prefix": "plot_22_tst",
+    "body": "plot_22_tst",
+    "description": "[AIM] plot_22_tst"
+  },
+  "aim: populate_db": {
+    "prefix": "populate_db",
+    "body": "populate_db",
+    "description": "[AIM] populate_db"
+  },
+  "aim: cps_dl_dd": {
+    "prefix": "cps_dl_dd",
+    "body": "cps_dl_dd",
+    "description": "[AIM] cps_dl_dd"
+  },
+  "aim: cscmd": {
+    "prefix": "cscmd",
+    "body": "cscmd",
+    "description": "[AIM] cscmd"
+  },
+  "aim: cps_hkmc_dd": {
+    "prefix": "cps_hkmc_dd",
+    "body": "cps_hkmc_dd",
+    "description": "[AIM] cps_hkmc_dd"
+  },
+  "aim: aac_iru_dd": {
+    "prefix": "aac_iru_dd",
+    "body": "aac_iru_dd",
+    "description": "[AIM] aac_iru_dd"
+  },
+  "aim: rts_123_build": {
+    "prefix": "rts_123_build",
+    "body": "rts_123_build",
+    "description": "[AIM] rts_123_build"
+  },
+  "aim: rts_086_build": {
+    "prefix": "rts_086_build",
+    "body": "rts_086_build",
+    "description": "[AIM] rts_086_build"
+  },
+  "aim: define_tmon": {
+    "prefix": "define_tmon",
+    "body": "define_tmon",
+    "description": "[AIM] define_tmon"
+  },
+  "aim: cips_dark_comp": {
+    "prefix": "cips_dark_comp",
+    "body": "cips_dark_comp ${1:\\$selected_camera}",
+    "description": "[AIM] cips_dark_comp"
+  },
+  "aim: sof_gmb_tlm": {
+    "prefix": "sof_gmb_tlm",
+    "body": "sof_gmb_tlm",
+    "description": "[AIM] sof_gmb_tlm"
+  },
+  "aim: bridge_apid0369": {
+    "prefix": "bridge_apid0369",
+    "body": "bridge_apid0369",
+    "description": "[AIM] bridge_apid0369"
+  },
+  "aim: hdstlm": {
+    "prefix": "hdstlm",
+    "body": "hdstlm",
+    "description": "[AIM] hdstlm"
+  },
+  "aim: jeff_fswcmd": {
+    "prefix": "jeff_fswcmd",
+    "body": "jeff_fswcmd",
+    "description": "[AIM] jeff_fswcmd"
+  },
+  "aim: rts_043_build": {
+    "prefix": "rts_043_build",
+    "body": "rts_043_build",
+    "description": "[AIM] rts_043_build"
+  },
+  "aim: cde_itf_tst": {
+    "prefix": "cde_itf_tst",
+    "body": "cde_itf_tst",
+    "description": "[AIM] cde_itf_tst"
+  },
+  "aim: st1_diag_tst": {
+    "prefix": "st1_diag_tst",
+    "body": "st1_diag_tst",
+    "description": "[AIM] st1_diag_tst"
+  },
+  "aim: plot_20_dd": {
+    "prefix": "plot_20_dd",
+    "body": "plot_20_dd",
+    "description": "[AIM] plot_20_dd"
+  },
+  "aim: bridge_apid0002": {
+    "prefix": "bridge_apid0002",
+    "body": "bridge_apid0002",
+    "description": "[AIM] bridge_apid0002"
+  },
+  "aim: cde_itf_snp": {
+    "prefix": "cde_itf_snp",
+    "body": "cde_itf_snp",
+    "description": "[AIM] cde_itf_snp"
+  },
+  "aim: bridge_apid0315": {
+    "prefix": "bridge_apid0315",
+    "body": "bridge_apid0315",
+    "description": "[AIM] bridge_apid0315"
+  },
+  "aim: flight_tlm_prcs": {
+    "prefix": "flight_tlm_prcs",
+    "body": "flight_tlm_prcs",
+    "description": "[AIM] flight_tlm_prcs"
+  },
+  "aim: peg_tlm1_dd": {
+    "prefix": "peg_tlm1_dd",
+    "body": "peg_tlm1_dd",
+    "description": "[AIM] peg_tlm1_dd"
+  },
+  "aim: st1_diag_snp": {
+    "prefix": "st1_diag_snp",
+    "body": "st1_diag_snp",
+    "description": "[AIM] st1_diag_snp"
+  },
+  "aim: plot_17_dd": {
+    "prefix": "plot_17_dd",
+    "body": "plot_17_dd",
+    "description": "[AIM] plot_17_dd"
+  },
+  "aim: eps_shed_dd": {
+    "prefix": "eps_shed_dd",
+    "body": "eps_shed_dd",
+    "description": "[AIM] eps_shed_dd"
+  },
+  "aim: cps_gmb_tst": {
+    "prefix": "cps_gmb_tst",
+    "body": "cps_gmb_tst",
+    "description": "[AIM] cps_gmb_tst"
+  },
+  "aim: sof_ob2_snp": {
+    "prefix": "sof_ob2_snp",
+    "body": "sof_ob2_snp",
+    "description": "[AIM] sof_ob2_snp"
+  },
+  "aim: route_log_hist": {
+    "prefix": "route_log_hist",
+    "body": "route_log_hist",
+    "description": "[AIM] route_log_hist"
+  },
+  "aim: rts_108_build": {
+    "prefix": "rts_108_build",
+    "body": "rts_108_build",
+    "description": "[AIM] rts_108_build"
+  },
+  "aim: new_sm_cmd": {
+    "prefix": "new_sm_cmd",
+    "body": "new_sm_cmd",
+    "description": "[AIM] new_sm_cmd"
+  },
+  "aim: cps_gmb_snp": {
+    "prefix": "cps_gmb_snp",
+    "body": "cps_gmb_snp",
+    "description": "[AIM] cps_gmb_snp"
+  },
+  "aim: sof_ob2_tst": {
+    "prefix": "sof_ob2_tst",
+    "body": "sof_ob2_tst",
+    "description": "[AIM] sof_ob2_tst"
+  },
+  "aim: clp_stat_tst": {
+    "prefix": "clp_stat_tst",
+    "body": "clp_stat_tst",
+    "description": "[AIM] clp_stat_tst"
+  },
+  "aim: sof_ob6_tst": {
+    "prefix": "sof_ob6_tst",
+    "body": "sof_ob6_tst",
+    "description": "[AIM] sof_ob6_tst"
+  },
+  "aim: rts_036_build": {
+    "prefix": "rts_036_build",
+    "body": "rts_036_build",
+    "description": "[AIM] rts_036_build"
+  },
+  "aim: morse_tst": {
+    "prefix": "morse_tst",
+    "body": "morse_tst",
+    "description": "[AIM] morse_tst"
+  },
+  "aim: st1_star_dd": {
+    "prefix": "st1_star_dd",
+    "body": "st1_star_dd",
+    "description": "[AIM] st1_star_dd"
+  },
+  "aim: sof_ob6_snp": {
+    "prefix": "sof_ob6_snp",
+    "body": "sof_ob6_snp",
+    "description": "[AIM] sof_ob6_snp"
+  },
+  "aim: clp_stat_snp": {
+    "prefix": "clp_stat_snp",
+    "body": "clp_stat_snp",
+    "description": "[AIM] clp_stat_snp"
+  },
+  "aim: bridge_apid0320": {
+    "prefix": "bridge_apid0320",
+    "body": "bridge_apid0320",
+    "description": "[AIM] bridge_apid0320"
+  },
+  "aim: gcmr_terminate": {
+    "prefix": "gcmr_terminate",
+    "body": "gcmr_terminate",
+    "description": "[AIM] gcmr_terminate"
+  },
+  "aim: rts_068_build": {
+    "prefix": "rts_068_build",
+    "body": "rts_068_build",
+    "description": "[AIM] rts_068_build"
+  },
+  "aim: morse_snp": {
+    "prefix": "morse_snp",
+    "body": "morse_snp",
+    "description": "[AIM] morse_snp"
+  },
+  "aim: mor_eor_synch": {
+    "prefix": "mor_eor_synch",
+    "body": "mor_eor_synch",
+    "description": "[AIM] mor_eor_synch"
+  },
+  "aim: save_filenames": {
+    "prefix": "save_filenames",
+    "body": "save_filenames",
+    "description": "[AIM] save_filenames"
+  },
+  "aim: rts_077eq_sh": {
+    "prefix": "rts_077eq_sh",
+    "body": "rts_077eq_sh",
+    "description": "[AIM] rts_077eq_sh"
+  },
+  "aim: set_contingency": {
+    "prefix": "set_contingency",
+    "body": "set_contingency",
+    "description": "[AIM] set_contingency"
+  },
+  "aim: rts_040_build": {
+    "prefix": "rts_040_build",
+    "body": "rts_040_build",
+    "description": "[AIM] rts_040_build"
+  },
+  "aim: cips_camera_on": {
+    "prefix": "cips_camera_on",
+    "body": "cips_camera_on ${1:\\$cam}",
+    "description": "[AIM] cips_camera_on"
+  },
+  "aim: route1_switch_on": {
+    "prefix": "route1_switch_on",
+    "body": "route1_switch_on",
+    "description": "[AIM] route1_switch_on"
+  },
+  "aim: pre2cmd": {
+    "prefix": "pre2cmd",
+    "body": "pre2cmd",
+    "description": "[AIM] pre2cmd"
+  },
+  "aim: bridge_apid0327": {
+    "prefix": "bridge_apid0327",
+    "body": "bridge_apid0327",
+    "description": "[AIM] bridge_apid0327"
+  },
+  "aim: cde_func_test": {
+    "prefix": "cde_func_test",
+    "body": "cde_func_test",
+    "description": "[AIM] cde_func_test"
+  },
+  "aim: sof_check_errs": {
+    "prefix": "sof_check_errs",
+    "body": "sof_check_errs",
+    "description": "[AIM] sof_check_errs"
+  },
+  "aim: gstlm": {
+    "prefix": "gstlm",
+    "body": "gstlm",
+    "description": "[AIM] gstlm"
+  },
+  "aim: hs_main_tst": {
+    "prefix": "hs_main_tst",
+    "body": "hs_main_tst",
+    "description": "[AIM] hs_main_tst"
+  },
+  "aim: cips_crc_verif": {
+    "prefix": "cips_crc_verif",
+    "body": "cips_crc_verif ${1:\\$type}, ${2:\\$addr}, ${3:\\$len}, ${4:\\$crc}",
+    "description": "[AIM] cips_crc_verif"
+  },
+  "aim: rts_085_build": {
+    "prefix": "rts_085_build",
+    "body": "rts_085_build",
+    "description": "[AIM] rts_085_build"
+  },
+  "aim: cdetlm": {
+    "prefix": "cdetlm",
+    "body": "cdetlm",
+    "description": "[AIM] cdetlm"
+  },
+  "aim: bridge_apid0203": {
+    "prefix": "bridge_apid0203",
+    "body": "bridge_apid0203",
+    "description": "[AIM] bridge_apid0203"
+  },
+  "aim: rts_120_build": {
+    "prefix": "rts_120_build",
+    "body": "rts_120_build",
+    "description": "[AIM] rts_120_build"
+  },
+  "aim: hs_main_snp": {
+    "prefix": "hs_main_snp",
+    "body": "hs_main_snp",
+    "description": "[AIM] hs_main_snp"
+  },
+  "aim: cps_cde_dd": {
+    "prefix": "cps_cde_dd",
+    "body": "cps_cde_dd",
+    "description": "[AIM] cps_cde_dd"
+  },
+  "aim: cps_hkt_dd": {
+    "prefix": "cps_hkt_dd",
+    "body": "cps_hkt_dd",
+    "description": "[AIM] cps_hkt_dd"
+  },
+  "aim: sof_ob5_dd": {
+    "prefix": "sof_ob5_dd",
+    "body": "sof_ob5_dd",
+    "description": "[AIM] sof_ob5_dd"
+  },
+  "aim: anctlm": {
+    "prefix": "anctlm",
+    "body": "anctlm",
+    "description": "[AIM] anctlm"
+  },
+  "aim: sof_vfy_stby_cdh": {
+    "prefix": "sof_vfy_stby_cdh",
+    "body": "sof_vfy_stby_cdh",
+    "description": "[AIM] sof_vfy_stby_cdh"
+  },
+  "aim: rts_109_build": {
+    "prefix": "rts_109_build",
+    "body": "rts_109_build",
+    "description": "[AIM] rts_109_build"
+  },
+  "aim: bridge_apid0271": {
+    "prefix": "bridge_apid0271",
+    "body": "bridge_apid0271",
+    "description": "[AIM] bridge_apid0271"
+  },
+  "aim: cps_gmb_dd": {
+    "prefix": "cps_gmb_dd",
+    "body": "cps_gmb_dd",
+    "description": "[AIM] cps_gmb_dd"
+  },
+  "aim: rts_067eq_sh": {
+    "prefix": "rts_067eq_sh",
+    "body": "rts_067eq_sh",
+    "description": "[AIM] rts_067eq_sh"
+  },
+  "aim: acs_main_dd": {
+    "prefix": "acs_main_dd",
+    "body": "acs_main_dd",
+    "description": "[AIM] acs_main_dd"
+  },
+  "aim: aim_test_1_ld": {
+    "prefix": "aim_test_1_ld",
+    "body": "aim_test_1_ld",
+    "description": "[AIM] aim_test_1_ld"
+  },
+  "aim: sof_snap_pic": {
+    "prefix": "sof_snap_pic",
+    "body": "sof_snap_pic",
+    "description": "[AIM] sof_snap_pic"
+  },
+  "aim: rts_069_build": {
+    "prefix": "rts_069_build",
+    "body": "rts_069_build",
+    "description": "[AIM] rts_069_build"
+  },
+  "aim: bridge_apid0093": {
+    "prefix": "bridge_apid0093",
+    "body": "bridge_apid0093",
+    "description": "[AIM] bridge_apid0093"
+  },
+  "aim: rts_037_build": {
+    "prefix": "rts_037_build",
+    "body": "rts_037_build",
+    "description": "[AIM] rts_037_build"
+  },
+  "aim: bridge_apid0355": {
+    "prefix": "bridge_apid0355",
+    "body": "bridge_apid0355",
+    "description": "[AIM] bridge_apid0355"
+  },
+  "aim: bridge_apid0384": {
+    "prefix": "bridge_apid0384",
+    "body": "bridge_apid0384",
+    "description": "[AIM] bridge_apid0384"
+  },
+  "aim: t_104_sc_v2": {
+    "prefix": "t_104_sc_v2",
+    "body": "t_104_sc_v2",
+    "description": "[AIM] t_104_sc_v2"
+  },
+  "aim: tx_emrgncy_off": {
+    "prefix": "tx_emrgncy_off",
+    "body": "tx_emrgncy_off",
+    "description": "[AIM] tx_emrgncy_off"
+  },
+  "aim: cps_swcd_dd": {
+    "prefix": "cps_swcd_dd",
+    "body": "cps_swcd_dd",
+    "description": "[AIM] cps_swcd_dd"
+  },
+  "aim: cde_flsh_tst": {
+    "prefix": "cde_flsh_tst",
+    "body": "cde_flsh_tst",
+    "description": "[AIM] cde_flsh_tst"
+  },
+  "aim: plot_01_dd": {
+    "prefix": "plot_01_dd",
+    "body": "plot_01_dd",
+    "description": "[AIM] plot_01_dd"
+  },
+  "aim: get_sys_pkt": {
+    "prefix": "get_sys_pkt",
+    "body": "get_sys_pkt",
+    "description": "[AIM] get_sys_pkt"
+  },
+  "aim: bridge_apid0094": {
+    "prefix": "bridge_apid0094",
+    "body": "bridge_apid0094",
+    "description": "[AIM] bridge_apid0094"
+  },
+  "aim: rts_041_build": {
+    "prefix": "rts_041_build",
+    "body": "rts_041_build",
+    "description": "[AIM] rts_041_build"
+  },
+  "aim: cmd_verif_switch": {
+    "prefix": "cmd_verif_switch",
+    "body": "cmd_verif_switch",
+    "description": "[AIM] cmd_verif_switch"
+  },
+  "aim: cde_flsh_snp": {
+    "prefix": "cde_flsh_snp",
+    "body": "cde_flsh_snp",
+    "description": "[AIM] cde_flsh_snp"
+  },
+  "aim: bridge_apid0352": {
+    "prefix": "bridge_apid0352",
+    "body": "bridge_apid0352",
+    "description": "[AIM] bridge_apid0352"
+  },
+  "aim: strpatch_moon": {
+    "prefix": "strpatch_moon",
+    "body": "strpatch_moon",
+    "description": "[AIM] strpatch_moon"
+  },
+  "aim: bridge_apid0045": {
+    "prefix": "bridge_apid0045",
+    "body": "bridge_apid0045",
+    "description": "[AIM] bridge_apid0045"
+  },
+  "aim: set_table_value": {
+    "prefix": "set_table_value",
+    "body": "set_table_value ${1:\\$TABLE}, ${2:\\$ITEM}, ${3:\\$VALUE}",
+    "description": "[AIM] set_table_value"
+  },
+  "aim: eps_pwsw_snp": {
+    "prefix": "eps_pwsw_snp",
+    "body": "eps_pwsw_snp",
+    "description": "[AIM] eps_pwsw_snp"
+  },
+  "aim: rts_066eq": {
+    "prefix": "rts_066eq",
+    "body": "rts_066eq",
+    "description": "[AIM] rts_066eq"
+  },
+  "aim: eps_pwsw_tst": {
+    "prefix": "eps_pwsw_tst",
+    "body": "eps_pwsw_tst",
+    "description": "[AIM] eps_pwsw_tst"
+  },
+  "aim: pg_sv_check": {
+    "prefix": "pg_sv_check",
+    "body": "pg_sv_check",
+    "description": "[AIM] pg_sv_check"
+  },
+  "aim: rts_121_build": {
+    "prefix": "rts_121_build",
+    "body": "rts_121_build",
+    "description": "[AIM] rts_121_build"
+  },
+  "aim: rts_084_build": {
+    "prefix": "rts_084_build",
+    "body": "rts_084_build",
+    "description": "[AIM] rts_084_build"
+  },
+  "aim: rts_107_build": {
+    "prefix": "rts_107_build",
+    "body": "rts_107_build",
+    "description": "[AIM] rts_107_build"
+  },
+  "aim: show_flex_dat": {
+    "prefix": "show_flex_dat",
+    "body": "show_flex_dat",
+    "description": "[AIM] show_flex_dat"
+  },
+  "aim: high_rt_rts_sh": {
+    "prefix": "high_rt_rts_sh",
+    "body": "high_rt_rts_sh",
+    "description": "[AIM] high_rt_rts_sh"
+  },
+  "aim: cips_mcp_step_dn": {
+    "prefix": "cips_mcp_step_dn",
+    "body": "cips_mcp_step_dn ${1:\\$cam}, ${2:\\$voltage}",
+    "description": "[AIM] cips_mcp_step_dn"
+  },
+  "aim: tdsp_time_setup": {
+    "prefix": "tdsp_time_setup",
+    "body": "tdsp_time_setup",
+    "description": "[AIM] tdsp_time_setup"
+  },
+  "aim: t_100_sc_v3": {
+    "prefix": "t_100_sc_v3",
+    "body": "t_100_sc_v3",
+    "description": "[AIM] t_100_sc_v3"
+  },
+  "aim: rts_067_build": {
+    "prefix": "rts_067_build",
+    "body": "rts_067_build",
+    "description": "[AIM] rts_067_build"
+  },
+  "aim: load_table": {
+    "prefix": "load_table",
+    "body": "load_table ${1:\\$NAME}",
+    "description": "[AIM] load_table"
+  },
+  "aim: clr_sbpipeover": {
+    "prefix": "clr_sbpipeover",
+    "body": "clr_sbpipeover",
+    "description": "[AIM] clr_sbpipeover"
+  },
+  "aim: rts_039_build": {
+    "prefix": "rts_039_build",
+    "body": "rts_039_build",
+    "description": "[AIM] rts_039_build"
+  },
+  "aim: plot_08_tst": {
+    "prefix": "plot_08_tst",
+    "body": "plot_08_tst",
+    "description": "[AIM] plot_08_tst"
+  },
+  "aim: comm_setup_r": {
+    "prefix": "comm_setup_r",
+    "body": "comm_setup_r ${1:\\$STATION}",
+    "description": "[AIM] comm_setup_r"
+  },
+  "aim: rts_011_build": {
+    "prefix": "rts_011_build",
+    "body": "rts_011_build",
+    "description": "[AIM] rts_011_build"
+  },
+  "aim: cmdctrl_tst": {
+    "prefix": "cmdctrl_tst",
+    "body": "cmdctrl_tst",
+    "description": "[AIM] cmdctrl_tst"
+  },
+  "aim: global_var": {
+    "prefix": "global_var",
+    "body": "global_var",
+    "description": "[AIM] global_var"
+  },
+  "aim: rts_117_build003": {
+    "prefix": "rts_117_build003",
+    "body": "rts_117_build003",
+    "description": "[AIM] rts_117_build003"
+  },
+  "aim: cmdctrl_snp": {
+    "prefix": "cmdctrl_snp",
+    "body": "cmdctrl_snp",
+    "description": "[AIM] cmdctrl_snp"
+  },
+  "aim: dump_vr_all": {
+    "prefix": "dump_vr_all",
+    "body": "dump_vr_all",
+    "description": "[AIM] dump_vr_all"
+  },
+  "aim: sof_gmb_tst": {
+    "prefix": "sof_gmb_tst",
+    "body": "sof_gmb_tst",
+    "description": "[AIM] sof_gmb_tst"
+  },
+  "aim: plot_04_tst": {
+    "prefix": "plot_04_tst",
+    "body": "plot_04_tst",
+    "description": "[AIM] plot_04_tst"
+  },
+  "aim: bridge_apid0370": {
+    "prefix": "bridge_apid0370",
+    "body": "bridge_apid0370",
+    "description": "[AIM] bridge_apid0370"
+  },
+  "aim: bridge_apid0067": {
+    "prefix": "bridge_apid0067",
+    "body": "bridge_apid0067",
+    "description": "[AIM] bridge_apid0067"
+  },
+  "aim: cde_channel_off": {
+    "prefix": "cde_channel_off",
+    "body": "cde_channel_off ${1:\\$chan}",
+    "description": "[AIM] cde_channel_off"
+  },
+  "aim: cde_chnl_dd": {
+    "prefix": "cde_chnl_dd",
+    "body": "cde_chnl_dd",
+    "description": "[AIM] cde_chnl_dd"
+  },
+  "aim: misc_fsw_dd": {
+    "prefix": "misc_fsw_dd",
+    "body": "misc_fsw_dd",
+    "description": "[AIM] misc_fsw_dd"
+  },
+  "aim: sof_gmb_snp": {
+    "prefix": "sof_gmb_snp",
+    "body": "sof_gmb_snp",
+    "description": "[AIM] sof_gmb_snp"
+  },
+  "aim: define_subclps": {
+    "prefix": "define_subclps",
+    "body": "define_subclps",
+    "description": "[AIM] define_subclps"
+  },
+  "aim: xfer_files": {
+    "prefix": "xfer_files",
+    "body": "xfer_files",
+    "description": "[AIM] xfer_files"
+  },
+  "aim: xfer_files_setup": {
+    "prefix": "xfer_files_setup",
+    "body": "xfer_files_setup",
+    "description": "[AIM] xfer_files_setup"
+  },
+  "aim: ancmd": {
+    "prefix": "ancmd",
+    "body": "ancmd",
+    "description": "[AIM] ancmd"
+  },
+  "aim: aim_sta_cmd_test": {
+    "prefix": "aim_sta_cmd_test",
+    "body": "aim_sta_cmd_test",
+    "description": "[AIM] aim_sta_cmd_test"
+  },
+  "aim: cde_auto_cal": {
+    "prefix": "cde_auto_cal",
+    "body": "cde_auto_cal",
+    "description": "[AIM] cde_auto_cal"
+  },
+  "aim: stor_cmd_snp": {
+    "prefix": "stor_cmd_snp",
+    "body": "stor_cmd_snp",
+    "description": "[AIM] stor_cmd_snp"
+  },
+  "aim: select_1553": {
+    "prefix": "select_1553",
+    "body": "select_1553 ${1:\\$INPUT_1553}",
+    "description": "[AIM] select_1553"
+  },
+  "aim: stor_cmd_tst": {
+    "prefix": "stor_cmd_tst",
+    "body": "stor_cmd_tst",
+    "description": "[AIM] stor_cmd_tst"
+  },
+  "aim: rts_106_build": {
+    "prefix": "rts_106_build",
+    "body": "rts_106_build",
+    "description": "[AIM] rts_106_build"
+  },
+  "aim: gumbl_sc_dd": {
+    "prefix": "gumbl_sc_dd",
+    "body": "gumbl_sc_dd",
+    "description": "[AIM] gumbl_sc_dd"
+  },
+  "aim: rts_038_build": {
+    "prefix": "rts_038_build",
+    "body": "rts_038_build",
+    "description": "[AIM] rts_038_build"
+  },
+  "aim: sc_cmd_test": {
+    "prefix": "sc_cmd_test",
+    "body": "sc_cmd_test",
+    "description": "[AIM] sc_cmd_test"
+  },
+  "aim: hs_main_dd": {
+    "prefix": "hs_main_dd",
+    "body": "hs_main_dd",
+    "description": "[AIM] hs_main_dd"
+  },
+  "aim: disapefdc": {
+    "prefix": "disapefdc",
+    "body": "disapefdc",
+    "description": "[AIM] disapefdc"
+  },
+  "aim: blind_acq_td_obc": {
+    "prefix": "blind_acq_td_obc",
+    "body": "blind_acq_td_obc",
+    "description": "[AIM] blind_acq_td_obc"
+  },
+  "aim: show_alarms": {
+    "prefix": "show_alarms",
+    "body": "show_alarms",
+    "description": "[AIM] show_alarms"
+  },
+  "aim: precmd": {
+    "prefix": "precmd",
+    "body": "precmd",
+    "description": "[AIM] precmd"
+  },
+  "aim: rts_066_build": {
+    "prefix": "rts_066_build",
+    "body": "rts_066_build",
+    "description": "[AIM] rts_066_build"
+  },
+  "aim: bridge_apid1539": {
+    "prefix": "bridge_apid1539",
+    "body": "bridge_apid1539",
+    "description": "[AIM] bridge_apid1539"
+  },
+  "aim: st1_acqm_dd": {
+    "prefix": "st1_acqm_dd",
+    "body": "st1_acqm_dd",
+    "description": "[AIM] st1_acqm_dd"
+  },
+  "aim: accmd": {
+    "prefix": "accmd",
+    "body": "accmd",
+    "description": "[AIM] accmd"
+  },
+  "aim: cips_dc_deploy_p": {
+    "prefix": "cips_dc_deploy_p",
+    "body": "cips_dc_deploy_p",
+    "description": "[AIM] cips_dc_deploy_p"
+  },
+  "aim: ape_reset": {
+    "prefix": "ape_reset",
+    "body": "ape_reset",
+    "description": "[AIM] ape_reset"
+  },
+  "aim: rts_010_build": {
+    "prefix": "rts_010_build",
+    "body": "rts_010_build",
+    "description": "[AIM] rts_010_build"
+  },
+  "aim: plot_23_tst": {
+    "prefix": "plot_23_tst",
+    "body": "plot_23_tst",
+    "description": "[AIM] plot_23_tst"
+  },
+  "aim: bridge_apid0012": {
+    "prefix": "bridge_apid0012",
+    "body": "bridge_apid0012",
+    "description": "[AIM] bridge_apid0012"
+  },
+  "aim: acs_rwa_snp": {
+    "prefix": "acs_rwa_snp",
+    "body": "acs_rwa_snp",
+    "description": "[AIM] acs_rwa_snp"
+  },
+  "aim: sucmd": {
+    "prefix": "sucmd",
+    "body": "sucmd",
+    "description": "[AIM] sucmd"
+  },
+  "aim: ois_stat_snp": {
+    "prefix": "ois_stat_snp",
+    "body": "ois_stat_snp",
+    "description": "[AIM] ois_stat_snp"
+  },
+  "aim: morse_dd": {
+    "prefix": "morse_dd",
+    "body": "morse_dd",
+    "description": "[AIM] morse_dd"
+  },
+  "aim: acs_rwa_tst": {
+    "prefix": "acs_rwa_tst",
+    "body": "acs_rwa_tst",
+    "description": "[AIM] acs_rwa_tst"
+  },
+  "aim: cips_dark_uncomp": {
+    "prefix": "cips_dark_uncomp",
+    "body": "cips_dark_uncomp ${1:\\$selected_camera}",
+    "description": "[AIM] cips_dark_uncomp"
+  },
+  "aim: ois_stat_tst": {
+    "prefix": "ois_stat_tst",
+    "body": "ois_stat_tst",
+    "description": "[AIM] ois_stat_tst"
+  },
+  "aim: cips_img_uncomp": {
+    "prefix": "cips_img_uncomp",
+    "body": "cips_img_uncomp ${1:\\$selected_camera}",
+    "description": "[AIM] cips_img_uncomp"
+  },
+  "aim: sutlm": {
+    "prefix": "sutlm",
+    "body": "sutlm",
+    "description": "[AIM] sutlm"
+  },
+  "aim: sc_umbil_dd": {
+    "prefix": "sc_umbil_dd",
+    "body": "sc_umbil_dd",
+    "description": "[AIM] sc_umbil_dd"
+  },
+  "aim: select_cmdchan": {
+    "prefix": "select_cmdchan",
+    "body": "select_cmdchan ${1:\\$chan}",
+    "description": "[AIM] select_cmdchan"
+  },
+  "aim: rts_065_build": {
+    "prefix": "rts_065_build",
+    "body": "rts_065_build",
+    "description": "[AIM] rts_065_build"
+  },
+  "aim: tps_main_dd": {
+    "prefix": "tps_main_dd",
+    "body": "tps_main_dd",
+    "description": "[AIM] tps_main_dd"
+  },
+  "aim: t_043_ape_v2": {
+    "prefix": "t_043_ape_v2",
+    "body": "t_043_ape_v2",
+    "description": "[AIM] t_043_ape_v2"
+  },
+  "aim: tlm_ck": {
+    "prefix": "tlm_ck",
+    "body": "tlm_ck",
+    "description": "[AIM] tlm_ck"
+  },
+  "aim: actlm": {
+    "prefix": "actlm",
+    "body": "actlm",
+    "description": "[AIM] actlm"
+  },
+  "aim: t_026_ape_v2": {
+    "prefix": "t_026_ape_v2",
+    "body": "t_026_ape_v2",
+    "description": "[AIM] t_026_ape_v2"
+  },
+  "aim: rts_105_build": {
+    "prefix": "rts_105_build",
+    "body": "rts_105_build",
+    "description": "[AIM] rts_105_build"
+  },
+  "aim: sbcmd": {
+    "prefix": "sbcmd",
+    "body": "sbcmd",
+    "description": "[AIM] sbcmd"
+  },
+  "aim: eo_tmonconfig": {
+    "prefix": "eo_tmonconfig",
+    "body": "eo_tmonconfig",
+    "description": "[AIM] eo_tmonconfig"
+  },
+  "aim: sof_ob3_snp": {
+    "prefix": "sof_ob3_snp",
+    "body": "sof_ob3_snp",
+    "description": "[AIM] sof_ob3_snp"
+  },
+  "aim: cde_fsw_config": {
+    "prefix": "cde_fsw_config",
+    "body": "cde_fsw_config",
+    "description": "[AIM] cde_fsw_config"
+  },
+  "aim: rcv_tlm": {
+    "prefix": "rcv_tlm",
+    "body": "rcv_tlm",
+    "description": "[AIM] rcv_tlm"
+  },
+  "aim: plot_07_dd": {
+    "prefix": "plot_07_dd",
+    "body": "plot_07_dd",
+    "description": "[AIM] plot_07_dd"
+  },
+  "aim: acs_tam_snp": {
+    "prefix": "acs_tam_snp",
+    "body": "acs_tam_snp",
+    "description": "[AIM] acs_tam_snp"
+  },
+  "aim: sof_ob3_tst": {
+    "prefix": "sof_ob3_tst",
+    "body": "sof_ob3_tst",
+    "description": "[AIM] sof_ob3_tst"
+  },
+  "aim: safehold_trigger": {
+    "prefix": "safehold_trigger",
+    "body": "safehold_trigger",
+    "description": "[AIM] safehold_trigger"
+  },
+  "aim: sof_sys_dd": {
+    "prefix": "sof_sys_dd",
+    "body": "sof_sys_dd",
+    "description": "[AIM] sof_sys_dd"
+  },
+  "aim: acs_tam_tst": {
+    "prefix": "acs_tam_tst",
+    "body": "acs_tam_tst",
+    "description": "[AIM] acs_tam_tst"
+  },
+  "aim: sof_ob7_tst": {
+    "prefix": "sof_ob7_tst",
+    "body": "sof_ob7_tst",
+    "description": "[AIM] sof_ob7_tst"
+  },
+  "aim: cde_auto_snp": {
+    "prefix": "cde_auto_snp",
+    "body": "cde_auto_snp",
+    "description": "[AIM] cde_auto_snp"
+  },
+  "aim: prc_ctrl_dd": {
+    "prefix": "prc_ctrl_dd",
+    "body": "prc_ctrl_dd",
+    "description": "[AIM] prc_ctrl_dd"
+  },
+  "aim: xb_st1tlm": {
+    "prefix": "xb_st1tlm",
+    "body": "xb_st1tlm",
+    "description": "[AIM] xb_st1tlm"
+  },
+  "aim: st1_acqs_snp": {
+    "prefix": "st1_acqs_snp",
+    "body": "st1_acqs_snp",
+    "description": "[AIM] st1_acqs_snp"
+  },
+  "aim: rts_013_build": {
+    "prefix": "rts_013_build",
+    "body": "rts_013_build",
+    "description": "[AIM] rts_013_build"
+  },
+  "aim: sof_ob7_snp": {
+    "prefix": "sof_ob7_snp",
+    "body": "sof_ob7_snp",
+    "description": "[AIM] sof_ob7_snp"
+  },
+  "aim: cde_auto_tst": {
+    "prefix": "cde_auto_tst",
+    "body": "cde_auto_tst",
+    "description": "[AIM] cde_auto_tst"
+  },
+  "aim: sof_dump_mem": {
+    "prefix": "sof_dump_mem",
+    "body": "sof_dump_mem",
+    "description": "[AIM] sof_dump_mem"
+  },
+  "aim: dis_ophtr_pwr_sw": {
+    "prefix": "dis_ophtr_pwr_sw",
+    "body": "dis_ophtr_pwr_sw",
+    "description": "[AIM] dis_ophtr_pwr_sw"
+  },
+  "aim: bridge_apid0104": {
+    "prefix": "bridge_apid0104",
+    "body": "bridge_apid0104",
+    "description": "[AIM] bridge_apid0104"
+  },
+  "aim: st1_acqs_tst": {
+    "prefix": "st1_acqs_tst",
+    "body": "st1_acqs_tst",
+    "description": "[AIM] st1_acqs_tst"
+  },
+  "aim: st1_diag_dd": {
+    "prefix": "st1_diag_dd",
+    "body": "st1_diag_dd",
+    "description": "[AIM] st1_diag_dd"
+  },
+  "aim: rts_064_build": {
+    "prefix": "rts_064_build",
+    "body": "rts_064_build",
+    "description": "[AIM] rts_064_build"
+  },
+  "aim: sof_vfy_safe_cdh": {
+    "prefix": "sof_vfy_safe_cdh",
+    "body": "sof_vfy_safe_cdh",
+    "description": "[AIM] sof_vfy_safe_cdh"
+  },
+  "aim: plot_11_dd": {
+    "prefix": "plot_11_dd",
+    "body": "plot_11_dd",
+    "description": "[AIM] plot_11_dd"
+  },
+  "aim: stop_auto_noop": {
+    "prefix": "stop_auto_noop",
+    "body": "stop_auto_noop",
+    "description": "[AIM] stop_auto_noop"
+  },
+  "aim: antlm": {
+    "prefix": "antlm",
+    "body": "antlm",
+    "description": "[AIM] antlm"
+  },
+  "aim: st1_stat_dd": {
+    "prefix": "st1_stat_dd",
+    "body": "st1_stat_dd",
+    "description": "[AIM] st1_stat_dd"
+  },
+  "aim: bridge_apid0052": {
+    "prefix": "bridge_apid0052",
+    "body": "bridge_apid0052",
+    "description": "[AIM] bridge_apid0052"
+  },
+  "aim: bridge_run": {
+    "prefix": "bridge_run",
+    "body": "bridge_run",
+    "description": "[AIM] bridge_run"
+  },
+  "aim: cps_gmb_tlm": {
+    "prefix": "cps_gmb_tlm",
+    "body": "cps_gmb_tlm",
+    "description": "[AIM] cps_gmb_tlm"
+  },
+  "aim: prc_ctrl_tst": {
+    "prefix": "prc_ctrl_tst",
+    "body": "prc_ctrl_tst",
+    "description": "[AIM] prc_ctrl_tst"
+  },
+  "aim: iru_config": {
+    "prefix": "iru_config",
+    "body": "iru_config",
+    "description": "[AIM] iru_config"
+  },
+  "aim: rts_104_build": {
+    "prefix": "rts_104_build",
+    "body": "rts_104_build",
+    "description": "[AIM] rts_104_build"
+  },
+  "aim: obc_sw_snp": {
+    "prefix": "obc_sw_snp",
+    "body": "obc_sw_snp",
+    "description": "[AIM] obc_sw_snp"
+  },
+  "aim: sxtlm": {
+    "prefix": "sxtlm",
+    "body": "sxtlm",
+    "description": "[AIM] sxtlm"
+  },
+  "aim: sof_all_tec_on": {
+    "prefix": "sof_all_tec_on",
+    "body": "sof_all_tec_on",
+    "description": "[AIM] sof_all_tec_on"
+  },
+  "aim: isim_st_dd": {
+    "prefix": "isim_st_dd",
+    "body": "isim_st_dd",
+    "description": "[AIM] isim_st_dd"
+  },
+  "aim: iru_turn_on": {
+    "prefix": "iru_turn_on",
+    "body": "iru_turn_on",
+    "description": "[AIM] iru_turn_on"
+  },
+  "aim: prc_ctrl_snp": {
+    "prefix": "prc_ctrl_snp",
+    "body": "prc_ctrl_snp",
+    "description": "[AIM] prc_ctrl_snp"
+  },
+  "aim: obc_sw_tst": {
+    "prefix": "obc_sw_tst",
+    "body": "obc_sw_tst",
+    "description": "[AIM] obc_sw_tst"
+  },
+  "aim: cde_wd_reset": {
+    "prefix": "cde_wd_reset",
+    "body": "cde_wd_reset",
+    "description": "[AIM] cde_wd_reset"
+  },
+  "aim: perf_dump": {
+    "prefix": "perf_dump",
+    "body": "perf_dump",
+    "description": "[AIM] perf_dump"
+  },
+  "aim: cips_lns_htr_dis": {
+    "prefix": "cips_lns_htr_dis",
+    "body": "cips_lns_htr_dis ${1:\\$cam}",
+    "description": "[AIM] cips_lns_htr_dis"
+  },
+  "aim: ct_tlm_tst": {
+    "prefix": "ct_tlm_tst",
+    "body": "ct_tlm_tst",
+    "description": "[AIM] ct_tlm_tst"
+  },
+  "aim: sync_oasis": {
+    "prefix": "sync_oasis",
+    "body": "sync_oasis",
+    "description": "[AIM] sync_oasis"
+  },
+  "aim: cde_turn_on": {
+    "prefix": "cde_turn_on",
+    "body": "cde_turn_on ${1:\\$side}",
+    "description": "[AIM] cde_turn_on"
+  },
+  "aim: rts_089_build": {
+    "prefix": "rts_089_build",
+    "body": "rts_089_build",
+    "description": "[AIM] rts_089_build"
+  },
+  "aim: cde_promboot": {
+    "prefix": "cde_promboot",
+    "body": "cde_promboot",
+    "description": "[AIM] cde_promboot"
+  },
+  "aim: ct_tlm_snp": {
+    "prefix": "ct_tlm_snp",
+    "body": "ct_tlm_snp",
+    "description": "[AIM] ct_tlm_snp"
+  },
+  "aim: acs_sol_snp": {
+    "prefix": "acs_sol_snp",
+    "body": "acs_sol_snp",
+    "description": "[AIM] acs_sol_snp"
+  },
+  "aim: rts_012_build": {
+    "prefix": "rts_012_build",
+    "body": "rts_012_build",
+    "description": "[AIM] rts_012_build"
+  },
+  "aim: sof_cover_deploy": {
+    "prefix": "sof_cover_deploy",
+    "body": "sof_cover_deploy ${1:\\$pwr_side}, ${2:\\$pin}",
+    "description": "[AIM] sof_cover_deploy"
+  },
+  "aim: acs_sol_tst": {
+    "prefix": "acs_sol_tst",
+    "body": "acs_sol_tst",
+    "description": "[AIM] acs_sol_tst"
+  },
+  "aim: sof_ob3_dd": {
+    "prefix": "sof_ob3_dd",
+    "body": "sof_ob3_dd",
+    "description": "[AIM] sof_ob3_dd"
+  },
+  "aim: bridge_apid0171": {
+    "prefix": "bridge_apid0171",
+    "body": "bridge_apid0171",
+    "description": "[AIM] bridge_apid0171"
+  },
+  "aim: gumbl_sc_ld": {
+    "prefix": "gumbl_sc_ld",
+    "body": "gumbl_sc_ld",
+    "description": "[AIM] gumbl_sc_ld"
+  },
+  "aim: cips_sram_patch": {
+    "prefix": "cips_sram_patch",
+    "body": "cips_sram_patch",
+    "description": "[AIM] cips_sram_patch"
+  },
+  "aim: cde_cal_tst": {
+    "prefix": "cde_cal_tst",
+    "body": "cde_cal_tst",
+    "description": "[AIM] cde_cal_tst"
+  },
+  "aim: cps_1553_dd": {
+    "prefix": "cps_1553_dd",
+    "body": "cps_1553_dd",
+    "description": "[AIM] cps_1553_dd"
+  },
+  "aim: bridge_apid0095": {
+    "prefix": "bridge_apid0095",
+    "body": "bridge_apid0095",
+    "description": "[AIM] bridge_apid0095"
+  },
+  "aim: smtlm": {
+    "prefix": "smtlm",
+    "body": "smtlm",
+    "description": "[AIM] smtlm"
+  },
+  "aim: bridge_apid0353": {
+    "prefix": "bridge_apid0353",
+    "body": "bridge_apid0353",
+    "description": "[AIM] bridge_apid0353"
+  },
+  "aim: cde_cal_snp": {
+    "prefix": "cde_cal_snp",
+    "body": "cde_cal_snp",
+    "description": "[AIM] cde_cal_snp"
+  },
+  "aim: sofie_postcheck": {
+    "prefix": "sofie_postcheck",
+    "body": "sofie_postcheck",
+    "description": "[AIM] sofie_postcheck"
+  },
+  "aim: plot_24_dd": {
+    "prefix": "plot_24_dd",
+    "body": "plot_24_dd",
+    "description": "[AIM] plot_24_dd"
+  },
+  "aim: ena_ophtr_cntrl": {
+    "prefix": "ena_ophtr_cntrl",
+    "body": "ena_ophtr_cntrl",
+    "description": "[AIM] ena_ophtr_cntrl"
+  },
+  "aim: rts_015_build": {
+    "prefix": "rts_015_build",
+    "body": "rts_015_build",
+    "description": "[AIM] rts_015_build"
+  },
+  "aim: sofie_error_ck": {
+    "prefix": "sofie_error_ck",
+    "body": "sofie_error_ck ${1:\\$STATION}, ${2:\\$ORBNUMB}",
+    "description": "[AIM] sofie_error_ck"
+  },
+  "aim: aim_displays": {
+    "prefix": "aim_displays",
+    "body": "aim_displays",
+    "description": "[AIM] aim_displays"
+  },
+  "aim: flex_dat_dd": {
+    "prefix": "flex_dat_dd",
+    "body": "flex_dat_dd",
+    "description": "[AIM] flex_dat_dd"
+  },
+  "aim: st1_self_test": {
+    "prefix": "st1_self_test",
+    "body": "st1_self_test",
+    "description": "[AIM] st1_self_test"
+  },
+  "aim: bridge_apid0038": {
+    "prefix": "bridge_apid0038",
+    "body": "bridge_apid0038",
+    "description": "[AIM] bridge_apid0038"
+  },
+  "aim: cps_misc_dd": {
+    "prefix": "cps_misc_dd",
+    "body": "cps_misc_dd",
+    "description": "[AIM] cps_misc_dd"
+  },
+  "aim: acs_css_dd": {
+    "prefix": "acs_css_dd",
+    "body": "acs_css_dd",
+    "description": "[AIM] acs_css_dd"
+  },
+  "aim: ape_exe_dd": {
+    "prefix": "ape_exe_dd",
+    "body": "ape_exe_dd",
+    "description": "[AIM] ape_exe_dd"
+  },
+  "aim: sof_turn_on": {
+    "prefix": "sof_turn_on",
+    "body": "sof_turn_on ${1:\\$pwr_side}, ${2:\\$cdh_od}, ${3:\\$cdh_image}, ${4:\\$ssb_od}, ${5:\\$ssb_image}",
+    "description": "[AIM] sof_turn_on"
+  },
+  "aim: c_code_setup": {
+    "prefix": "c_code_setup",
+    "body": "c_code_setup",
+    "description": "[AIM] c_code_setup"
+  },
+  "aim: acs_cont_tst": {
+    "prefix": "acs_cont_tst",
+    "body": "acs_cont_tst",
+    "description": "[AIM] acs_cont_tst"
+  },
+  "aim: rts_063_build": {
+    "prefix": "rts_063_build",
+    "body": "rts_063_build",
+    "description": "[AIM] rts_063_build"
+  },
+  "aim: master_eor": {
+    "prefix": "master_eor",
+    "body": "master_eor",
+    "description": "[AIM] master_eor"
+  },
+  "aim: acs_cont_snp": {
+    "prefix": "acs_cont_snp",
+    "body": "acs_cont_snp",
+    "description": "[AIM] acs_cont_snp"
+  },
+  "aim: sof_vfy_sram_ssb": {
+    "prefix": "sof_vfy_sram_ssb",
+    "body": "sof_vfy_sram_ssb",
+    "description": "[AIM] sof_vfy_sram_ssb"
+  },
+  "aim: t_030_sc_v2": {
+    "prefix": "t_030_sc_v2",
+    "body": "t_030_sc_v2",
+    "description": "[AIM] t_030_sc_v2"
+  },
+  "aim: dump_scevents_rt": {
+    "prefix": "dump_scevents_rt",
+    "body": "dump_scevents_rt",
+    "description": "[AIM] dump_scevents_rt"
+  },
+  "aim: rts_103_build": {
+    "prefix": "rts_103_build",
+    "body": "rts_103_build",
+    "description": "[AIM] rts_103_build"
+  },
+  "aim: bridge_apid0092": {
+    "prefix": "bridge_apid0092",
+    "body": "bridge_apid0092",
+    "description": "[AIM] bridge_apid0092"
+  },
+  "aim: bridge_apid0354": {
+    "prefix": "bridge_apid0354",
+    "body": "bridge_apid0354",
+    "description": "[AIM] bridge_apid0354"
+  },
+  "aim: reset_dl_card": {
+    "prefix": "reset_dl_card",
+    "body": "reset_dl_card",
+    "description": "[AIM] reset_dl_card"
+  },
+  "aim: t_104_sc_v3": {
+    "prefix": "t_104_sc_v3",
+    "body": "t_104_sc_v3",
+    "description": "[AIM] t_104_sc_v3"
+  },
+  "aim: bridge_apid0385": {
+    "prefix": "bridge_apid0385",
+    "body": "bridge_apid0385",
+    "description": "[AIM] bridge_apid0385"
+  },
+  "aim: cips_to_surom": {
+    "prefix": "cips_to_surom",
+    "body": "cips_to_surom",
+    "description": "[AIM] cips_to_surom"
+  },
+  "aim: write_info": {
+    "prefix": "write_info",
+    "body": "write_info ${1:\\$ex_el}, ${2:\\$it_nm}",
+    "description": "[AIM] write_info"
+  },
+  "aim: tgcmd": {
+    "prefix": "tgcmd",
+    "body": "tgcmd",
+    "description": "[AIM] tgcmd"
+  },
+  "aim: sof_vfy_sys_echo": {
+    "prefix": "sof_vfy_sys_echo",
+    "body": "sof_vfy_sys_echo",
+    "description": "[AIM] sof_vfy_sys_echo"
+  },
+  "aim: rts_066eq_sh": {
+    "prefix": "rts_066eq_sh",
+    "body": "rts_066eq_sh",
+    "description": "[AIM] rts_066eq_sh"
+  },
+  "aim: exitsafehold": {
+    "prefix": "exitsafehold",
+    "body": "exitsafehold",
+    "description": "[AIM] exitsafehold"
+  },
+  "aim: cips_img_comp": {
+    "prefix": "cips_img_comp",
+    "body": "cips_img_comp ${1:\\$selected_camera}",
+    "description": "[AIM] cips_img_comp"
+  },
+  "aim: pgcmd": {
+    "prefix": "pgcmd",
+    "body": "pgcmd",
+    "description": "[AIM] pgcmd"
+  },
+  "aim: eps_psdo_snp": {
+    "prefix": "eps_psdo_snp",
+    "body": "eps_psdo_snp",
+    "description": "[AIM] eps_psdo_snp"
+  },
+  "aim: tptlm": {
+    "prefix": "tptlm",
+    "body": "tptlm",
+    "description": "[AIM] tptlm"
+  },
+  "aim: select_rt_1553": {
+    "prefix": "select_rt_1553",
+    "body": "select_rt_1553 ${1:\\$INPUT_1553}, ${2:\\$INPUT_RT}",
+    "description": "[AIM] select_rt_1553"
+  },
+  "aim: bridge_apid0115": {
+    "prefix": "bridge_apid0115",
+    "body": "bridge_apid0115",
+    "description": "[AIM] bridge_apid0115"
+  },
+  "aim: dump_table_id": {
+    "prefix": "dump_table_id",
+    "body": "dump_table_id ${1:\\$TARGET}, ${2:\\$TID}",
+    "description": "[AIM] dump_table_id"
+  },
+  "aim: ops_dd": {
+    "prefix": "ops_dd",
+    "body": "ops_dd",
+    "description": "[AIM] ops_dd"
+  },
+  "aim: eps_psdo_tst": {
+    "prefix": "eps_psdo_tst",
+    "body": "eps_psdo_tst",
+    "description": "[AIM] eps_psdo_tst"
+  },
+  "aim: rts_014_build": {
+    "prefix": "rts_014_build",
+    "body": "rts_014_build",
+    "description": "[AIM] rts_014_build"
+  },
+  "aim: sofie_precheck": {
+    "prefix": "sofie_precheck",
+    "body": "sofie_precheck",
+    "description": "[AIM] sofie_precheck"
+  },
+  "aim: st1_star_snp": {
+    "prefix": "st1_star_snp",
+    "body": "st1_star_snp",
+    "description": "[AIM] st1_star_snp"
+  },
+  "aim: rts_062_build": {
+    "prefix": "rts_062_build",
+    "body": "rts_062_build",
+    "description": "[AIM] rts_062_build"
+  },
+  "aim: st1_star_tst": {
+    "prefix": "st1_star_tst",
+    "body": "st1_star_tst",
+    "description": "[AIM] st1_star_tst"
+  },
+  "aim: slew_sc_time": {
+    "prefix": "slew_sc_time",
+    "body": "slew_sc_time ${1:\\$fast_slow}",
+    "description": "[AIM] slew_sc_time"
+  },
+  "aim: ulcmd": {
+    "prefix": "ulcmd",
+    "body": "ulcmd",
+    "description": "[AIM] ulcmd"
+  },
+  "aim: cps_hkmc_tst": {
+    "prefix": "cps_hkmc_tst",
+    "body": "cps_hkmc_tst",
+    "description": "[AIM] cps_hkmc_tst"
+  },
+  "aim: rts_102_build": {
+    "prefix": "rts_102_build",
+    "body": "rts_102_build",
+    "description": "[AIM] rts_102_build"
+  },
+  "aim: sof_vfy_sci_cdh": {
+    "prefix": "sof_vfy_sci_cdh",
+    "body": "sof_vfy_sci_cdh",
+    "description": "[AIM] sof_vfy_sci_cdh"
+  },
+  "aim: cps_hkmc_snp": {
+    "prefix": "cps_hkmc_snp",
+    "body": "cps_hkmc_snp",
+    "description": "[AIM] cps_hkmc_snp"
+  },
+  "aim: master": {
+    "prefix": "master",
+    "body": "master",
+    "description": "[AIM] master"
+  },
+  "aim: ultlm": {
+    "prefix": "ultlm",
+    "body": "ultlm",
+    "description": "[AIM] ultlm"
+  },
+  "aim: sof_get_sys_pkt": {
+    "prefix": "sof_get_sys_pkt",
+    "body": "sof_get_sys_pkt",
+    "description": "[AIM] sof_get_sys_pkt"
+  },
+  "aim: cop1_terminate": {
+    "prefix": "cop1_terminate",
+    "body": "cop1_terminate",
+    "description": "[AIM] cop1_terminate"
+  },
+  "aim: rts_049_build": {
+    "prefix": "rts_049_build",
+    "body": "rts_049_build",
+    "description": "[AIM] rts_049_build"
+  },
+  "aim: make_table_load": {
+    "prefix": "make_table_load",
+    "body": "make_table_load ${1:\\$TABLE}",
+    "description": "[AIM] make_table_load"
+  },
+  "aim: acs_ad_tst": {
+    "prefix": "acs_ad_tst",
+    "body": "acs_ad_tst",
+    "description": "[AIM] acs_ad_tst"
+  },
+  "aim: sof_turn_off": {
+    "prefix": "sof_turn_off",
+    "body": "sof_turn_off",
+    "description": "[AIM] sof_turn_off"
+  },
+  "aim: rts_017_build": {
+    "prefix": "rts_017_build",
+    "body": "rts_017_build",
+    "description": "[AIM] rts_017_build"
+  },
+  "aim: plot_15_tst": {
+    "prefix": "plot_15_tst",
+    "body": "plot_15_tst",
+    "description": "[AIM] plot_15_tst"
+  },
+  "aim: bridge_apid0368": {
+    "prefix": "bridge_apid0368",
+    "body": "bridge_apid0368",
+    "description": "[AIM] bridge_apid0368"
+  },
+  "aim: acs_ad_snp": {
+    "prefix": "acs_ad_snp",
+    "body": "acs_ad_snp",
+    "description": "[AIM] acs_ad_snp"
+  },
+  "aim: cps_swim_snp": {
+    "prefix": "cps_swim_snp",
+    "body": "cps_swim_snp",
+    "description": "[AIM] cps_swim_snp"
+  },
+  "aim: sof_safe": {
+    "prefix": "sof_safe",
+    "body": "sof_safe",
+    "description": "[AIM] sof_safe"
+  },
+  "aim: plot_11_tst": {
+    "prefix": "plot_11_tst",
+    "body": "plot_11_tst",
+    "description": "[AIM] plot_11_tst"
+  },
+  "aim: bridge_apid0003": {
+    "prefix": "bridge_apid0003",
+    "body": "bridge_apid0003",
+    "description": "[AIM] bridge_apid0003"
+  },
+  "aim: cps_swim_tst": {
+    "prefix": "cps_swim_tst",
+    "body": "cps_swim_tst",
+    "description": "[AIM] cps_swim_tst"
+  },
+  "aim: bridge_apid1554": {
+    "prefix": "bridge_apid1554",
+    "body": "bridge_apid1554",
+    "description": "[AIM] bridge_apid1554"
+  },
+  "aim: plot_05_dd": {
+    "prefix": "plot_05_dd",
+    "body": "plot_05_dd",
+    "description": "[AIM] plot_05_dd"
+  },
+  "aim: ccsds_snp": {
+    "prefix": "ccsds_snp",
+    "body": "ccsds_snp",
+    "description": "[AIM] ccsds_snp"
+  },
+  "aim: plot_19_tst": {
+    "prefix": "plot_19_tst",
+    "body": "plot_19_tst",
+    "description": "[AIM] plot_19_tst"
+  },
+  "aim: pgtlm": {
+    "prefix": "pgtlm",
+    "body": "pgtlm",
+    "description": "[AIM] pgtlm"
+  },
+  "aim: vr_users_tst": {
+    "prefix": "vr_users_tst",
+    "body": "vr_users_tst",
+    "description": "[AIM] vr_users_tst"
+  },
+  "aim: tpcmd": {
+    "prefix": "tpcmd",
+    "body": "tpcmd",
+    "description": "[AIM] tpcmd"
+  },
+  "aim: ccsds_tst": {
+    "prefix": "ccsds_tst",
+    "body": "ccsds_tst",
+    "description": "[AIM] ccsds_tst"
+  },
+  "aim: dis_ophtr_cntrl": {
+    "prefix": "dis_ophtr_cntrl",
+    "body": "dis_ophtr_cntrl",
+    "description": "[AIM] dis_ophtr_cntrl"
+  },
+  "aim: bridge_apid0004": {
+    "prefix": "bridge_apid0004",
+    "body": "bridge_apid0004",
+    "description": "[AIM] bridge_apid0004"
+  },
+  "aim: isim_cmd_test": {
+    "prefix": "isim_cmd_test",
+    "body": "isim_cmd_test",
+    "description": "[AIM] isim_cmd_test"
+  },
+  "aim: vr_users_snp": {
+    "prefix": "vr_users_snp",
+    "body": "vr_users_snp",
+    "description": "[AIM] vr_users_snp"
+  },
+  "aim: bridge_apid1553": {
+    "prefix": "bridge_apid1553",
+    "body": "bridge_apid1553",
+    "description": "[AIM] bridge_apid1553"
+  },
+  "aim: ccsds_dd": {
+    "prefix": "ccsds_dd",
+    "body": "ccsds_dd",
+    "description": "[AIM] ccsds_dd"
+  },
+  "aim: rts_101_build": {
+    "prefix": "rts_101_build",
+    "body": "rts_101_build",
+    "description": "[AIM] rts_101_build"
+  },
+  "aim: close_ois_strms": {
+    "prefix": "close_ois_strms",
+    "body": "close_ois_strms",
+    "description": "[AIM] close_ois_strms"
+  },
+  "aim: st1_main_dd": {
+    "prefix": "st1_main_dd",
+    "body": "st1_main_dd",
+    "description": "[AIM] st1_main_dd"
+  },
+  "aim: diff_table": {
+    "prefix": "diff_table",
+    "body": "diff_table ${1:\\$TABLE}, ${2:\\$IMAGE1}, ${3:\\$IMAGE2}",
+    "description": "[AIM] diff_table"
+  },
+  "aim: cps_ptbl_snp": {
+    "prefix": "cps_ptbl_snp",
+    "body": "cps_ptbl_snp",
+    "description": "[AIM] cps_ptbl_snp"
+  },
+  "aim: rts_061_build": {
+    "prefix": "rts_061_build",
+    "body": "rts_061_build",
+    "description": "[AIM] rts_061_build"
+  },
+  "aim: cps_ptbl_tst": {
+    "prefix": "cps_ptbl_tst",
+    "body": "cps_ptbl_tst",
+    "description": "[AIM] cps_ptbl_tst"
+  },
+  "aim: tgtlm": {
+    "prefix": "tgtlm",
+    "body": "tgtlm",
+    "description": "[AIM] tgtlm"
+  },
+  "aim: rts_016_build": {
+    "prefix": "rts_016_build",
+    "body": "rts_016_build",
+    "description": "[AIM] rts_016_build"
+  },
+  "aim: rf_tlm_dd": {
+    "prefix": "rf_tlm_dd",
+    "body": "rf_tlm_dd",
+    "description": "[AIM] rf_tlm_dd"
+  },
+  "aim: clearvr": {
+    "prefix": "clearvr",
+    "body": "clearvr ${1:\\$vr_num}",
+    "description": "[AIM] clearvr"
+  },
+  "aim: set_limits": {
+    "prefix": "set_limits",
+    "body": "set_limits ${1:\\$check_state}",
+    "description": "[AIM] set_limits"
+  },
+  "aim: plot_08_dd": {
+    "prefix": "plot_08_dd",
+    "body": "plot_08_dd",
+    "description": "[AIM] plot_08_dd"
+  },
+  "aim: cde_chan_config": {
+    "prefix": "cde_chan_config",
+    "body": "cde_chan_config ${1:\\$chan}, ${2:\\$lo}, ${3:\\$med}, ${4:\\$hi}, ${5:\\$op_thresh}, ${6:\\$override}, ${7:\\$ena}",
+    "description": "[AIM] cde_chan_config"
+  },
+  "aim: cips_bos_test": {
+    "prefix": "cips_bos_test",
+    "body": "cips_bos_test",
+    "description": "[AIM] cips_bos_test"
+  },
+  "aim: cps_hkp_dd": {
+    "prefix": "cps_hkp_dd",
+    "body": "cps_hkp_dd",
+    "description": "[AIM] cps_hkp_dd"
+  },
+  "aim: sof_ob1_dd": {
+    "prefix": "sof_ob1_dd",
+    "body": "sof_ob1_dd",
+    "description": "[AIM] sof_ob1_dd"
+  },
+  "aim: ape_stat_dd": {
+    "prefix": "ape_stat_dd",
+    "body": "ape_stat_dd",
+    "description": "[AIM] ape_stat_dd"
+  },
+  "aim: execute_ats": {
+    "prefix": "execute_ats",
+    "body": "execute_ats",
+    "description": "[AIM] execute_ats"
+  },
+  "aim: acs_eph_dd": {
+    "prefix": "acs_eph_dd",
+    "body": "acs_eph_dd",
+    "description": "[AIM] acs_eph_dd"
+  },
+  "aim: rts_048_build": {
+    "prefix": "rts_048_build",
+    "body": "rts_048_build",
+    "description": "[AIM] rts_048_build"
+  },
+  "aim: ul_crit_tst": {
+    "prefix": "ul_crit_tst",
+    "body": "ul_crit_tst",
+    "description": "[AIM] ul_crit_tst"
+  },
+  "aim: rf_tlm_snp": {
+    "prefix": "rf_tlm_snp",
+    "body": "rf_tlm_snp",
+    "description": "[AIM] rf_tlm_snp"
+  },
+  "aim: peg_diag_tst": {
+    "prefix": "peg_diag_tst",
+    "body": "peg_diag_tst",
+    "description": "[AIM] peg_diag_tst"
+  },
+  "aim: css_fsw_init": {
+    "prefix": "css_fsw_init",
+    "body": "css_fsw_init ${1:\\$TARGET}",
+    "description": "[AIM] css_fsw_init"
+  },
+  "aim: peg_tlm3_tst": {
+    "prefix": "peg_tlm3_tst",
+    "body": "peg_tlm3_tst",
+    "description": "[AIM] peg_tlm3_tst"
+  },
+  "aim: cps_expt_snp": {
+    "prefix": "cps_expt_snp",
+    "body": "cps_expt_snp",
+    "description": "[AIM] cps_expt_snp"
+  },
+  "aim: dump_sbstrmover": {
+    "prefix": "dump_sbstrmover",
+    "body": "dump_sbstrmover",
+    "description": "[AIM] dump_sbstrmover"
+  },
+  "aim: ul_crit_snp": {
+    "prefix": "ul_crit_snp",
+    "body": "ul_crit_snp",
+    "description": "[AIM] ul_crit_snp"
+  },
+  "aim: rf_tlm_tst": {
+    "prefix": "rf_tlm_tst",
+    "body": "rf_tlm_tst",
+    "description": "[AIM] rf_tlm_tst"
+  },
+  "aim: peg_diag_snp": {
+    "prefix": "peg_diag_snp",
+    "body": "peg_diag_snp",
+    "description": "[AIM] peg_diag_snp"
+  },
+  "aim: high_rt_no_rts": {
+    "prefix": "high_rt_no_rts",
+    "body": "high_rt_no_rts",
+    "description": "[AIM] high_rt_no_rts"
+  },
+  "aim: rm_cmds": {
+    "prefix": "rm_cmds",
+    "body": "rm_cmds",
+    "description": "[AIM] rm_cmds"
+  },
+  "aim: vr_users_dd": {
+    "prefix": "vr_users_dd",
+    "body": "vr_users_dd",
+    "description": "[AIM] vr_users_dd"
+  },
+  "aim: t_085_ape_v2": {
+    "prefix": "t_085_ape_v2",
+    "body": "t_085_ape_v2",
+    "description": "[AIM] t_085_ape_v2"
+  },
+  "aim: bridge_apid0361": {
+    "prefix": "bridge_apid0361",
+    "body": "bridge_apid0361",
+    "description": "[AIM] bridge_apid0361"
+  },
+  "aim: sof_gr_limit_upd": {
+    "prefix": "sof_gr_limit_upd",
+    "body": "sof_gr_limit_upd",
+    "description": "[AIM] sof_gr_limit_upd"
+  },
+  "aim: cps_expt_tst": {
+    "prefix": "cps_expt_tst",
+    "body": "cps_expt_tst",
+    "description": "[AIM] cps_expt_tst"
+  },
+  "aim: peg_tlm3_snp": {
+    "prefix": "peg_tlm3_snp",
+    "body": "peg_tlm3_snp",
+    "description": "[AIM] peg_tlm3_snp"
+  },
+  "aim: det_pref_cmdchan": {
+    "prefix": "det_pref_cmdchan",
+    "body": "det_pref_cmdchan",
+    "description": "[AIM] det_pref_cmdchan"
+  },
+  "aim: rts_100_build": {
+    "prefix": "rts_100_build",
+    "body": "rts_100_build",
+    "description": "[AIM] rts_100_build"
+  },
+  "aim: st1_main_snp": {
+    "prefix": "st1_main_snp",
+    "body": "st1_main_snp",
+    "description": "[AIM] st1_main_snp"
+  },
+  "aim: cde_testsig_1": {
+    "prefix": "cde_testsig_1",
+    "body": "cde_testsig_1",
+    "description": "[AIM] cde_testsig_1"
+  },
+  "aim: ld_aim_pat_48000": {
+    "prefix": "ld_aim_pat_48000",
+    "body": "ld_aim_pat_48000",
+    "description": "[AIM] ld_aim_pat_48000"
+  },
+  "aim: st1_main_tst": {
+    "prefix": "st1_main_tst",
+    "body": "st1_main_tst",
+    "description": "[AIM] st1_main_tst"
+  },
+  "aim: rts_060_build": {
+    "prefix": "rts_060_build",
+    "body": "rts_060_build",
+    "description": "[AIM] rts_060_build"
+  },
+  "aim: gumbl_sc_tlm": {
+    "prefix": "gumbl_sc_tlm",
+    "body": "gumbl_sc_tlm",
+    "description": "[AIM] gumbl_sc_tlm"
+  },
+  "aim: cde_gmb_tst": {
+    "prefix": "cde_gmb_tst",
+    "body": "cde_gmb_tst",
+    "description": "[AIM] cde_gmb_tst"
+  },
+  "aim: eps_aep_tst": {
+    "prefix": "eps_aep_tst",
+    "body": "eps_aep_tst",
+    "description": "[AIM] eps_aep_tst"
+  },
+  "aim: plot_13_dd": {
+    "prefix": "plot_13_dd",
+    "body": "plot_13_dd",
+    "description": "[AIM] plot_13_dd"
+  },
+  "aim: cde_gmb_snp": {
+    "prefix": "cde_gmb_snp",
+    "body": "cde_gmb_snp",
+    "description": "[AIM] cde_gmb_snp"
+  },
+  "aim: smcmd": {
+    "prefix": "smcmd",
+    "body": "smcmd",
+    "description": "[AIM] smcmd"
+  },
+  "aim: eps_aep_snp": {
+    "prefix": "eps_aep_snp",
+    "body": "eps_aep_snp",
+    "description": "[AIM] eps_aep_snp"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "CSTOL if block": {
+    "prefix": "if",
+    "body": [
+      "if ${1:condition}",
+      "\t$0",
+      "endif"
+    ],
+    "description": "CSTOL if/endif block"
+  },
+  "CSTOL loop block": {
+    "prefix": "loop",
+    "body": [
+      "loop ${1:condition}",
+      "\t$0",
+      "end loop"
+    ],
+    "description": "CSTOL loop/end loop block"
+  },
+  "CSTOL ask": {
+    "prefix": "ask",
+    "body": [
+      "ask ${1:\\$var} \"${2:Question}\""
+    ],
+    "description": "CSTOL ask statement"
+  },
+  "CSTOL proc": {
+    "prefix": "proc",
+    "body": [
+      "proc ${1:name} ${2:\\$arg1}",
+      "${3:LABEL}:",
+      "\t$0",
+      "endproc ; ${1:name}"
+    ],
+    "description": "CSTOL proc/endproc skeleton"
+  },
+  "CSTOL declare input": {
+    "prefix": "declare",
+    "body": [
+      "declare INPUT ${1:\\$var} = ${2:value}"
+    ],
+    "description": "CSTOL declare INPUT variable"
+  },
+  "CSTOL wait or for": {
+    "prefix": "wait",
+    "body": [
+      "wait ${1:SYSTEM TLM = VALUE} or for ${2:00:00:30}"
+    ],
+    "description": "CSTOL wait with timeout"
+  },
+  "CSTOL write": {
+    "prefix": "write",
+    "body": [
+      "write \"${1:<C> ${2:message}}\""
+    ],
+    "description": "CSTOL write statement"
+  },
+  "CSTOL check error": {
+    "prefix": "if $$error",
+    "body": [
+      "if \\$\\$error = TIME_OUT",
+      "\twrite \"<Y> ${1:Timeout message}\"",
+      "\treturn",
+      "else",
+      "\t$0",
+      "endif"
+    ],
+    "description": "CSTOL $$error timeout check"
+  }
+}

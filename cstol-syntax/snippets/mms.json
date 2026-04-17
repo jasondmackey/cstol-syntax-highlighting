@@ -1,0 +1,3007 @@
+{
+  "mms: fpi_emergencyoff": {
+    "prefix": "fpi_emergencyoff",
+    "body": "fpi_emergencyoff",
+    "description": "[MMS] fpi_emergencyoff"
+  },
+  "mms: as2_hv_checkout": {
+    "prefix": "as2_hv_checkout",
+    "body": "as2_hv_checkout",
+    "description": "[MMS] as2_hv_checkout"
+  },
+  "mms: edi_ask_uut_sno": {
+    "prefix": "edi_ask_uut_sno",
+    "body": "edi_ask_uut_sno",
+    "description": "[MMS] edi_ask_uut_sno"
+  },
+  "mms: cid_inston_hpcr": {
+    "prefix": "cid_inston_hpcr",
+    "body": "cid_inston_hpcr",
+    "description": "[MMS] cid_inston_hpcr"
+  },
+  "mms: fpicms_bootpkchk": {
+    "prefix": "fpicms_bootpkchk",
+    "body": "fpicms_bootpkchk ${1:\\$rstype}, ${2:\\$tblsrc}, ${3:\\$tblvers}",
+    "description": "[MMS] fpicms_bootpkchk"
+  },
+  "mms: asp_tlm_rate_nom": {
+    "prefix": "asp_tlm_rate_nom",
+    "body": "asp_tlm_rate_nom ${1:\\$ID}",
+    "description": "[MMS] asp_tlm_rate_nom"
+  },
+  "mms: edi_diagelf_offs": {
+    "prefix": "edi_diagelf_offs",
+    "body": "edi_diagelf_offs ${1:\\$XStep}, ${2:\\$YStep}",
+    "description": "[MMS] edi_diagelf_offs"
+  },
+  "mms: fldldsweepstart": {
+    "prefix": "fldldsweepstart",
+    "body": "fldldsweepstart",
+    "description": "[MMS] fldldsweepstart"
+  },
+  "mms: fpicms_intl_idpu_on": {
+    "prefix": "fpicms_intl_idpu_on",
+    "body": "fpicms_intl_idpu_on",
+    "description": "[MMS] fpicms_intl_idpu_on"
+  },
+  "mms: edi_hv6": {
+    "prefix": "edi_hv6",
+    "body": "edi_hv6 ${1:\\$SAFE}",
+    "description": "[MMS] edi_hv6"
+  },
+  "mms: pass_check": {
+    "prefix": "pass_check",
+    "body": "pass_check ${1:\\$type}",
+    "description": "[MMS] pass_check"
+  },
+  "mms: edichvcheckout6": {
+    "prefix": "edichvcheckout6",
+    "body": "edichvcheckout6",
+    "description": "[MMS] edichvcheckout6"
+  },
+  "mms: fe1_initialize": {
+    "prefix": "fe1_initialize",
+    "body": "fe1_initialize",
+    "description": "[MMS] fe1_initialize"
+  },
+  "mms: eis_autonomy": {
+    "prefix": "eis_autonomy",
+    "body": "eis_autonomy",
+    "description": "[MMS] eis_autonomy"
+  },
+  "mms: cid_acton_adp5e": {
+    "prefix": "cid_acton_adp5e",
+    "body": "cid_acton_adp5e",
+    "description": "[MMS] cid_acton_adp5e"
+  },
+  "mms: edichv_passwd": {
+    "prefix": "edichv_passwd",
+    "body": "edichv_passwd",
+    "description": "[MMS] edichv_passwd"
+  },
+  "mms: asp_standby": {
+    "prefix": "asp_standby",
+    "body": "asp_standby ${1:\\$ID}",
+    "description": "[MMS] asp_standby"
+  },
+  "mms: edi_pga2_config": {
+    "prefix": "edi_pga2_config",
+    "body": "edi_pga2_config",
+    "description": "[MMS] edi_pga2_config"
+  },
+  "mms: fldmagrangetest": {
+    "prefix": "fldmagrangetest",
+    "body": "fldmagrangetest",
+    "description": "[MMS] fldmagrangetest"
+  },
+  "mms: fpi_sf_specrst": {
+    "prefix": "fpi_sf_specrst",
+    "body": "fpi_sf_specrst ${1:\\$spec}",
+    "description": "[MMS] fpi_sf_specrst"
+  },
+  "mms: edichvcheckout1": {
+    "prefix": "edichvcheckout1",
+    "body": "edichvcheckout1",
+    "description": "[MMS] edichvcheckout1"
+  },
+  "mms: fpicms_idpurmtst": {
+    "prefix": "fpicms_idpurmtst",
+    "body": "fpicms_idpurmtst",
+    "description": "[MMS] fpicms_idpurmtst"
+  },
+  "mms: fldsdp34optimize": {
+    "prefix": "fldsdp34optimize",
+    "body": "fldsdp34optimize",
+    "description": "[MMS] fldsdp34optimize"
+  },
+  "mms: fldsdp12setup": {
+    "prefix": "fldsdp12setup",
+    "body": "fldsdp12setup",
+    "description": "[MMS] fldsdp12setup"
+  },
+  "mms: edi_hv6_contops": {
+    "prefix": "edi_hv6_contops",
+    "body": "edi_hv6_contops",
+    "description": "[MMS] edi_hv6_contops"
+  },
+  "mms: hpc_hven_to_full": {
+    "prefix": "hpc_hven_to_full",
+    "body": "hpc_hven_to_full",
+    "description": "[MMS] hpc_hven_to_full"
+  },
+  "mms: fldautosweeprpt_sdp": {
+    "prefix": "fldautosweeprpt_sdp",
+    "body": "fldautosweeprpt_sdp",
+    "description": "[MMS] fldautosweeprpt_sdp"
+  },
+  "mms: fldwriteenable": {
+    "prefix": "fldwriteenable",
+    "body": "fldwriteenable",
+    "description": "[MMS] fldwriteenable"
+  },
+  "mms: edi_hv9_contops": {
+    "prefix": "edi_hv9_contops",
+    "body": "edi_hv9_contops",
+    "description": "[MMS] edi_hv9_contops"
+  },
+  "mms: fpi_hv_ind_ena": {
+    "prefix": "fpi_hv_ind_ena",
+    "body": "fpi_hv_ind_ena ${1:\\$quadrant}",
+    "description": "[MMS] fpi_hv_ind_ena"
+  },
+  "mms: cid_instoff_eis": {
+    "prefix": "cid_instoff_eis",
+    "body": "cid_instoff_eis",
+    "description": "[MMS] cid_instoff_eis"
+  },
+  "mms: edi_s4e500_p045": {
+    "prefix": "edi_s4e500_p045",
+    "body": "edi_s4e500_p045",
+    "description": "[MMS] edi_s4e500_p045"
+  },
+  "mms: cid_instoff_fe2": {
+    "prefix": "cid_instoff_fe2",
+    "body": "cid_instoff_fe2",
+    "description": "[MMS] cid_instoff_fe2"
+  },
+  "mms: fldsdp34dep3m": {
+    "prefix": "fldsdp34dep3m",
+    "body": "fldsdp34dep3m",
+    "description": "[MMS] fldsdp34dep3m"
+  },
+  "mms: fldsdp4doorr": {
+    "prefix": "fldsdp4doorr",
+    "body": "fldsdp4doorr",
+    "description": "[MMS] fldsdp4doorr"
+  },
+  "mms: flddspstop": {
+    "prefix": "flddspstop",
+    "body": "flddspstop",
+    "description": "[MMS] flddspstop"
+  },
+  "mms: edi_s4e500_p093": {
+    "prefix": "edi_s4e500_p093",
+    "body": "edi_s4e500_p093",
+    "description": "[MMS] edi_s4e500_p093"
+  },
+  "mms: flddfgsdyr1": {
+    "prefix": "flddfgsdyr1",
+    "body": "flddfgsdyr1",
+    "description": "[MMS] flddfgsdyr1"
+  },
+  "mms: edi_strght_e1k": {
+    "prefix": "edi_strght_e1k",
+    "body": "edi_strght_e1k",
+    "description": "[MMS] edi_strght_e1k"
+  },
+  "mms: fpi_specoff": {
+    "prefix": "fpi_specoff",
+    "body": "fpi_specoff ${1:\\$spec}",
+    "description": "[MMS] fpi_specoff"
+  },
+  "mms: edi_hv8": {
+    "prefix": "edi_hv8",
+    "body": "edi_hv8 ${1:\\$SAFE}",
+    "description": "[MMS] edi_hv8"
+  },
+  "mms: edi_fil_air_off": {
+    "prefix": "edi_fil_air_off",
+    "body": "edi_fil_air_off",
+    "description": "[MMS] edi_fil_air_off"
+  },
+  "mms: fldldbebdacnormal": {
+    "prefix": "fldldbebdacnormal",
+    "body": "fldldbebdacnormal",
+    "description": "[MMS] fldldbebdacnormal"
+  },
+  "mms: cid_fsw_boot": {
+    "prefix": "cid_fsw_boot",
+    "body": "cid_fsw_boot ${1:\\$loc}",
+    "description": "[MMS] cid_fsw_boot"
+  },
+  "mms: cid_inston_fld": {
+    "prefix": "cid_inston_fld",
+    "body": "cid_inston_fld",
+    "description": "[MMS] cid_inston_fld"
+  },
+  "mms: fpicms_hkpkchk": {
+    "prefix": "fpicms_hkpkchk",
+    "body": "fpicms_hkpkchk",
+    "description": "[MMS] fpicms_hkpkchk"
+  },
+  "mms: edi_mnt_copy": {
+    "prefix": "edi_mnt_copy",
+    "body": "edi_mnt_copy ${1:\\$SrcHi}, ${2:\\$SrcLo}, ${3:\\$DstHi}, ${4:\\$DstLo}, ${5:\\$WdsHi}, ${6:\\$WdsLo}",
+    "description": "[MMS] edi_mnt_copy"
+  },
+  "mms: cid_actoff_sdp2": {
+    "prefix": "cid_actoff_sdp2",
+    "body": "cid_actoff_sdp2",
+    "description": "[MMS] cid_actoff_sdp2"
+  },
+  "mms: fldadp56guardsweep": {
+    "prefix": "fldadp56guardsweep",
+    "body": "fldadp56guardsweep ${1:\\$InitStub}, ${2:\\$InitOuterGuard}, ${3:\\$DeltaStub}, ${4:\\$DeltaOuter}",
+    "description": "[MMS] fldadp56guardsweep"
+  },
+  "mms: insert_non_flightprocs": {
+    "prefix": "insert_non_flightprocs",
+    "body": "insert_non_flightprocs",
+    "description": "[MMS] insert_non_flightprocs"
+  },
+  "mms: edi_mnt_set_block_id": {
+    "prefix": "edi_mnt_set_block_id",
+    "body": "edi_mnt_set_block_id ${1:\\$BlockId}",
+    "description": "[MMS] edi_mnt_set_block_id"
+  },
+  "mms: asp_mods_test": {
+    "prefix": "asp_mods_test",
+    "body": "asp_mods_test ${1:\\$ID}",
+    "description": "[MMS] asp_mods_test"
+  },
+  "mms: cid_actoff_armfrg": {
+    "prefix": "cid_actoff_armfrg",
+    "body": "cid_actoff_armfrg",
+    "description": "[MMS] cid_actoff_armfrg"
+  },
+  "mms: edi_hv_air": {
+    "prefix": "edi_hv_air",
+    "body": "edi_hv_air",
+    "description": "[MMS] edi_hv_air"
+  },
+  "mms: is_comm_setup": {
+    "prefix": "is_comm_setup",
+    "body": "is_comm_setup ${1:\\$asist}, ${2:\\$feds}, ${3:\\$unit}",
+    "description": "[MMS] is_comm_setup"
+  },
+  "mms: fldwritedisable": {
+    "prefix": "fldwritedisable",
+    "body": "fldwritedisable",
+    "description": "[MMS] fldwritedisable"
+  },
+  "mms: as1_inston": {
+    "prefix": "as1_inston",
+    "body": "as1_inston",
+    "description": "[MMS] as1_inston"
+  },
+  "mms: edi_amb_cfg8": {
+    "prefix": "edi_amb_cfg8",
+    "body": "edi_amb_cfg8",
+    "description": "[MMS] edi_amb_cfg8"
+  },
+  "mms: fldcomm1": {
+    "prefix": "fldcomm1",
+    "body": "fldcomm1",
+    "description": "[MMS] fldcomm1"
+  },
+  "mms: cid_paramtoee": {
+    "prefix": "cid_paramtoee",
+    "body": "cid_paramtoee",
+    "description": "[MMS] cid_paramtoee"
+  },
+  "mms: fld_sdp34_deployment": {
+    "prefix": "fld_sdp34_deployment",
+    "body": "fld_sdp34_deployment ${1:\\$dep_meters}",
+    "description": "[MMS] fld_sdp34_deployment"
+  },
+  "mms: flddfgsetup": {
+    "prefix": "flddfgsetup",
+    "body": "flddfgsetup",
+    "description": "[MMS] flddfgsetup"
+  },
+  "mms: iscm_007_loadshed_recovery": {
+    "prefix": "iscm_007_loadshed_recovery",
+    "body": "iscm_007_loadshed_recovery ${1:\\$hpcpwr}",
+    "description": "[MMS] iscm_007_loadshed_recovery"
+  },
+  "mms: fldfdc_edi_dsb": {
+    "prefix": "fldfdc_edi_dsb",
+    "body": "fldfdc_edi_dsb",
+    "description": "[MMS] fldfdc_edi_dsb"
+  },
+  "mms: edi_amb_cfg6": {
+    "prefix": "edi_amb_cfg6",
+    "body": "edi_amb_cfg6",
+    "description": "[MMS] edi_amb_cfg6"
+  },
+  "mms: fldsdp34deploy": {
+    "prefix": "fldsdp34deploy",
+    "body": "fldsdp34deploy ${1:\\$Steps}",
+    "description": "[MMS] fldsdp34deploy"
+  },
+  "mms: fpi_sf_specint16": {
+    "prefix": "fpi_sf_specint16",
+    "body": "fpi_sf_specint16 ${1:\\$spec}, ${2:\\$address}, ${3:\\$enrgrange}, ${4:\\$enrgdac}, ${5:\\$defselect}",
+    "description": "[MMS] fpi_sf_specint16"
+  },
+  "mms: iscm_006_fldrecovery": {
+    "prefix": "iscm_006_fldrecovery",
+    "body": "iscm_006_fldrecovery",
+    "description": "[MMS] iscm_006_fldrecovery"
+  },
+  "mms: edi_strght_e500": {
+    "prefix": "edi_strght_e500",
+    "body": "edi_strght_e500",
+    "description": "[MMS] edi_strght_e500"
+  },
+  "mms: edi_s7e500_p093": {
+    "prefix": "edi_s7e500_p093",
+    "body": "edi_s7e500_p093",
+    "description": "[MMS] edi_s7e500_p093"
+  },
+  "mms: cid_macrostoflash": {
+    "prefix": "cid_macrostoflash",
+    "body": "cid_macrostoflash ${1:\\$FINX}",
+    "description": "[MMS] cid_macrostoflash"
+  },
+  "mms: edi_mcplimit": {
+    "prefix": "edi_mcplimit",
+    "body": "edi_mcplimit ${1:\\$LEVEL}, ${2:\\$MODE}",
+    "description": "[MMS] edi_mcplimit"
+  },
+  "mms: fldbiasoptimize": {
+    "prefix": "fldbiasoptimize",
+    "body": "fldbiasoptimize",
+    "description": "[MMS] fldbiasoptimize"
+  },
+  "mms: edi_s7e500_p045": {
+    "prefix": "edi_s7e500_p045",
+    "body": "edi_s7e500_p045",
+    "description": "[MMS] edi_s7e500_p045"
+  },
+  "mms: fpicms_qx_ramp": {
+    "prefix": "fpicms_qx_ramp",
+    "body": "fpicms_qx_ramp ${1:\\$quad}, ${2:\\$evop0}, ${3:\\$evop1}, ${4:\\$ivop0}, ${5:\\$ivop1}, ${6:\\$fast_normal}",
+    "description": "[MMS] fpicms_qx_ramp"
+  },
+  "mms: edi_slow_survey": {
+    "prefix": "edi_slow_survey",
+    "body": "edi_slow_survey",
+    "description": "[MMS] edi_slow_survey"
+  },
+  "mms: edi_s4e1k_p067": {
+    "prefix": "edi_s4e1k_p067",
+    "body": "edi_s4e1k_p067",
+    "description": "[MMS] edi_s4e1k_p067"
+  },
+  "mms: edi_mnt_cksum": {
+    "prefix": "edi_mnt_cksum",
+    "body": "edi_mnt_cksum ${1:\\$AddrHigh}, ${2:\\$AddrLow}, ${3:\\$NumWdsHigh}, ${4:\\$NumWdsLow}, ${5:\\$Checksum}",
+    "description": "[MMS] edi_mnt_cksum"
+  },
+  "mms: fpi_mask_ena_all": {
+    "prefix": "fpi_mask_ena_all",
+    "body": "fpi_mask_ena_all",
+    "description": "[MMS] fpi_mask_ena_all"
+  },
+  "mms: edi_amb_cfg1": {
+    "prefix": "edi_amb_cfg1",
+    "body": "edi_amb_cfg1",
+    "description": "[MMS] edi_amb_cfg1"
+  },
+  "mms: edi_preamp": {
+    "prefix": "edi_preamp",
+    "body": "edi_preamp ${1:\\$LEVEL}, ${2:\\$MODE}",
+    "description": "[MMS] edi_preamp"
+  },
+  "mms: hpc_hv_set_manual": {
+    "prefix": "hpc_hv_set_manual",
+    "body": "hpc_hv_set_manual ${1:\\$mode}, ${2:\\$mcp_tof}, ${3:\\$voltage}, ${4:\\$range}",
+    "description": "[MMS] hpc_hv_set_manual"
+  },
+  "mms: eis_energy_test": {
+    "prefix": "eis_energy_test",
+    "body": "eis_energy_test ${1:\\$temp_range}",
+    "description": "[MMS] eis_energy_test"
+  },
+  "mms: edi_initial_hv_checkout": {
+    "prefix": "edi_initial_hv_checkout",
+    "body": "edi_initial_hv_checkout ${1:\\$HV}",
+    "description": "[MMS] edi_initial_hv_checkout"
+  },
+  "mms: fe2plsr": {
+    "prefix": "fe2plsr",
+    "body": "fe2plsr ${1:\\$PULSER_INPUT}",
+    "description": "[MMS] fe2plsr"
+  },
+  "mms: fpicms_dxs_detck": {
+    "prefix": "fpicms_dxs_detck",
+    "body": "fpicms_dxs_detck ${1:\\$spec}",
+    "description": "[MMS] fpicms_dxs_detck"
+  },
+  "mms: cid_acton_frg1": {
+    "prefix": "cid_acton_frg1",
+    "body": "cid_acton_frg1",
+    "description": "[MMS] cid_acton_frg1"
+  },
+  "mms: fldturnon": {
+    "prefix": "fldturnon",
+    "body": "fldturnon",
+    "description": "[MMS] fldturnon"
+  },
+  "mms: fldshutdown": {
+    "prefix": "fldshutdown",
+    "body": "fldshutdown",
+    "description": "[MMS] fldshutdown"
+  },
+  "mms: cid_intl_pwr_on": {
+    "prefix": "cid_intl_pwr_on",
+    "body": "cid_intl_pwr_on",
+    "description": "[MMS] cid_intl_pwr_on"
+  },
+  "mms: cid_actoff_adp6t": {
+    "prefix": "cid_actoff_adp6t",
+    "body": "cid_actoff_adp6t",
+    "description": "[MMS] cid_actoff_adp6t"
+  },
+  "mms: fldedicmd_sct_block": {
+    "prefix": "fldedicmd_sct_block",
+    "body": "fldedicmd_sct_block",
+    "description": "[MMS] fldedicmd_sct_block"
+  },
+  "mms: fldldbebdactable5": {
+    "prefix": "fldldbebdactable5",
+    "body": "fldldbebdactable5",
+    "description": "[MMS] fldldbebdactable5"
+  },
+  "mms: fldsdp3doorr": {
+    "prefix": "fldsdp3doorr",
+    "body": "fldsdp3doorr",
+    "description": "[MMS] fldsdp3doorr"
+  },
+  "mms: cid_inston_as1": {
+    "prefix": "cid_inston_as1",
+    "body": "cid_inston_as1",
+    "description": "[MMS] cid_inston_as1"
+  },
+  "mms: fldscmcal": {
+    "prefix": "fldscmcal",
+    "body": "fldscmcal",
+    "description": "[MMS] fldscmcal"
+  },
+  "mms: fldsdp34guardsweep": {
+    "prefix": "fldsdp34guardsweep",
+    "body": "fldsdp34guardsweep ${1:\\$SweepOuterGuard}, ${2:\\$SweepInnerGuard}, ${3:\\$DeltaGuard}",
+    "description": "[MMS] fldsdp34guardsweep"
+  },
+  "mms: fpi_spec_lv_on": {
+    "prefix": "fpi_spec_lv_on",
+    "body": "fpi_spec_lv_on",
+    "description": "[MMS] fpi_spec_lv_on"
+  },
+  "mms: fpicms_chkspecid": {
+    "prefix": "fpicms_chkspecid",
+    "body": "fpicms_chkspecid ${1:\\$spec}",
+    "description": "[MMS] fpicms_chkspecid"
+  },
+  "mms: fldsdp2motortst": {
+    "prefix": "fldsdp2motortst",
+    "body": "fldsdp2motortst",
+    "description": "[MMS] fldsdp2motortst"
+  },
+  "mms: fldclearedacsb": {
+    "prefix": "fldclearedacsb",
+    "body": "fldclearedacsb",
+    "description": "[MMS] fldclearedacsb"
+  },
+  "mms: eis_lv_commiss": {
+    "prefix": "eis_lv_commiss",
+    "body": "eis_lv_commiss ${1:\\$temp_range}, ${2:\\$observatory}",
+    "description": "[MMS] eis_lv_commiss"
+  },
+  "mms: eis_tof_test": {
+    "prefix": "eis_tof_test",
+    "body": "eis_tof_test",
+    "description": "[MMS] eis_tof_test"
+  },
+  "mms: fld_hop_motor_test": {
+    "prefix": "fld_hop_motor_test",
+    "body": "fld_hop_motor_test",
+    "description": "[MMS] fld_hop_motor_test"
+  },
+  "mms: edi_mcp_ck": {
+    "prefix": "edi_mcp_ck",
+    "body": "edi_mcp_ck ${1:\\$MCP_LEVEL}",
+    "description": "[MMS] edi_mcp_ck"
+  },
+  "mms: cid_fclose": {
+    "prefix": "cid_fclose",
+    "body": "cid_fclose ${1:\\$ftype}",
+    "description": "[MMS] cid_fclose"
+  },
+  "mms: fpi_hv_ind_ramp": {
+    "prefix": "fpi_hv_ind_ramp",
+    "body": "fpi_hv_ind_ramp ${1:\\$quadrant}",
+    "description": "[MMS] fpi_hv_ind_ramp"
+  },
+  "mms: edi_s7e1k_p096": {
+    "prefix": "edi_s7e1k_p096",
+    "body": "edi_s7e1k_p096",
+    "description": "[MMS] edi_s7e1k_p096"
+  },
+  "mms: fldmemorycopy": {
+    "prefix": "fldmemorycopy",
+    "body": "fldmemorycopy ${1:\\$SOURCEADDR}, ${2:\\$DESTADDR}, ${3:\\$LENGTH}, ${4:\\$TIMEOUT}",
+    "description": "[MMS] fldmemorycopy"
+  },
+  "mms: asp_emitter_rec": {
+    "prefix": "asp_emitter_rec",
+    "body": "asp_emitter_rec ${1:\\$ID}",
+    "description": "[MMS] asp_emitter_rec"
+  },
+  "mms: fldtrqmondisable": {
+    "prefix": "fldtrqmondisable",
+    "body": "fldtrqmondisable",
+    "description": "[MMS] fldtrqmondisable"
+  },
+  "mms: fpicms_idpuregwr": {
+    "prefix": "fpicms_idpuregwr",
+    "body": "fpicms_idpuregwr",
+    "description": "[MMS] fpicms_idpuregwr"
+  },
+  "mms: edi_sns_pulser": {
+    "prefix": "edi_sns_pulser",
+    "body": "edi_sns_pulser",
+    "description": "[MMS] edi_sns_pulser"
+  },
+  "mms: fpicms_qx_dwto1m": {
+    "prefix": "fpicms_qx_dwto1m",
+    "body": "fpicms_qx_dwto1m ${1:\\$quad}, ${2:\\$mcpa}, ${3:\\$start_ctime}",
+    "description": "[MMS] fpicms_qx_dwto1m"
+  },
+  "mms: cid_mmm_check": {
+    "prefix": "cid_mmm_check",
+    "body": "cid_mmm_check",
+    "description": "[MMS] cid_mmm_check"
+  },
+  "mms: fldlddspslowwf": {
+    "prefix": "fldlddspslowwf",
+    "body": "fldlddspslowwf",
+    "description": "[MMS] fldlddspslowwf"
+  },
+  "mms: edi_emerg_safe": {
+    "prefix": "edi_emerg_safe",
+    "body": "edi_emerg_safe",
+    "description": "[MMS] edi_emerg_safe"
+  },
+  "mms: eis_event_proc": {
+    "prefix": "eis_event_proc",
+    "body": "eis_event_proc ${1:\\$temp_range}",
+    "description": "[MMS] eis_event_proc"
+  },
+  "mms: flddfgsdxr1": {
+    "prefix": "flddfgsdxr1",
+    "body": "flddfgsdxr1",
+    "description": "[MMS] flddfgsdxr1"
+  },
+  "mms: edi_hv4_contops": {
+    "prefix": "edi_hv4_contops",
+    "body": "edi_hv4_contops",
+    "description": "[MMS] edi_hv4_contops"
+  },
+  "mms: fldsdp2setdacs": {
+    "prefix": "fldsdp2setdacs",
+    "body": "fldsdp2setdacs",
+    "description": "[MMS] fldsdp2setdacs"
+  },
+  "mms: eis_decom_htr_on": {
+    "prefix": "eis_decom_htr_on",
+    "body": "eis_decom_htr_on",
+    "description": "[MMS] eis_decom_htr_on"
+  },
+  "mms: fe2_inston": {
+    "prefix": "fe2_inston",
+    "body": "fe2_inston",
+    "description": "[MMS] fe2_inston"
+  },
+  "mms: fpi_12v_fdc_check": {
+    "prefix": "fpi_12v_fdc_check",
+    "body": "fpi_12v_fdc_check",
+    "description": "[MMS] fpi_12v_fdc_check"
+  },
+  "mms: flddspbsetup": {
+    "prefix": "flddspbsetup",
+    "body": "flddspbsetup",
+    "description": "[MMS] flddspbsetup"
+  },
+  "mms: fldadp56optimize": {
+    "prefix": "fldadp56optimize",
+    "body": "fldadp56optimize",
+    "description": "[MMS] fldadp56optimize"
+  },
+  "mms: edi_sns_rpt_off": {
+    "prefix": "edi_sns_rpt_off",
+    "body": "edi_sns_rpt_off",
+    "description": "[MMS] edi_sns_rpt_off"
+  },
+  "mms: fpi_hvobs_cal_fs": {
+    "prefix": "fpi_hvobs_cal_fs",
+    "body": "fpi_hvobs_cal_fs",
+    "description": "[MMS] fpi_hvobs_cal_fs"
+  },
+  "mms: cid_instoff_gdu1": {
+    "prefix": "cid_instoff_gdu1",
+    "body": "cid_instoff_gdu1",
+    "description": "[MMS] cid_instoff_gdu1"
+  },
+  "mms: eis_hvco_1800v": {
+    "prefix": "eis_hvco_1800v",
+    "body": "eis_hvco_1800v ${1:\\$temp_range}, ${2:\\$buffer_dump}",
+    "description": "[MMS] eis_hvco_1800v"
+  },
+  "mms: hpc_chk_int_temp": {
+    "prefix": "hpc_chk_int_temp",
+    "body": "hpc_chk_int_temp",
+    "description": "[MMS] hpc_chk_int_temp"
+  },
+  "mms: cid_mode": {
+    "prefix": "cid_mode",
+    "body": "cid_mode ${1:\\$MODE}",
+    "description": "[MMS] cid_mode"
+  },
+  "mms: cid_instoff_fpi": {
+    "prefix": "cid_instoff_fpi",
+    "body": "cid_instoff_fpi",
+    "description": "[MMS] cid_instoff_fpi"
+  },
+  "mms: fldsdp34dep14m": {
+    "prefix": "fldsdp34dep14m",
+    "body": "fldsdp34dep14m",
+    "description": "[MMS] fldsdp34dep14m"
+  },
+  "mms: fpicms_specson": {
+    "prefix": "fpicms_specson",
+    "body": "fpicms_specson",
+    "description": "[MMS] fpicms_specson"
+  },
+  "mms: hpc_lv_checkout": {
+    "prefix": "hpc_lv_checkout",
+    "body": "hpc_lv_checkout",
+    "description": "[MMS] hpc_lv_checkout"
+  },
+  "mms: insert_loadsprocs": {
+    "prefix": "insert_loadsprocs",
+    "body": "insert_loadsprocs",
+    "description": "[MMS] insert_loadsprocs"
+  },
+  "mms: fldfdc_edi_enb": {
+    "prefix": "fldfdc_edi_enb",
+    "body": "fldfdc_edi_enb",
+    "description": "[MMS] fldfdc_edi_enb"
+  },
+  "mms: fe2hkchk": {
+    "prefix": "fe2hkchk",
+    "body": "fe2hkchk",
+    "description": "[MMS] fe2hkchk"
+  },
+  "mms: fldfftafg": {
+    "prefix": "fldfftafg",
+    "body": "fldfftafg",
+    "description": "[MMS] fldfftafg"
+  },
+  "mms: fldsdp12rastersweep": {
+    "prefix": "fldsdp12rastersweep",
+    "body": "fldsdp12rastersweep ${1:\\$NewOuterGuard}, ${2:\\$NewInnerGuard}, ${3:\\$DeltaGuardRaster}",
+    "description": "[MMS] fldsdp12rastersweep"
+  },
+  "mms: hpc_sweep_rf_checkout": {
+    "prefix": "hpc_sweep_rf_checkout",
+    "body": "hpc_sweep_rf_checkout",
+    "description": "[MMS] hpc_sweep_rf_checkout"
+  },
+  "mms: edi_opt_hv1_ck": {
+    "prefix": "edi_opt_hv1_ck",
+    "body": "edi_opt_hv1_ck",
+    "description": "[MMS] edi_opt_hv1_ck"
+  },
+  "mms: edi_s7e1k_p000": {
+    "prefix": "edi_s7e1k_p000",
+    "body": "edi_s7e1k_p000",
+    "description": "[MMS] edi_s7e1k_p000"
+  },
+  "mms: fldramsweeptables": {
+    "prefix": "fldramsweeptables",
+    "body": "fldramsweeptables",
+    "description": "[MMS] fldramsweeptables"
+  },
+  "mms: edi_scpot_beamoff": {
+    "prefix": "edi_scpot_beamoff",
+    "body": "edi_scpot_beamoff",
+    "description": "[MMS] edi_scpot_beamoff"
+  },
+  "mms: edi_gduoff": {
+    "prefix": "edi_gduoff",
+    "body": "edi_gduoff",
+    "description": "[MMS] edi_gduoff"
+  },
+  "mms: fpicms_idpueetst": {
+    "prefix": "fpicms_idpueetst",
+    "body": "fpicms_idpueetst",
+    "description": "[MMS] fpicms_idpueetst"
+  },
+  "mms: hpc_mcp_setautoramp": {
+    "prefix": "hpc_mcp_setautoramp",
+    "body": "hpc_mcp_setautoramp ${1:\\$mode}",
+    "description": "[MMS] hpc_mcp_setautoramp"
+  },
+  "mms: edi_ambient_mode": {
+    "prefix": "edi_ambient_mode",
+    "body": "edi_ambient_mode",
+    "description": "[MMS] edi_ambient_mode"
+  },
+  "mms: fldsdp1doorp": {
+    "prefix": "fldsdp1doorp",
+    "body": "fldsdp1doorp",
+    "description": "[MMS] fldsdp1doorp"
+  },
+  "mms: hpc_tof_manualup": {
+    "prefix": "hpc_tof_manualup",
+    "body": "hpc_tof_manualup ${1:\\$mode}",
+    "description": "[MMS] hpc_tof_manualup"
+  },
+  "mms: fldsdp12off": {
+    "prefix": "fldsdp12off",
+    "body": "fldsdp12off",
+    "description": "[MMS] fldsdp12off"
+  },
+  "mms: fpi_sf_idpurd": {
+    "prefix": "fpi_sf_idpurd",
+    "body": "fpi_sf_idpurd ${1:\\$address}",
+    "description": "[MMS] fpi_sf_idpurd"
+  },
+  "mms: fldadp56setup": {
+    "prefix": "fldadp56setup",
+    "body": "fldadp56setup",
+    "description": "[MMS] fldadp56setup"
+  },
+  "mms: edi_pga2_verify": {
+    "prefix": "edi_pga2_verify",
+    "body": "edi_pga2_verify",
+    "description": "[MMS] edi_pga2_verify"
+  },
+  "mms: fpicms_iinitchk": {
+    "prefix": "fpicms_iinitchk",
+    "body": "fpicms_iinitchk",
+    "description": "[MMS] fpicms_iinitchk"
+  },
+  "mms: fldmemorycmp": {
+    "prefix": "fldmemorycmp",
+    "body": "fldmemorycmp ${1:\\$SOURCEADDR}, ${2:\\$DESTADDR}, ${3:\\$LENGTH}, ${4:\\$TIMEOUT}",
+    "description": "[MMS] fldmemorycmp"
+  },
+  "mms: fldbppot": {
+    "prefix": "fldbppot",
+    "body": "fldbppot",
+    "description": "[MMS] fldbppot"
+  },
+  "mms: edi_tv_cops_g7": {
+    "prefix": "edi_tv_cops_g7",
+    "body": "edi_tv_cops_g7",
+    "description": "[MMS] edi_tv_cops_g7"
+  },
+  "mms: record_cmd": {
+    "prefix": "record_cmd",
+    "body": "record_cmd",
+    "description": "[MMS] record_cmd"
+  },
+  "mms: eis_fastsurvey": {
+    "prefix": "eis_fastsurvey",
+    "body": "eis_fastsurvey",
+    "description": "[MMS] eis_fastsurvey"
+  },
+  "mms: flddspaoff": {
+    "prefix": "flddspaoff",
+    "body": "flddspaoff",
+    "description": "[MMS] flddspaoff"
+  },
+  "mms: edi_wait_busy": {
+    "prefix": "edi_wait_busy",
+    "body": "edi_wait_busy",
+    "description": "[MMS] edi_wait_busy"
+  },
+  "mms: edi_resetmaint": {
+    "prefix": "edi_resetmaint",
+    "body": "edi_resetmaint",
+    "description": "[MMS] edi_resetmaint"
+  },
+  "mms: edi_s7e1k_p022": {
+    "prefix": "edi_s7e1k_p022",
+    "body": "edi_s7e1k_p022",
+    "description": "[MMS] edi_s7e1k_p022"
+  },
+  "mms: fpi_sf_specint10": {
+    "prefix": "fpi_sf_specint10",
+    "body": "fpi_sf_specint10 ${1:\\$spec}, ${2:\\$address}, ${3:\\$enrgrange}, ${4:\\$enrgdac}, ${5:\\$defselect}",
+    "description": "[MMS] fpi_sf_specint10"
+  },
+  "mms: edi_edac_stats": {
+    "prefix": "edi_edac_stats",
+    "body": "edi_edac_stats",
+    "description": "[MMS] edi_edac_stats"
+  },
+  "mms: fldsettrqthresh": {
+    "prefix": "fldsettrqthresh",
+    "body": "fldsettrqthresh ${1:\\$BEBPAIR}",
+    "description": "[MMS] fldsettrqthresh"
+  },
+  "mms: pass_proc": {
+    "prefix": "pass_proc",
+    "body": "pass_proc ${1:\\$AOS_EXPECTED}, ${2:\\$LOS_EXPECTED}, ${3:\\$STATION}, ${4:\\$OBS}",
+    "description": "[MMS] pass_proc"
+  },
+  "mms: edi_amb_cfg7": {
+    "prefix": "edi_amb_cfg7",
+    "body": "edi_amb_cfg7",
+    "description": "[MMS] edi_amb_cfg7"
+  },
+  "mms: update_db": {
+    "prefix": "update_db",
+    "body": "update_db",
+    "description": "[MMS] update_db"
+  },
+  "mms: as1_instoff": {
+    "prefix": "as1_instoff",
+    "body": "as1_instoff",
+    "description": "[MMS] as1_instoff"
+  },
+  "mms: fpicms_chkdislv": {
+    "prefix": "fpicms_chkdislv",
+    "body": "fpicms_chkdislv ${1:\\$spec}",
+    "description": "[MMS] fpicms_chkdislv"
+  },
+  "mms: hpc_comm_cmdcnt": {
+    "prefix": "hpc_comm_cmdcnt",
+    "body": "hpc_comm_cmdcnt",
+    "description": "[MMS] hpc_comm_cmdcnt"
+  },
+  "mms: as1_warmup": {
+    "prefix": "as1_warmup",
+    "body": "as1_warmup ${1:\\$SOURCE}",
+    "description": "[MMS] as1_warmup"
+  },
+  "mms: cid_runmacro": {
+    "prefix": "cid_runmacro",
+    "body": "cid_runmacro ${1:\\$macro_id}",
+    "description": "[MMS] cid_runmacro"
+  },
+  "mms: cid_clr_evterr": {
+    "prefix": "cid_clr_evterr",
+    "body": "cid_clr_evterr",
+    "description": "[MMS] cid_clr_evterr"
+  },
+  "mms: fldloadramsweep": {
+    "prefix": "fldloadramsweep",
+    "body": "fldloadramsweep",
+    "description": "[MMS] fldloadramsweep"
+  },
+  "mms: edi_mnt_wdt_enable": {
+    "prefix": "edi_mnt_wdt_enable",
+    "body": "edi_mnt_wdt_enable",
+    "description": "[MMS] edi_mnt_wdt_enable"
+  },
+  "mms: edi_efield_call": {
+    "prefix": "edi_efield_call",
+    "body": "edi_efield_call ${1:\\$Duration}, ${2:\\$DumpTable}",
+    "description": "[MMS] edi_efield_call"
+  },
+  "mms: fldcomm0": {
+    "prefix": "fldcomm0",
+    "body": "fldcomm0",
+    "description": "[MMS] fldcomm0"
+  },
+  "mms: as1_log_ver": {
+    "prefix": "as1_log_ver",
+    "body": "as1_log_ver",
+    "description": "[MMS] as1_log_ver"
+  },
+  "mms: fld_mag_boom_deploy": {
+    "prefix": "fld_mag_boom_deploy",
+    "body": "fld_mag_boom_deploy",
+    "description": "[MMS] fld_mag_boom_deploy"
+  },
+  "mms: fldsdp12dep14m": {
+    "prefix": "fldsdp12dep14m",
+    "body": "fldsdp12dep14m",
+    "description": "[MMS] fldsdp12dep14m"
+  },
+  "mms: fldsdp3hop": {
+    "prefix": "fldsdp3hop",
+    "body": "fldsdp3hop",
+    "description": "[MMS] fldsdp3hop"
+  },
+  "mms: fpi_sf_specregrd": {
+    "prefix": "fpi_sf_specregrd",
+    "body": "fpi_sf_specregrd ${1:\\$spec}, ${2:\\$address}",
+    "description": "[MMS] fpi_sf_specregrd"
+  },
+  "mms: cid_inston_fe1": {
+    "prefix": "cid_inston_fe1",
+    "body": "cid_inston_fe1",
+    "description": "[MMS] cid_inston_fe1"
+  },
+  "mms: edi_snstest": {
+    "prefix": "edi_snstest",
+    "body": "edi_snstest ${1:\\$AccTime}, ${2:\\$NumRepeats}",
+    "description": "[MMS] edi_snstest"
+  },
+  "mms: asp_data_check": {
+    "prefix": "asp_data_check",
+    "body": "asp_data_check ${1:\\$ID}",
+    "description": "[MMS] asp_data_check"
+  },
+  "mms: fe1_set_thresh": {
+    "prefix": "fe1_set_thresh",
+    "body": "fe1_set_thresh ${1:\\$adj_input}",
+    "description": "[MMS] fe1_set_thresh"
+  },
+  "mms: cid_acton_sdp2": {
+    "prefix": "cid_acton_sdp2",
+    "body": "cid_acton_sdp2",
+    "description": "[MMS] cid_acton_sdp2"
+  },
+  "mms: hpc_3min_rampdown_unlock": {
+    "prefix": "hpc_3min_rampdown_unlock",
+    "body": "hpc_3min_rampdown_unlock",
+    "description": "[MMS] hpc_3min_rampdown_unlock"
+  },
+  "mms: edi_mnt_write_disable": {
+    "prefix": "edi_mnt_write_disable",
+    "body": "edi_mnt_write_disable",
+    "description": "[MMS] edi_mnt_write_disable"
+  },
+  "mms: edi_scpot_mode1": {
+    "prefix": "edi_scpot_mode1",
+    "body": "edi_scpot_mode1",
+    "description": "[MMS] edi_scpot_mode1"
+  },
+  "mms: fpicms_specon": {
+    "prefix": "fpicms_specon",
+    "body": "fpicms_specon ${1:\\$spec}",
+    "description": "[MMS] fpicms_specon"
+  },
+  "mms: fpi_specsoff": {
+    "prefix": "fpi_specsoff",
+    "body": "fpi_specsoff",
+    "description": "[MMS] fpi_specsoff"
+  },
+  "mms: cid_fswtoee": {
+    "prefix": "cid_fswtoee",
+    "body": "cid_fswtoee",
+    "description": "[MMS] cid_fswtoee"
+  },
+  "mms: fldloadbebdactables": {
+    "prefix": "fldloadbebdactables",
+    "body": "fldloadbebdactables",
+    "description": "[MMS] fldloadbebdactables"
+  },
+  "mms: edi_hv9": {
+    "prefix": "edi_hv9",
+    "body": "edi_hv9 ${1:\\$SAFE}",
+    "description": "[MMS] edi_hv9"
+  },
+  "mms: fldprobesetdac": {
+    "prefix": "fldprobesetdac",
+    "body": "fldprobesetdac ${1:\\$Probe}, ${2:\\$DAC}, ${3:\\$DACLevel}, ${4:\\$Confirm}",
+    "description": "[MMS] fldprobesetdac"
+  },
+  "mms: fldlddspfastwftl": {
+    "prefix": "fldlddspfastwftl",
+    "body": "fldlddspfastwftl",
+    "description": "[MMS] fldlddspfastwftl"
+  },
+  "mms: edi_hv2_contops": {
+    "prefix": "edi_hv2_contops",
+    "body": "edi_hv2_contops",
+    "description": "[MMS] edi_hv2_contops"
+  },
+  "mms: asp_plug_check": {
+    "prefix": "asp_plug_check",
+    "body": "asp_plug_check ${1:\\$ID}",
+    "description": "[MMS] asp_plug_check"
+  },
+  "mms: eis_hv_supply": {
+    "prefix": "eis_hv_supply",
+    "body": "eis_hv_supply",
+    "description": "[MMS] eis_hv_supply"
+  },
+  "mms: cid_acton_adp6t": {
+    "prefix": "cid_acton_adp6t",
+    "body": "cid_acton_adp6t",
+    "description": "[MMS] cid_acton_adp6t"
+  },
+  "mms: rts_control": {
+    "prefix": "rts_control",
+    "body": "rts_control ${1:\\$control}, ${2:\\$rts}",
+    "description": "[MMS] rts_control"
+  },
+  "mms: cid_inston_gdu1": {
+    "prefix": "cid_inston_gdu1",
+    "body": "cid_inston_gdu1",
+    "description": "[MMS] cid_inston_gdu1"
+  },
+  "mms: edi_elf_cfg6": {
+    "prefix": "edi_elf_cfg6",
+    "body": "edi_elf_cfg6",
+    "description": "[MMS] edi_elf_cfg6"
+  },
+  "mms: hpc_comm_pulsers": {
+    "prefix": "hpc_comm_pulsers",
+    "body": "hpc_comm_pulsers",
+    "description": "[MMS] hpc_comm_pulsers"
+  },
+  "mms: edi_acc_125ms": {
+    "prefix": "edi_acc_125ms",
+    "body": "edi_acc_125ms",
+    "description": "[MMS] edi_acc_125ms"
+  },
+  "mms: fldafgoff": {
+    "prefix": "fldafgoff",
+    "body": "fldafgoff",
+    "description": "[MMS] fldafgoff"
+  },
+  "mms: eis_slowsurvey": {
+    "prefix": "eis_slowsurvey",
+    "body": "eis_slowsurvey",
+    "description": "[MMS] eis_slowsurvey"
+  },
+  "mms: edi_exit_safe": {
+    "prefix": "edi_exit_safe",
+    "body": "edi_exit_safe",
+    "description": "[MMS] edi_exit_safe"
+  },
+  "mms: asp_feedback": {
+    "prefix": "asp_feedback",
+    "body": "asp_feedback",
+    "description": "[MMS] asp_feedback"
+  },
+  "mms: fldcramchecksum": {
+    "prefix": "fldcramchecksum",
+    "body": "fldcramchecksum",
+    "description": "[MMS] fldcramchecksum"
+  },
+  "mms: fld_adp_re_deploy": {
+    "prefix": "fld_adp_re_deploy",
+    "body": "fld_adp_re_deploy ${1:\\$hoptimeout}",
+    "description": "[MMS] fld_adp_re_deploy"
+  },
+  "mms: tlm_check": {
+    "prefix": "tlm_check",
+    "body": "tlm_check",
+    "description": "[MMS] tlm_check"
+  },
+  "mms: fpicms_lvfast": {
+    "prefix": "fpicms_lvfast",
+    "body": "fpicms_lvfast",
+    "description": "[MMS] fpicms_lvfast"
+  },
+  "mms: fldsdp4motortst": {
+    "prefix": "fldsdp4motortst",
+    "body": "fldsdp4motortst",
+    "description": "[MMS] fldsdp4motortst"
+  },
+  "mms: edi_wait_hk4": {
+    "prefix": "edi_wait_hk4",
+    "body": "edi_wait_hk4",
+    "description": "[MMS] edi_wait_hk4"
+  },
+  "mms: fldautosweeprpt": {
+    "prefix": "fldautosweeprpt",
+    "body": "fldautosweeprpt",
+    "description": "[MMS] fldautosweeprpt"
+  },
+  "mms: hpc_log_ver": {
+    "prefix": "hpc_log_ver",
+    "body": "hpc_log_ver",
+    "description": "[MMS] hpc_log_ver"
+  },
+  "mms: edichvcheckout7": {
+    "prefix": "edichvcheckout7",
+    "body": "edichvcheckout7",
+    "description": "[MMS] edichvcheckout7"
+  },
+  "mms: edi_opt_hv1": {
+    "prefix": "edi_opt_hv1",
+    "body": "edi_opt_hv1",
+    "description": "[MMS] edi_opt_hv1"
+  },
+  "mms: edi_hv7": {
+    "prefix": "edi_hv7",
+    "body": "edi_hv7 ${1:\\$SAFE}",
+    "description": "[MMS] edi_hv7"
+  },
+  "mms: asp_edi_test": {
+    "prefix": "asp_edi_test",
+    "body": "asp_edi_test",
+    "description": "[MMS] asp_edi_test"
+  },
+  "mms: eis_thresh_test": {
+    "prefix": "eis_thresh_test",
+    "body": "eis_thresh_test ${1:\\$temp_range}, ${2:\\$observatory}",
+    "description": "[MMS] eis_thresh_test"
+  },
+  "mms: edi_elf_cfg1": {
+    "prefix": "edi_elf_cfg1",
+    "body": "edi_elf_cfg1",
+    "description": "[MMS] edi_elf_cfg1"
+  },
+  "mms: edi_lv2stby": {
+    "prefix": "edi_lv2stby",
+    "body": "edi_lv2stby",
+    "description": "[MMS] edi_lv2stby"
+  },
+  "mms: edi_safelock_off": {
+    "prefix": "edi_safelock_off",
+    "body": "edi_safelock_off",
+    "description": "[MMS] edi_safelock_off"
+  },
+  "mms: edi_s4e1k_p093": {
+    "prefix": "edi_s4e1k_p093",
+    "body": "edi_s4e1k_p093",
+    "description": "[MMS] edi_s4e1k_p093"
+  },
+  "mms: fe2sweep": {
+    "prefix": "fe2sweep",
+    "body": "fe2sweep",
+    "description": "[MMS] fe2sweep"
+  },
+  "mms: edi_tv_cops_g6": {
+    "prefix": "edi_tv_cops_g6",
+    "body": "edi_tv_cops_g6",
+    "description": "[MMS] edi_tv_cops_g6"
+  },
+  "mms: fldsdp12dep3m": {
+    "prefix": "fldsdp12dep3m",
+    "body": "fldsdp12dep3m",
+    "description": "[MMS] fldsdp12dep3m"
+  },
+  "mms: fpi_mask_spec_hk": {
+    "prefix": "fpi_mask_spec_hk",
+    "body": "fpi_mask_spec_hk ${1:\\$spec}",
+    "description": "[MMS] fpi_mask_spec_hk"
+  },
+  "mms: fpi_setint": {
+    "prefix": "fpi_setint",
+    "body": "fpi_setint ${1:\\$spec}, ${2:\\$int_val}",
+    "description": "[MMS] fpi_setint"
+  },
+  "mms: edi_wait_hk16": {
+    "prefix": "edi_wait_hk16",
+    "body": "edi_wait_hk16",
+    "description": "[MMS] edi_wait_hk16"
+  },
+  "mms: fpi_specrst_all": {
+    "prefix": "fpi_specrst_all",
+    "body": "fpi_specrst_all",
+    "description": "[MMS] fpi_specrst_all"
+  },
+  "mms: cid_mmm_backup": {
+    "prefix": "cid_mmm_backup",
+    "body": "cid_mmm_backup",
+    "description": "[MMS] cid_mmm_backup"
+  },
+  "mms: edi_magcheckout": {
+    "prefix": "edi_magcheckout",
+    "body": "edi_magcheckout",
+    "description": "[MMS] edi_magcheckout"
+  },
+  "mms: fldadp6setdacs": {
+    "prefix": "fldadp6setdacs",
+    "body": "fldadp6setdacs",
+    "description": "[MMS] fldadp6setdacs"
+  },
+  "mms: cid_instoff_as2": {
+    "prefix": "cid_instoff_as2",
+    "body": "cid_instoff_as2",
+    "description": "[MMS] cid_instoff_as2"
+  },
+  "mms: edi_tv_cops_g1": {
+    "prefix": "edi_tv_cops_g1",
+    "body": "edi_tv_cops_g1",
+    "description": "[MMS] edi_tv_cops_g1"
+  },
+  "mms: fldadpsweep": {
+    "prefix": "fldadpsweep",
+    "body": "fldadpsweep",
+    "description": "[MMS] fldadpsweep"
+  },
+  "mms: fpicms_idpu_chkt": {
+    "prefix": "fpicms_idpu_chkt",
+    "body": "fpicms_idpu_chkt",
+    "description": "[MMS] fpicms_idpu_chkt"
+  },
+  "mms: fldsdp12optimize": {
+    "prefix": "fldsdp12optimize",
+    "body": "fldsdp12optimize",
+    "description": "[MMS] fldsdp12optimize"
+  },
+  "mms: edi_fast_survey": {
+    "prefix": "edi_fast_survey",
+    "body": "edi_fast_survey",
+    "description": "[MMS] edi_fast_survey"
+  },
+  "mms: asp_cur_sweep_cal": {
+    "prefix": "asp_cur_sweep_cal",
+    "body": "asp_cur_sweep_cal ${1:\\$ID}",
+    "description": "[MMS] asp_cur_sweep_cal"
+  },
+  "mms: fpi_pwr_dn": {
+    "prefix": "fpi_pwr_dn",
+    "body": "fpi_pwr_dn",
+    "description": "[MMS] fpi_pwr_dn"
+  },
+  "mms: cid_close_files": {
+    "prefix": "cid_close_files",
+    "body": "cid_close_files",
+    "description": "[MMS] cid_close_files"
+  },
+  "mms: eis_macro_test": {
+    "prefix": "eis_macro_test",
+    "body": "eis_macro_test",
+    "description": "[MMS] eis_macro_test"
+  },
+  "mms: asp_hv_extended": {
+    "prefix": "asp_hv_extended",
+    "body": "asp_hv_extended",
+    "description": "[MMS] asp_hv_extended"
+  },
+  "mms: fldscmsetup": {
+    "prefix": "fldscmsetup",
+    "body": "fldscmsetup",
+    "description": "[MMS] fldscmsetup"
+  },
+  "mms: edi_s4e1k_p045": {
+    "prefix": "edi_s4e1k_p045",
+    "body": "edi_s4e1k_p045",
+    "description": "[MMS] edi_s4e1k_p045"
+  },
+  "mms: hpc_util_copy": {
+    "prefix": "hpc_util_copy",
+    "body": "hpc_util_copy ${1:\\$target}, ${2:\\$source}",
+    "description": "[MMS] hpc_util_copy"
+  },
+  "mms: fpi_ni_setup": {
+    "prefix": "fpi_ni_setup",
+    "body": "fpi_ni_setup ${1:\\$observatory}",
+    "description": "[MMS] fpi_ni_setup"
+  },
+  "mms: edi_s7e500_p067": {
+    "prefix": "edi_s7e500_p067",
+    "body": "edi_s7e500_p067",
+    "description": "[MMS] edi_s7e500_p067"
+  },
+  "mms: fldsdp12deploy": {
+    "prefix": "fldsdp12deploy",
+    "body": "fldsdp12deploy ${1:\\$Steps}",
+    "description": "[MMS] fldsdp12deploy"
+  },
+  "mms: fldslowsurvey": {
+    "prefix": "fldslowsurvey",
+    "body": "fldslowsurvey",
+    "description": "[MMS] fldslowsurvey"
+  },
+  "mms: cid_pwr": {
+    "prefix": "cid_pwr",
+    "body": "cid_pwr",
+    "description": "[MMS] cid_pwr"
+  },
+  "mms: flddfgslow": {
+    "prefix": "flddfgslow",
+    "body": "flddfgslow",
+    "description": "[MMS] flddfgslow"
+  },
+  "mms: cid_instoff_hpcr": {
+    "prefix": "cid_instoff_hpcr",
+    "body": "cid_instoff_hpcr",
+    "description": "[MMS] cid_instoff_hpcr"
+  },
+  "mms: hpc_mcp_manualup": {
+    "prefix": "hpc_mcp_manualup",
+    "body": "hpc_mcp_manualup ${1:\\$mode}",
+    "description": "[MMS] hpc_mcp_manualup"
+  },
+  "mms: fpicms_hbpkchk": {
+    "prefix": "fpicms_hbpkchk",
+    "body": "fpicms_hbpkchk",
+    "description": "[MMS] fpicms_hbpkchk"
+  },
+  "mms: flddfgsdzr1": {
+    "prefix": "flddfgsdzr1",
+    "body": "flddfgsdzr1",
+    "description": "[MMS] flddfgsdzr1"
+  },
+  "mms: fldsdp1hop": {
+    "prefix": "fldsdp1hop",
+    "body": "fldsdp1hop",
+    "description": "[MMS] fldsdp1hop"
+  },
+  "mms: edi_fs_write_disable": {
+    "prefix": "edi_fs_write_disable",
+    "body": "edi_fs_write_disable",
+    "description": "[MMS] edi_fs_write_disable"
+  },
+  "mms: hpc_hven_to_hvlt": {
+    "prefix": "hpc_hven_to_hvlt",
+    "body": "hpc_hven_to_hvlt",
+    "description": "[MMS] hpc_hven_to_hvlt"
+  },
+  "mms: edi_tv_cops_g8": {
+    "prefix": "edi_tv_cops_g8",
+    "body": "edi_tv_cops_g8",
+    "description": "[MMS] edi_tv_cops_g8"
+  },
+  "mms: fldafgsetup": {
+    "prefix": "fldafgsetup",
+    "body": "fldafgsetup",
+    "description": "[MMS] fldafgsetup"
+  },
+  "mms: eis_buffer_start": {
+    "prefix": "eis_buffer_start",
+    "body": "eis_buffer_start",
+    "description": "[MMS] eis_buffer_start"
+  },
+  "mms: fldsdp34setup": {
+    "prefix": "fldsdp34setup",
+    "body": "fldsdp34setup",
+    "description": "[MMS] fldsdp34setup"
+  },
+  "mms: edi_s7e1k_p090": {
+    "prefix": "edi_s7e1k_p090",
+    "body": "edi_s7e1k_p090",
+    "description": "[MMS] edi_s7e1k_p090"
+  },
+  "mms: asp_fil_out": {
+    "prefix": "asp_fil_out",
+    "body": "asp_fil_out ${1:\\$ID}, ${2:\\$VALUE}",
+    "description": "[MMS] asp_fil_out"
+  },
+  "mms: edi_s4e500_p067": {
+    "prefix": "edi_s4e500_p067",
+    "body": "edi_s4e500_p067",
+    "description": "[MMS] edi_s4e500_p067"
+  },
+  "mms: fld_ceb_checkout": {
+    "prefix": "fld_ceb_checkout",
+    "body": "fld_ceb_checkout",
+    "description": "[MMS] fld_ceb_checkout"
+  },
+  "mms: fpi_lv_checkout": {
+    "prefix": "fpi_lv_checkout",
+    "body": "fpi_lv_checkout",
+    "description": "[MMS] fpi_lv_checkout"
+  },
+  "mms: fldfastsurvey": {
+    "prefix": "fldfastsurvey",
+    "body": "fldfastsurvey",
+    "description": "[MMS] fldfastsurvey"
+  },
+  "mms: fldscmoff": {
+    "prefix": "fldscmoff",
+    "body": "fldscmoff",
+    "description": "[MMS] fldscmoff"
+  },
+  "mms: edi_gde_pulser": {
+    "prefix": "edi_gde_pulser",
+    "body": "edi_gde_pulser",
+    "description": "[MMS] edi_gde_pulser"
+  },
+  "mms: edi_clks_on_ckhk": {
+    "prefix": "edi_clks_on_ckhk",
+    "body": "edi_clks_on_ckhk",
+    "description": "[MMS] edi_clks_on_ckhk"
+  },
+  "mms: edi_ref_ck": {
+    "prefix": "edi_ref_ck",
+    "body": "edi_ref_ck",
+    "description": "[MMS] edi_ref_ck"
+  },
+  "mms: cid_actoff_adp5e": {
+    "prefix": "cid_actoff_adp5e",
+    "body": "cid_actoff_adp5e",
+    "description": "[MMS] cid_actoff_adp5e"
+  },
+  "mms: as1_hv_checkout": {
+    "prefix": "as1_hv_checkout",
+    "body": "as1_hv_checkout",
+    "description": "[MMS] as1_hv_checkout"
+  },
+  "mms: cid_acton_armfrg": {
+    "prefix": "cid_acton_armfrg",
+    "body": "cid_acton_armfrg",
+    "description": "[MMS] cid_acton_armfrg"
+  },
+  "mms: fldsdp2doorr": {
+    "prefix": "fldsdp2doorr",
+    "body": "fldsdp2doorr",
+    "description": "[MMS] fldsdp2doorr"
+  },
+  "mms: flatsat_init": {
+    "prefix": "flatsat_init",
+    "body": "flatsat_init",
+    "description": "[MMS] flatsat_init"
+  },
+  "mms: hpc_param_load": {
+    "prefix": "hpc_param_load",
+    "body": "hpc_param_load",
+    "description": "[MMS] hpc_param_load"
+  },
+  "mms: fldcheckpoke": {
+    "prefix": "fldcheckpoke",
+    "body": "fldcheckpoke ${1:\\$ADDRESS}, ${2:\\$VALUE}, ${3:\\$TIMEOUT}",
+    "description": "[MMS] fldcheckpoke"
+  },
+  "mms: fldedicmd_pm_allow": {
+    "prefix": "fldedicmd_pm_allow",
+    "body": "fldedicmd_pm_allow",
+    "description": "[MMS] fldedicmd_pm_allow"
+  },
+  "mms: fldldbebdactable4": {
+    "prefix": "fldldbebdactable4",
+    "body": "fldldbebdactable4",
+    "description": "[MMS] fldldbebdactable4"
+  },
+  "mms: fpi_dxs_ckv10out": {
+    "prefix": "fpi_dxs_ckv10out",
+    "body": "fpi_dxs_ckv10out ${1:\\$spec}",
+    "description": "[MMS] fpi_dxs_ckv10out"
+  },
+  "mms: asp_load_precheck": {
+    "prefix": "asp_load_precheck",
+    "body": "asp_load_precheck ${1:\\$ID}",
+    "description": "[MMS] asp_load_precheck"
+  },
+  "mms: cid_hoptimeout": {
+    "prefix": "cid_hoptimeout",
+    "body": "cid_hoptimeout ${1:\\$hoptimeout}",
+    "description": "[MMS] cid_hoptimeout"
+  },
+  "mms: fpi_hvobs_ss": {
+    "prefix": "fpi_hvobs_ss",
+    "body": "fpi_hvobs_ss",
+    "description": "[MMS] fpi_hvobs_ss"
+  },
+  "mms: cid_steering_table": {
+    "prefix": "cid_steering_table",
+    "body": "cid_steering_table ${1:\\$table}, ${2:\\$inmode}",
+    "description": "[MMS] cid_steering_table"
+  },
+  "mms: cid_chk_mac_cfg": {
+    "prefix": "cid_chk_mac_cfg",
+    "body": "cid_chk_mac_cfg ${1:\\$MINX}",
+    "description": "[MMS] cid_chk_mac_cfg"
+  },
+  "mms: fldconfigaspocon": {
+    "prefix": "fldconfigaspocon",
+    "body": "fldconfigaspocon",
+    "description": "[MMS] fldconfigaspocon"
+  },
+  "mms: cid_actoff_frg1": {
+    "prefix": "cid_actoff_frg1",
+    "body": "cid_actoff_frg1",
+    "description": "[MMS] cid_actoff_frg1"
+  },
+  "mms: eis_instoff": {
+    "prefix": "eis_instoff",
+    "body": "eis_instoff",
+    "description": "[MMS] eis_instoff"
+  },
+  "mms: cid_call_fbtl_del": {
+    "prefix": "cid_call_fbtl_del",
+    "body": "cid_call_fbtl_del ${1:\\$TABLE}, ${2:\\$FINX}",
+    "description": "[MMS] cid_call_fbtl_del"
+  },
+  "mms: fpi_all_hv_off": {
+    "prefix": "fpi_all_hv_off",
+    "body": "fpi_all_hv_off",
+    "description": "[MMS] fpi_all_hv_off"
+  },
+  "mms: update_limits": {
+    "prefix": "update_limits",
+    "body": "update_limits",
+    "description": "[MMS] update_limits"
+  },
+  "mms: asp_warmup_both": {
+    "prefix": "asp_warmup_both",
+    "body": "asp_warmup_both ${1:\\$AS1_SOURCE}, ${2:\\$AS2_SOURCE}",
+    "description": "[MMS] asp_warmup_both"
+  },
+  "mms: asp_verify_sw": {
+    "prefix": "asp_verify_sw",
+    "body": "asp_verify_sw ${1:\\$ID}, ${2:\\$TGT}, ${3:\\$CHECKSM}, ${4:\\$VERSION}",
+    "description": "[MMS] asp_verify_sw"
+  },
+  "mms: edi_tv_cops_g2": {
+    "prefix": "edi_tv_cops_g2",
+    "body": "edi_tv_cops_g2",
+    "description": "[MMS] edi_tv_cops_g2"
+  },
+  "mms: edi_tplsref": {
+    "prefix": "edi_tplsref",
+    "body": "edi_tplsref ${1:\\$LEVEL}, ${2:\\$MODE}",
+    "description": "[MMS] edi_tplsref"
+  },
+  "mms: edi_pulser_off": {
+    "prefix": "edi_pulser_off",
+    "body": "edi_pulser_off",
+    "description": "[MMS] edi_pulser_off"
+  },
+  "mms: edichv_init": {
+    "prefix": "edichv_init",
+    "body": "edichv_init",
+    "description": "[MMS] edichv_init"
+  },
+  "mms: fpi_sf_modeeng_n": {
+    "prefix": "fpi_sf_modeeng_n",
+    "body": "fpi_sf_modeeng_n",
+    "description": "[MMS] fpi_sf_modeeng_n"
+  },
+  "mms: fldautosweep": {
+    "prefix": "fldautosweep",
+    "body": "fldautosweep",
+    "description": "[MMS] fldautosweep"
+  },
+  "mms: cid_acton_htrs": {
+    "prefix": "cid_acton_htrs",
+    "body": "cid_acton_htrs",
+    "description": "[MMS] cid_acton_htrs"
+  },
+  "mms: edi_hv_air_ckref": {
+    "prefix": "edi_hv_air_ckref",
+    "body": "edi_hv_air_ckref",
+    "description": "[MMS] edi_hv_air_ckref"
+  },
+  "mms: asp_copy_sw": {
+    "prefix": "asp_copy_sw",
+    "body": "asp_copy_sw ${1:\\$ID}, ${2:\\$SRC}, ${3:\\$TGT}, ${4:\\$CHK}",
+    "description": "[MMS] asp_copy_sw"
+  },
+  "mms: fldsdp1doorr": {
+    "prefix": "fldsdp1doorr",
+    "body": "fldsdp1doorr",
+    "description": "[MMS] fldsdp1doorr"
+  },
+  "mms: flddepmondisable": {
+    "prefix": "flddepmondisable",
+    "body": "flddepmondisable",
+    "description": "[MMS] flddepmondisable"
+  },
+  "mms: hpc_inston": {
+    "prefix": "hpc_inston",
+    "body": "hpc_inston",
+    "description": "[MMS] hpc_inston"
+  },
+  "mms: fldfdc_edicomm_enb": {
+    "prefix": "fldfdc_edicomm_enb",
+    "body": "fldfdc_edicomm_enb",
+    "description": "[MMS] fldfdc_edicomm_enb"
+  },
+  "mms: edi_stby2elf": {
+    "prefix": "edi_stby2elf",
+    "body": "edi_stby2elf",
+    "description": "[MMS] edi_stby2elf"
+  },
+  "mms: edi_s4e1k_p090": {
+    "prefix": "edi_s4e1k_p090",
+    "body": "edi_s4e1k_p090",
+    "description": "[MMS] edi_s4e1k_p090"
+  },
+  "mms: asp_hv_check_basic": {
+    "prefix": "asp_hv_check_basic",
+    "body": "asp_hv_check_basic ${1:\\$ID}",
+    "description": "[MMS] asp_hv_check_basic"
+  },
+  "mms: cid_file_add": {
+    "prefix": "cid_file_add",
+    "body": "cid_file_add ${1:\\$file_in}",
+    "description": "[MMS] cid_file_add"
+  },
+  "mms: cid_actoff_adp5t": {
+    "prefix": "cid_actoff_adp5t",
+    "body": "cid_actoff_adp5t",
+    "description": "[MMS] cid_actoff_adp5t"
+  },
+  "mms: edi_tv_cops_g5": {
+    "prefix": "edi_tv_cops_g5",
+    "body": "edi_tv_cops_g5",
+    "description": "[MMS] edi_tv_cops_g5"
+  },
+  "mms: edi_sns_rpt_on": {
+    "prefix": "edi_sns_rpt_on",
+    "body": "edi_sns_rpt_on",
+    "description": "[MMS] edi_sns_rpt_on"
+  },
+  "mms: fpicms_cmprtst": {
+    "prefix": "fpicms_cmprtst",
+    "body": "fpicms_cmprtst",
+    "description": "[MMS] fpicms_cmprtst"
+  },
+  "mms: edi_ambient_data": {
+    "prefix": "edi_ambient_data",
+    "body": "edi_ambient_data ${1:\\$ENERGY}, ${2:\\$AMBCFG}",
+    "description": "[MMS] edi_ambient_data"
+  },
+  "mms: edi_clocks_on": {
+    "prefix": "edi_clocks_on",
+    "body": "edi_clocks_on",
+    "description": "[MMS] edi_clocks_on"
+  },
+  "mms: cid_instoff_as1": {
+    "prefix": "cid_instoff_as1",
+    "body": "cid_instoff_as1",
+    "description": "[MMS] cid_instoff_as1"
+  },
+  "mms: cid_testcmd": {
+    "prefix": "cid_testcmd",
+    "body": "cid_testcmd",
+    "description": "[MMS] cid_testcmd"
+  },
+  "mms: iscm_spin_up_recovery": {
+    "prefix": "iscm_spin_up_recovery",
+    "body": "iscm_spin_up_recovery",
+    "description": "[MMS] iscm_spin_up_recovery"
+  },
+  "mms: edi_hv3_contops": {
+    "prefix": "edi_hv3_contops",
+    "body": "edi_hv3_contops",
+    "description": "[MMS] edi_hv3_contops"
+  },
+  "mms: fpicms_btcore": {
+    "prefix": "fpicms_btcore",
+    "body": "fpicms_btcore ${1:\\$rstopt}, ${2:\\$tblno}, ${3:\\$safeopt}, ${4:\\$tblvers}",
+    "description": "[MMS] fpicms_btcore"
+  },
+  "mms: hpc_3min_rampdown": {
+    "prefix": "hpc_3min_rampdown",
+    "body": "hpc_3min_rampdown",
+    "description": "[MMS] hpc_3min_rampdown"
+  },
+  "mms: edi_reset_cmdctrs": {
+    "prefix": "edi_reset_cmdctrs",
+    "body": "edi_reset_cmdctrs",
+    "description": "[MMS] edi_reset_cmdctrs"
+  },
+  "mms: fe2_intl_pwr_on": {
+    "prefix": "fe2_intl_pwr_on",
+    "body": "fe2_intl_pwr_on",
+    "description": "[MMS] fe2_intl_pwr_on"
+  },
+  "mms: is_comm_setup_cmd_side": {
+    "prefix": "is_comm_setup_cmd_side",
+    "body": "is_comm_setup_cmd_side ${1:\\$asist}",
+    "description": "[MMS] is_comm_setup_cmd_side"
+  },
+  "mms: asp_tlm_rate_max": {
+    "prefix": "asp_tlm_rate_max",
+    "body": "asp_tlm_rate_max ${1:\\$ID}",
+    "description": "[MMS] asp_tlm_rate_max"
+  },
+  "mms: edi_pga2_cksum": {
+    "prefix": "edi_pga2_cksum",
+    "body": "edi_pga2_cksum",
+    "description": "[MMS] edi_pga2_cksum"
+  },
+  "mms: fldldbebdacaspocoff": {
+    "prefix": "fldldbebdacaspocoff",
+    "body": "fldldbebdacaspocoff",
+    "description": "[MMS] fldldbebdacaspocoff"
+  },
+  "mms: fe1plsr": {
+    "prefix": "fe1plsr",
+    "body": "fe1plsr ${1:\\$PULSER_INPUT}",
+    "description": "[MMS] fe1plsr"
+  },
+  "mms: hpc_hven_to_ramp": {
+    "prefix": "hpc_hven_to_ramp",
+    "body": "hpc_hven_to_ramp",
+    "description": "[MMS] hpc_hven_to_ramp"
+  },
+  "mms: edi_resetfailsafe": {
+    "prefix": "edi_resetfailsafe",
+    "body": "edi_resetfailsafe",
+    "description": "[MMS] edi_resetfailsafe"
+  },
+  "mms: flddfgsdzr2": {
+    "prefix": "flddfgsdzr2",
+    "body": "flddfgsdzr2",
+    "description": "[MMS] flddfgsdzr2"
+  },
+  "mms: fldldbebdaceclipse": {
+    "prefix": "fldldbebdaceclipse",
+    "body": "fldldbebdaceclipse",
+    "description": "[MMS] fldldbebdaceclipse"
+  },
+  "mms: as1_lv_checkout": {
+    "prefix": "as1_lv_checkout",
+    "body": "as1_lv_checkout",
+    "description": "[MMS] as1_lv_checkout"
+  },
+  "mms: fpicms_dxs_thswp": {
+    "prefix": "fpicms_dxs_thswp",
+    "body": "fpicms_dxs_thswp ${1:\\$spec}",
+    "description": "[MMS] fpicms_dxs_thswp"
+  },
+  "mms: fldsweepstop": {
+    "prefix": "fldsweepstop",
+    "body": "fldsweepstop",
+    "description": "[MMS] fldsweepstop"
+  },
+  "mms: edi_s7e1k_p045": {
+    "prefix": "edi_s7e1k_p045",
+    "body": "edi_s7e1k_p045",
+    "description": "[MMS] edi_s7e1k_p045"
+  },
+  "mms: fpi_find_autosel": {
+    "prefix": "fpi_find_autosel",
+    "body": "fpi_find_autosel ${1:\\$version1}, ${2:\\$version2}, ${3:\\$version3}, ${4:\\$version4}, ${5:\\$version5}",
+    "description": "[MMS] fpi_find_autosel"
+  },
+  "mms: edi_s7e1k_p093": {
+    "prefix": "edi_s7e1k_p093",
+    "body": "edi_s7e1k_p093",
+    "description": "[MMS] edi_s7e1k_p093"
+  },
+  "mms: fe1sweep": {
+    "prefix": "fe1sweep",
+    "body": "fe1sweep",
+    "description": "[MMS] fe1sweep"
+  },
+  "mms: fpicms_chkdeslv": {
+    "prefix": "fpicms_chkdeslv",
+    "body": "fpicms_chkdeslv ${1:\\$spec}",
+    "description": "[MMS] fpicms_chkdeslv"
+  },
+  "mms: edi_commlock_recover": {
+    "prefix": "edi_commlock_recover",
+    "body": "edi_commlock_recover ${1:\\$ENDSTATE}",
+    "description": "[MMS] edi_commlock_recover"
+  },
+  "mms: asp_current_out": {
+    "prefix": "asp_current_out",
+    "body": "asp_current_out ${1:\\$ID}, ${2:\\$MODE}, ${3:\\$VALUE}",
+    "description": "[MMS] asp_current_out"
+  },
+  "mms: cid_inston_fpi": {
+    "prefix": "cid_inston_fpi",
+    "body": "cid_inston_fpi",
+    "description": "[MMS] cid_inston_fpi"
+  },
+  "mms: fldsdp1setdacs": {
+    "prefix": "fldsdp1setdacs",
+    "body": "fldsdp1setdacs",
+    "description": "[MMS] fldsdp1setdacs"
+  },
+  "mms: fe1_inston": {
+    "prefix": "fe1_inston",
+    "body": "fe1_inston",
+    "description": "[MMS] fe1_inston"
+  },
+  "mms: fldsdp2hop": {
+    "prefix": "fldsdp2hop",
+    "body": "fldsdp2hop",
+    "description": "[MMS] fldsdp2hop"
+  },
+  "mms: fpicms_ldswthlds": {
+    "prefix": "fpicms_ldswthlds",
+    "body": "fpicms_ldswthlds ${1:\\$observatory}, ${2:\\$spec}",
+    "description": "[MMS] fpicms_ldswthlds"
+  },
+  "mms: fldmagrange_short": {
+    "prefix": "fldmagrange_short",
+    "body": "fldmagrange_short",
+    "description": "[MMS] fldmagrange_short"
+  },
+  "mms: fldedicmd_pm_block": {
+    "prefix": "fldedicmd_pm_block",
+    "body": "fldedicmd_pm_block",
+    "description": "[MMS] fldedicmd_pm_block"
+  },
+  "mms: edi_is_gducfg_safe": {
+    "prefix": "edi_is_gducfg_safe",
+    "body": "edi_is_gducfg_safe",
+    "description": "[MMS] edi_is_gducfg_safe"
+  },
+  "mms: fldafgcomm0": {
+    "prefix": "fldafgcomm0",
+    "body": "fldafgcomm0",
+    "description": "[MMS] fldafgcomm0"
+  },
+  "mms: insert_procs": {
+    "prefix": "insert_procs",
+    "body": "insert_procs",
+    "description": "[MMS] insert_procs"
+  },
+  "mms: cid_actoff_frg2": {
+    "prefix": "cid_actoff_frg2",
+    "body": "cid_actoff_frg2",
+    "description": "[MMS] cid_actoff_frg2"
+  },
+  "mms: edi_mcpref": {
+    "prefix": "edi_mcpref",
+    "body": "edi_mcpref ${1:\\$LEVEL}, ${2:\\$MODE}",
+    "description": "[MMS] edi_mcpref"
+  },
+  "mms: hpc_hven_to_idle": {
+    "prefix": "hpc_hven_to_idle",
+    "body": "hpc_hven_to_idle",
+    "description": "[MMS] hpc_hven_to_idle"
+  },
+  "mms: fldsdp34rastersweep": {
+    "prefix": "fldsdp34rastersweep",
+    "body": "fldsdp34rastersweep ${1:\\$NewOuterGuard}, ${2:\\$NewInnerGuard}, ${3:\\$DeltaGuardRaster}",
+    "description": "[MMS] fldsdp34rastersweep"
+  },
+  "mms: fldsdp34off": {
+    "prefix": "fldsdp34off",
+    "body": "fldsdp34off",
+    "description": "[MMS] fldsdp34off"
+  },
+  "mms: cid_instoff_hpcd": {
+    "prefix": "cid_instoff_hpcd",
+    "body": "cid_instoff_hpcd",
+    "description": "[MMS] cid_instoff_hpcd"
+  },
+  "mms: fldldbebdactable7": {
+    "prefix": "fldldbebdactable7",
+    "body": "fldldbebdactable7",
+    "description": "[MMS] fldldbebdactable7"
+  },
+  "mms: fldsdp3doorp": {
+    "prefix": "fldsdp3doorp",
+    "body": "fldsdp3doorp",
+    "description": "[MMS] fldsdp3doorp"
+  },
+  "mms: asp_reconfig": {
+    "prefix": "asp_reconfig",
+    "body": "asp_reconfig ${1:\\$ID}, ${2:\\$SOURCE}, ${3:\\$POWER}, ${4:\\$VOLTAGE}",
+    "description": "[MMS] asp_reconfig"
+  },
+  "mms: fldfftdfg": {
+    "prefix": "fldfftdfg",
+    "body": "fldfftdfg",
+    "description": "[MMS] fldfftdfg"
+  },
+  "mms: edi_s4e500_p000": {
+    "prefix": "edi_s4e500_p000",
+    "body": "edi_s4e500_p000",
+    "description": "[MMS] edi_s4e500_p000"
+  },
+  "mms: fldbebid": {
+    "prefix": "fldbebid",
+    "body": "fldbebid",
+    "description": "[MMS] fldbebid"
+  },
+  "mms: edi_amb_cfg4": {
+    "prefix": "edi_amb_cfg4",
+    "body": "edi_amb_cfg4",
+    "description": "[MMS] edi_amb_cfg4"
+  },
+  "mms: asp_switch_off": {
+    "prefix": "asp_switch_off",
+    "body": "asp_switch_off ${1:\\$ID}",
+    "description": "[MMS] asp_switch_off"
+  },
+  "mms: is_mnvr_recovery": {
+    "prefix": "is_mnvr_recovery",
+    "body": "is_mnvr_recovery",
+    "description": "[MMS] is_mnvr_recovery"
+  },
+  "mms: iscm_005_fldloadshed": {
+    "prefix": "iscm_005_fldloadshed",
+    "body": "iscm_005_fldloadshed",
+    "description": "[MMS] iscm_005_fldloadshed"
+  },
+  "mms: edi_hv1_contops": {
+    "prefix": "edi_hv1_contops",
+    "body": "edi_hv1_contops",
+    "description": "[MMS] edi_hv1_contops"
+  },
+  "mms: fldsdp34biassweep": {
+    "prefix": "fldsdp34biassweep",
+    "body": "fldsdp34biassweep ${1:\\$InitBias}, ${2:\\$Delta_Bias}",
+    "description": "[MMS] fldsdp34biassweep"
+  },
+  "mms: fpi_hvobs_hvmoncheck": {
+    "prefix": "fpi_hvobs_hvmoncheck",
+    "body": "fpi_hvobs_hvmoncheck",
+    "description": "[MMS] fpi_hvobs_hvmoncheck"
+  },
+  "mms: hpc_initial_hv_ramp": {
+    "prefix": "hpc_initial_hv_ramp",
+    "body": "hpc_initial_hv_ramp",
+    "description": "[MMS] hpc_initial_hv_ramp"
+  },
+  "mms: edi_manual_mode": {
+    "prefix": "edi_manual_mode",
+    "body": "edi_manual_mode",
+    "description": "[MMS] edi_manual_mode"
+  },
+  "mms: fldsdp12depmonen": {
+    "prefix": "fldsdp12depmonen",
+    "body": "fldsdp12depmonen",
+    "description": "[MMS] fldsdp12depmonen"
+  },
+  "mms: edi_s7e500_p096": {
+    "prefix": "edi_s7e500_p096",
+    "body": "edi_s7e500_p096",
+    "description": "[MMS] edi_s7e500_p096"
+  },
+  "mms: edi_pwr_switch": {
+    "prefix": "edi_pwr_switch",
+    "body": "edi_pwr_switch ${1:\\$PWRSW_LEVEL}",
+    "description": "[MMS] edi_pwr_switch"
+  },
+  "mms: eis_comm_hi_tlm": {
+    "prefix": "eis_comm_hi_tlm",
+    "body": "eis_comm_hi_tlm",
+    "description": "[MMS] eis_comm_hi_tlm"
+  },
+  "mms: fldldbebdacaspocon": {
+    "prefix": "fldldbebdacaspocon",
+    "body": "fldldbebdacaspocon",
+    "description": "[MMS] fldldbebdacaspocon"
+  },
+  "mms: edi_amb_cfg3": {
+    "prefix": "edi_amb_cfg3",
+    "body": "edi_amb_cfg3",
+    "description": "[MMS] edi_amb_cfg3"
+  },
+  "mms: cid_acton_adp6e": {
+    "prefix": "cid_acton_adp6e",
+    "body": "cid_acton_adp6e",
+    "description": "[MMS] cid_acton_adp6e"
+  },
+  "mms: fpi_recover_safe_quick": {
+    "prefix": "fpi_recover_safe_quick",
+    "body": "fpi_recover_safe_quick",
+    "description": "[MMS] fpi_recover_safe_quick"
+  },
+  "mms: eis_analogsnap": {
+    "prefix": "eis_analogsnap",
+    "body": "eis_analogsnap",
+    "description": "[MMS] eis_analogsnap"
+  },
+  "mms: cid_steertoee": {
+    "prefix": "cid_steertoee",
+    "body": "cid_steertoee",
+    "description": "[MMS] cid_steertoee"
+  },
+  "mms: fpicms_idpuregrd": {
+    "prefix": "fpicms_idpuregrd",
+    "body": "fpicms_idpuregrd",
+    "description": "[MMS] fpicms_idpuregrd"
+  },
+  "mms: fldchecksum": {
+    "prefix": "fldchecksum",
+    "body": "fldchecksum ${1:\\$STARTADDR}, ${2:\\$CHECKSUM}, ${3:\\$LENGTH}, ${4:\\$TIMEOUT}",
+    "description": "[MMS] fldchecksum"
+  },
+  "mms: cid_inston_eis": {
+    "prefix": "cid_inston_eis",
+    "body": "cid_inston_eis",
+    "description": "[MMS] cid_inston_eis"
+  },
+  "mms: edichvcheckout4e": {
+    "prefix": "edichvcheckout4e",
+    "body": "edichvcheckout4e",
+    "description": "[MMS] edichvcheckout4e"
+  },
+  "mms: fldfdc_edicomm_dsb": {
+    "prefix": "fldfdc_edicomm_dsb",
+    "body": "fldfdc_edicomm_dsb",
+    "description": "[MMS] fldfdc_edicomm_dsb"
+  },
+  "mms: cid_inston_fe2": {
+    "prefix": "cid_inston_fe2",
+    "body": "cid_inston_fe2",
+    "description": "[MMS] cid_inston_fe2"
+  },
+  "mms: cid_pwrdn_prep": {
+    "prefix": "cid_pwrdn_prep",
+    "body": "cid_pwrdn_prep",
+    "description": "[MMS] cid_pwrdn_prep"
+  },
+  "mms: fpi_load_ops_tables": {
+    "prefix": "fpi_load_ops_tables",
+    "body": "fpi_load_ops_tables",
+    "description": "[MMS] fpi_load_ops_tables"
+  },
+  "mms: fldbkgndsweep": {
+    "prefix": "fldbkgndsweep",
+    "body": "fldbkgndsweep",
+    "description": "[MMS] fldbkgndsweep"
+  },
+  "mms: edi_s7e250_p000": {
+    "prefix": "edi_s7e250_p000",
+    "body": "edi_s7e250_p000",
+    "description": "[MMS] edi_s7e250_p000"
+  },
+  "mms: cid_fswtoee_boot": {
+    "prefix": "cid_fswtoee_boot",
+    "body": "cid_fswtoee_boot",
+    "description": "[MMS] cid_fswtoee_boot"
+  },
+  "mms: aspoc_swl": {
+    "prefix": "aspoc_swl",
+    "body": "aspoc_swl ${1:\\$ID}",
+    "description": "[MMS] aspoc_swl"
+  },
+  "mms: asp_fila_check": {
+    "prefix": "asp_fila_check",
+    "body": "asp_fila_check ${1:\\$ID}",
+    "description": "[MMS] asp_fila_check"
+  },
+  "mms: cid_acton_sdp1": {
+    "prefix": "cid_acton_sdp1",
+    "body": "cid_acton_sdp1",
+    "description": "[MMS] cid_acton_sdp1"
+  },
+  "mms: cid_sramtoee": {
+    "prefix": "cid_sramtoee",
+    "body": "cid_sramtoee",
+    "description": "[MMS] cid_sramtoee"
+  },
+  "mms: edi_initial_checkout": {
+    "prefix": "edi_initial_checkout",
+    "body": "edi_initial_checkout",
+    "description": "[MMS] edi_initial_checkout"
+  },
+  "mms: cid_intl_hk_chk": {
+    "prefix": "cid_intl_hk_chk",
+    "body": "cid_intl_hk_chk",
+    "description": "[MMS] cid_intl_hk_chk"
+  },
+  "mms: eis_hvco_1000v": {
+    "prefix": "eis_hvco_1000v",
+    "body": "eis_hvco_1000v ${1:\\$temp_range}",
+    "description": "[MMS] eis_hvco_1000v"
+  },
+  "mms: edi_enter_safe": {
+    "prefix": "edi_enter_safe",
+    "body": "edi_enter_safe",
+    "description": "[MMS] edi_enter_safe"
+  },
+  "mms: as2_instoff": {
+    "prefix": "as2_instoff",
+    "body": "as2_instoff",
+    "description": "[MMS] as2_instoff"
+  },
+  "mms: fpicms_ldnmthlds": {
+    "prefix": "fpicms_ldnmthlds",
+    "body": "fpicms_ldnmthlds ${1:\\$observatory}",
+    "description": "[MMS] fpicms_ldnmthlds"
+  },
+  "mms: hpc_check_versions": {
+    "prefix": "hpc_check_versions",
+    "body": "hpc_check_versions ${1:\\$option}",
+    "description": "[MMS] hpc_check_versions"
+  },
+  "mms: cid_boot_app": {
+    "prefix": "cid_boot_app",
+    "body": "cid_boot_app",
+    "description": "[MMS] cid_boot_app"
+  },
+  "mms: fpi_rdeepromvers": {
+    "prefix": "fpi_rdeepromvers",
+    "body": "fpi_rdeepromvers",
+    "description": "[MMS] fpi_rdeepromvers"
+  },
+  "mms: edi_s4e500_p096": {
+    "prefix": "edi_s4e500_p096",
+    "body": "edi_s4e500_p096",
+    "description": "[MMS] edi_s4e500_p096"
+  },
+  "mms: fpicms_lvspecchk": {
+    "prefix": "fpicms_lvspecchk",
+    "body": "fpicms_lvspecchk ${1:\\$spec}",
+    "description": "[MMS] fpicms_lvspecchk"
+  },
+  "mms: cid_nom_pwr_on": {
+    "prefix": "cid_nom_pwr_on",
+    "body": "cid_nom_pwr_on ${1:\\$METRICS}",
+    "description": "[MMS] cid_nom_pwr_on"
+  },
+  "mms: cid_instoff_fld": {
+    "prefix": "cid_instoff_fld",
+    "body": "cid_instoff_fld",
+    "description": "[MMS] cid_instoff_fld"
+  },
+  "mms: edi_fil_air": {
+    "prefix": "edi_fil_air",
+    "body": "edi_fil_air",
+    "description": "[MMS] edi_fil_air"
+  },
+  "mms: cid_chkoff_actr": {
+    "prefix": "cid_chkoff_actr",
+    "body": "cid_chkoff_actr ${1:\\$actr}",
+    "description": "[MMS] cid_chkoff_actr"
+  },
+  "mms: fpicms_qx_dw1min": {
+    "prefix": "fpicms_qx_dw1min",
+    "body": "fpicms_qx_dw1min ${1:\\$quad}, ${2:\\$mcpa}",
+    "description": "[MMS] fpicms_qx_dw1min"
+  },
+  "mms: fldsdp4doorp": {
+    "prefix": "fldsdp4doorp",
+    "body": "fldsdp4doorp",
+    "description": "[MMS] fldsdp4doorp"
+  },
+  "mms: edi_resetnormal": {
+    "prefix": "edi_resetnormal",
+    "body": "edi_resetnormal",
+    "description": "[MMS] edi_resetnormal"
+  },
+  "mms: as2_inston": {
+    "prefix": "as2_inston",
+    "body": "as2_inston",
+    "description": "[MMS] as2_inston"
+  },
+  "mms: edi_scpot_mode2": {
+    "prefix": "edi_scpot_mode2",
+    "body": "edi_scpot_mode2",
+    "description": "[MMS] edi_scpot_mode2"
+  },
+  "mms: fe2_initialize": {
+    "prefix": "fe2_initialize",
+    "body": "fe2_initialize",
+    "description": "[MMS] fe2_initialize"
+  },
+  "mms: edi_s7e500_p000": {
+    "prefix": "edi_s7e500_p000",
+    "body": "edi_s7e500_p000",
+    "description": "[MMS] edi_s7e500_p000"
+  },
+  "mms: hpc_hven_to_rmplt": {
+    "prefix": "hpc_hven_to_rmplt",
+    "body": "hpc_hven_to_rmplt",
+    "description": "[MMS] hpc_hven_to_rmplt"
+  },
+  "mms: edi_s4e1k_p022": {
+    "prefix": "edi_s4e1k_p022",
+    "body": "edi_s4e1k_p022",
+    "description": "[MMS] edi_s4e1k_p022"
+  },
+  "mms: asp_switch_on": {
+    "prefix": "asp_switch_on",
+    "body": "asp_switch_on ${1:\\$ID}, ${2:\\$IMAGE}",
+    "description": "[MMS] asp_switch_on"
+  },
+  "mms: fpi_sf_idpuwr": {
+    "prefix": "fpi_sf_idpuwr",
+    "body": "fpi_sf_idpuwr ${1:\\$address}, ${2:\\$data}",
+    "description": "[MMS] fpi_sf_idpuwr"
+  },
+  "mms: fldedioff": {
+    "prefix": "fldedioff",
+    "body": "fldedioff",
+    "description": "[MMS] fldedioff"
+  },
+  "mms: fldedisetup": {
+    "prefix": "fldedisetup",
+    "body": "fldedisetup",
+    "description": "[MMS] fldedisetup"
+  },
+  "mms: fld_sdp12_deployment": {
+    "prefix": "fld_sdp12_deployment",
+    "body": "fld_sdp12_deployment ${1:\\$dep_meters}",
+    "description": "[MMS] fld_sdp12_deployment"
+  },
+  "mms: asp_setup": {
+    "prefix": "asp_setup",
+    "body": "asp_setup ${1:\\$ID}, ${2:\\$SOURCE}",
+    "description": "[MMS] asp_setup"
+  },
+  "mms: edi_hv4": {
+    "prefix": "edi_hv4",
+    "body": "edi_hv4 ${1:\\$SAFE}",
+    "description": "[MMS] edi_hv4"
+  },
+  "mms: edi_opt_hv2": {
+    "prefix": "edi_opt_hv2",
+    "body": "edi_opt_hv2",
+    "description": "[MMS] edi_opt_hv2"
+  },
+  "mms: edichvcheckout4": {
+    "prefix": "edichvcheckout4",
+    "body": "edichvcheckout4",
+    "description": "[MMS] edichvcheckout4"
+  },
+  "mms: edi_elf_cfg2": {
+    "prefix": "edi_elf_cfg2",
+    "body": "edi_elf_cfg2",
+    "description": "[MMS] edi_elf_cfg2"
+  },
+  "mms: flddfgcomm1": {
+    "prefix": "flddfgcomm1",
+    "body": "flddfgcomm1",
+    "description": "[MMS] flddfgcomm1"
+  },
+  "mms: hpc_safe_to_hven": {
+    "prefix": "hpc_safe_to_hven",
+    "body": "hpc_safe_to_hven",
+    "description": "[MMS] hpc_safe_to_hven"
+  },
+  "mms: edi_s4e250_p000": {
+    "prefix": "edi_s4e250_p000",
+    "body": "edi_s4e250_p000",
+    "description": "[MMS] edi_s4e250_p000"
+  },
+  "mms: cid_inston_gdu2": {
+    "prefix": "cid_inston_gdu2",
+    "body": "cid_inston_gdu2",
+    "description": "[MMS] cid_inston_gdu2"
+  },
+  "mms: edichvcheckout3": {
+    "prefix": "edichvcheckout3",
+    "body": "edichvcheckout3",
+    "description": "[MMS] edichvcheckout3"
+  },
+  "mms: fld_sdpdep_initial": {
+    "prefix": "fld_sdpdep_initial",
+    "body": "fld_sdpdep_initial",
+    "description": "[MMS] fld_sdpdep_initial"
+  },
+  "mms: edi_elf_cfg5": {
+    "prefix": "edi_elf_cfg5",
+    "body": "edi_elf_cfg5",
+    "description": "[MMS] edi_elf_cfg5"
+  },
+  "mms: as2_log_ver": {
+    "prefix": "as2_log_ver",
+    "body": "as2_log_ver",
+    "description": "[MMS] as2_log_ver"
+  },
+  "mms: asp_ignition": {
+    "prefix": "asp_ignition",
+    "body": "asp_ignition ${1:\\$ID}, ${2:\\$HVMIN}, ${3:\\$HVMAX}, ${4:\\$HVSTEP}, ${5:\\$IGNLIM}, ${6:\\$IGNSET}, ${7:\\$DELAY}",
+    "description": "[MMS] asp_ignition"
+  },
+  "mms: fldconfig": {
+    "prefix": "fldconfig",
+    "body": "fldconfig",
+    "description": "[MMS] fldconfig"
+  },
+  "mms: fpicms_lvslow": {
+    "prefix": "fpicms_lvslow",
+    "body": "fpicms_lvslow ${1:\\$axis}",
+    "description": "[MMS] fpicms_lvslow"
+  },
+  "mms: fldconfigaspocoff": {
+    "prefix": "fldconfigaspocoff",
+    "body": "fldconfigaspocoff",
+    "description": "[MMS] fldconfigaspocoff"
+  },
+  "mms: cid_inston_as2": {
+    "prefix": "cid_inston_as2",
+    "body": "cid_inston_as2",
+    "description": "[MMS] cid_inston_as2"
+  },
+  "mms: fldldbebdactable6": {
+    "prefix": "fldldbebdactable6",
+    "body": "fldldbebdactable6",
+    "description": "[MMS] fldldbebdactable6"
+  },
+  "mms: asp_wdog_check": {
+    "prefix": "asp_wdog_check",
+    "body": "asp_wdog_check ${1:\\$ID}",
+    "description": "[MMS] asp_wdog_check"
+  },
+  "mms: fe1hkchk": {
+    "prefix": "fe1hkchk",
+    "body": "fe1hkchk",
+    "description": "[MMS] fe1hkchk"
+  },
+  "mms: hpc_mode_checkout": {
+    "prefix": "hpc_mode_checkout",
+    "body": "hpc_mode_checkout",
+    "description": "[MMS] hpc_mode_checkout"
+  },
+  "mms: fpicms_idpubtst": {
+    "prefix": "fpicms_idpubtst",
+    "body": "fpicms_idpubtst",
+    "description": "[MMS] fpicms_idpubtst"
+  },
+  "mms: fldsdp2setlen": {
+    "prefix": "fldsdp2setlen",
+    "body": "fldsdp2setlen",
+    "description": "[MMS] fldsdp2setlen"
+  },
+  "mms: fldprobesetbias": {
+    "prefix": "fldprobesetbias",
+    "body": "fldprobesetbias ${1:\\$Probe}, ${2:\\$BiasLevel}",
+    "description": "[MMS] fldprobesetbias"
+  },
+  "mms: flddspasetup": {
+    "prefix": "flddspasetup",
+    "body": "flddspasetup",
+    "description": "[MMS] flddspasetup"
+  },
+  "mms: edi_hv10_plus": {
+    "prefix": "edi_hv10_plus",
+    "body": "edi_hv10_plus ${1:\\$SAFE}",
+    "description": "[MMS] edi_hv10_plus"
+  },
+  "mms: edi_opt_hv2_ck": {
+    "prefix": "edi_opt_hv2_ck",
+    "body": "edi_opt_hv2_ck",
+    "description": "[MMS] edi_opt_hv2_ck"
+  },
+  "mms: fldafgcomm1": {
+    "prefix": "fldafgcomm1",
+    "body": "fldafgcomm1",
+    "description": "[MMS] fldafgcomm1"
+  },
+  "mms: fpi_sf_modeeng_s": {
+    "prefix": "fpi_sf_modeeng_s",
+    "body": "fpi_sf_modeeng_s",
+    "description": "[MMS] fpi_sf_modeeng_s"
+  },
+  "mms: fldsdp34depmonen": {
+    "prefix": "fldsdp34depmonen",
+    "body": "fldsdp34depmonen",
+    "description": "[MMS] fldsdp34depmonen"
+  },
+  "mms: eis_hvco_1600v": {
+    "prefix": "eis_hvco_1600v",
+    "body": "eis_hvco_1600v ${1:\\$temp_range}, ${2:\\$buffer_dump}",
+    "description": "[MMS] eis_hvco_1600v"
+  },
+  "mms: fldadp5setdacs": {
+    "prefix": "fldadp5setdacs",
+    "body": "fldadp5setdacs",
+    "description": "[MMS] fldadp5setdacs"
+  },
+  "mms: fpicms_depipe": {
+    "prefix": "fpicms_depipe",
+    "body": "fpicms_depipe ${1:\\$spec}, ${2:\\$mcpa}",
+    "description": "[MMS] fpicms_depipe"
+  },
+  "mms: cid_acton_frg2": {
+    "prefix": "cid_acton_frg2",
+    "body": "cid_acton_frg2",
+    "description": "[MMS] cid_acton_frg2"
+  },
+  "mms: edichvcheckout5e": {
+    "prefix": "edichvcheckout5e",
+    "body": "edichvcheckout5e",
+    "description": "[MMS] edichvcheckout5e"
+  },
+  "mms: cid_eeprom_chk": {
+    "prefix": "cid_eeprom_chk",
+    "body": "cid_eeprom_chk",
+    "description": "[MMS] cid_eeprom_chk"
+  },
+  "mms: flddfgsdxr2": {
+    "prefix": "flddfgsdxr2",
+    "body": "flddfgsdxr2",
+    "description": "[MMS] flddfgsdxr2"
+  },
+  "mms: iscm_spin_up_prep": {
+    "prefix": "iscm_spin_up_prep",
+    "body": "iscm_spin_up_prep",
+    "description": "[MMS] iscm_spin_up_prep"
+  },
+  "mms: fldsdp3setlen": {
+    "prefix": "fldsdp3setlen",
+    "body": "fldsdp3setlen",
+    "description": "[MMS] fldsdp3setlen"
+  },
+  "mms: fpi_ptrnlddmpcmp": {
+    "prefix": "fpi_ptrnlddmpcmp",
+    "body": "fpi_ptrnlddmpcmp ${1:\\$startadd}, ${2:\\$numblocks}, ${3:\\$pattern}",
+    "description": "[MMS] fpi_ptrnlddmpcmp"
+  },
+  "mms: fldedicmd_sct_allow": {
+    "prefix": "fldedicmd_sct_allow",
+    "body": "fldedicmd_sct_allow",
+    "description": "[MMS] fldedicmd_sct_allow"
+  },
+  "mms: cid_extlimsw_ds": {
+    "prefix": "cid_extlimsw_ds",
+    "body": "cid_extlimsw_ds",
+    "description": "[MMS] cid_extlimsw_ds"
+  },
+  "mms: edi_s4e1k_p000": {
+    "prefix": "edi_s4e1k_p000",
+    "body": "edi_s4e1k_p000",
+    "description": "[MMS] edi_s4e1k_p000"
+  },
+  "mms: eis_restore": {
+    "prefix": "eis_restore",
+    "body": "eis_restore ${1:\\$temp_range}",
+    "description": "[MMS] eis_restore"
+  },
+  "mms: edi_s7e500_p022": {
+    "prefix": "edi_s7e500_p022",
+    "body": "edi_s7e500_p022",
+    "description": "[MMS] edi_s7e500_p022"
+  },
+  "mms: cid_cdqtoee": {
+    "prefix": "cid_cdqtoee",
+    "body": "cid_cdqtoee",
+    "description": "[MMS] cid_cdqtoee"
+  },
+  "mms: fldsdp2doorp": {
+    "prefix": "fldsdp2doorp",
+    "body": "fldsdp2doorp",
+    "description": "[MMS] fldsdp2doorp"
+  },
+  "mms: hpc_hv_setautoramp": {
+    "prefix": "hpc_hv_setautoramp",
+    "body": "hpc_hv_setautoramp ${1:\\$mode}, ${2:\\$mcp_tof}, ${3:\\$voltage}",
+    "description": "[MMS] hpc_hv_setautoramp"
+  },
+  "mms: asp_stat_check": {
+    "prefix": "asp_stat_check",
+    "body": "asp_stat_check ${1:\\$ID}",
+    "description": "[MMS] asp_stat_check"
+  },
+  "mms: fpi_sf_specregwr": {
+    "prefix": "fpi_sf_specregwr",
+    "body": "fpi_sf_specregwr ${1:\\$spec}, ${2:\\$address}, ${3:\\$data}",
+    "description": "[MMS] fpi_sf_specregwr"
+  },
+  "mms: edichvcheckout_cfg": {
+    "prefix": "edichvcheckout_cfg",
+    "body": "edichvcheckout_cfg",
+    "description": "[MMS] edichvcheckout_cfg"
+  },
+  "mms: eis_door_open": {
+    "prefix": "eis_door_open",
+    "body": "eis_door_open ${1:\\$temp_range}, ${2:\\$heater}",
+    "description": "[MMS] eis_door_open"
+  },
+  "mms: edi_mnt_ck_cmd_cnt": {
+    "prefix": "edi_mnt_ck_cmd_cnt",
+    "body": "edi_mnt_ck_cmd_cnt ${1:\\$ExpectedCount}",
+    "description": "[MMS] edi_mnt_ck_cmd_cnt"
+  },
+  "mms: fpi_dxs_100ints": {
+    "prefix": "fpi_dxs_100ints",
+    "body": "fpi_dxs_100ints ${1:\\$spec}",
+    "description": "[MMS] fpi_dxs_100ints"
+  },
+  "mms: fpicms_spec_rst": {
+    "prefix": "fpicms_spec_rst",
+    "body": "fpicms_spec_rst ${1:\\$spec}",
+    "description": "[MMS] fpicms_spec_rst"
+  },
+  "mms: eis_decom_htr_off": {
+    "prefix": "eis_decom_htr_off",
+    "body": "eis_decom_htr_off",
+    "description": "[MMS] eis_decom_htr_off"
+  },
+  "mms: edi_mnt_decompress": {
+    "prefix": "edi_mnt_decompress",
+    "body": "edi_mnt_decompress ${1:\\$BytesIn}, ${2:\\$BytesOut}, ${3:\\$Checksum}",
+    "description": "[MMS] edi_mnt_decompress"
+  },
+  "mms: edi_cor_default": {
+    "prefix": "edi_cor_default",
+    "body": "edi_cor_default",
+    "description": "[MMS] edi_cor_default"
+  },
+  "mms: fldsdp1motortst": {
+    "prefix": "fldsdp1motortst",
+    "body": "fldsdp1motortst",
+    "description": "[MMS] fldsdp1motortst"
+  },
+  "mms: cid_warncrit": {
+    "prefix": "cid_warncrit",
+    "body": "cid_warncrit ${1:\\$itf}, ${2:\\$rate}",
+    "description": "[MMS] cid_warncrit"
+  },
+  "mms: fldsdpstop": {
+    "prefix": "fldsdpstop",
+    "body": "fldsdpstop",
+    "description": "[MMS] fldsdpstop"
+  },
+  "mms: hpc_sci_reboot": {
+    "prefix": "hpc_sci_reboot",
+    "body": "hpc_sci_reboot",
+    "description": "[MMS] hpc_sci_reboot"
+  },
+  "mms: fld_sdp_thinwire": {
+    "prefix": "fld_sdp_thinwire",
+    "body": "fld_sdp_thinwire",
+    "description": "[MMS] fld_sdp_thinwire"
+  },
+  "mms: cid_actoff_adp6e": {
+    "prefix": "cid_actoff_adp6e",
+    "body": "cid_actoff_adp6e",
+    "description": "[MMS] cid_actoff_adp6e"
+  },
+  "mms: flddfgoff": {
+    "prefix": "flddfgoff",
+    "body": "flddfgoff",
+    "description": "[MMS] flddfgoff"
+  },
+  "mms: edi_off2safe": {
+    "prefix": "edi_off2safe",
+    "body": "edi_off2safe",
+    "description": "[MMS] edi_off2safe"
+  },
+  "mms: eis_buffer_dump": {
+    "prefix": "eis_buffer_dump",
+    "body": "eis_buffer_dump",
+    "description": "[MMS] eis_buffer_dump"
+  },
+  "mms: fpicms_dxs_hvckt": {
+    "prefix": "fpicms_dxs_hvckt",
+    "body": "fpicms_dxs_hvckt ${1:\\$spec}",
+    "description": "[MMS] fpicms_dxs_hvckt"
+  },
+  "mms: cid_instoff_gdu2": {
+    "prefix": "cid_instoff_gdu2",
+    "body": "cid_instoff_gdu2",
+    "description": "[MMS] cid_instoff_gdu2"
+  },
+  "mms: edi_efield_mode": {
+    "prefix": "edi_efield_mode",
+    "body": "edi_efield_mode",
+    "description": "[MMS] edi_efield_mode"
+  },
+  "mms: fld_adp_boom_deploy": {
+    "prefix": "fld_adp_boom_deploy",
+    "body": "fld_adp_boom_deploy",
+    "description": "[MMS] fld_adp_boom_deploy"
+  },
+  "mms: fldsdp1setlen": {
+    "prefix": "fldsdp1setlen",
+    "body": "fldsdp1setlen",
+    "description": "[MMS] fldsdp1setlen"
+  },
+  "mms: edi_tv_cops_g4": {
+    "prefix": "edi_tv_cops_g4",
+    "body": "edi_tv_cops_g4",
+    "description": "[MMS] edi_tv_cops_g4"
+  },
+  "mms: edi_hv8_contops": {
+    "prefix": "edi_hv8_contops",
+    "body": "edi_hv8_contops",
+    "description": "[MMS] edi_hv8_contops"
+  },
+  "mms: edi_s4e500_p022": {
+    "prefix": "edi_s4e500_p022",
+    "body": "edi_s4e500_p022",
+    "description": "[MMS] edi_s4e500_p022"
+  },
+  "mms: edi_hv7_contops": {
+    "prefix": "edi_hv7_contops",
+    "body": "edi_hv7_contops",
+    "description": "[MMS] edi_hv7_contops"
+  },
+  "mms: fldsdp3setdacs": {
+    "prefix": "fldsdp3setdacs",
+    "body": "fldsdp3setdacs",
+    "description": "[MMS] fldsdp3setdacs"
+  },
+  "mms: edi_tv_cops_g3": {
+    "prefix": "edi_tv_cops_g3",
+    "body": "edi_tv_cops_g3",
+    "description": "[MMS] edi_tv_cops_g3"
+  },
+  "mms: cid_actoff_htrs": {
+    "prefix": "cid_actoff_htrs",
+    "body": "cid_actoff_htrs",
+    "description": "[MMS] cid_actoff_htrs"
+  },
+  "mms: fpicms_lvcal": {
+    "prefix": "fpicms_lvcal",
+    "body": "fpicms_lvcal",
+    "description": "[MMS] fpicms_lvcal"
+  },
+  "mms: fldsweep": {
+    "prefix": "fldsweep",
+    "body": "fldsweep",
+    "description": "[MMS] fldsweep"
+  },
+  "mms: eis_config": {
+    "prefix": "eis_config",
+    "body": "eis_config",
+    "description": "[MMS] eis_config"
+  },
+  "mms: edi_s4e1k_p096": {
+    "prefix": "edi_s4e1k_p096",
+    "body": "edi_s4e1k_p096",
+    "description": "[MMS] edi_s4e1k_p096"
+  },
+  "mms: fldadp56off": {
+    "prefix": "fldadp56off",
+    "body": "fldadp56off",
+    "description": "[MMS] fldadp56off"
+  },
+  "mms: hpc_graceful_off": {
+    "prefix": "hpc_graceful_off",
+    "body": "hpc_graceful_off",
+    "description": "[MMS] hpc_graceful_off"
+  },
+  "mms: flddfgcomm0": {
+    "prefix": "flddfgcomm0",
+    "body": "flddfgcomm0",
+    "description": "[MMS] flddfgcomm0"
+  },
+  "mms: fpicms_lvspecrrd": {
+    "prefix": "fpicms_lvspecrrd",
+    "body": "fpicms_lvspecrrd ${1:\\$spec}",
+    "description": "[MMS] fpicms_lvspecrrd"
+  },
+  "mms: edichvcheckout2": {
+    "prefix": "edichvcheckout2",
+    "body": "edichvcheckout2",
+    "description": "[MMS] edichvcheckout2"
+  },
+  "mms: fldsdp12guardsweep": {
+    "prefix": "fldsdp12guardsweep",
+    "body": "fldsdp12guardsweep ${1:\\$SweepOuterGuard}, ${2:\\$SweepInnerGuard}, ${3:\\$DeltaGuard}",
+    "description": "[MMS] fldsdp12guardsweep"
+  },
+  "mms: edi_elf_cfg4": {
+    "prefix": "edi_elf_cfg4",
+    "body": "edi_elf_cfg4",
+    "description": "[MMS] edi_elf_cfg4"
+  },
+  "mms: fpi_sf_idpurst": {
+    "prefix": "fpi_sf_idpurst",
+    "body": "fpi_sf_idpurst ${1:\\$in_rstopt}, ${2:\\$in_tblno}, ${3:\\$in_safeopt}",
+    "description": "[MMS] fpi_sf_idpurst"
+  },
+  "mms: asp_master_slave": {
+    "prefix": "asp_master_slave",
+    "body": "asp_master_slave",
+    "description": "[MMS] asp_master_slave"
+  },
+  "mms: edi_s7e250_p090": {
+    "prefix": "edi_s7e250_p090",
+    "body": "edi_s7e250_p090",
+    "description": "[MMS] edi_s7e250_p090"
+  },
+  "mms: fldpattern": {
+    "prefix": "fldpattern",
+    "body": "fldpattern ${1:\\$STARTADDR}, ${2:\\$PATTERN}, ${3:\\$LENGTH}, ${4:\\$TIMEOUT}",
+    "description": "[MMS] fldpattern"
+  },
+  "mms: as2_warmup": {
+    "prefix": "as2_warmup",
+    "body": "as2_warmup ${1:\\$SOURCE}",
+    "description": "[MMS] as2_warmup"
+  },
+  "mms: cid_cfg_macros": {
+    "prefix": "cid_cfg_macros",
+    "body": "cid_cfg_macros ${1:\\$MINX}",
+    "description": "[MMS] cid_cfg_macros"
+  },
+  "mms: as2_lv_checkout": {
+    "prefix": "as2_lv_checkout",
+    "body": "as2_lv_checkout",
+    "description": "[MMS] as2_lv_checkout"
+  },
+  "mms: fpicms_iccomchk": {
+    "prefix": "fpicms_iccomchk",
+    "body": "fpicms_iccomchk",
+    "description": "[MMS] fpicms_iccomchk"
+  },
+  "mms: cid_mmm_rec_file": {
+    "prefix": "cid_mmm_rec_file",
+    "body": "cid_mmm_rec_file ${1:\\$finx}",
+    "description": "[MMS] cid_mmm_rec_file"
+  },
+  "mms: edi_clocks_off": {
+    "prefix": "edi_clocks_off",
+    "body": "edi_clocks_off",
+    "description": "[MMS] edi_clocks_off"
+  },
+  "mms: ediclvcheckout": {
+    "prefix": "ediclvcheckout",
+    "body": "ediclvcheckout",
+    "description": "[MMS] ediclvcheckout"
+  },
+  "mms: asp_hv_limited": {
+    "prefix": "asp_hv_limited",
+    "body": "asp_hv_limited ${1:\\$ID}",
+    "description": "[MMS] asp_hv_limited"
+  },
+  "mms: edichvcheckout5": {
+    "prefix": "edichvcheckout5",
+    "body": "edichvcheckout5",
+    "description": "[MMS] edichvcheckout5"
+  },
+  "mms: edi_hv5": {
+    "prefix": "edi_hv5",
+    "body": "edi_hv5 ${1:\\$SAFE}",
+    "description": "[MMS] edi_hv5"
+  },
+  "mms: edi_elf_cfg3": {
+    "prefix": "edi_elf_cfg3",
+    "body": "edi_elf_cfg3",
+    "description": "[MMS] edi_elf_cfg3"
+  },
+  "mms: edi_s4e500_p090": {
+    "prefix": "edi_s4e500_p090",
+    "body": "edi_s4e500_p090",
+    "description": "[MMS] edi_s4e500_p090"
+  },
+  "mms: edi_set_uut_sno": {
+    "prefix": "edi_set_uut_sno",
+    "body": "edi_set_uut_sno",
+    "description": "[MMS] edi_set_uut_sno"
+  },
+  "mms: flddfgsdyr2": {
+    "prefix": "flddfgsdyr2",
+    "body": "flddfgsdyr2",
+    "description": "[MMS] flddfgsdyr2"
+  },
+  "mms: eis_hvco_1900v": {
+    "prefix": "eis_hvco_1900v",
+    "body": "eis_hvco_1900v ${1:\\$temp_range}, ${2:\\$buffer_dump}",
+    "description": "[MMS] eis_hvco_1900v"
+  },
+  "mms: fldloadmagcal": {
+    "prefix": "fldloadmagcal",
+    "body": "fldloadmagcal",
+    "description": "[MMS] fldloadmagcal"
+  },
+  "mms: edi_s7e1k_p067": {
+    "prefix": "edi_s7e1k_p067",
+    "body": "edi_s7e1k_p067",
+    "description": "[MMS] edi_s7e1k_p067"
+  },
+  "mms: edi_scpot_mode3": {
+    "prefix": "edi_scpot_mode3",
+    "body": "edi_scpot_mode3",
+    "description": "[MMS] edi_scpot_mode3"
+  },
+  "mms: edi_efield_test": {
+    "prefix": "edi_efield_test",
+    "body": "edi_efield_test",
+    "description": "[MMS] edi_efield_test"
+  },
+  "mms: cid_extlimsw_en": {
+    "prefix": "cid_extlimsw_en",
+    "body": "cid_extlimsw_en",
+    "description": "[MMS] cid_extlimsw_en"
+  },
+  "mms: fpicms_dxs_hven": {
+    "prefix": "fpicms_dxs_hven",
+    "body": "fpicms_dxs_hven ${1:\\$spec}",
+    "description": "[MMS] fpicms_dxs_hven"
+  },
+  "mms: hpc_reboot": {
+    "prefix": "hpc_reboot",
+    "body": "hpc_reboot ${1:\\$target}",
+    "description": "[MMS] hpc_reboot"
+  },
+  "mms: fpicms_qx_neutral": {
+    "prefix": "fpicms_qx_neutral",
+    "body": "fpicms_qx_neutral ${1:\\$quad}",
+    "description": "[MMS] fpicms_qx_neutral"
+  },
+  "mms: fpicms_obs_slow": {
+    "prefix": "fpicms_obs_slow",
+    "body": "fpicms_obs_slow ${1:\\$axis}",
+    "description": "[MMS] fpicms_obs_slow"
+  },
+  "mms: edi_diagelf_offs_cfg": {
+    "prefix": "edi_diagelf_offs_cfg",
+    "body": "edi_diagelf_offs_cfg ${1:\\$XoffsIn}, ${2:\\$YoffsIn}",
+    "description": "[MMS] edi_diagelf_offs_cfg"
+  },
+  "mms: cid_free_mmm_all": {
+    "prefix": "cid_free_mmm_all",
+    "body": "cid_free_mmm_all",
+    "description": "[MMS] cid_free_mmm_all"
+  },
+  "mms: edi_mnt_wdt_disable": {
+    "prefix": "edi_mnt_wdt_disable",
+    "body": "edi_mnt_wdt_disable",
+    "description": "[MMS] edi_mnt_wdt_disable"
+  },
+  "mms: cid_chkoff_inst": {
+    "prefix": "cid_chkoff_inst",
+    "body": "cid_chkoff_inst ${1:\\$inst}",
+    "description": "[MMS] cid_chkoff_inst"
+  },
+  "mms: edi_mnt_write_enable": {
+    "prefix": "edi_mnt_write_enable",
+    "body": "edi_mnt_write_enable",
+    "description": "[MMS] edi_mnt_write_enable"
+  },
+  "mms: cid_mmm_func": {
+    "prefix": "cid_mmm_func",
+    "body": "cid_mmm_func",
+    "description": "[MMS] cid_mmm_func"
+  },
+  "mms: edi_scpot_mode4": {
+    "prefix": "edi_scpot_mode4",
+    "body": "edi_scpot_mode4",
+    "description": "[MMS] edi_scpot_mode4"
+  },
+  "mms: fldsdp4setdacs": {
+    "prefix": "fldsdp4setdacs",
+    "body": "fldsdp4setdacs",
+    "description": "[MMS] fldsdp4setdacs"
+  },
+  "mms: cid_instoff_fe1": {
+    "prefix": "cid_instoff_fe1",
+    "body": "cid_instoff_fe1",
+    "description": "[MMS] cid_instoff_fe1"
+  },
+  "mms: eis_basic_test": {
+    "prefix": "eis_basic_test",
+    "body": "eis_basic_test",
+    "description": "[MMS] eis_basic_test"
+  },
+  "mms: asp_hvc_out": {
+    "prefix": "asp_hvc_out",
+    "body": "asp_hvc_out ${1:\\$ID}, ${2:\\$VALUE}",
+    "description": "[MMS] asp_hvc_out"
+  },
+  "mms: fld_adp_can_heater": {
+    "prefix": "fld_adp_can_heater",
+    "body": "fld_adp_can_heater",
+    "description": "[MMS] fld_adp_can_heater"
+  },
+  "mms: fldcomm2": {
+    "prefix": "fldcomm2",
+    "body": "fldcomm2",
+    "description": "[MMS] fldcomm2"
+  },
+  "mms: edi_hv5_contops": {
+    "prefix": "edi_hv5_contops",
+    "body": "edi_hv5_contops",
+    "description": "[MMS] edi_hv5_contops"
+  },
+  "mms: cid_acton_adp5t": {
+    "prefix": "cid_acton_adp5t",
+    "body": "cid_acton_adp5t",
+    "description": "[MMS] cid_acton_adp5t"
+  },
+  "mms: cid_is_pwr": {
+    "prefix": "cid_is_pwr",
+    "body": "cid_is_pwr",
+    "description": "[MMS] cid_is_pwr"
+  },
+  "mms: cid_actoff_sdp1": {
+    "prefix": "cid_actoff_sdp1",
+    "body": "cid_actoff_sdp1",
+    "description": "[MMS] cid_actoff_sdp1"
+  },
+  "mms: eis_boot_test": {
+    "prefix": "eis_boot_test",
+    "body": "eis_boot_test",
+    "description": "[MMS] eis_boot_test"
+  },
+  "mms: edi_safe2ambient": {
+    "prefix": "edi_safe2ambient",
+    "body": "edi_safe2ambient ${1:\\$ENERGY}, ${2:\\$AMBCFG}",
+    "description": "[MMS] edi_safe2ambient"
+  },
+  "mms: flduploaddsp_config": {
+    "prefix": "flduploaddsp_config",
+    "body": "flduploaddsp_config",
+    "description": "[MMS] flduploaddsp_config"
+  },
+  "mms: cid_init_fsw_boot": {
+    "prefix": "cid_init_fsw_boot",
+    "body": "cid_init_fsw_boot ${1:\\$loc}",
+    "description": "[MMS] cid_init_fsw_boot"
+  },
+  "mms: cid_inston_hpcd": {
+    "prefix": "cid_inston_hpcd",
+    "body": "cid_inston_hpcd",
+    "description": "[MMS] cid_inston_hpcd"
+  },
+  "mms: fldsdp4setlen": {
+    "prefix": "fldsdp4setlen",
+    "body": "fldsdp4setlen",
+    "description": "[MMS] fldsdp4setlen"
+  },
+  "mms: asp_fsave_level": {
+    "prefix": "asp_fsave_level",
+    "body": "asp_fsave_level ${1:\\$ID}, ${2:\\$LEVEL_EN}",
+    "description": "[MMS] asp_fsave_level"
+  },
+  "mms: fpicms_safe_test": {
+    "prefix": "fpicms_safe_test",
+    "body": "fpicms_safe_test",
+    "description": "[MMS] fpicms_safe_test"
+  },
+  "mms: edi_prepforload": {
+    "prefix": "edi_prepforload",
+    "body": "edi_prepforload",
+    "description": "[MMS] edi_prepforload"
+  },
+  "mms: edi_amb_cfg2": {
+    "prefix": "edi_amb_cfg2",
+    "body": "edi_amb_cfg2",
+    "description": "[MMS] edi_amb_cfg2"
+  },
+  "mms: edi_fs_write_enable": {
+    "prefix": "edi_fs_write_enable",
+    "body": "edi_fs_write_enable",
+    "description": "[MMS] edi_fs_write_enable"
+  },
+  "mms: iscm_004_loadshed": {
+    "prefix": "iscm_004_loadshed",
+    "body": "iscm_004_loadshed",
+    "description": "[MMS] iscm_004_loadshed"
+  },
+  "mms: eis_comm_low_tlm": {
+    "prefix": "eis_comm_low_tlm",
+    "body": "eis_comm_low_tlm",
+    "description": "[MMS] eis_comm_low_tlm"
+  },
+  "mms: hpc_continued_hv_ramp": {
+    "prefix": "hpc_continued_hv_ramp",
+    "body": "hpc_continued_hv_ramp",
+    "description": "[MMS] hpc_continued_hv_ramp"
+  },
+  "mms: fldsdp3motortst": {
+    "prefix": "fldsdp3motortst",
+    "body": "fldsdp3motortst",
+    "description": "[MMS] fldsdp3motortst"
+  },
+  "mms: edi_amb_cfg5": {
+    "prefix": "edi_amb_cfg5",
+    "body": "edi_amb_cfg5",
+    "description": "[MMS] edi_amb_cfg5"
+  },
+  "mms: fpi_runmacro_27": {
+    "prefix": "fpi_runmacro_27",
+    "body": "fpi_runmacro_27",
+    "description": "[MMS] fpi_runmacro_27"
+  },
+  "mms: fe2_set_thresh": {
+    "prefix": "fe2_set_thresh",
+    "body": "fe2_set_thresh ${1:\\$adj_input}",
+    "description": "[MMS] fe2_set_thresh"
+  },
+  "mms: fldsdp12biassweep": {
+    "prefix": "fldsdp12biassweep",
+    "body": "fldsdp12biassweep ${1:\\$InitBias}, ${2:\\$Delta_Bias}",
+    "description": "[MMS] fldsdp12biassweep"
+  },
+  "mms: fe1_intl_pwr_on": {
+    "prefix": "fe1_intl_pwr_on",
+    "body": "fe1_intl_pwr_on",
+    "description": "[MMS] fe1_intl_pwr_on"
+  },
+  "mms: fldsdp4hop": {
+    "prefix": "fldsdp4hop",
+    "body": "fldsdp4hop",
+    "description": "[MMS] fldsdp4hop"
+  },
+  "mms: fpi_vop_setup": {
+    "prefix": "fpi_vop_setup",
+    "body": "fpi_vop_setup ${1:\\$observatory}",
+    "description": "[MMS] fpi_vop_setup"
+  },
+  "mms: edi_s7e500_p090": {
+    "prefix": "edi_s7e500_p090",
+    "body": "edi_s7e500_p090",
+    "description": "[MMS] edi_s7e500_p090"
+  },
+  "mms: hpc_tof_setautoramp": {
+    "prefix": "hpc_tof_setautoramp",
+    "body": "hpc_tof_setautoramp ${1:\\$mode}",
+    "description": "[MMS] hpc_tof_setautoramp"
+  }
+}
