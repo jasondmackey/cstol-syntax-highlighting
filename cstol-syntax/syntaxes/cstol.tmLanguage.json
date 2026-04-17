@@ -119,20 +119,28 @@
     "keywords": {
       "patterns": [
         {
+          "name": "keyword.control.flow.goto.cstol",
+          "match": "\\b(?i:goto)\\b"
+        },
+        {
           "name": "keyword.control.flow.cstol",
-          "match": "\\b(goto|return)\\b"
+          "match": "\\b(?i:return)\\b"
         },
         {
           "name": "keyword.other.unit.cstol",
-          "match": "\\b(dn)\\b"
+          "match": "\\b(?i:dn)\\b"
         }
       ]
     },
     "commands": {
       "patterns": [
         {
+          "name": "keyword.control.wait.cstol",
+          "match": "\\b(?i:wait)\\b"
+        },
+        {
           "name": "keyword.control.command.cstol",
-          "match": "\\b(check|let|set|wait|cmd|write|proc|endproc|begin|ask|declare|end\\s+proc)\\b"
+          "match": "\\b(?i:check|let|set|cmd|write|proc|endproc|begin|ask|declare|end\\s+proc)\\b"
         }
       ]
     },
@@ -140,7 +148,7 @@
       "patterns": [
         {
           "name": "keyword.control.conditional.cstol",
-          "match": "\\b(if|else|endif|end\\s+if)\\b"
+          "match": "\\b(?i:if|else|endif|end\\s+if)\\b"
         }
       ]
     },

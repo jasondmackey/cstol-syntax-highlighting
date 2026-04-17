@@ -21,8 +21,7 @@
               {
                      "name": "Wait statements",
                      "scope": [
-                            "support.function.wait.prc",
-                            "punctuation.terminator.wait.prc"
+                            "keyword.control.wait.cstol"
                      ],
                      "settings": {
                             "foreground": "#000000",
@@ -42,10 +41,11 @@
                      }
               },
               {
-                     "name": "Keywords (excluding wait)",
+                     "name": "Control flow and conditionals",
                      "scope": [
-                            "keyword.control.prc - keyword.control.wait.prc",
-                            "keyword.control.cstol - keyword.control.wait"
+                            "keyword.control.flow.cstol",
+                            "keyword.control.conditional.cstol",
+                            "keyword.other.unit.cstol"
                      ],
                      "settings": {
                             "foreground": "#569CD6"
@@ -54,30 +54,39 @@
               {
                      "name": "CSTOL Commands",
                      "scope": [
-                            "entity.name.function.member.prc",
-                            "entity.name.type.prc",
-                            "command.cstol"
+                            "keyword.control.command.cstol",
+                            "entity.name.type.cstol"
                      ],
                      "settings": {
                             "foreground": "#DCDCAA"
                      }
               },
               {
-                     "name": "Variables and Labels",
+                     "name": "Variables",
                      "scope": [
-                            "variable.other.local.prc",
-                            "entity.name.function.preprocessor.prc",
-                            "label.cstol"
+                            "variable.other.cstol",
+                            "variable.language.special.cstol",
+                            "variable.language.error.cstol"
                      ],
                      "settings": {
                             "foreground": "#9CDCFE"
                      }
               },
               {
+                     "name": "Labels",
+                     "scope": [
+                            "entity.name.label.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#9CDCFE",
+                            "fontStyle": "bold"
+                     }
+              },
+              {
                      "name": "Strings",
                      "scope": [
-                            "string.quoted.double.prc",
-                            "string.cstol"
+                            "string.quoted.double.cstol",
+                            "constant.character.escape.cstol"
                      ],
                      "settings": {
                             "foreground": "#CE9178"
@@ -93,35 +102,44 @@
                      }
               },
               {
+                     "name": "Boolean constants",
+                     "scope": [
+                            "constant.language.boolean.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#569CD6"
+                     }
+              },
+              {
+                     "name": "Enum and type constants",
+                     "scope": [
+                            "constant.other.enum.cstol",
+                            "variable.other.constant.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#4EC9B0"
+                     }
+              },
+              {
+                     "name": "Operators",
+                     "scope": [
+                            "keyword.operator.comparison.cstol",
+                            "keyword.operator.logical.cstol",
+                            "keyword.operator.arithmetic.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#D4D4D4"
+                     }
+              },
+              {
                      "name": "GOTO statements",
                      "scope": [
-                            "goto.cstol"
+                            "keyword.control.flow.goto.cstol"
                      ],
                      "settings": {
                             "foreground": "#000000",
                             "background": "#CCA8DD",
                             "fontStyle": "bold"
-                     }
-              },
-              {
-                     "name": "START statements",
-                     "scope": [
-                            "start.cstol"
-                     ],
-                     "settings": {
-                            "foreground": "#000000",
-                            "background": "#00FF00",
-                            "fontStyle": "bold"
-                     }
-              },
-              {
-                     "name": "Invalid/Deprecated",
-                     "scope": [
-                            "invalid.cstol"
-                     ],
-                     "settings": {
-                            "foreground": "#ffffff",
-                            "background": "#FF0000"
                      }
               }
        ]
