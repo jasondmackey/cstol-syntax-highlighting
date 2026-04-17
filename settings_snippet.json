@@ -1,0 +1,13 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.control.flow.goto.cstol",
+                "settings": {
+                    "foreground": "#DA70D6",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    }
+}
