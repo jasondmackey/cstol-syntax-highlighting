@@ -1,43 +1,30 @@
 'use strict';
 const vscode = require('vscode');
 
-// ── Decoration types (created once, reused across all editors) ──────────────
+// ── Decoration types ─────────────────────────────────────────────────────────
 
-let waitDeco, gotoDeco, commandDeco, labelDeco;
+let waitDeco, gotoDeco;
 
 function createDecorations() {
+    // wait: entire line gets orange background
     waitDeco = vscode.window.createTextEditorDecorationType({
-        backgroundColor: '#FFA500',
-        color: '#000000',
-        fontWeight: 'bold',
+        isWholeLine: true,
+        backgroundColor: 'rgba(255, 165, 0, 0.35)',   // orange, semi-transparent
         borderRadius: '2px'
     });
+    // goto: just the keyword, purple background
     gotoDeco = vscode.window.createTextEditorDecorationType({
         backgroundColor: '#CCA8DD',
         color: '#000000',
         fontWeight: 'bold',
         borderRadius: '2px'
     });
-    commandDeco = vscode.window.createTextEditorDecorationType({
-        backgroundColor: '#FFFF00',
-        color: '#000000',
-        fontWeight: 'bold',
-        borderRadius: '2px'
-    });
-    labelDeco = vscode.window.createTextEditorDecorationType({
-        backgroundColor: '#87CEEB',
-        color: '#000000',
-        fontWeight: 'bold',
-        borderRadius: '2px'
-    });
 }
 
-// ── Patterns (case-insensitive, word-boundary, applied per code segment) ────
+// ── Patterns ─────────────────────────────────────────────────────────────────
 
-const WAIT_RE    = /\bwait\b/gi;
-const GOTO_RE    = /\bgoto\b/gi;
-const COMMAND_RE = /\b(check|let|set|cmd|write|proc|endproc|begin|ask|declare)\b/gi;
-const LABEL_RE   = /^[ \t]*([A-Za-z_][A-Za-z0-9_]*[ \t]*:)/;
+const WAIT_RE = /\bwait\b/gi;
+const GOTO_RE = /\bgoto\b/gi;
 
 // ── Comment detection: first ';' not inside a double-quoted string ───────────
 
@@ -55,44 +42,32 @@ function commentStart(text) {
 function applyDecorations(editor) {
     if (!editor || editor.document.languageId !== 'cstol') return;
 
-    const doc  = editor.document;
-    const waitRanges    = [];
-    const gotoRanges    = [];
-    const commandRanges = [];
-    const labelRanges   = [];
+    const doc       = editor.document;
+    const waitRanges = [];
+    const gotoRanges = [];
 
     for (let li = 0; li < doc.lineCount; li++) {
         const line = doc.lineAt(li);
         const raw  = line.text;
-        const cEnd = commentStart(raw);   // code ends here
+        const cEnd = commentStart(raw);
         const code = raw.substring(0, cEnd);
-
-        // Labels — must start at beginning of the code portion
-        const lm = LABEL_RE.exec(code);
-        if (lm) {
-            const col = lm[0].length - lm[1].length; // skip leading whitespace
-            labelRanges.push(lineRange(line, col, lm[1].length));
-        }
 
         let m;
 
+        // wait: mark the whole line (isWholeLine decoration)
         WAIT_RE.lastIndex = 0;
-        while ((m = WAIT_RE.exec(code)) !== null)
-            waitRanges.push(lineRange(line, m.index, m[0].length));
+        if (WAIT_RE.exec(code) !== null) {
+            waitRanges.push(line.range);
+        }
 
+        // goto: highlight just the keyword
         GOTO_RE.lastIndex = 0;
         while ((m = GOTO_RE.exec(code)) !== null)
             gotoRanges.push(lineRange(line, m.index, m[0].length));
-
-        COMMAND_RE.lastIndex = 0;
-        while ((m = COMMAND_RE.exec(code)) !== null)
-            commandRanges.push(lineRange(line, m.index, m[0].length));
     }
 
-    editor.setDecorations(waitDeco,    waitRanges);
-    editor.setDecorations(gotoDeco,    gotoRanges);
-    editor.setDecorations(commandDeco, commandRanges);
-    editor.setDecorations(labelDeco,   labelRanges);
+    editor.setDecorations(waitDeco, waitRanges);
+    editor.setDecorations(gotoDeco, gotoRanges);
 }
 
 function lineRange(line, charOffset, length) {
@@ -130,7 +105,7 @@ function activate(context) {
 }
 
 function deactivate() {
-    [waitDeco, gotoDeco, commandDeco, labelDeco]
+    [waitDeco, gotoDeco]
         .filter(Boolean)
         .forEach(d => d.dispose());
 }
