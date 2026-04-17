@@ -114,16 +114,22 @@
     "labels": {
       "patterns": [
         {
-          "name": "entity.name.label.cstol label",
-          "match": "^\\s*[a-zA-Z_][a-zA-Z0-9_]*\\s*:"
+          "name": "entity.name.label.cstol",
+          "match": "(^\\s*[a-zA-Z_][a-zA-Z0-9_]*\\s*:)",
+          "captures": {
+            "1": { "name": "label" }
+          }
         }
       ]
     },
     "keywords": {
       "patterns": [
         {
-          "name": "keyword.control.flow.goto.cstol goto",
-          "match": "\\b(?i:goto)\\b"
+          "name": "keyword.control.flow.goto.cstol",
+          "match": "(\\b(?i:goto)\\b)",
+          "captures": {
+            "1": { "name": "goto" }
+          }
         },
         {
           "name": "keyword.control.flow.cstol",
@@ -138,12 +144,18 @@
     "commands": {
       "patterns": [
         {
-          "name": "keyword.control.wait.cstol wait",
-          "match": "\\b(?i:wait)\\b"
+          "name": "keyword.control.wait.cstol",
+          "match": "(\\b(?i:wait)\\b)",
+          "captures": {
+            "1": { "name": "wait" }
+          }
         },
         {
-          "name": "keyword.control.command.cstol command",
-          "match": "\\b(?i:check|let|set|cmd|write|proc|endproc|begin|ask|declare|end\\s+proc)\\b"
+          "name": "keyword.control.command.cstol",
+          "match": "(\\b(?i:check|let|set|cmd|write|proc|endproc|begin|ask|declare|end\\s+proc)\\b)",
+          "captures": {
+            "1": { "name": "command" }
+          }
         }
       ]
     },
