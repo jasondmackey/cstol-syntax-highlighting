@@ -3,14 +3,13 @@ const vscode = require('vscode');
 
 // ── Decoration types ─────────────────────────────────────────────────────────
 
-let waitDeco, gotoDeco, startDeco;
+let waitDeco, gotoDeco, startDeco, labelDeco;
 
 function createDecorations() {
-    // wait: full text of the line, vivid orange
+    // wait: full text of the line, bright orange, no bold
     waitDeco = vscode.window.createTextEditorDecorationType({
-        backgroundColor: 'rgba(255, 140, 0, 0.65)',
-        color: '#000000',
-        fontWeight: 'bold'
+        backgroundColor: 'rgba(255, 165, 0, 0.85)',
+        color: '#000000'
     });
     // goto: keyword only, purple
     gotoDeco = vscode.window.createTextEditorDecorationType({
@@ -19,11 +18,16 @@ function createDecorations() {
         fontWeight: 'bold',
         borderRadius: '2px'
     });
-    // start: full text of the line, bright green
+    // start: full text of the line, bright green, no bold
     startDeco = vscode.window.createTextEditorDecorationType({
-        backgroundColor: 'rgba(0, 255, 0, 0.55)',
+        backgroundColor: 'rgba(0, 255, 0, 0.70)',
+        color: '#000000'
+    });
+    // label: just the label token, black on sky blue
+    labelDeco = vscode.window.createTextEditorDecorationType({
+        backgroundColor: '#87CEEB',
         color: '#000000',
-        fontWeight: 'bold'
+        borderRadius: '2px'
     });
 }
 
@@ -32,6 +36,7 @@ function createDecorations() {
 const WAIT_RE  = /\bwait\b/gi;
 const GOTO_RE  = /\bgoto\b/gi;
 const START_RE = /\bstart\b/gi;
+const LABEL_RE = /^[ \t]*([A-Za-z_][A-Za-z0-9_]*[ \t]*:)/;
 
 // ── Comment and string detection ────────────────────────────────────────────
 
@@ -70,6 +75,7 @@ function applyDecorations(editor) {
     const waitRanges  = [];
     const gotoRanges  = [];
     const startRanges = [];
+    const labelRanges = [];
 
     for (let li = 0; li < doc.lineCount; li++) {
         const line = doc.lineAt(li);
@@ -102,11 +108,19 @@ function applyDecorations(editor) {
             if (!insideString(m.index, strRng))
                 gotoRanges.push(lineRange(line, m.index, m[0].length));
         }
+
+        // label: highlight from first non-ws to end of label token (NAME:)
+        const lm = LABEL_RE.exec(raw);
+        if (lm) {
+            const col = lm[0].length - lm[1].length; // skip leading whitespace
+            labelRanges.push(lineRange(line, col, lm[1].trimEnd().length));
+        }
     }
 
     editor.setDecorations(waitDeco,  waitRanges);
     editor.setDecorations(gotoDeco,  gotoRanges);
     editor.setDecorations(startDeco, startRanges);
+    editor.setDecorations(labelDeco, labelRanges);
 }
 
 function lineRange(line, charOffset, length) {
@@ -144,7 +158,7 @@ function activate(context) {
 }
 
 function deactivate() {
-    [waitDeco, gotoDeco, startDeco]
+    [waitDeco, gotoDeco, startDeco, labelDeco]
         .filter(Boolean)
         .forEach(d => d.dispose());
 }
