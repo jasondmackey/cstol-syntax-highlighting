@@ -151,7 +151,7 @@
       "patterns": [
         {
           "name": "keyword.control.conditional.cstol",
-          "match": "\\b(?i:if|else|endif|end\\s+if)\\b"
+          "match": "\\b(?i:if|elseif|else|endif|end\\s+if)\\b"
         }
       ]
     },
