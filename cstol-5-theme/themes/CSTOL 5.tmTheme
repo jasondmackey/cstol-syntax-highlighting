@@ -499,19 +499,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSTOL Command</string>
-			<key>scope</key>
-			<string>keyword.control.command.cstol</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#FFD700</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>CSTOL Label</string>
 			<key>scope</key>
 			<string>entity.name.label.cstol</string>
