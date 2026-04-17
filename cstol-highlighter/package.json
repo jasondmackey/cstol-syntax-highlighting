@@ -1,0 +1,12 @@
+{
+  "name": "cstol-highlighter",
+  "displayName": "CSTOL Background Highlighter",
+  "description": "Applies Sublime Text-style background highlights for CSTOL keywords in .prc files",
+  "version": "1.0.0",
+  "publisher": "local",
+  "engines": { "vscode": "^1.74.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onLanguage:cstol"],
+  "main": "./extension.js",
+  "contributes": {}
+}
