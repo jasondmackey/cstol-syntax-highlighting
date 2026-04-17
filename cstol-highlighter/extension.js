@@ -33,7 +33,7 @@ const WAIT_RE  = /\bwait\b/gi;
 const GOTO_RE  = /\bgoto\b/gi;
 const START_RE = /\bstart\b/gi;
 
-// ── Comment detection: first ';' not inside a double-quoted string ───────────
+// ── Comment and string detection ────────────────────────────────────────────
 
 function commentStart(text) {
     let inStr = false;
@@ -41,7 +41,24 @@ function commentStart(text) {
         if (text[i] === '"') { inStr = !inStr; }
         else if (text[i] === ';' && !inStr) { return i; }
     }
-    return text.length; // no comment
+    return text.length;
+}
+
+// Returns [[strStart, strEnd], ...] for each quoted string on the line
+function stringRanges(text) {
+    const ranges = [];
+    let inStr = false, start = -1;
+    for (let i = 0; i < text.length; i++) {
+        if (text[i] === '"') {
+            if (!inStr) { inStr = true; start = i; }
+            else        { inStr = false; ranges.push([start, i]); }
+        }
+    }
+    return ranges;
+}
+
+function insideString(pos, ranges) {
+    return ranges.some(([s, e]) => pos > s && pos < e);
 }
 
 // ── Core decoration logic (line-by-line, comment-aware) ─────────────────────
@@ -58,7 +75,8 @@ function applyDecorations(editor) {
         const line = doc.lineAt(li);
         const raw  = line.text;
         const cEnd = commentStart(raw);
-        const code = raw.substring(0, cEnd);
+        const code   = raw.substring(0, cEnd);
+        const strRng = stringRanges(code);
         // trimmed range: from first non-whitespace to end of text
         const trimStart = raw.search(/\S/);
         const textRange = trimStart < 0 ? null
@@ -66,20 +84,24 @@ function applyDecorations(editor) {
 
         let m;
 
-        // wait: highlight from first non-ws char to end of text
+        // wait: whole-line highlight — only if 'wait' is NOT inside a string
         WAIT_RE.lastIndex = 0;
-        if (textRange && WAIT_RE.exec(code) !== null)
+        m = WAIT_RE.exec(code);
+        if (textRange && m && !insideString(m.index, strRng))
             waitRanges.push(textRange);
 
-        // start: same treatment, bright green
+        // start: same — only if not inside a string
         START_RE.lastIndex = 0;
-        if (textRange && START_RE.exec(code) !== null)
+        m = START_RE.exec(code);
+        if (textRange && m && !insideString(m.index, strRng))
             startRanges.push(textRange);
 
-        // goto: keyword only
+        // goto: keyword only — skip if inside a string
         GOTO_RE.lastIndex = 0;
-        while ((m = GOTO_RE.exec(code)) !== null)
-            gotoRanges.push(lineRange(line, m.index, m[0].length));
+        while ((m = GOTO_RE.exec(code)) !== null) {
+            if (!insideString(m.index, strRng))
+                gotoRanges.push(lineRange(line, m.index, m[0].length));
+        }
     }
 
     editor.setDecorations(waitDeco,  waitRanges);
