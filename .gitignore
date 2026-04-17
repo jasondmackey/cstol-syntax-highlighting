@@ -1,2 +1,4 @@
 *.vsix
 ct2vsix_temp/
+extensions.json
+undefined_publisher.*/
