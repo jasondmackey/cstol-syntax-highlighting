@@ -64,9 +64,7 @@
               {
                      "name": "Variables",
                      "scope": [
-                            "variable.other.cstol",
-                            "variable.language.special.cstol",
-                            "variable.language.error.cstol"
+                            "variable.parameter.cstol"
                      ],
                      "settings": {
                             "foreground": "#9CDCFE"
