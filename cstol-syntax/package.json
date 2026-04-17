@@ -1,0 +1,30 @@
+{
+  "name": "cstol-syntax",
+  "displayName": "CSTOL Syntax Highlighting",
+  "description": "Syntax highlighting for CSTOL (Custom Syntax Token Outline Language) files",
+  "version": "1.0.0",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "cstol",
+        "aliases": ["CSTOL", "cstol"],
+        "extensions": [".prc"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "cstol",
+        "scopeName": "source.cstol",
+        "path": "./syntaxes/cstol.tmLanguage.json"
+      }
+    ]
+  }
+}

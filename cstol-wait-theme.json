@@ -1,0 +1,128 @@
+{
+       "name": "CSTOL Dark Theme",
+       "type": "dark",
+       "colors": {
+              "editor.background": "#1e1e1e",
+              "editor.foreground": "#d4d4d4",
+              "activityBar.background": "#2d2d30",
+              "sideBar.background": "#252526",
+              "statusBar.background": "#007acc",
+              "statusBar.foreground": "#ffffff",
+              "tab.activeBackground": "#1e1e1e",
+              "tab.inactiveBackground": "#2d2d30",
+              "tab.activeForeground": "#ffffff",
+              "tab.inactiveForeground": "#969696",
+              "editorLineNumber.foreground": "#858585",
+              "editorCursor.foreground": "#aeafad",
+              "editor.selectionBackground": "#264f78",
+              "editor.lineHighlightBackground": "#2a2d2e"
+       },
+       "tokenColors": [
+              {
+                     "name": "Wait statements",
+                     "scope": [
+                            "support.function.wait.prc",
+                            "punctuation.terminator.wait.prc"
+                     ],
+                     "settings": {
+                            "foreground": "#000000",
+                            "background": "#FFFF00",
+                            "fontStyle": "bold"
+                     }
+              },
+              {
+                     "name": "Comments",
+                     "scope": [
+                            "comment",
+                            "punctuation.definition.comment"
+                     ],
+                     "settings": {
+                            "foreground": "#6A9955",
+                            "fontStyle": "italic"
+                     }
+              },
+              {
+                     "name": "Keywords (excluding wait)",
+                     "scope": [
+                            "keyword.control.prc - keyword.control.wait.prc",
+                            "keyword.control.cstol - keyword.control.wait"
+                     ],
+                     "settings": {
+                            "foreground": "#569CD6"
+                     }
+              },
+              {
+                     "name": "CSTOL Commands",
+                     "scope": [
+                            "entity.name.function.member.prc",
+                            "entity.name.type.prc",
+                            "command.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#DCDCAA"
+                     }
+              },
+              {
+                     "name": "Variables and Labels",
+                     "scope": [
+                            "variable.other.local.prc",
+                            "entity.name.function.preprocessor.prc",
+                            "label.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#9CDCFE"
+                     }
+              },
+              {
+                     "name": "Strings",
+                     "scope": [
+                            "string.quoted.double.prc",
+                            "string.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#CE9178"
+                     }
+              },
+              {
+                     "name": "Numbers",
+                     "scope": [
+                            "constant.numeric"
+                     ],
+                     "settings": {
+                            "foreground": "#B5CEA8"
+                     }
+              },
+              {
+                     "name": "GOTO statements",
+                     "scope": [
+                            "goto.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#000000",
+                            "background": "#CCA8DD",
+                            "fontStyle": "bold"
+                     }
+              },
+              {
+                     "name": "START statements",
+                     "scope": [
+                            "start.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#000000",
+                            "background": "#00FF00",
+                            "fontStyle": "bold"
+                     }
+              },
+              {
+                     "name": "Invalid/Deprecated",
+                     "scope": [
+                            "invalid.cstol"
+                     ],
+                     "settings": {
+                            "foreground": "#ffffff",
+                            "background": "#FF0000"
+                     }
+              }
+       ]
+}
