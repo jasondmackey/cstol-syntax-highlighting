@@ -478,8 +478,6 @@
 			<string>keyword.control.wait.cstol</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
 				<string>#FFA500</string>
 			</dict>
