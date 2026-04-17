@@ -471,6 +471,58 @@
 				<string>#E6DB74</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSTOL Wait</string>
+			<key>scope</key>
+			<string>keyword.control.wait.cstol</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFA500</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSTOL Goto</string>
+			<key>scope</key>
+			<string>keyword.control.flow.goto.cstol</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#DA70D6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSTOL Command</string>
+			<key>scope</key>
+			<string>keyword.control.command.cstol</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFD700</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSTOL Label</string>
+			<key>scope</key>
+			<string>entity.name.label.cstol</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#87CEEB</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>28056A63-A1C0-4DF3-B295-EEBBBD462129</string>
