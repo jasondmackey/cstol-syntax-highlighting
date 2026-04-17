@@ -1,6 +1,6 @@
 {
   "name": "cstol-highlighter",
-  "displayName": "CSTOL Background Highlighter",
+  "displayName": "CSTOL Highlighter",
   "description": "Applies Sublime Text-style background highlights for CSTOL keywords in .prc files",
   "version": "1.0.0",
   "publisher": "local",
