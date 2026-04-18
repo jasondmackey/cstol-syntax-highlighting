@@ -159,7 +159,7 @@
       "patterns": [
         {
           "name": "keyword.operator.comparison.cstol",
-          "match": "\\b(vs|with|and|or|not)\\b"
+          "match": "\\b(vs|with|and|or|not|until|for)\\b"
         },
         {
           "name": "keyword.operator.logical.cstol",
