@@ -59,9 +59,19 @@ Add the following inside the root `{}` object (merge with existing content):
 
 `Cmd+Shift+P` → **Color Theme** → select **CSTOL 5**
 
-### Step 4 — Disable conflicting extensions
+### Step 4 — Remove conflicting extensions
 
-If you have any older `prc` language extension installed (e.g. `undefined_publisher.prc`), disable it — it conflicts with `cstol-syntax`.
+> ⚠️ **Critical:** If you have an older `prc` grammar extension installed (e.g. `undefined_publisher.prc`), it will **completely override** `cstol-syntax` and nothing will look correct. Remove it:
+
+```bash
+# VS Code
+rm -rf ~/.vscode/extensions/undefined_publisher.prc-*
+
+# Antigravity
+rm -rf ~/.antigravity/extensions/undefined_publisher.prc-*
+```
+
+Or: Extensions panel → right-click the old `prc` extension → **Uninstall**.
 
 ### Step 5 — Reload
 

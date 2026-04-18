@@ -62,7 +62,7 @@ The `settings_snippet.json` in the dist zip contains this ready to copy-paste.
 
 `Cmd+Shift+P` → **Developer: Reload Window**
 
-> **Note:** Disable any older `prc` language extension if installed — it conflicts with `cstol-syntax`.
+> ⚠️ **Critical:** If you have an older `prc` grammar extension installed (e.g. `undefined_publisher.prc`), it will completely override `cstol-syntax` and nothing will look correct. Remove it with `rm -rf ~/.vscode/extensions/undefined_publisher.prc-*` before reloading.
 
 ### Build from source
 
