@@ -8,5 +8,5 @@ repository = "https://github.com/jasondmackey/cstol-syntax-highlighting"
 
 [grammars.cstol]
 repository = "https://github.com/jasondmackey/cstol-syntax-highlighting"
-rev = "REPLACE_WITH_COMMIT_SHA"
+rev = "eafd1431fd951f31a87a16cc8d3edc4da9704bc0"
 path = "tree-sitter-cstol"
