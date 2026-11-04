@@ -1,0 +1,24 @@
+# CSTOL 5 — Ghostty terminal theme (matches the CSTOL 5 editor theme)
+# Install:  mkdir -p ~/.config/ghostty/themes && cp "CSTOL 5" ~/.config/ghostty/themes/
+# Use:      add  `theme = CSTOL 5`  to ~/.config/ghostty/config
+background = #272822
+foreground = #F8F8F2
+cursor-color = #F8F8F0
+selection-background = #9D550F
+selection-foreground = #FFFFF8
+palette = 0=#272822
+palette = 1=#F92672
+palette = 2=#A6E22E
+palette = 3=#E6DB74
+palette = 4=#87CEEB
+palette = 5=#DA70D6
+palette = 6=#00FFFF
+palette = 7=#F8F8F2
+palette = 8=#75715E
+palette = 9=#FF6188
+palette = 10=#B6F23E
+palette = 11=#FFA500
+palette = 12=#A6D9F0
+palette = 13=#AE81FF
+palette = 14=#66FFFF
+palette = 15=#FFFFFF

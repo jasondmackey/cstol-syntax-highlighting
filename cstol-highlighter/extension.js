@@ -1,166 +1,155 @@
 'use strict';
+// CSTOL background highlighter.
+// Uses only the stable VS Code decoration API, so it runs unchanged in
+// VS Code, Cursor, Windsurf, VSCodium and Antigravity.
 const vscode = require('vscode');
 
-// ── Decoration types ─────────────────────────────────────────────────────────
+// ── Defaults (overridable via `cstol.highlight.*` settings) ─────────────────
 
-let waitDeco, gotoDeco, startDeco, labelDeco;
+const DEFAULTS = {
+    wait:  { backgroundColor: 'rgba(255, 165, 0, 0.85)', color: '#000000' },
+    goto:  { backgroundColor: '#CCA8DD', color: '#000000', fontWeight: 'bold' },
+    start: { backgroundColor: 'rgba(0, 255, 0, 0.70)',   color: '#000000' },
+    label: { backgroundColor: '#87CEEB', color: '#000000' }
+};
+const KINDS = Object.keys(DEFAULTS);
 
-function createDecorations() {
-    // wait: full text of the line, bright orange, no bold
-    waitDeco = vscode.window.createTextEditorDecorationType({
-        backgroundColor: 'rgba(255, 165, 0, 0.85)',
-        color: '#000000'
-    });
-    // goto: keyword only, purple
-    gotoDeco = vscode.window.createTextEditorDecorationType({
-        backgroundColor: '#CCA8DD',
-        color: '#000000',
-        fontWeight: 'bold',
-        borderRadius: '2px'
-    });
-    // start: full text of the line, bright green, no bold
-    startDeco = vscode.window.createTextEditorDecorationType({
-        backgroundColor: 'rgba(0, 255, 0, 0.70)',
-        color: '#000000'
-    });
-    // label: just the label token, black on sky blue
-    labelDeco = vscode.window.createTextEditorDecorationType({
-        backgroundColor: '#87CEEB',
-        color: '#000000',
-        borderRadius: '2px'
-    });
+let decos = {};
+
+function buildDecorations() {
+    Object.values(decos).forEach(d => d.dispose());
+    const cfg = vscode.workspace.getConfiguration('cstol.highlight');
+    decos = {};
+    for (const kind of KINDS) {
+        decos[kind] = vscode.window.createTextEditorDecorationType({
+            ...DEFAULTS[kind],
+            ...(cfg.get(`${kind}Color`) ? { backgroundColor: cfg.get(`${kind}Color`) } : {}),
+            borderRadius: kind === 'wait' || kind === 'start' ? undefined : '2px'
+        });
+    }
+}
+
+function isEnabled(kind) {
+    return vscode.workspace.getConfiguration('cstol.highlight').get(`${kind}Enabled`, true);
 }
 
 // ── Patterns ─────────────────────────────────────────────────────────────────
 
-const WAIT_RE  = /\bwait\b/gi;
+const WAIT_RE  = /\bwait\b/i;
+const START_RE = /\bstart\b/i;
 const GOTO_RE  = /\bgoto\b/gi;
-const START_RE = /\bstart\b/gi;
-const LABEL_RE = /^[ \t]*([A-Za-z_][A-Za-z0-9_]*[ \t]*:)/;
+const LABEL_RE = /^([ \t]*)([A-Za-z_][A-Za-z0-9_]*[ \t]*:)/;
 
-// ── Comment and string detection ────────────────────────────────────────────
+// ── Line scanning ────────────────────────────────────────────────────────────
 
-function commentStart(text) {
-    let inStr = false;
+// One pass: returns the code portion (before any `;` comment) and the
+// quoted-string ranges within it. A string left open at end of line runs to
+// the end of the line, matching the grammar.
+function scanLine(text) {
+    const strings = [];
+    let strStart = -1;
     for (let i = 0; i < text.length; i++) {
-        if (text[i] === '"') { inStr = !inStr; }
-        else if (text[i] === ';' && !inStr) { return i; }
-    }
-    return text.length;
-}
-
-// Returns [[strStart, strEnd], ...] for each quoted string on the line
-function stringRanges(text) {
-    const ranges = [];
-    let inStr = false, start = -1;
-    for (let i = 0; i < text.length; i++) {
-        if (text[i] === '"') {
-            if (!inStr) { inStr = true; start = i; }
-            else        { inStr = false; ranges.push([start, i]); }
+        const ch = text[i];
+        if (ch === '"') {
+            if (strStart < 0) { strStart = i; }
+            else { strings.push([strStart, i]); strStart = -1; }
+        } else if (ch === ';' && strStart < 0) {
+            return { code: text.slice(0, i), strings };
         }
     }
-    return ranges;
+    if (strStart >= 0) { strings.push([strStart, text.length]); }
+    return { code: text, strings };
 }
 
-function insideString(pos, ranges) {
-    return ranges.some(([s, e]) => pos > s && pos < e);
+const inString = (pos, strings) => strings.some(([s, e]) => pos > s && pos < e);
+
+// First match of `re` in `code` that is not inside a string literal.
+function firstOutsideString(re, code, strings) {
+    const g = new RegExp(re.source, re.flags.includes('g') ? re.flags : re.flags + 'g');
+    let m;
+    while ((m = g.exec(code)) !== null) {
+        if (!inString(m.index, strings)) { return m; }
+    }
+    return null;
 }
 
-// ── Core decoration logic (line-by-line, comment-aware) ─────────────────────
+function range(lineNo, from, len) {
+    return new vscode.Range(lineNo, from, lineNo, from + len);
+}
+
+// ── Decoration logic ─────────────────────────────────────────────────────────
 
 function applyDecorations(editor) {
-    if (!editor || editor.document.languageId !== 'cstol') return;
+    if (!editor || editor.document.languageId !== 'cstol') { return; }
 
-    const doc        = editor.document;
-    const waitRanges  = [];
-    const gotoRanges  = [];
-    const startRanges = [];
-    const labelRanges = [];
+    const out = { wait: [], goto: [], start: [], label: [] };
+    const doc = editor.document;
 
     for (let li = 0; li < doc.lineCount; li++) {
-        const line = doc.lineAt(li);
-        const raw  = line.text;
-        const cEnd = commentStart(raw);
-        const code   = raw.substring(0, cEnd);
-        const strRng = stringRanges(code);
-        // trimmed range: from first non-whitespace to end of text
-        const trimStart = raw.search(/\S/);
-        const textRange = trimStart < 0 ? null
-            : lineRange(line, trimStart, raw.trimEnd().length - trimStart);
+        const raw = doc.lineAt(li).text;
+        if (!raw.trim()) { continue; }
 
+        const { code, strings } = scanLine(raw);
+        const lead = raw.search(/\S/);
+        const wholeLine = range(li, lead, raw.trimEnd().length - lead);
+
+        if (firstOutsideString(WAIT_RE, code, strings))  { out.wait.push(wholeLine); }
+        if (firstOutsideString(START_RE, code, strings)) { out.start.push(wholeLine); }
+
+        const g = new RegExp(GOTO_RE.source, GOTO_RE.flags);
         let m;
-
-        // wait: whole-line highlight — only if 'wait' is NOT inside a string
-        WAIT_RE.lastIndex = 0;
-        m = WAIT_RE.exec(code);
-        if (textRange && m && !insideString(m.index, strRng))
-            waitRanges.push(textRange);
-
-        // start: same — only if not inside a string
-        START_RE.lastIndex = 0;
-        m = START_RE.exec(code);
-        if (textRange && m && !insideString(m.index, strRng))
-            startRanges.push(textRange);
-
-        // goto: keyword only — skip if inside a string
-        GOTO_RE.lastIndex = 0;
-        while ((m = GOTO_RE.exec(code)) !== null) {
-            if (!insideString(m.index, strRng))
-                gotoRanges.push(lineRange(line, m.index, m[0].length));
+        while ((m = g.exec(code)) !== null) {
+            if (!inString(m.index, strings)) { out.goto.push(range(li, m.index, m[0].length)); }
         }
 
-        // label: highlight from first non-ws to end of label token (NAME:)
         const lm = LABEL_RE.exec(raw);
-        if (lm) {
-            const col = lm[0].length - lm[1].length; // skip leading whitespace
-            labelRanges.push(lineRange(line, col, lm[1].trimEnd().length));
-        }
+        if (lm) { out.label.push(range(li, lm[1].length, lm[2].trimEnd().length)); }
     }
 
-    editor.setDecorations(waitDeco,  waitRanges);
-    editor.setDecorations(gotoDeco,  gotoRanges);
-    editor.setDecorations(startDeco, startRanges);
-    editor.setDecorations(labelDeco, labelRanges);
+    for (const kind of KINDS) {
+        editor.setDecorations(decos[kind], isEnabled(kind) ? out[kind] : []);
+    }
 }
 
-function lineRange(line, charOffset, length) {
-    return new vscode.Range(
-        line.range.start.translate(0, charOffset),
-        line.range.start.translate(0, charOffset + length)
-    );
+function refreshVisible() {
+    vscode.window.visibleTextEditors.forEach(applyDecorations);
 }
 
-// ── Extension lifecycle ──────────────────────────────────────────────────────
+// Coalesce bursts of edits (typing, paste, multi-cursor) into one rescan.
+let timer;
+function scheduleRefresh(delay = 120) {
+    clearTimeout(timer);
+    timer = setTimeout(refreshVisible, delay);
+}
+
+// ── Lifecycle ────────────────────────────────────────────────────────────────
 
 function activate(context) {
-    createDecorations();
-
-    // Decorate any already-open editor
-    vscode.window.visibleTextEditors.forEach(applyDecorations);
+    buildDecorations();
+    refreshVisible();
 
     context.subscriptions.push(
-        // New editor becomes active
-        vscode.window.onDidChangeActiveTextEditor(applyDecorations),
-
-        // File content changes (live update)
+        vscode.window.onDidChangeActiveTextEditor(() => scheduleRefresh(0)),
+        vscode.window.onDidChangeVisibleTextEditors(() => scheduleRefresh(0)),
         vscode.workspace.onDidChangeTextDocument(ev => {
-            const editor = vscode.window.activeTextEditor;
-            if (editor && ev.document === editor.document) {
-                applyDecorations(editor);
-            }
+            if (ev.document.languageId === 'cstol') { scheduleRefresh(); }
         }),
-
-        // A new document is opened
-        vscode.workspace.onDidOpenTextDocument(() => {
-            vscode.window.visibleTextEditors.forEach(applyDecorations);
+        vscode.workspace.onDidOpenTextDocument(doc => {
+            if (doc.languageId === 'cstol') { scheduleRefresh(0); }
+        }),
+        vscode.workspace.onDidChangeConfiguration(ev => {
+            if (ev.affectsConfiguration('cstol.highlight')) {
+                buildDecorations();
+                refreshVisible();
+            }
         })
     );
 }
 
 function deactivate() {
-    [waitDeco, gotoDeco, startDeco, labelDeco]
-        .filter(Boolean)
-        .forEach(d => d.dispose());
+    clearTimeout(timer);
+    Object.values(decos).forEach(d => d.dispose());
+    decos = {};
 }
 
 module.exports = { activate, deactivate };

@@ -1,0 +1,14 @@
+name = "CSTOL"
+grammar = "cstol"
+path_suffixes = ["prc"]
+line_comments = ["; "]
+autoclose_before = ";:.,=)]"
+brackets = [
+  { start = "(", end = ")", close = true, newline = false },
+  { start = "[", end = "]", close = true, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
+]
+word_characters = ["$"]
+tab_size = 2
+increase_indent_pattern = "^\\s*(?i:(if|elseif|else|loop|proc)\\b)"
+decrease_indent_pattern = "^\\s*(?i:(elseif|else|endif|end\\s+if|end\\s+loop|endproc|end\\s+proc)\\b)"

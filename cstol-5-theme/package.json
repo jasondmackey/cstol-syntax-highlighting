@@ -4,8 +4,12 @@
   "description": "CSTOL 5 color theme for .prc files",
   "version": "1.0.0",
   "publisher": "local",
-  "engines": { "vscode": "^1.74.0" },
-  "categories": ["Themes"],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
   "contributes": {
     "themes": [
       {
@@ -14,5 +18,10 @@
         "path": "./themes/CSTOL 5.tmTheme"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasondmackey/cstol-syntax-highlighting.git"
+  },
+  "license": "MIT"
 }

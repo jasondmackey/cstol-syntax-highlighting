@@ -1,0 +1,10 @@
+{
+  "name": "tree-sitter-cstol",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for CSTOL (.prc) spacecraft procedure files",
+  "license": "MIT",
+  "main": "bindings/node",
+  "keywords": ["tree-sitter", "parser", "cstol"],
+  "repository": "https://github.com/jasondmackey/cstol-syntax-highlighting",
+  "tree-sitter": [{ "scope": "source.cstol", "file-types": ["prc"] }]
+}

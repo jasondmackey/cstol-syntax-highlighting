@@ -57,7 +57,7 @@
         {
           "name": "string.quoted.double.cstol",
           "begin": "\"",
-          "end": "\"",
+          "end": "\"|$",
           "patterns": [
             {
               "name": "constant.character.escape.cstol",
@@ -142,6 +142,14 @@
           "match": "\\b(?i:wait)\\b"
         },
         {
+          "name": "keyword.control.start.cstol",
+          "match": "\\b(?i:start)\\b"
+        },
+        {
+          "name": "keyword.control.loop.cstol",
+          "match": "\\b(?i:loop|end\\s+loop)\\b"
+        },
+        {
           "name": "keyword.control.command.cstol",
           "match": "\\b(?i:check|let|set|cmd|write|proc|endproc|begin|ask|declare|end\\s+proc)\\b"
         }
@@ -159,7 +167,7 @@
       "patterns": [
         {
           "name": "keyword.operator.comparison.cstol",
-          "match": "\\b(vs|with|and|or|not|until|for)\\b"
+          "match": "\\b(?i:vs|with|and|or|not|until|for)\\b"
         },
         {
           "name": "keyword.operator.logical.cstol",
@@ -167,7 +175,7 @@
         },
         {
           "name": "keyword.operator.comparison.cstol",
-          "match": "(=|/=|<|>|<=|>=)"
+          "match": "(/=|<=|>=|=|<|>)"
         },
         {
           "name": "keyword.operator.arithmetic.cstol",

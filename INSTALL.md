@@ -29,6 +29,13 @@ antigravity --install-extension cstol-highlighter-1.0.0.vsix
 antigravity --install-extension cstol-5-theme-1.0.0.vsix
 ```
 
+**Cursor:**
+```bash
+cursor --install-extension cstol-syntax-1.0.0.vsix
+cursor --install-extension cstol-highlighter-1.0.0.vsix
+cursor --install-extension cstol-5-theme-1.0.0.vsix
+```
+
 Or via the Extensions panel: `Extensions` → `...` → `Install from VSIX...`
 
 ### Step 2 — Add the settings snippet
@@ -69,6 +76,9 @@ rm -rf ~/.vscode/extensions/undefined_publisher.prc-*
 
 # Antigravity
 rm -rf ~/.antigravity/extensions/undefined_publisher.prc-*
+
+# Cursor
+rm -rf ~/.cursor/extensions/undefined_publisher.prc-*
 ```
 
 Or: Extensions panel → right-click the old `prc` extension → **Uninstall**.
@@ -99,42 +109,14 @@ Or: Extensions panel → right-click the old `prc` extension → **Uninstall**.
 
 ### Change highlight colors
 
-Edit `cstol-highlighter/extension.js` — the color values are at the top:
+No rebuild needed: set `cstol.highlight.waitColor`, `gotoColor`, `startColor` or `labelColor` (and `…Enabled`) in your settings. To change the built-in defaults, edit `DEFAULTS` at the top of `cstol-highlighter/extension.js`, and the matching `default` values in `cstol-highlighter/package.json`. For example, in `settings.json`:
 
-```javascript
-// wait: orange background
-waitDeco = vscode.window.createTextEditorDecorationType({
-    backgroundColor: 'rgba(255, 165, 0, 0.85)',  // ← change this
-    color: '#000000'
-});
-
-// goto: purple background on keyword
-gotoDeco = vscode.window.createTextEditorDecorationType({
-    backgroundColor: '#CCA8DD',                  // ← change this
-    color: '#000000',
-    fontWeight: 'bold'
-});
-
-// start: green background
-startDeco = vscode.window.createTextEditorDecorationType({
-    backgroundColor: 'rgba(0, 255, 0, 0.70)',    // ← change this
-    color: '#000000'
-});
-
-// label: sky blue background
-labelDeco = vscode.window.createTextEditorDecorationType({
-    backgroundColor: '#87CEEB',                  // ← change this
-    color: '#000000'
-});
+```json
+"cstol.highlight.waitColor": "rgba(255, 165, 0, 0.5)",
+"cstol.highlight.labelEnabled": false
 ```
 
-After editing, rebuild and reinstall:
-```bash
-cd cstol-highlighter
-vsce package --allow-missing-repository
-code --install-extension cstol-highlighter-1.0.0.vsix --force
-antigravity --install-extension cstol-highlighter-1.0.0.vsix
-```
+After editing the extension source, rebuild and reinstall with `./rebuild.sh highlighter`.
 
 ### Add new highlighted keywords
 
@@ -145,7 +127,7 @@ In `cstol-highlighter/extension.js`, add a new pattern alongside the existing on
 const HAZARD_RE = /\bhazard\b/gi;
 ```
 
-Then add a decoration type and apply it the same way as `waitDeco`.
+Then add an entry to `DEFAULTS` (which creates the decoration type) and collect its ranges in `applyDecorations`, the same way as `wait`.
 
 ### Add new CSTOL keywords to syntax highlighting
 

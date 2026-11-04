@@ -6,3 +6,10 @@ dist/
 cstol-syntax-highlighting-dist.zip
 antigravity_verified.png
 *.@2x.png
+
+# tree-sitter build output
+tree-sitter-cstol/build/
+tree-sitter-cstol/*.so
+tree-sitter-cstol/*.dylib
+tree-sitter-cstol/*.wasm
+zed/grammars/

@@ -32,18 +32,25 @@ command -v vsce >/dev/null 2>&1 || err "vsce not found. Run: npm install -g @vsc
 # ── Detect installed editors ─────────────────────────────────────────────────
 HAS_VSCODE=false
 HAS_AG=false
+HAS_CURSOR=false
 command -v code        >/dev/null 2>&1 && HAS_VSCODE=true
 command -v antigravity >/dev/null 2>&1 && HAS_AG=true
+command -v cursor      >/dev/null 2>&1 && HAS_CURSOR=true
 
 echo ""
 echo "Editors detected:"
 $HAS_VSCODE && echo "  ✓ VS Code" || echo "  ✗ VS Code (not found)"
 $HAS_AG     && echo "  ✓ Antigravity" || echo "  ✗ Antigravity (not found)"
+$HAS_CURSOR && echo "  ✓ Cursor" || echo "  ✗ Cursor (not found — Cursor → Cmd+Shift+P → 'Install cursor command')"
 
-if ! $HAS_VSCODE && ! $HAS_AG; then
+if ! $HAS_VSCODE && ! $HAS_AG && ! $HAS_CURSOR; then
     echo ""
-    err "Neither VS Code nor Antigravity CLI found. Nothing to install into. Exiting."
+    err "No VS Code, Antigravity or Cursor CLI found. Nothing to install into. Exiting."
 fi
+
+# Cursor is a VS Code fork; it installs the same .vsix files. Set CSTOL_SKIP_CURSOR=1 to skip.
+INSTALL_CURSOR=$HAS_CURSOR
+[[ -n "${CSTOL_SKIP_CURSOR:-}" ]] && INSTALL_CURSOR=false
 
 # ── Ask where to install (if both present and running interactively) ──────────
 INSTALL_VSCODE=$HAS_VSCODE
@@ -94,6 +101,13 @@ build_and_install() {
             || warn "VS Code install may have failed"
     fi
 
+    # Install in Cursor
+    if $INSTALL_CURSOR; then
+        cursor --install-extension "$VSIX" --force 2>&1 | tail -1 | grep -q "successfully" \
+            && ok "Installed in Cursor" \
+            || warn "Cursor install may have failed"
+    fi
+
     # Install in Antigravity
     if $INSTALL_AG; then
         antigravity --install-extension "$VSIX" 2>&1 | tail -1 | grep -q "successfully" \
@@ -139,5 +153,5 @@ fi
 
 echo ""
 echo "─────────────────────────────────────────────────"
-ok "Done. Reload both editors:"
+ok "Done. Reload each editor:"
 echo "   Cmd+Shift+P → Developer: Reload Window"

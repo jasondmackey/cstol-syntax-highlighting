@@ -1,0 +1,28 @@
+# CSTOL 5 — Warp terminal theme (matches the CSTOL 5 editor theme)
+# Install:  mkdir -p ~/.warp/themes && cp cstol_5.yaml ~/.warp/themes/
+# Use:      Warp → Settings → Appearance → Themes → "CSTOL 5"
+name: CSTOL 5
+accent: '#87CEEB'
+cursor: '#F8F8F0'
+background: '#272822'
+foreground: '#F8F8F2'
+details: darker
+terminal_colors:
+  normal:
+    black: '#272822'
+    red: '#F92672'
+    green: '#A6E22E'
+    yellow: '#E6DB74'
+    blue: '#87CEEB'
+    magenta: '#DA70D6'
+    cyan: '#00FFFF'
+    white: '#F8F8F2'
+  bright:
+    black: '#75715E'
+    red: '#FF6188'
+    green: '#B6F23E'
+    yellow: '#FFA500'
+    blue: '#A6D9F0'
+    magenta: '#AE81FF'
+    cyan: '#66FFFF'
+    white: '#FFFFFF'

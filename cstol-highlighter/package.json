@@ -4,9 +4,66 @@
   "description": "Applies Sublime Text-style background highlights for CSTOL keywords in .prc files",
   "version": "1.0.0",
   "publisher": "local",
-  "engines": { "vscode": "^1.74.0" },
-  "categories": ["Other"],
-  "activationEvents": ["onLanguage:cstol"],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:cstol"
+  ],
   "main": "./extension.js",
-  "contributes": {}
+  "contributes": {
+    "configuration": {
+      "title": "CSTOL Highlighter",
+      "properties": {
+        "cstol.highlight.waitEnabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Highlight `wait` lines."
+        },
+        "cstol.highlight.waitColor": {
+          "type": "string",
+          "default": "rgba(255, 165, 0, 0.85)",
+          "description": "Background color for `wait` lines (any CSS color)."
+        },
+        "cstol.highlight.gotoEnabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Highlight `goto` keyword."
+        },
+        "cstol.highlight.gotoColor": {
+          "type": "string",
+          "default": "#CCA8DD",
+          "description": "Background color for `goto` keyword (any CSS color)."
+        },
+        "cstol.highlight.startEnabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Highlight `start` lines."
+        },
+        "cstol.highlight.startColor": {
+          "type": "string",
+          "default": "rgba(0, 255, 0, 0.70)",
+          "description": "Background color for `start` lines (any CSS color)."
+        },
+        "cstol.highlight.labelEnabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Highlight labels."
+        },
+        "cstol.highlight.labelColor": {
+          "type": "string",
+          "default": "#87CEEB",
+          "description": "Background color for labels (any CSS color)."
+        }
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasondmackey/cstol-syntax-highlighting.git"
+  },
+  "license": "MIT"
 }

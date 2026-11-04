@@ -1,7 +1,7 @@
 {
   "name": "cstol-syntax",
   "displayName": "CSTOL Syntax Highlighting",
-  "description": "Syntax highlighting for CSTOL (Custom Syntax Token Outline Language) files",
+  "description": "Syntax highlighting, snippets and mission procedure completions for CSTOL (Command Scripting Tool for On-board Logic) .prc files",
   "version": "1.0.0",
   "publisher": "local",
   "engines": {
@@ -14,8 +14,13 @@
     "languages": [
       {
         "id": "cstol",
-        "aliases": ["CSTOL", "cstol"],
-        "extensions": [".prc"],
+        "aliases": [
+          "CSTOL",
+          "cstol"
+        ],
+        "extensions": [
+          ".prc"
+        ],
         "configuration": "./language-configuration.json"
       }
     ],
@@ -27,12 +32,41 @@
       }
     ],
     "snippets": [
-      { "language": "cstol", "path": "./snippets/cstol-core.json" },
-      { "language": "cstol", "path": "./snippets/aim.json" },
-      { "language": "cstol", "path": "./snippets/kepler.json" },
-      { "language": "cstol", "path": "./snippets/mms.json" },
-      { "language": "cstol", "path": "./snippets/qscat.json" },
-      { "language": "cstol", "path": "./snippets/sorce.json" }
+      {
+        "language": "cstol",
+        "path": "./snippets/cstol-core.json"
+      },
+      {
+        "language": "cstol",
+        "path": "./snippets/aim.json"
+      },
+      {
+        "language": "cstol",
+        "path": "./snippets/kepler.json"
+      },
+      {
+        "language": "cstol",
+        "path": "./snippets/mms.json"
+      },
+      {
+        "language": "cstol",
+        "path": "./snippets/qscat.json"
+      },
+      {
+        "language": "cstol",
+        "path": "./snippets/sorce.json"
+      }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasondmackey/cstol-syntax-highlighting.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cstol",
+    "prc",
+    "spacecraft",
+    "LASP"
+  ]
 }
