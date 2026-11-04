@@ -13,3 +13,4 @@ tree-sitter-cstol/*.so
 tree-sitter-cstol/*.dylib
 tree-sitter-cstol/*.wasm
 zed/grammars/
+cstol-syntax-highlighting-src.zip
